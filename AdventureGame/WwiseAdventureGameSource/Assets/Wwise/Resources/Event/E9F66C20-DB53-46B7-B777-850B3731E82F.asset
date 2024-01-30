@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59466a3c65b304243aadc0c92a6e7458, type: 3}
+  m_Name: E9F66C20-DB53-46B7-B777-850B3731E82F
+  m_EditorClassIdentifier: 
+  objectName: Wwizard_DialogueLine_Q6_02
+  id: 863080759
+  guid: E9F66C20-DB53-46B7-B777-850B3731E82F

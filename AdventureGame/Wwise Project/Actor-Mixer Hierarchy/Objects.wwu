@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72CF64F5-BF44-4E77-907A-6E1211F62BCE}" SchemaVersion="110" RootDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" ParentDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}">
+	<AudioObjects>
+		<WorkUnit Name="Objects" ID="{72CF64F5-BF44-4E77-907A-6E1211F62BCE}" OwnerID="{5B876598-662C-45F5-B41E-3388DA54F2BE}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Objects" ID="{6000E417-F8A5-43DF-9A15-13AD21ADFB41}" ShortID="894140078">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="OverrideConversion" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="OverridePriority" Type="bool" Value="True"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambience_Emitters_Medium_5_30" ID="{FB84EEA1-6931-415E-97D5-76AFF5A075B8}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Objects_Detailed" ID="{F8A3ADBA-9DB6-42C4-8848-0BC27A1EC703}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Objects" ID="{D79560AE-2FD4-41AC-BC2B-35A6A855AAEF}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Object_Destruction" ID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}" PersistMode="Reference"/>
+						<WorkUnit Name="Object_Props" ID="{02D504D5-2684-468F-AD20-E61B1D140EE0}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

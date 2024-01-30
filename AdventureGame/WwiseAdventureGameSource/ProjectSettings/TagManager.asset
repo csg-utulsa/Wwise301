@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerWeapon
+  - Sun
+  - test
+  - Skycam
+  - Enemy
+  - Foot
+  - PlayerArmor
+  - PlayerItem
+  - Spell
+  - Dropdown
+  - PlayerHead
+  - TeleportDestination
+  - Wwizard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Agent
+  - Ground
+  - Weapon
+  - QuestItem
+  - InvisibleWall
+  - 
+  - 
+  - EnemyDetector
+  - Props
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - AudioObstruction
+  - AgentTriggers
+  - EnvironmentAwareEmitters
+  - Reverb Zones
+  - NoCamClip
+  - Skycam
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1220796009
+    locked: 0
+  - name: Foreground
+    uniqueID: 2165999075
+    locked: 0
+  - name: Interactable
+    uniqueID: 1351715657
+    locked: 0

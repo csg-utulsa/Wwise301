@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FD23C2A-217C-43F5-BEC6-53E0A00C6411}" SchemaVersion="110" RootDocumentID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" ParentDocumentID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}">
+	<SoundBanks>
+		<WorkUnit Name="DLC" ID="{6FD23C2A-217C-43F5-BEC6-53E0A00C6411}" OwnerID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="DLC" ID="{767410A5-6156-432F-87B1-3B57F7807660}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="DLC" ID="{86242522-771C-4951-B05C-354AEA9C63AF}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="Water" ID="{65EFF32A-A360-4150-96AA-D0F6F03B8BB1}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Grass" ID="{62B7CD0E-5C3B-45D2-9FC1-60EECDC1E4A8}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Stone" ID="{B320BBD5-A055-46B1-B459-CE4924B0299E}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Metal" ID="{07E4484C-550D-4796-A311-1875E9AB0577}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Dirt" ID="{DA022E47-ED1D-49CA-AC65-3259C3F1EDC9}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Crate" ID="{F932A5A4-D82A-49E3-8CF8-70E8D2716B9E}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Leaves" ID="{05ECCBFC-9DD8-4A3B-8771-2274AB4795FC}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Rubble" ID="{E49E343F-E402-4B0F-AF13-1660B616AB7F}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Barrel" ID="{8D50D6AE-C02E-4BBC-B9DD-C412749F83D3}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+						<GameSyncRef Name="Sand" ID="{26E29021-1072-4F7F-AA7E-A516DE76ED5D}" WorkUnitID="{ADE44127-9B5B-4E53-AF39-3C3AD3284471}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

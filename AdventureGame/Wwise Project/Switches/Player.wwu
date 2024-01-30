@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Player" ID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SwitchGroup Name="Player_Pickup_Type" ID="{B6ED3C50-A3DF-480D-BCCB-1FE936C45C1B}">
+					<ChildrenList>
+						<Switch Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<Switch Name="Weapon" ID="{117673D8-8358-4B4F-999F-3AA17017CC35}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Pickup_ItemType" ID="{E132D4E2-9019-4A70-87BE-36D11A6106C9}">
+					<ChildrenList>
+						<Switch Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}"/>
+						<Switch Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}"/>
+						<Switch Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}"/>
+						<Switch Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<Switch Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}"/>
+						<Switch Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}"/>
+						<Switch Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{FEEC42AB-0635-4DC8-99EC-90960EEECB24}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Walk" ID="{10F04FDD-B9C1-40C2-BDA7-A98FA264B5BC}"/>
+						<Switch Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+						<Curve Name="" ID="{295DCE2A-E94E-4C45-9F2C-18F3D3268082}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>49.83108</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{D9821B0E-9436-42DA-9005-9E08A1150475}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<Switch Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}"/>
+						<Switch Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}"/>
+						<Switch Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}"/>
+						<Switch Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

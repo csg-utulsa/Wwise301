@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Gameplay" ID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="60"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="70"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="70"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-60"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="23"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Callback_Microphone" ID="{8F456BC2-8246-498F-B237-78E88CB75C2F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music_WoodlandsHarp" ID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

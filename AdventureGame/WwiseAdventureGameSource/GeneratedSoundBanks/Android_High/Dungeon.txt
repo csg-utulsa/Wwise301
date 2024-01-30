@@ -1,0 +1,79 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	630311347	Object_ActivateKey_Failed			\Objects\SoundBankSpecific\Object_ActivateKey_Failed	
+	1205412814	Ambient_Core_HorribleSound			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound	
+	1342629461	Ambient_Core_FinalReveal			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_FinalReveal	
+	1378810117	Ambient_Core_Shield_1			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_1	
+	1378810118	Ambient_Core_Shield_2			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_2	
+	1378810119	Ambient_Core_Shield_3			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_3	
+	1389069565	Ambient_Core_Shield_Destroyed			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed	
+	1499503781	Object_ActivateKey_Success			\Objects\SoundBankSpecific\Object_ActivateKey_Success	
+	1615265847	Ambient_Core_Shield_Alive			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Alive	
+	1795559212	Object_Coin_Drop			\Objects\SoundBankSpecific\Object_Coin_Drop	
+	1999886838	Destruction_Rock_Destroy			\Destruction\RegionSpecific\Destruction_Rock_Destroy	
+	2379298625	Door_DLCdoor_Open_Stop			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop	
+	3556635307	Door_DLCdoor_Open_Play			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play	
+	4077685701	Ambient_Region_Dungeon			\Ambient\SoundBankSpecific\Ambient_Region_Dungeon	
+	4275106484	Ambient_Lava			\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3556213387	SpatialAudio			\Default Work Unit\SpatialAudio	
+
+State	ID	Name	State Group			Notes
+	748895195	None	SpatialAudio			
+	3248502869	Disabled	SpatialAudio			
+	4174102348	Enabled	SpatialAudio			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	351643349	Enabled	SpatialAudio	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	762020526	Distance_to_Camera			\Generic\Distance_to_Camera	
+
+Metadata plug-ins	ID	Name	Type				Notes
+	1309482125	Same_As_PassthroughMix	Wwise System Output Settings			
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9581397	Player_Footstep_dirt_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_01		4756
+	25679830	DLC_ActivateKey_Success	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_DLC_ActivateKey_Success_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\DLC_Key\DLC_ActivateKey_Success		15905
+	76336562	CoinRoom_End	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_TempleDoor_Open_1DA75B08.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\CoinRoom_End		22086
+	125579260	Ambient_Core_Shield_Outer	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_01_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Outer		27493
+	177438976	Player_Footstep_stone_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_03		3844
+	222577091	Ambient_Core_Shield_Destroyed	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_After_Loop_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Destroyed		85360
+	229536716	Player_Footstep_wood_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_02		1176
+	269405603	Ambient_Core_Shield_Middle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_02_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Middle		28796
+	283455833	Ambient_Core_Shield_Alive	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_Before_Loop_8C9E87BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Alive		83128
+	339750059	Player_Footstep_dirt_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_01		2913
+	356985616	Player_Footstep_wood_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_03		3791
+	357036992	Creature_FinalReveal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_FinalReveal_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_FinalReveal		70613
+	363110106	Creature_Earthquake_Loop	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Earthquake_Loop_8CD04208.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Earthquake_Loop		18913
+	407972354	Player_Footstep_dirt_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_03		5210
+	434501617	Player_Footstep_stone_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_02		3329
+	464874071	Player_Footstep_wood_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_01		1062
+	489594571	Player_Footstep_stone_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_01		3754
+	506839907	Player_Footstep_wood_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_01		1599
+	527337844	CoinRoom_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_TempleDoor_Open_55B10376.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\CoinRoom_Open		24931
+	558246075	Player_Footstep_stone_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_03		3579
+	571603281	Destroy_Rock_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_03		12727
+	598636424	Player_Footstep_dirt_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_02		3764
+	621670486	Ambient_Lava	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_dungeonLava_001_DF7FC639.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		40209
+	621816641	Destroy_Rock_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_02		14580
+	684463112	Coin	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Coin_Spawn_160FDB93.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Coin		576096
+	769521575	Player_Footstep_dirt_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_02		2160
+	781460930	Amb_Shield_Core_Center	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_03_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Amb_Shield_Core_Center		28581
+	797654782	Player_Footstep_wood_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_03		1265
+	798941566	Player_Footstep_stone_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_01		5192
+	799765973	DLC_ActivateKey_Failed	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_DLC_ActivateKey_Fail_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\DLC_Key\DLC_ActivateKey_Failed		7681
+	838527785	Creature_EarthSweetener_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_EarthSweetener_02_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Creature_EarthSweetener_02		61712
+	844876209	Player_Footstep_stone_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_02		3202
+	925553325	Player_Footstep_dirt_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_03		2972
+	947204474	Creature_Wind_Loop	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Wind_Loop_8CD04208.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Wind_Loop		44113
+	981622377	Ambient_Fire_Torch	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_amb_torch_7F46FEDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Fire_Torch		47134
+	987804829	Destroy_Rock_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_01		14764
+	1055916331	Core_HorribleSound	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Start_647715DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Core_HorribleSound		24315
+	1062017509	Player_Footstep_wood_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_02		1715
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	652010598	Ambient_Dungeon_Day_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_5F4FC494.wem	652010598.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Dungeon\Ambient_Dungeon_Day_Short	
+

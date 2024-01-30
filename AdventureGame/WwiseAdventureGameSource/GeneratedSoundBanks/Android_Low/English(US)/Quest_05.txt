@@ -1,0 +1,70 @@
+Event	ID	Name			Wwise Object Path	Notes
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	878619833	Wwizard_DialogueLine_Q5b_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_01	
+	878619834	Wwizard_DialogueLine_Q5b_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_02	
+	878619835	Wwizard_DialogueLine_Q5b_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_03	
+	878619836	Wwizard_DialogueLine_Q5b_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_04	
+	2622623673	Door_TempleDoor_Open_Stop			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop	
+	2934374888	Wwizard_DialogueLine_Q5a_05			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05	
+	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
+	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
+	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
+	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
+	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
+	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3492604883	Door_TempleDoor_Open_Play			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4257092447	VoiceAttenuation			\Default Work Unit\VoiceAttenuation	
+
+State	ID	Name	State Group			Notes
+	748895195	None	VoiceAttenuation			
+	930712164	Off	VoiceAttenuation			
+	1651971902	On	VoiceAttenuation			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	965529497	On	VoiceAttenuation	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers		
+
+Metadata plug-ins	ID	Name	Type				Notes
+	1309482125	Same_As_PassthroughMix	Wwise System Output Settings			
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	450221518	Pickup_WeaponType_Axe	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Axe_01_AA80E608.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Axe		7009
+	971725281	TempleDoor_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\SFX\Objects\BAS_TempleDoor_Open_FAF2764C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\TempleDoor_Open		44506
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	60790338	Wwizard_DialogueLine_Q5a_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_3_BF737A22.wem	60790338.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_03	
+	64488070	Wwizard_DialogueLine_Q5a_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_7_BF737A22.wem	64488070.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_07	
+	338325124	Wwizard_DialogueLine_Q5a_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_6_BF737A22.wem	338325124.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_06	
+	506705032	Wwizard_DialogueLine_Q5a_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_5_BF737A22.wem	506705032.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_05	
+	613971765	Wwizard_DialogueLine_Q5b_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5b_2_8C8C94B6.wem	613971765.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_03	
+	745580301	Wwizard_DialogueLine_Q5a_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_2_BF737A22.wem	745580301.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_02	
+	759193162	Wwizard_DialogueLine_Q5b_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5b_1_EEC3DEA2.wem	759193162.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_02	
+	765406834	Wwizard_DialogueLine_Q5a_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_1_BF737A22.wem	765406834.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_01	
+	808845836	Wwizard_DialogueLine_Q5b_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5b_2_BA4AA894.wem	808845836.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_04	
+	1058535481	Wwizard_DialogueLine_Q5a_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_4_BF737A22.wem	1058535481.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_04	
+	1072872472	Wwizard_DialogueLine_Q5b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5b_1_0BD320A7.wem	1072872472.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_01	
+

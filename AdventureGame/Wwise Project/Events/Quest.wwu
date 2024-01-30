@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD94E25C-7415-4802-8879-CE42AA44AC22}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Quest" ID="{CD94E25C-7415-4802-8879-CE42AA44AC22}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Quest_Complete" ID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}">
+					<ChildrenList>
+						<Action Name="" ID="{040DCE7D-281F-4A14-B6F8-0EA1AA156572}" ShortID="881232040">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quest_Complete" ID="{76B7A787-D942-40DC-BDDA-3926568F0038}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Quest_CompleteCollection" ID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}">
+					<ChildrenList>
+						<Action Name="" ID="{89E9DBFA-7C66-4F27-82B1-85C7675B7DEB}" ShortID="434733160">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Collection Complete" ID="{767183B0-DA01-4AFC-9844-9AB9822692AE}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

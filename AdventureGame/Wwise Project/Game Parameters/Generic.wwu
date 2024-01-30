@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A4C6C87-58B7-4B1D-8EDC-AA637925E657}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Generic" ID="{1A4C6C87-58B7-4B1D-8EDC-AA637925E657}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="7"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MicrophoneLevel" ID="{77E18435-EC5B-48E3-9ACA-CFDE3A20F13D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DopplerEffect" ID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="4"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

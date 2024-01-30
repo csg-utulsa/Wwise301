@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7C13263-D4E6-40E0-814D-F91F96A8585B}" SchemaVersion="110" RootDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" ParentDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}">
+	<AudioObjects>
+		<WorkUnit Name="Enemies" ID="{F7C13263-D4E6-40E0-814D-F91F96A8585B}" OwnerID="{5B876598-662C-45F5-B41E-3388DA54F2BE}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Enemies" ID="{DADEA392-6A94-4FB9-862C-804BA12CE816}" ShortID="959812663">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="OverrideConversion" Type="bool" Value="True"/>
+						<Property Name="OverrideMetadata" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePriority" Type="bool" Value="True"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>60</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Enemy_General" ID="{97368181-2ADF-4138-8632-6EFF44BD620B}" WorkUnitID="{02FCCE0E-5BB9-49B0-A966-079B9D6AEB4A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enemies" ID="{6BE51F74-D7DA-47CD-B65F-53AB3F2F9189}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Enemies_EvilHead" ID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}" PersistMode="Reference"/>
+						<WorkUnit Name="Enemies_EvilCrawler" ID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}" PersistMode="Reference"/>
+						<WorkUnit Name="Enemies_EvilSpitPlant" ID="{D0444BF3-A57A-4524-8729-7119CED64E37}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

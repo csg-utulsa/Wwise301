@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc855ad21dd4d274bac5c28e6c4d163f, type: 3}
+  m_Name: 0AC84C13-51EB-4DD3-A1A6-E5DF8A234E32
+  m_EditorClassIdentifier: 
+  objectName: TopSwing
+  id: 2416766296
+  guid: 0AC84C13-51EB-4DD3-A1A6-E5DF8A234E32
+  WwiseStateGroupReference: {fileID: 11400000, guid: f4ecdaedad68f7b4daafa31811af9a7d,
+    type: 2}

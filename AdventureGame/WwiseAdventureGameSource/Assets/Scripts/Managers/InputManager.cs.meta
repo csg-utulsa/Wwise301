@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f30a6430ceb24458eb1c670cf5fb48c3
+timeCreated: 1504605314
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mobileControls: {fileID: 1336562167869152, guid: 47e841219650040f497b81e9eb09c0c1,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Enemies" ID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="40"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="60"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="70"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="500"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.8"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

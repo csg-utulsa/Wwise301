@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f8b8c579c118a334bba493050201b4ab
+timeCreated: 1511903470
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wpagLogoTexture: {fileID: 2800000, guid: 3c7c4efa5f8a5400a8d9034e5ee2f02b, type: 3}
+  - findPlayerTexture: {fileID: 2800000, guid: a1db331abbb9fe64cbeb1df490032221, type: 3}
+  - findWwizardTexture: {fileID: 2800000, guid: 290aa75e9f1f27d4d80f2acd668bbb0e,
+      type: 3}
+  - replaceObjectsTexture: {fileID: 2800000, guid: d70b5e0f8434efc4c8189abeab258995,
+      type: 3}
+  - reparentObjectsTexture: {fileID: 2800000, guid: 32b87d41a1005ba42875413062519c99,
+      type: 3}
+  - findSunTexture: {fileID: 2800000, guid: b7454e1a243ed0b4da3e1505c1c716c4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

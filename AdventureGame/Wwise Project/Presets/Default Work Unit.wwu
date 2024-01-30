@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D413219-E693-4CBA-BF67-7E46D2541825}" SchemaVersion="110">
+	<Presets>
+		<WorkUnit Name="Default Work Unit" ID="{8D413219-E693-4CBA-BF67-7E46D2541825}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SourcePlugin Name="SoundSeed Wind Cave" ID="{40566614-52C8-4F39-A86C-2519C3EF40FD}" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+					<PropertyList>
+						<Property Name="AttenuationRollOff" Type="Real32" Value="1.7"/>
+						<Property Name="AverageVelocity" Type="Real32" Value="880"/>
+						<Property Name="AverageVelocityRandom" Type="Real32" Value="130"/>
+						<Property Name="ChannelMask" Type="int16" Value="2"/>
+						<Property Name="Direction" Type="Real32" Value="42"/>
+						<Property Name="DirectionAutomate" Type="bool" Value="True"/>
+						<Property Name="DirectionRandom" Type="Real32" Value="144"/>
+						<Property Name="DurationRandom" Type="Real32" Value="12.3"/>
+						<Property Name="FrequencyScale" Type="Real32" Value="-1.09"/>
+						<Property Name="FrequencyScaleRandom" Type="Real32" Value="0.78"/>
+						<Property Name="GainOffset" Type="Real32" Value="-1.6"/>
+						<Property Name="GainOffsetRandom" Type="Real32" Value="8.3"/>
+						<Property Name="Gustiness" Type="Real32" Value="0.18"/>
+						<Property Name="GustinessRandom" Type="Real32" Value="0.33"/>
+						<Property Name="MinDistance" Type="Real32" Value="5.1"/>
+						<Property Name="QFactorScale" Type="Real32" Value="1.18"/>
+						<Property Name="QFactorScaleRandom" Type="Real32" Value="1.26"/>
+						<Property Name="Variability" Type="Real32" Value="0.52"/>
+						<Property Name="VariabilityRandom" Type="Real32" Value="0.35"/>
+						<Property Name="VelocityDynamicRange" Type="Real32" Value="0.69"/>
+					</PropertyList>
+					<Language>SFX</Language>
+					<PluginData>
+	<CurveList Version="1">
+		<CurveInfo Name="Direction">
+			<Curve Name="" ID="{88E38790-E58C-4DA5-9876-7286E6D39CC5}">
+				<PropertyList>
+					<Property Name="Flags" Type="int32" Value="1"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>180</YPos>
+						<Flags>5</Flags>
+					</Point>
+					<Point>
+						<XPos>10</XPos>
+						<YPos>-180</YPos>
+						<Flags>37</Flags>
+					</Point>
+				</PointList>
+			</Curve>
+		</CurveInfo>
+	</CurveList>
+</PluginData>
+					<PluginInnerObjectList>
+						<List Name="Deflectors">
+							<PluginInnerObject Name="" ID="{43E2DD80-95E8-44D4-A4FF-4E178E130CB1}" PluginName="Deflector" CompanyID="0" PluginID="121">
+								<PropertyList>
+									<Property Name="Frequency" Type="Real32" Value="175"/>
+									<Property Name="Gain" Type="Real32" Value="-1"/>
+									<Property Name="PanX" Type="Real64" Value="-37.0149253731343"/>
+									<Property Name="PanY" Type="Real64" Value="50.2994011976048"/>
+									<Property Name="QFactor" Type="Real32" Value="3.45"/>
+								</PropertyList>
+							</PluginInnerObject>
+							<PluginInnerObject Name="" ID="{89176A5E-2C9F-4397-AC45-752A4C43DCB4}" PluginName="Deflector" CompanyID="0" PluginID="121">
+								<PropertyList>
+									<Property Name="Frequency" Type="Real32" Value="691"/>
+									<Property Name="Gain" Type="Real32" Value="-10"/>
+									<Property Name="PanX" Type="Real64" Value="-34.9253731343284"/>
+									<Property Name="PanY" Type="Real64" Value="-29.3413173652695"/>
+									<Property Name="QFactor" Type="Real32" Value="5.3"/>
+								</PropertyList>
+							</PluginInnerObject>
+							<PluginInnerObject Name="" ID="{D4BE77EB-34FD-439E-80CA-114D1D5C643E}" PluginName="Deflector" CompanyID="0" PluginID="121">
+								<PropertyList>
+									<Property Name="Frequency" Type="Real32" Value="232"/>
+									<Property Name="Gain" Type="Real32" Value="-19"/>
+									<Property Name="PanX" Type="Real64" Value="29.5522388059702"/>
+									<Property Name="PanY" Type="Real64" Value="-25.748502994012"/>
+									<Property Name="QFactor" Type="Real32" Value="5.67"/>
+								</PropertyList>
+							</PluginInnerObject>
+							<PluginInnerObject Name="" ID="{1F8C9399-DDE3-4072-B98B-D5FE3BBCDD04}" PluginName="Deflector" CompanyID="0" PluginID="121">
+								<PropertyList>
+									<Property Name="Frequency" Type="Real32" Value="691"/>
+									<Property Name="Gain" Type="Real32" Value="-1"/>
+									<Property Name="PanX" Type="Real64" Value="46.5671641791045"/>
+									<Property Name="PanY" Type="Real64" Value="41.3173652694611"/>
+									<Property Name="QFactor" Type="Real32" Value="3.45"/>
+								</PropertyList>
+							</PluginInnerObject>
+						</List>
+					</PluginInnerObjectList>
+				</SourcePlugin>
+				<Attenuation Name="Waterfall_LOD Attenuation" ID="{AFB5BCC3-2366-41CF-9230-DF0D4B8A48CB}">
+					<Comment>Temp to convert as a ShareSet</Comment>
+					<PropertyList>
+						<Property Name="ConeAttenuation" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ConeUse" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="150"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{EF388B68-5E34-4AC7-8396-E72975C02824}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>InvertedSCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>10.89552</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>InvertedSCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>150</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="LowPassFilter" ID="{817E074B-474D-4F30-A740-C7F5B15991C4}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>150</XPos>
+											<YPos>88</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{7792D5BA-9DFB-455A-9CDF-C6F0FFF79195}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>65.64103</YPos>
+											<Flags>5</Flags>
+											<SegmentShape>SCurve</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>74.42787</XPos>
+											<YPos>0</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>150</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+								<Curve Name="Focus" ID="{38A80E55-FFE0-4339-94BD-F2EF6F620567}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>150</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</FocusUsage>
+						<ObstructionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionVolumeUsage>
+						<ObstructionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionLPFUsage>
+						<ObstructionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</ObstructionHPFUsage>
+						<OcclusionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionVolumeUsage>
+						<OcclusionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionLPFUsage>
+						<OcclusionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</OcclusionHPFUsage>
+						<DiffractionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionVolumeUsage>
+						<DiffractionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionLPFUsage>
+						<DiffractionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</DiffractionHPFUsage>
+						<TransmissionVolumeUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionVolumeUsage>
+						<TransmissionLPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionLPFUsage>
+						<TransmissionHPFUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+						</TransmissionHPFUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Effect Name="Music Reverb" ID="{212F31E3-F0B1-4E40-B866-6B451D94A69D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.8"/>
+						<Property Name="Density" Type="Real32" Value="100"/>
+						<Property Name="Diffusion" Type="Real32" Value="46"/>
+						<Property Name="ERLevel" Type="Real32" Value="-23"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="1"/>
+						<Property Name="PreDelay" Type="Real32" Value="42"/>
+						<Property Name="Quality" Type="int32" Value="12"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+						<Property Name="RoomShape" Type="Real32" Value="55"/>
+						<Property Name="RoomSize" Type="Real32" Value="58"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="WAG_Cave" ID="{7220F508-7322-465C-847F-FC37567FCAC2}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="3.9"/>
+						<Property Name="Density" Type="Real32" Value="41"/>
+						<Property Name="Diffusion" Type="Real32" Value="0"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="ERLevel" Type="Real32" Value="-30"/>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="260"/>
+						<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+						<Property Name="Filter2Freq" Type="Real32" Value="2200"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter2Q" Type="Real32" Value="0.1"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-10.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.15"/>
+						<Property Name="PreDelay" Type="Real32" Value="83"/>
+						<Property Name="Quality" Type="int32" Value="12"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+						<Property Name="RoomShape" Type="Real32" Value="51"/>
+						<Property Name="RoomSize" Type="Real32" Value="84"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="WAG_Cave_01" ID="{B4164775-EB00-4B86-9B28-06013B0E1F54}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.31"/>
+						<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+						<Property Name="WetDryMix" Type="Real32" Value="12"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="PineForest" ID="{6BEB35E6-4B5B-4C23-8BED-C28B334BAEB9}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+					<PropertyList>
+						<Property Name="CenterLevel" Type="Real32">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DryLevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmooth" Type="Real32">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64">
+							<ValueList>
+								<Value>0.863083333333333</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionThreshold" Type="Real32">
+							<ValueList>
+								<Value>-82</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFAutomate" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevel" Type="Real32">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PreDelay" Type="Real32">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+						<Property Name="StereoWidth" Type="Real32">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<ValueList>
+								<Value>-4.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<PluginData><ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>7682.57782</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.21692</XPos>
+							<YPos>3539.46674</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.53454</XPos>
+							<YPos>3936.83889</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.86208</XPos>
+							<YPos>20</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.863083333333333</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.863083333333333</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData></PluginData>
+				</Effect>
+				<Effect Name="Exterior" ID="{519D2F11-5F09-4578-A668-E7733643A11D}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+						<Property Name="Density" Type="Real32" Value="60"/>
+						<Property Name="Diffusion" Type="Real32" Value="74"/>
+						<Property Name="ERLevel" Type="Real32" Value="-24"/>
+						<Property Name="ERPattern" Type="int32" Value="9"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+						<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+						<Property Name="PreDelay" Type="Real32" Value="42"/>
+						<Property Name="Quality" Type="int32" Value="10"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+						<Property Name="RoomShape" Type="Real32" Value="0"/>
+						<Property Name="RoomSize" Type="Real32" Value="64"/>
+						<Property Name="StereoWidth" Type="Real32" Value="165"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="MezzanineRoomEntrance" ID="{0E4C8CD2-926A-44EC-A023-828783ABA5C8}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+						<Property Name="ERLevel" Type="Real32" Value="-18"/>
+						<Property Name="EnableToneControls" Type="bool" Value="True"/>
+						<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-2.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="2"/>
+						<Property Name="PreDelay" Type="Real32" Value="21"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+						<Property Name="RoomSize" Type="Real32" Value="53"/>
+						<Property Name="StereoWidth" Type="Real32" Value="69"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Presets>
+</WwiseDocument>

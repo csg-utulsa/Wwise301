@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE467873-27D1-4CEA-8778-0261C10F6323}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="MIDI_Envelopes" ID="{AE467873-27D1-4CEA-8778-0261C10F6323}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Modulator Envelope_MIDI_Output_Volume" ID="{1D7E26D7-31BC-4E71-BEDA-3DEAD9AB4468}" ShortID="47269649">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.058"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.2"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="1.1"/>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.068"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

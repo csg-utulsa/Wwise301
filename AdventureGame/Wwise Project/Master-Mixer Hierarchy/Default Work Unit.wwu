@@ -1,0 +1,1996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{2C2400B1-F58D-428C-8262-966DFAD84976}" WorkUnitID="{F92583A1-B7DD-4270-B321-AEABF5BAD737}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+							<ObjectRef Name="Standard" ID="{1A2EAB31-6283-4C0D-89B2-F050DF89D421}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Non-World" ID="{BB3F7B7F-D338-40E1-940A-8634D0AF03B4}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>28931</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>6304004</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UsedForBackgroundMusic" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="EnemyTheme" ID="{6DB8E2F0-1060-4C44-8556-49DB716E066B}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<ObjectRef Name="WAG_Music_EnemyThemeMeter" ID="{C8B9B7B4-6579-439F-B692-F51E81E410C2}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="SpatialAudio" ID="{55CAF362-1A3A-491F-83B6-57905914057B}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Disabled" ID="{37BE1D37-5AAC-40B9-8D4E-193694DE8510}"/>
+												<CustomState Name="" ID="{13FFC1DC-5DA4-4A4D-B57D-80DEBBA237F8}" ShortID="1002374066"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Enabled" ID="{ECB3C19F-12C4-4EFB-BE3F-32D4C730C0FA}"/>
+												<CustomState Name="" ID="{9E1932F1-F095-42D8-A0EB-11502593538A}" ShortID="1005299">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{726AF061-2F44-43A3-83AD-2ABA6E8D900B}" ShortID="473193087">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{C377611F-7988-4226-8E0D-4A249DDA01DA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F2AC3BAA-A09D-422D-B588-F90185101C9F}" ShortID="557359606">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}" WorkUnitID="{9416B9B5-7FFF-4325-9C59-2C67EE47B508}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{8C65A11B-B6AF-454B-B371-BC644CFF0A37}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-47.999</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-38.9845</XPos>
+																				<YPos>-11.73494</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{F2FEF8BF-CD66-4458-9CA2-C3961E2C1A74}" ShortID="762726166">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}" WorkUnitID="{9416B9B5-7FFF-4325-9C59-2C67EE47B508}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E3177565-5001-49C3-BE26-C96F8112DC6E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-48</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>-47.999</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>-41.999</XPos>
+																				<YPos>-24</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Music Stinger" ID="{D16ADA71-3F4F-4968-ADC1-178CFDEA4AFE}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="WAG_SideChainStinger" ID="{FC59DDA4-B303-4296-9C52-3F202A2585C9}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<AuxBus Name="Music_Aux" ID="{7863598C-65A0-461B-B50A-9F07B31BE267}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>3840</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="WAG_Music" ID="{DF8700BD-9916-4DD2-97D8-C9978D3852FE}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{0F1D16D3-DEB8-41D9-86C9-D67877790B45}" ShortID="1054709309">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{4BF4F415-7EEC-4EF2-BC6D-065F6BD1B1AB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>SCurve</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="World" ID="{3B761651-1A4B-45CF-95EC-782823B15565}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+									<ObjectRef Name="System" ID="{2C2400B1-F58D-428C-8262-966DFAD84976}" WorkUnitID="{F92583A1-B7DD-4270-B321-AEABF5BAD737}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="WAG_PitchShift_SlowMotionMode" ID="{D4AD95BE-9505-4A20-84D8-DC19D1F6F92F}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Ambient" ID="{E70EE446-5A9F-4382-8B46-9AF3C72F9FC3}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Core" ID="{9EBF4860-AC08-4F30-B0D6-CC3B364FEB91}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Voice" ID="{90A0AD2C-4946-4E6A-9E14-12A19FD496FE}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}"/>
+													<DuckingParam>
+														<Volume>-4</Volume>
+														<FadeInTime>1</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+												<DuckItem>
+													<BusRef Name="Ambient" ID="{E70EE446-5A9F-4382-8B46-9AF3C72F9FC3}"/>
+													<DuckingParam>
+														<Volume>-2</Volume>
+														<FadeInTime>2</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+												<DuckItem>
+													<BusRef Name="Objects" ID="{D79560AE-2FD4-41AC-BC2B-35A6A855AAEF}"/>
+													<DuckingParam>
+														<Volume>0</Volume>
+														<FadeInTime>2</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+												<DuckItem>
+													<BusRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}"/>
+													<DuckingParam>
+														<Volume>0</Volume>
+														<FadeInTime>2</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+												<DuckItem>
+													<BusRef Name="Enemies" ID="{6BE51F74-D7DA-47CD-B65F-53AB3F2F9189}"/>
+													<DuckingParam>
+														<Volume>-12</Volume>
+														<FadeInTime>2</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+												<DuckItem>
+													<BusRef Name="Core" ID="{9EBF4860-AC08-4F30-B0D6-CC3B364FEB91}"/>
+													<DuckingParam>
+														<Volume>-6</Volume>
+														<FadeInTime>1</FadeInTime>
+														<FadeOutTime>1</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Enemies" ID="{6BE51F74-D7DA-47CD-B65F-53AB3F2F9189}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AUX" ID="{623E0777-988B-45F5-B3B5-228AE0A7656E}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>3584</Value>
+											</ValueList>
+										</Property>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Region_Village" ID="{C4765546-B143-4C93-872E-068D52C154DB}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="Village" ID="{9E5B3690-AA8E-42AB-B247-82BEF43C5645}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{34B49EB8-9684-4E50-85AE-BF9165433A0C}" ShortID="286374244" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Training" ID="{FD7555EE-8278-4239-9CD0-167E7B219146}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{D8A6951C-8F56-4626-993A-BD6338D941DF}" ShortID="1070542748" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="WwizardHouse" ID="{5C6967B1-5E14-44E0-8108-9582638E40CC}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+																<Effect Name="Room_Large (Custom)" ID="{BDDB1A98-A78E-4931-AF64-97894FD70D39}" ShortID="705739009" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="0.6"/>
+																		<Property Name="Density" Type="Real32" Value="16"/>
+																		<Property Name="Diffusion" Type="Real32" Value="40"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-5"/>
+																		<Property Name="ERPattern" Type="int32" Value="11"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="5090"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="7.15"/>
+																		<Property Name="PreDelay" Type="Real32" Value="21"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+																		<Property Name="RoomShape" Type="Real32" Value="42"/>
+																		<Property Name="RoomSize" Type="Real32" Value="39"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="112"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Cave" ID="{EA48592C-9244-4946-9EC6-8A899A12529C}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="CaveEntrance" ID="{05AADCDD-AE49-4838-A987-250B7DCD4B0D}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Delay (Custom)" ID="{C5984C92-F4E0-49EF-93A7-FC659D3A3B44}" ShortID="515435302" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DelayTime" Type="Real32" Value="0.31"/>
+																		<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+																		<Property Name="WetDryMix" Type="Real32" Value="12"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+																<Effect Name="Room_Large (Custom)" ID="{DA4B1DFE-31C2-4B1A-9494-79DDC088D21A}" ShortID="381192976" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="3.2"/>
+																		<Property Name="Density" Type="Real32" Value="41"/>
+																		<Property Name="Diffusion" Type="Real32" Value="0"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-30"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="260"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="2200"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Q" Type="Real32" Value="0.1"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-3.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="4.15"/>
+																		<Property Name="PreDelay" Type="Real32" Value="56"/>
+																		<Property Name="Quality" Type="int32" Value="12"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="51"/>
+																		<Property Name="RoomSize" Type="Real32" Value="49"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Cave" ID="{284D4ADC-680A-4798-B17E-325317108335}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}">
+																<Effect Name="Echoes_Linear (Custom)" ID="{D850C449-C14B-45D9-90F3-13E8158D8EA8}" ShortID="825815201" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DelayTime" Type="Real32" Value="0.31"/>
+																		<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+																		<Property Name="WetDryMix" Type="Real32" Value="12"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="WAG_Cave" ID="{1CB7A178-252B-4347-AFE4-CBE65856818E}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Desert" ID="{2483AEDB-2339-465A-B861-CC0433BF6B13}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="Desert" ID="{68D88AD6-5260-4C49-86C7-0C92875ED0E6}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+															<ObjectRef Name="WAG_Desert" ID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="RoadToDesert" ID="{EB75601A-31F4-42AB-AC73-21DE66F8E6E5}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{65D7411E-ABBA-44BC-9A07-26CBFEE0466B}" ShortID="831154295" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="74"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-11.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="46"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="83"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_PineForest" ID="{2007C296-347B-4A52-B29D-1772EABCED11}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="PineForest_Hut" ID="{763714BB-B19C-4D56-B6B7-8457679D42D3}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="WAG_PineForest_Hut" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="PineForest" ID="{26F276FC-95B1-4D3C-B55F-994F2B878A32}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{5BD78DA0-646F-4901-AEF1-3E9B2C0E43C9}" ShortID="210348734" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="550"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="4"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2Gain" Type="Real32" Value="9.5"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="1"/>
+																		<Property Name="Filter2Q" Type="Real32" Value="3.5"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="3510"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-16.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="RoadToPineForest" ID="{3C3A433A-6D26-42E9-82F7-69AE71B6DE18}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{B69BC329-7421-4BF8-846B-5A3EF863C0B2}" ShortID="656189815" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Woodlands" ID="{C822DBB6-01A1-42BC-B4F0-CA4BCFB20B47}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="RoadToWoodlands" ID="{5A97F9FB-0517-49D0-AB5A-CB822B5E2F5C}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{2B3D46D1-790C-45CA-B33C-9A22B5F2BA53}" ShortID="340577010" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Woodlands" ID="{A421D5BD-DED2-4887-BA5A-37B575338EA5}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{061F656F-DA09-48F4-A3AC-52ABBFB54F6A}">
+																<Effect Name="WAG_Exterior (Custom)" ID="{6CA85CE5-68F8-441D-B24F-D18C1764EE2E}" ShortID="728462504" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.9"/>
+																		<Property Name="Density" Type="Real32" Value="60"/>
+																		<Property Name="Diffusion" Type="Real32" Value="74"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-15.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.05"/>
+																		<Property Name="PreDelay" Type="Real32" Value="42"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-33"/>
+																		<Property Name="RoomShape" Type="Real32" Value="0"/>
+																		<Property Name="RoomSize" Type="Real32" Value="64"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Region_Dungeon" ID="{F524DF54-FA13-42FF-B5F8-5441B99F7234}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ChildrenList>
+												<AuxBus Name="Dungeon_Entrance" ID="{833F2F9A-1CB0-44AA-BC26-A185919E46A5}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="WAG_Dungeon_Entrance" ID="{D65B5F04-B83B-412C-9434-34A13A477E24}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_MezzanineRoom" ID="{648AC282-B3CC-4634-8A45-EF6A8AC700B2}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_RoomVerb_(Custom)" ID="{5529F651-C929-4B46-9316-A565182E18EC}" ShortID="171042078" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="2.8"/>
+																		<Property Name="Density" Type="Real32" Value="44"/>
+																		<Property Name="Diffusion" Type="Real32" Value="53"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="59"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-15"/>
+																		<Property Name="ERPattern" Type="int32" Value="11"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="5810"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-11"/>
+																		<Property Name="HFDamping" Type="Real32" Value="2.5"/>
+																		<Property Name="PreDelay" Type="Real32" Value="84"/>
+																		<Property Name="Quality" Type="int32" Value="16"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-27"/>
+																		<Property Name="RoomSize" Type="Real32" Value="63"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{6A92ADF4-03DA-4896-BBD8-0B543B0D4DDC}" ShortID="17169204">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{36049F85-1048-4DED-B458-A58DDCDC88E1}" ShortID="173210282">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_MezzanineRoomEntrance" ID="{29675303-8C90-478F-8718-C7A473CCE336}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_RoomVerb_(Custom)" ID="{F6F3659B-28BE-44A2-ABBC-3327A002D58C}" ShortID="293032590" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="2"/>
+																		<Property Name="PreDelay" Type="Real32" Value="21"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																		<Property Name="RoomSize" Type="Real32" Value="53"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="69"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{D4C54791-2A77-474A-8841-FFB0A4A39D39}" ShortID="301214928">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{63670DD0-C16D-4BF5-8821-9A3EE13844FA}" ShortID="865592045">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Library" ID="{04259656-6FEB-4FD4-A58F-6D79FF1BC412}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>548</Value>
+															</ValueList>
+														</Property>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}">
+																<Effect Name="WAG_Room_Large_(Custom)" ID="{6E92FFB5-9790-4910-9491-D71F9D9D01E4}" ShortID="135805232" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="3.9"/>
+																		<Property Name="Density" Type="Real32" Value="64"/>
+																		<Property Name="Diffusion" Type="Real32" Value="40"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="51"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																		<Property Name="ERPattern" Type="int32" Value="11"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="5090"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+																		<Property Name="HFDamping" Type="Real32" Value="6.8"/>
+																		<Property Name="PreDelay" Type="Real32" Value="49"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-18"/>
+																		<Property Name="RoomShape" Type="Real32" Value="42"/>
+																		<Property Name="RoomSize" Type="Real32" Value="66"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="112"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{8469D053-45B8-4CF4-9330-64F582E35AE4}" ShortID="488296512">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{06A7C7C1-07C0-41A6-8F14-C4BF32D5A183}" ShortID="948043145">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_PathToForge" ID="{8B6BAB89-220D-481E-93D0-FCD20D7F00E9}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{50286348-176A-4235-9E4C-CA5F73D87818}">
+																<Effect Name="Hall_Medium_(Custom)" ID="{45FA21AE-C04B-45E4-A603-AA7B6318AFDF}" ShortID="445611739" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="2.9"/>
+																		<Property Name="Density" Type="Real32" Value="58"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="43"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-23"/>
+																		<Property Name="ERPattern" Type="int32" Value="15"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="2"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="3370"/>
+																		<Property Name="Filter2Gain" Type="Real32" Value="-4.5"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="7100"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-8.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="2.8"/>
+																		<Property Name="PreDelay" Type="Real32" Value="50"/>
+																		<Property Name="Quality" Type="int32" Value="14"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+																		<Property Name="RoomShape" Type="Real32" Value="55"/>
+																		<Property Name="RoomSize" Type="Real32" Value="38"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="165"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{8FA3AF40-AA6B-4F71-9FEE-E7F186E94C9D}" ShortID="832917516">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{368AA313-55B5-4DAF-A79F-163F79857484}" ShortID="230944755">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Forge" ID="{1EB90DBF-B56D-4F0E-96E2-B895E748C011}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}">
+																<Effect Name="Holy_(Custom)" ID="{C2E5AFCD-6983-440B-BBF7-D8D3D144C812}" ShortID="707590278" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="5.4"/>
+																		<Property Name="Density" Type="Real32" Value="70"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="61"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-24"/>
+																		<Property Name="ERPattern" Type="int32" Value="9"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="3080"/>
+																		<Property Name="Filter2Gain" Type="Real32" Value="-11"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="7530"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-8"/>
+																		<Property Name="HFDamping" Type="Real32" Value="4.8"/>
+																		<Property Name="PreDelay" Type="Real32" Value="88"/>
+																		<Property Name="Quality" Type="int32" Value="14"/>
+																		<Property Name="RoomSize" Type="Real32" Value="100"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="172"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{E978D49D-F558-4D55-8FC2-4DBBFBF6A58E}" ShortID="902303921">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{620C19ED-C950-407C-9BB0-CF7A3C80EB61}" ShortID="261903322">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_RoadToCore" ID="{DF5EE6BF-F365-40B8-A324-2775E1443B22}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom CreatedFrom="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}">
+																<Effect Name="Phone_Booth_(Custom)" ID="{DAFBA999-6C76-43EF-BD50-13250DAE357E}" ShortID="503218738" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="2.9"/>
+																		<Property Name="Density" Type="Real32" Value="32"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="46"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																		<Property Name="ERPattern" Type="int32" Value="30"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																		<Property Name="Filter1Gain" Type="Real32" Value="-5"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2Freq" Type="Real32" Value="4520"/>
+																		<Property Name="Filter2Gain" Type="Real32" Value="-4.5"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="2"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-8.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="3.4"/>
+																		<Property Name="PreDelay" Type="Real32" Value="34"/>
+																		<Property Name="Quality" Type="int32" Value="10"/>
+																		<Property Name="RoomShape" Type="Real32" Value="36"/>
+																		<Property Name="RoomSize" Type="Real32" Value="48"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="0"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{C2CB8283-5FBB-40E0-AAE3-FCFA88726100}" ShortID="6161381">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{9A2A2B31-1E0C-4464-88E6-97E36889D359}" ShortID="274412102">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Core" ID="{747CA036-D615-4852-BCEB-4A04A7334C09}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="WAG_Dungeon_Core" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_DLC_Entrance" ID="{4AC686D6-979D-4E6E-B0A4-78ACD6C03348}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_RoomVerb_(Custom)" ID="{9FEFC904-D50D-4801-B055-19B74FB5FBF3}" ShortID="1006930435" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="2"/>
+																		<Property Name="PreDelay" Type="Real32" Value="21"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																		<Property Name="RoomSize" Type="Real32" Value="53"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="69"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{634A8329-B904-4258-9EE9-E069A3A795F2}" ShortID="546206251">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{FAE6A78E-7F9C-4F29-8B49-ED75A59B76E4}" ShortID="812009021">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_Library_Statue" ID="{3188D5B4-EEFB-4D1F-8F45-4002B368CB9D}">
+													<PropertyList>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_RoomVerb_(Custom)" ID="{2AC075F4-F1D8-4444-878B-DF3531D260A3}" ShortID="588347440" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+																		<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																		<Property Name="ERFrontBackDelay" Type="Real32" Value="48"/>
+																		<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																		<Property Name="EnableToneControls" Type="bool" Value="True"/>
+																		<Property Name="Filter1InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																		<Property Name="Filter3Freq" Type="Real32" Value="6100"/>
+																		<Property Name="Filter3Gain" Type="Real32" Value="-2.5"/>
+																		<Property Name="HFDamping" Type="Real32" Value="2"/>
+																		<Property Name="PreDelay" Type="Real32" Value="21"/>
+																		<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+																		<Property Name="RoomSize" Type="Real32" Value="53"/>
+																		<Property Name="StereoWidth" Type="Real32" Value="69"/>
+																	</PropertyList>
+																	<StateInfo>
+																		<StatePropertyList>
+																			<Property Name="ERLevel"/>
+																			<Property Name="ReverbLevel"/>
+																		</StatePropertyList>
+																		<StateGroupList>
+																			<StateGroupInfo>
+																				<StateGroupRef Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}"/>
+																			</StateGroupInfo>
+																		</StateGroupList>
+																		<CustomStateList>
+																			<CustomState>
+																				<StateRef Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}"/>
+																				<CustomState Name="" ID="{4D8D32B2-42EA-413A-B1A5-92E7D1E03EF9}" ShortID="60690350">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																			<CustomState>
+																				<StateRef Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}"/>
+																				<CustomState Name="" ID="{D30FD58D-2F33-40CE-B5D3-8F07FE801466}" ShortID="698019677">
+																					<PropertyList>
+																						<Property Name="ERLevel" Type="Real32" Value="0"/>
+																						<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																					</PropertyList>
+																				</CustomState>
+																			</CustomState>
+																		</CustomStateList>
+																	</StateInfo>
+																</Effect>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+												<AuxBus Name="Dungeon_DLC_CoinRoom" ID="{61BAF8B8-BA43-4216-8D84-6D5C224270E8}">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="CenterPercentage" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+															<ObjectRef Name="WAG_DLC_Room" ID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<AuxBus Name="Reflect_AuxBus" ID="{4F8873C9-4D57-4F48-87AC-5F9B4E93C178}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Wwise_Reflect" ID="{A185E828-3831-4DD7-9CB8-BCB2D4DCC009}" WorkUnitID="{575850EC-F830-409B-B4D6-0B8AD5AC15C7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+													<ObjectRef Name="Wwise_Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Objects" ID="{D79560AE-2FD4-41AC-BC2B-35A6A855AAEF}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Music Arcade" ID="{C6F87EC6-9D74-4CD3-9E44-044BEC661FA1}">
+											<PropertyList>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{559416A6-650A-4D5D-9597-4C15E6859E93}" ShortID="509210264">
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{D06B41AD-E5B1-4A50-9D16-90C36F074944}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>100</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<ObjectRef Name="WAG_SideChainArcade" ID="{CAC16A24-7162-460D-8132-5CF97E1BDC64}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DD05A8C5-3B7E-4709-9D6D-003FA1964AE0}"/>
+											</PositioningInfo>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{4549EF5E-A190-41B8-86DA-6A80C5EB35D3}" ShortID="160785476">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BypassEffect0"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{883BF741-E80A-40DF-9A3E-07595DCE0D38}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.99</XPos>
+																		<YPos>1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1.01</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{A0857DE7-E6F9-4A03-AEFB-2DCA265CAEBD}" ShortID="654624432">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{6269EA1F-9C90-4EDC-9EA0-683960781C9E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>48</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BypassEffect1"/>
+							<Property Name="Pitch"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="MagicZone" ID="{B7B03AB3-E930-4495-B32E-151583872239}"/>
+							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music_Regions" ID="{8F9D9FD1-FB58-407C-9F42-78C83048119E}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="MZ2_InsideHouse" ID="{F8608782-33FE-404D-AF08-5BD0C1254E5B}"/>
+								<CustomState Name="" ID="{C61ED50D-5A42-45E9-8D83-E874FD227C1C}" ShortID="709395049">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32" Value="1000"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cave" ID="{63F2E068-1B5B-42F3-8278-41212FC7075E}"/>
+								<CustomState Name="" ID="{322064C7-9166-4AAC-8FB2-EC772A7C04DF}" ShortID="564177613">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Dungeon" ID="{8186A530-D888-42FA-8452-29746B6BA40C}"/>
+								<CustomState Name="" ID="{10DE11BC-3B2B-4D92-A769-946D51D6FFE2}" ShortID="845453630">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="WwizardHouse" ID="{446224FE-AFE6-4367-B953-C27484ED3486}"/>
+								<CustomState Name="" ID="{21555F79-13EB-4728-999A-114844CBE024}" ShortID="83930905">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Village" ID="{48C53A1C-150C-4743-BDD7-ECE5D136BA9B}"/>
+								<CustomState Name="" ID="{98FA9966-1B7D-4AD8-8EA7-E0E8BDCDC873}" ShortID="452215949"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Silent" ID="{F9021D52-05A5-4871-9C65-4D72EC580D5F}"/>
+								<CustomState Name="" ID="{692B38BF-C319-4577-9004-62FC999B9C29}" ShortID="490146230">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Woodlands" ID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
+								<CustomState Name="" ID="{E04B9295-2C1B-443E-AD62-D3A63C6C40FF}" ShortID="494757083">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Nowhere" ID="{C187B498-2976-48A0-9E54-3CE05A75173F}"/>
+								<CustomState Name="" ID="{879D4600-69F7-4418-80BA-1B3E72BE8979}" ShortID="906729382">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Desert" ID="{1E9C2484-3B1A-49BA-A123-DA8502EC2CAB}"/>
+								<CustomState Name="" ID="{B236860F-8825-4A81-B3D4-5BA3094F6076}" ShortID="903245861">
+									<PropertyList>
+										<Property Name="BypassEffect1" Type="bool" Value="True"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MZ1_OutsideHouse" ID="{283E4478-5D33-4BB6-8014-3B3302549B8C}"/>
+								<CustomState Name="" ID="{6F08506A-F7A9-4EA4-B672-4E43EDEF5A29}" ShortID="713785412"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{33982617-175A-4F05-9336-34C1070FEBF1}" ShortID="920436847">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{30C4CBF0-33EF-48C0-9889-3C1000EEB77C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

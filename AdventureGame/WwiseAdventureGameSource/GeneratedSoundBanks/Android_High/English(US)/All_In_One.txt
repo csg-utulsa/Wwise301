@@ -1,0 +1,994 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3990952	Enemy_EvilCrawler_Hurt			\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt	
+	15662850	UI_Button_Up			\UI\Generic\UI_Button_Up	
+	18309885	UI_Button_Enter			\UI\Generic\UI_Button_Enter	
+	100151336	Ambient_Campfire_Stop			\Ambient\General\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	135068334	Blacksmith_DialogueLine_Q4b_01			\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01	
+	156563189	UI_Button_Down			\UI\Generic\UI_Button_Down	
+	215992295	Player_Health			\Player\General\Player_Health	
+	433441283	Music_Enemies			\Music\General\Music_Enemies	
+	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	504652456	Enemy_EvilSpitPlant_Charge			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Charge	
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	547945861	Object_Rune_Charge_Stop			\Objects\SoundBankSpecific\Object_Rune_Charge_Stop	
+	630311347	Object_ActivateKey_Failed			\Objects\SoundBankSpecific\Object_ActivateKey_Failed	
+	746676127	Music_ArcadeMachine_Stop			\Music\SoundBankSpecific\Music_ArcadeMachine_Stop	
+	750089663	UI_Menu_Teleport			\UI\Menu\UI_Menu_Teleport	
+	808171864	Ambient_Region_PineForest			\Ambient\SoundBankSpecific\Ambient_Region_PineForest	
+	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
+	812304580	Enemy_EvilSpitPlant_ShootLoop_Play			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Play	
+	844130829	Quest_CompleteCollection			\Quest\Quest_CompleteCollection	
+	863080752	Wwizard_DialogueLine_Q6_05			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_05	
+	863080753	Wwizard_DialogueLine_Q6_04			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_04	
+	863080756	Wwizard_DialogueLine_Q6_01			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_01	
+	863080758	Wwizard_DialogueLine_Q6_03			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_03	
+	863080759	Wwizard_DialogueLine_Q6_02			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_02	
+	878619833	Wwizard_DialogueLine_Q5b_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_01	
+	878619834	Wwizard_DialogueLine_Q5b_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_02	
+	878619835	Wwizard_DialogueLine_Q5b_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_03	
+	878619836	Wwizard_DialogueLine_Q5b_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_04	
+	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
+	958722912	Blacksmith_DialogueLine_Q3b_04			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04	
+	958722913	Blacksmith_DialogueLine_Q3b_05			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05	
+	958722917	Blacksmith_DialogueLine_Q3b_01			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01	
+	958722918	Blacksmith_DialogueLine_Q3b_02			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02	
+	958722919	Blacksmith_DialogueLine_Q3b_03			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03	
+	1035173718	NPC_Wwizard_IdleGimmick_Poof			\Magic\General\NPC_Wwizard_IdleGimmick_Poof	
+	1042419433	Enemy_EvilSpitPlant_ShootBullet			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootBullet	
+	1049266392	Ambient_Region_Woodlands			\Ambient\SoundBankSpecific\Ambient_Region_Woodlands	
+	1070022042	Enemy_EvilHead_Movement			\Enemies\EvilHead\Enemy_EvilHead_Movement	
+	1205412814	Ambient_Core_HorribleSound			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound	
+	1230192158	Magic_Blast_Impact			\Magic\SoundBankSpecific\Magic_Blast_Impact	
+	1258303199	Enemy_EvilCrawler_Death			\Enemies\EvilCrawler\Enemy_EvilCrawler_Death	
+	1293226255	Enemy_EvilSpitPlant_Hurt			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Hurt	
+	1331382810	Ambient_Region_Cave			\Ambient\SoundBankSpecific\Ambient_Region_Cave	
+	1342629461	Ambient_Core_FinalReveal			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_FinalReveal	
+	1378810117	Ambient_Core_Shield_1			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_1	
+	1378810118	Ambient_Core_Shield_2			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_2	
+	1378810119	Ambient_Core_Shield_3			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_3	
+	1389069565	Ambient_Core_Shield_Destroyed			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed	
+	1411895808	Wwizard_DialogueLine_Q8d_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_03	
+	1411895809	Wwizard_DialogueLine_Q8d_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_02	
+	1411895810	Wwizard_DialogueLine_Q8d_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_01	
+	1464993479	UI_Menu_Resume			\UI\Menu\UI_Menu_Resume	
+	1499503781	Object_ActivateKey_Success			\Objects\SoundBankSpecific\Object_ActivateKey_Success	
+	1499896846	Pickup_Coins			\Player\General\Pickup_Coins	
+	1532327793	Music_TitleScreen			\Music\SoundBankSpecific\Music_TitleScreen	
+	1603596380	Wwizard_DialogueLine_Q3a_10			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10	
+	1615265847	Ambient_Core_Shield_Alive			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Alive	
+	1620373958	Wwizard_DialogueLine_Q3a_09			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09	
+	1620373959	Wwizard_DialogueLine_Q3a_08			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08	
+	1620373960	Wwizard_DialogueLine_Q3a_07			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07	
+	1620373961	Wwizard_DialogueLine_Q3a_06			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06	
+	1620373962	Wwizard_DialogueLine_Q3a_05			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05	
+	1620373963	Wwizard_DialogueLine_Q3a_04			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_04	
+	1620373964	Wwizard_DialogueLine_Q3a_03			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_03	
+	1620373965	Wwizard_DialogueLine_Q3a_02			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02	
+	1620373966	Wwizard_DialogueLine_Q3a_01			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01	
+	1661129442	Ambient_WoodlandsElements			\Ambient\SoundBankSpecific\Ambient_WoodlandsElements	
+	1702412353	Enemy_EVilSpitPlant_Bullet_Impact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact	
+	1795559212	Object_Coin_Drop			\Objects\SoundBankSpecific\Object_Coin_Drop	
+	1817926999	Object_Rune_Charge_Play			\Objects\SoundBankSpecific\Object_Rune_Charge_Play	
+	1880981927	Enemy_EvilHead_SpawnerDestroy			\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy	
+	1882971781	Music_Credits			\Music\SoundBankSpecific\Music_Credits	
+	1934835592	Ambient_Waterfall			\Ambient\SoundBankSpecific\Ambient_Waterfall	
+	1999886838	Destruction_Rock_Destroy			\Destruction\RegionSpecific\Destruction_Rock_Destroy	
+	2040456588	Wwizard_DialogueLine_Q8c_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_02	
+	2040456589	Wwizard_DialogueLine_Q8c_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_03	
+	2040456591	Wwizard_DialogueLine_Q8c_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_01	
+	2048928861	DLC_Ambient_Heaven			\Ambient\DLC\DLC_Ambient_Heaven	
+	2095238286	Destruction_Core_ShieldBreak			\Destruction\RegionSpecific\Destruction_Core_ShieldBreak	
+	2135810184	Enemy_EvilCrawler_Movement			\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement	
+	2142579352	Wwizard_DialogueLine_Q8b_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_01	
+	2142579354	Wwizard_DialogueLine_Q8b_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_03	
+	2142579355	Wwizard_DialogueLine_Q8b_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_02	
+	2142579356	Wwizard_DialogueLine_Q8b_05			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_05	
+	2142579357	Wwizard_DialogueLine_Q8b_04			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_04	
+	2142579358	Wwizard_DialogueLine_Q8b_07			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_07	
+	2142579359	Wwizard_DialogueLine_Q8b_06			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_06	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2208964750	Ambient_Windmill			\Ambient\SoundBankSpecific\Ambient_Windmill	
+	2258053876	Ambient_River			\Ambient\SoundBankSpecific\Ambient_River	
+	2276042689	Music_DungeonEnemyOnly			\Music\SoundBankSpecific\Music_DungeonEnemyOnly	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2283357753	Enemy_EvilHead_Death			\Enemies\EvilHead\Enemy_EvilHead_Death	
+	2325560497	UI_Button_Exit			\UI\Generic\UI_Button_Exit	
+	2340191741	Enemy_EvilHead_Charge			\Enemies\EvilHead\Enemy_EvilHead_Charge	
+	2355650095	Ambient_Crystal_Hum			\Ambient\General\Ambient_Crystal_Hum	
+	2379298625	Door_DLCdoor_Open_Stop			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop	
+	2391108228	NPC_Wwizard_Poof			\Magic\General\NPC_Wwizard_Poof	
+	2409105241	Music_ArcadeMachine_Play			\Music\SoundBankSpecific\Music_ArcadeMachine_Play	
+	2453392179	Player_Footstep			\Player\SoundBankSpecific\Player_Footstep	
+	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact	
+	2622476831	DLC_Button			\Ambient\DLC\DLC_Button	
+	2622623673	Door_TempleDoor_Open_Stop			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop	
+	2637251965	Magic_Blast			\Magic\SoundBankSpecific\Magic_Blast	
+	2644063196	Ambient_WaterDrop			\Ambient\SoundBankSpecific\Ambient_WaterDrop	
+	2681420560	Stinger_GetWeapon			\Music\General\Stinger_GetWeapon	
+	2689787085	Magic_Stop			\Magic\SoundBankSpecific\Magic_Stop	
+	2752753183	Ambient_Region_Village			\Ambient\SoundBankSpecific\Ambient_Region_Village	
+	2758258135	Enemy_EvilHead_Bite			\Enemies\EvilHead\Enemy_EvilHead_Bite	
+	2760797504	Wwizard_DialogueLine_Q8a_04			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_04	
+	2760797505	Wwizard_DialogueLine_Q8a_05			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_05	
+	2760797506	Wwizard_DialogueLine_Q8a_06			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_06	
+	2760797509	Wwizard_DialogueLine_Q8a_01			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_01	
+	2760797510	Wwizard_DialogueLine_Q8a_02			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_02	
+	2760797511	Wwizard_DialogueLine_Q8a_03			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_03	
+	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
+	2857761532	NPC_Wwizard_StaffOnGround			\NPCs\NPC_Wwizard_StaffOnGround	
+	2874568351	DLC_Cannon_Shot			\Ambient\DLC\DLC_Cannon_Shot	
+	2892293322	Enemy_EvilSpitPlant_Death			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death	
+	2929281576	Wwizard_DialogueLine_Q7_02			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_02	
+	2929281577	Wwizard_DialogueLine_Q7_03			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_03	
+	2929281579	Wwizard_DialogueLine_Q7_01			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_01	
+	2929281582	Wwizard_DialogueLine_Q7_04			\NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_04	
+	2934374888	Wwizard_DialogueLine_Q5a_05			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05	
+	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
+	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
+	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
+	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
+	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
+	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3083087645	Player_Death			\Player\General\Player_Death	
+	3091829992	Wwizard_DialogueLine_Q2_3			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_3	
+	3091829993	Wwizard_DialogueLine_Q2_2			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2	
+	3091829994	Wwizard_DialogueLine_Q2_1			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1	
+	3210335081	Wwizard_DialogueLine_Q4a_01			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01	
+	3210335082	Wwizard_DialogueLine_Q4a_02			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02	
+	3210335083	Wwizard_DialogueLine_Q4a_03			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03	
+	3210335084	Wwizard_DialogueLine_Q4a_04			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04	
+	3210335085	Wwizard_DialogueLine_Q4a_05			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05	
+	3210335086	Wwizard_DialogueLine_Q4a_06			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06	
+	3237189652	UI_Menu_Pause			\UI\Menu\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Quest\Quest_Complete	
+	3250765487	Destruction_Core_Explosion			\Destruction\RegionSpecific\Destruction_Core_Explosion	
+	3260075118	Enemy_EvilHead_Hover_Play			\Enemies\EvilHead\Enemy_EvilHead_Hover_Play	
+	3324372356	Enemy_EVilSpitPlant_Bullet_NoImpact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact	
+	3373889173	Magic_Charge			\Magic\General\Magic_Charge	
+	3408705206	Ambient_Region_Desert			\Ambient\SoundBankSpecific\Ambient_Region_Desert	
+	3474566310	UI_Menu_Select			\UI\Menu\UI_Menu_Select	
+	3492604883	Door_TempleDoor_Open_Play			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play	
+	3556635307	Door_DLCdoor_Open_Play			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play	
+	3580182562	Enemy_EvilCrawler_Explode			\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode	
+	3584751806	Enemy_EvilSpitPlant_ShootLoop_Stop			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Stop	
+	3621593767	Enemy_EvilCrawler_Eat			\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat	
+	3664581270	Ambient_Campfire_Play			\Ambient\General\Ambient_Campfire_Play	
+	3695342915	Player_WeaponImpact			\Player\General\Player_WeaponImpact	
+	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Music\General\Music_Region	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+	3808743129	Player_WeaponSwing			\Player\General\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Player\General\Player_Hurt_Vox	
+	3894226844	Blacksmith_InfiniteLoop			\NPCs\Dialogue\Blacksmith_InfiniteLoop	
+	3999192250	Enemy_EvilHead_Hurt			\Enemies\EvilHead\Enemy_EvilHead_Hurt	
+	4037905639	Enemy_EvilHead_Telegraph			\Enemies\EvilHead\Enemy_EvilHead_Telegraph	
+	4077685701	Ambient_Region_Dungeon			\Ambient\SoundBankSpecific\Ambient_Region_Dungeon	
+	4129842532	Enemy_EvilSpitPlant_Death_Headfall			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death_Headfall	
+	4165450549	Wwizard_DialogueLine_Q1_1			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1	
+	4165450550	Wwizard_DialogueLine_Q1_2			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2	
+	4165450551	Wwizard_DialogueLine_Q1_3			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3	
+	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
+	4261614160	Enemy_EvilHead_Hover_Stop			\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop	
+	4275106484	Ambient_Lava			\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	3219147252	DayOrNight			\General\DayOrNight	
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+	3917897988	Distance_to_Player			\General\Distance_to_Player	
+	4064446173	Surface_Type			\General\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+	1183803292	Far	Distance_to_Player			
+	1451272583	Close	Distance_to_Player			
+	2849147824	Medium	Distance_to_Player			
+	286660663	Rubble	Surface_Type			
+	389757836	Agent	Surface_Type			
+	442447909	Barrel	Surface_Type			
+	582824249	Leaves	Surface_Type			
+	803837735	Sand	Surface_Type			
+	1216965916	Stone	Surface_Type			
+	1647104456	Enemy_EvilCrawler	Surface_Type			
+	2058049674	Wood	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	2473969246	Metal	Surface_Type			
+	2654748154	Water	Surface_Type			
+	3065846598	Enemy_EvilHead	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	3276966729	Enemy_EvilSpitPlant	Surface_Type			
+	3444057113	Crystal	Surface_Type			
+	4248645337	Grass	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	326723740	MagicZone			\MusicStates\MagicZone	
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+	2333396925	Combo			\Player\Combo	
+	3190472332	Effects_LateReverb			\Default Work Unit\Effects_LateReverb	
+	3556213387	SpatialAudio			\Default Work Unit\SpatialAudio	
+	4257092447	VoiceAttenuation			\Default Work Unit\VoiceAttenuation	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MagicZone			
+	975018643	MZ1_OutsideHouse	MagicZone			
+	3530070619	MZ2_InsideHouse	MagicZone			
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+	748895195	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+	748895195	None	Effects_LateReverb			
+	768281003	Disable	Effects_LateReverb			When no LateReverb should be applied. 
+	2256756024	Enable	Effects_LateReverb			When no LateReverb should be applied.  * When setting the State level, make sure not to set it to the specific value set in the e.g. RoomVerb, but instead to how much more / less compared to the old value it should be. So if Reverb Level parameter is -27, set the state 'Enable' to 0, not -27.
+	748895195	None	SpatialAudio			
+	3248502869	Disabled	SpatialAudio			
+	4174102348	Enabled	SpatialAudio			
+	748895195	None	VoiceAttenuation			
+	930712164	Off	VoiceAttenuation			
+	1651971902	On	VoiceAttenuation			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	257334077	Disable	Effects_LateReverb	\Effects\Default Work Unit\Reverbs\WAG_Dungeon_Entrance		When no LateReverb should be applied. 
+	351643349	Enabled	SpatialAudio	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		
+	651318039	TopSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	751448017	Disable	Effects_LateReverb	\Effects\Default Work Unit\Reverbs\WAG_Dungeon_Core		When no LateReverb should be applied. 
+	959165918	RightSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	965529497	On	VoiceAttenuation	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers		
+	1064249781	MZ2_InsideHouse	MagicZone	\Effects\Factory Effects\Wwise Flanger\Flanging\Standard		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	129	MIDI note velocity			\MIDI note velocity	
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	215992295	Player_Health			\Player\Player_Health	
+	500836401	Quest_Progress			\Gameplay\Quest_Progress	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	762020526	Distance_to_Camera			\Generic\Distance_to_Camera	
+	1124499852	DopplerEffect			\Generic\DopplerEffect	
+	1744050084	Magic_ChargeIntensity			\Magic\Magic_ChargeIntensity	
+	1756231317	InMenu_LowPass			\Gameplay\InMenu_LowPass	
+	2149718692	Destruction_Level			\Objects\Destruction_Level	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	2947261878	Game_TimeSpeed			\Gameplay\Game_TimeSpeed	
+	3046587051	Enemy_EvilHead_MovementSpeed			\Enemies\Enemy_EvilHead_MovementSpeed	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
+	3588190939	Music_EnemyTheme_Volume			\Gameplay\Music_EnemyTheme_Volume	
+	3717648145	Listener_Cone			\Generic\Listener_Cone	
+	3717892141	CombatLevel			\Enemies\CombatLevel	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	185131821	Modulator LFO (Custom)				
+	397902884	Modulator LFO (Custom)				
+	856353238	Modulator LFO (Custom)				
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	26088899	Modulator Envelope_MIDI_Output_Volume (Custom)				
+	47269649	Modulator Envelope_MIDI_Output_Volume			\MIDI_Envelopes\Modulator Envelope_MIDI_Output_Volume	
+	105831254	Modulator Envelope_MIDI_Output_Volume (Custom)				
+	360368708	Modulator Envelope (Custom)				
+	634959200	Modulator Envelope_MIDI_Output_Volume (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
+	1870078530	Adventuress_Death			\Default Work Unit\Adventuress_Death	
+	2029038382	Music_GetItem			\Default Work Unit\Music_GetItem	
+	3921957830	Music_EnemyTheme			\Default Work Unit\Music_EnemyTheme	
+
+Effect plug-ins	ID	Name	Type				Notes
+	4496003	Dirty_Washing_Machine	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	59662939	Dialog_Too_Quiet	Wwise Compressor			
+	86245554	Attack_Remover	Wwise Compressor			
+	109045632	Vibrato	Wwise Flanger			
+	125812960	WAG_PitchShift_SlowMotionMode	Wwise Pitch Shifter			
+	131511410	Let_The_Power_Fall	Wwise Stereo Delay			
+	136714882	_500ms_Per_Hour	Wwise Stereo Delay			
+	145028528	Static_Sibilance_Remover_Female	Wwise Parametric EQ			
+	176439046	Caught_in_a_loop	Wwise Stereo Delay			
+	199095971	Dialog_Through_AC_Vents	Wwise Parametric EQ			
+	384632663	WAG_Dungeon_Core	Wwise RoomVerb			
+	385945448	WAG_Music	Wwise RoomVerb			
+	389252396	Next_Room	Wwise Parametric EQ			
+	400317747	Hall_Large_TooBright	Wwise RoomVerb			
+	415841907	Space_Garage	Wwise RoomVerb			
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	506891147	Plate_Small	Wwise RoomVerb			
+	535667444	Bathroom1	Wwise Matrix Reverb			
+	654807232	Chipmunk	Wwise Pitch Shifter			
+	701863527	Inside_My_Head	Wwise RoomVerb			
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	776837744	Born_In_1950	Wwise Parametric EQ			
+	785024900	WAG_Questing_PitchShift (Custom)	Wwise Pitch Shifter			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+	863110902	WAG_Lava_EQ	Wwise Parametric EQ			
+	880395932	Headphones	Mastering Suite			
+	927250686	Rhythmic_Talk	Wwise Tremolo			
+	930712164	Off	Mastering Suite			
+	949863463	Many_Even_Harm_Notches	Wwise Flanger			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1110677034	Underwater_Echoes	Wwise Stereo Delay			
+	1125262053	Blue_Distant_Echoes	Wwise Stereo Delay			
+	1144018367	Plate_Large	Wwise RoomVerb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1182561210	Cut_3dB_10KHz	Wwise Parametric EQ			
+	1198215643	Boomerang	Wwise Tremolo			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1232017842	LR_Slap_with_CrossFeed	Wwise Stereo Delay			
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+	1242019057	WAG_SideChainArcade	Wwise Meter			
+	1252796875	Light_Expander	Wwise Expander			
+	1291433344	Bass	Wwise Flanger			
+	1293178626	In_My_Car	Wwise Parametric EQ			
+	1305889293	WAG_SideChainStinger	Wwise Meter			
+	1396549701	SoundBar	Mastering Suite			
+	1416967478	All_Buttons_IN	Wwise Compressor			
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	1443902288	_1_Second_Delay	Wwise Stereo Delay			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	1568083719	TV	Mastering Suite			
+	1588715066	Echoes_Linear	Wwise Delay			
+	1590660382	Nearly_Forever	Wwise Delay			
+	1655770832	High_Freq_Cut_11	Wwise Parametric EQ			
+	1655770833	High_Freq_Cut_10	Wwise Parametric EQ			
+	1674078407	Chorus_Like	Wwise Flanger			
+	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
+	1675424738	Extreme_Limiting_2	Wwise Peak Limiter			
+	1675424739	Extreme_Limiting_3	Wwise Peak Limiter			
+	1706684651	Plate_Medium	Wwise RoomVerb			
+	1711423976	Many_Odd_Harm_Notches	Wwise Flanger			
+	1735130781	Aliasing	Wwise Tremolo			
+	1759944409	Cut_3dB_100Hz	Wwise Parametric EQ			
+	1783154876	WAG_Cave	Wwise RoomVerb			
+	1863245162	Noise_Gate_Slow_Attack	Wwise Expander			
+	1866712626	High_Freq_Cut_8	Wwise Parametric EQ			
+	1866712627	High_Freq_Cut_9	Wwise Parametric EQ			
+	1866712632	High_Freq_Cut_2	Wwise Parametric EQ			
+	1866712633	High_Freq_Cut_3	Wwise Parametric EQ			
+	1866712635	High_Freq_Cut_1	Wwise Parametric EQ			
+	1866712636	High_Freq_Cut_6	Wwise Parametric EQ			
+	1866712637	High_Freq_Cut_7	Wwise Parametric EQ			
+	1866712638	High_Freq_Cut_4	Wwise Parametric EQ			
+	1866712639	High_Freq_Cut_5	Wwise Parametric EQ			
+	1883259540	WAG_PineForest_Hut	Wwise Matrix Reverb			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
+	1937843064	WAG_Desert	Wwise Convolution Reverb			
+	1976939195	Deep	Wwise Flanger			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2038996943	Plate_Sizzle	Wwise RoomVerb			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+	2135883084	Nasty_Radio	Wwise Peak Limiter			
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
+	2180422931	One_Tap_Quarter_Second	Wwise Delay			
+	2202047219	Few_Even_Notches	Wwise Flanger			
+	2230265344	Very_Bad_Connection	Wwise Tremolo			
+	2258521792	Brick_Wall_Minus_1dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
+	2301880513	Many_Even_Harm_Peaks	Wwise Flanger			
+	2373712977	WAG_Enemy_EvilHead_MovementSpeed	Wwise Tremolo			
+	2394809124	Very_Slow_Modulation	Wwise Tremolo			
+	2439616960	WAG_Dungeon_Entrance	Wwise RoomVerb			
+	2444352864	NightMode	Mastering Suite			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	2539557199	Treble	Wwise Flanger			
+	2545004126	Wwise_Reflect	Wwise Reflect			
+	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
+	2568359573	Secret_message	Wwise Harmonizer			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+	2653529179	Three_Voices	Wwise Harmonizer			
+	2656259783	PA_Announcement1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+	2667647788	Single_Band_1Khz_Wide	Wwise Parametric EQ			
+	2755291684	Pumping_and_Breathing_1	Wwise Compressor			
+	2755291686	Pumping_and_Breathing_3	Wwise Compressor			
+	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
+	2781261543	Brick_Wall_Minus_6dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2805769450	Special_Effect_1	Wwise Flanger			
+	2839397017	Noise_Gate	Wwise Expander			
+	2849147824	Medium	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2900412812	Robotic_Trash	Wwise RoomVerb			
+	2943711428	MicrophoneMeter	Wwise Meter			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2952825346	Dual_Filters_Radio_Comm	Wwise Parametric EQ			
+	2995775460	Room_Small	Wwise RoomVerb			
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+	3013737254	Bass_Remover_8	Wwise Parametric EQ			
+	3013737255	Bass_Remover_9	Wwise Parametric EQ			
+	3013737256	Bass_Remover_6	Wwise Parametric EQ			
+	3013737257	Bass_Remover_7	Wwise Parametric EQ			
+	3013737258	Bass_Remover_4	Wwise Parametric EQ			
+	3013737259	Bass_Remover_5	Wwise Parametric EQ			
+	3013737260	Bass_Remover_2	Wwise Parametric EQ			
+	3013737261	Bass_Remover_3	Wwise Parametric EQ			
+	3013737263	Bass_Remover_1	Wwise Parametric EQ			
+	3025917178	Standard	Wwise Flanger			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+	3043085106	High_Impact	Wwise Compressor			
+	3157398371	Few_Odd_Harm_Notches	Wwise Flanger			
+	3209444191	Static_Sibilance_Remover_Male	Wwise Parametric EQ			
+	3216246379	Space_Dreaming	Wwise RoomVerb			
+	3250156175	Say_what	Wwise Tremolo			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
+	3314745089	WAG_ReflectSettings	Wwise Reflect			
+	3332138788	Few_Even_Harm_Peaks	Wwise Flanger			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
+	3407225994	Phone_Booth	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+	3451596814	Hall_Medium	Wwise RoomVerb			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+	3491912472	Club_Music_Distant_02	Wwise Parametric EQ			
+	3491912473	Club_Music_Distant_03	Wwise Parametric EQ			
+	3491912475	Club_Music_Distant_01	Wwise Parametric EQ			
+	3491912478	Club_Music_Distant_04	Wwise Parametric EQ			
+	3497757918	Fast_LF_Tremolo_No_Smoothing	Wwise Tremolo			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+	3559982155	Hall_Stop_Screaming	Wwise RoomVerb			
+	3563901164	Halfway_There	Wwise Tremolo			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+	3614057183	_1_Frame_Delay	Wwise Stereo Delay			
+	3655524903	Wwise_Reflect_Simplified	Wwise Reflect			
+	3673681183	Large_Bright_Chamber1	Wwise Matrix Reverb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+	3795831770	WAG_Questing_PitchShift	Wwise Pitch Shifter			
+	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
+	3851006675	Secret_message_Distant	Wwise Harmonizer			
+	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+	4113267698	Hall_Guns	Wwise RoomVerb			
+	4131355637	HomeCinema	Mastering Suite			
+	4136714357	Few_Odd_Harm_Peaks	Wwise Flanger			
+	4143868620	Bass_Remover_11	Wwise Parametric EQ			
+	4143868621	Bass_Remover_10	Wwise Parametric EQ			
+	4185773483	Dual_Filters_Reset	Wwise Parametric EQ			
+	4190220820	Voice_CenterOnly_Lowered	Wwise Pitch Shifter			
+	4202347640	Repeat_after_me	Wwise Harmonizer			
+	4212217734	Personnel_Advisor	Wwise Stereo Delay			
+	4236290354	Many_Odd_Harm_Peaks	Wwise Flanger			
+	4237026282	WAG_Room_Large	Wwise RoomVerb			
+	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
+	4259739631	WAG_Music_EnemyThemeMeter	Wwise Meter			
+	4269441574	Heavy_Metal	Wwise Flanger			
+	4286906788	Gentle_Program_Compressor_Minus_20dB_RMS	Wwise Compressor			
+
+Metadata plug-ins	ID	Name	Type				Notes
+	1309482125	Same_As_PassthroughMix	Wwise System Output Settings			
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	52615721	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\WAG_Button\Wwise Synth One	
+	79502778	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Silence\Wwise Silence	
+	144235066	SoundSeed Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_wind\SoundSeed Wind	
+	274189149	Wwise Synth One_Square_01	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_01\Wwise Synth One_Square_01	
+	279318901	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Dagger\SoundSeed Woosh	Woosh intended for Dagger
+	332159559	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Silence\Wwise Silence	
+	340076572	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Sword\SoundSeed Woosh	Woosh intended for Sword
+	379941640	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Axe\SoundSeed Woosh	Woosh intended for Axe
+	380065115	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\Silence\Wwise Silence	
+	393638398	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Pickaxe\SoundSeed Woosh	Woosh intended for Axe
+	637350807	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Silence\Wwise Silence	
+	717069159	Wwise Synth One_Drums	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Drums\Wwise Synth One_Drums	
+	717943813	Wwise Synth One_Bass	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Bass\Wwise Synth One_Bass	
+	736681753	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_NoImpact\EvilSpitPlant_Silence\Wwise Silence	
+	776592709	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Silence\Wwise Silence	
+	825078784	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Hammer\SoundSeed Woosh	Woosh intended for Axe
+	944426266	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Silence\Wwise Silence	
+	1057826510	Wwise Synth One_Square_02	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_02\Wwise Synth One_Square_02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7478884	Adventuress_damaged_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_03_E9242A7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_03		1677
+	9581397	Player_Footstep_dirt_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_01		4756
+	15988685	PinkShield_Impact_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_Impact_01_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_01		31111
+	18622617	BAS_Evil_SpitPlant_Hurt_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_05_3F988811.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_02		8918
+	21340349	Pickup_Coin_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Coin_04_0666795C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_04		8473
+	21620910	Dungeon_Strings_Ostinato	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Ostinato_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Ostinato		15655
+	21818885	Player_Footstep_sand_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_run\Player_Footstep_sand_run_02		3449
+	24304843	Adventuress_damaged_13	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_13_F5E28D0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_13		3396
+	25679830	DLC_ActivateKey_Success	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_DLC_ActivateKey_Success_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\DLC_Key\DLC_ActivateKey_Success		15905
+	26692395	EvilSpitPlant_ImpactPlayer_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_01		8937
+	27824897	Quest_Complete	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Quest_CompleteCollection_01_C9599907.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Quest_Complete		11538
+	31470392	Get Weapon	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_pickUpWeapon_001_30A9CC5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Get Weapon		25168
+	38322136	EvilSpitPlant_Shoot_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_01_96A1A6BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_01		14708
+	39706661	Impact_PickAxe_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_leaves_2_7CCA73C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Leaves\Impact_PickAxe_Leaves		4951
+	51080236	Dungeon_BigPno	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_BigPno_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_BigPno		15050
+	51105901	Wwizard_StaffOnGround	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_dirt_893B756E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wwizard_StaffOnGround		2855
+	52673629	Impact_Dagger_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_dirt_37C5EDAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Dirt\Impact_Dagger_Dirt		2946
+	53207299	Player_Footstep_grass_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_run\Player_Footstep_grass_run_02		3869
+	54157530	Core_Shield_Impact_Hammer	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_HammerHit_03_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact_Hammer		21851
+	60150315	EvilHead_Bite_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Bite_02_B9491E83.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_02		7818
+	60580651	EvilHead_Hurt_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Hurt_01_0780FF57.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_01		10546
+	61321815	EvilSpitPlant_Shoot_LP_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_LP_01_9B3DB56E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot_Loop\EvilSpitPlant_Shoot_LP_01		37433
+	61633704	Music_NightTime_Woodlands	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_NightTime_Woodlands_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Mix\Music_NightTime_Woodlands		15295
+	62513828	Dungeon_Strings_Sitar	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Sitar_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Sitar		15858
+	69206909	Impact_Sword_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_leaves_F4781ED9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Leaves\Impact_Sword_Leaves\Impact_Sword_Leaves		7567
+	70306256	Impact_Axe_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_dirt_A8356126.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Dirt\Impact_Axe_Dirt		3724
+	71905540	Heartbeat_Lub2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Heartbeat_Lub2_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub2		650
+	73574320	Ambient_DLC_Cannon	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_TmpShotSound_9BEE6806.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Ambient_DLC_Cannon		2151
+	76336562	CoinRoom_End	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_TempleDoor_Open_1DA75B08.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\CoinRoom_End		22086
+	79468423	BAS_Evil_SpitPlant_Hurt_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_06_E89AF1CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_03		9390
+	82713964	Rune_Charge_LP	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_RuneCharge_Loop_39F008AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Core\Rune_Charge_LP		36044
+	82985248	EvilHead_Hover_LP	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Hover_LP_7B8380EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hover_LP		12158
+	84543241	Ambient_Day_Element_01_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_day_element_01_02_9BA9D2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	8143
+	86058953	Pickup_Coin_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Coin_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_01		4713
+	87450794	Wizard_Poof_Teleport	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Wwizard\BAS_Wizard_Poof_02_54C81E4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Teleport		19270
+	88360415	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_5E867914.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\PlayerHit_SpitShot		5589
+	93186345	Ambient_Crystal_Ringing	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\WAG_Crystal_Ringing_2A7C607A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Crystal_Ringing		43250
+	94640661	Impact_Axe_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_hitCrate_001_ED7DBEA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Wood\Impact_Axe_Wood		4485
+	95415607	Ambient_Night_Element_02_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_02_03_9C35DF05.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	1841
+	101718933	Impact_SpitPlant_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_03		6803
+	102407192	PinkBall_Impact_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Impact_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Impact\PinkBall_Impact_01		17847
+	108061160	EvilSpitPlant_Shoot_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_03		12336
+	109351989	Impact_Sword_Wood_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_wood_2_1D61E82D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_02		8664
+	113815345	Ambient_Night_Element_02_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_02_01_836B21C0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	7004
+	115834427	Adventuress_damaged_10	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_10_97AB97B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_10		2887
+	115882410	PinkBall_Impact_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Impact_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Impact\PinkBall_Impact_02		15064
+	117108038	Player_Footstep_water_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_walk\Player_Footstep_water_walk_01		6031
+	117550963	PinkBall_Impact_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Impact_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Impact\PinkBall_Impact_03		18932
+	120480038	Impact_PickAxe_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Crate\Impact_PickAxe_Crate		4275
+	123174017	Player_Footstep_sand_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_run\Player_Footstep_sand_run_03		3524
+	125288342	Heartbeat_Dub2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Heartbeat_Dub2_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub2		650
+	125579260	Ambient_Core_Shield_Outer	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_01_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Outer		27493
+	130892503	Player_Footstep_water_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_run\Player_Footstep_water_run_02		4031
+	132383432	Evil_SpitPlant_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_D50496EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_03		4373
+	134654369	Impact_Sword_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_dirt_42C5B984.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\Impact_Sword_Dirt		6946
+	136355781	Impact_Sword_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Sword_SurfaceType_Crate_B1BC5EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Sword_Crate		5930
+	138086648	BAS_Evil_SpitPlant_Death_Headfall_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_01		5834
+	142147549	Boulder_BigImpact	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Crate_Loud_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_VolcanicBoulder\Boulder_Near\Boulder_BigImpact		9299
+	152211720	EvilSpitPlant_Flutes_Battle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Battle_Flutes_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes_Battle		2313
+	155192250	BAS_Evil_Head_Death_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_02		29680
+	155875358	Impact_Hammer_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Hammer_SurfaceType_Barrel_77710E24.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Hammer_Barrel		6694
+	161554800	Boulder_Far	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Explosion_E9EE4CA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_VolcanicBoulder\Boulder_Far\Boulder_Far		7768
+	173466533	Ambient_Night_Element_01_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_01_02_938E6DFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	7253
+	176533674	Pickup_WeaponType_Dagger	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Dagger_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Dagger		6255
+	177438976	Player_Footstep_stone_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_03		3844
+	180963865	WAG_TitleScreen	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_TitleScreen_V1_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_TitleScreen\WAG_TitleScreen\WAG_TitleScreen		1458421
+	188686969	Pickup_PineCone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_PineCone_01_B508D74E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_PineCone		4440
+	190170041	Pickup_Book	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Book_01_7F1D4723.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		5626
+	192562240	Button_Enter	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Enter_F09E50EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Enter		5384
+	196871823	EvilSpitPlant_Shoot_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_02_50496D8D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_02		13586
+	197932788	EvilHead_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Charge_03_6A0A4F71.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_03		24301
+	200941956	Impact_Sword_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_stone_2_6C3F66B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Stone\Impact_Sword_Stone\Impact_Sword_Stone		6217
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick		3045
+	207450325	Crate_Destroy_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_05_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_05		8185
+	207768492	Inventory_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Inventory_Open_43C54E6B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Open		2918
+	214462698	Impact_Dagger_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_wood_C81333C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Wood\Impact_Dagger_Wood		2191
+	214711863	Impact_Sword_Wood_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_dirt_A2ED6691.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_01		6944
+	222577091	Ambient_Core_Shield_Destroyed	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_After_Loop_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Destroyed		85360
+	225760600	EvilCrawler_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Tuba_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Tuba		612
+	228435873	EvilHead_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Charge_01_8A72C6A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_01		17098
+	229113548	Player_Footstep_water_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_run\Player_Footstep_water_run_03		4411
+	229536716	Player_Footstep_wood_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_02		1176
+	230048561	Impact_Axe_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_grass_F06A93DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Grass\Impact_Axe_Grass		5728
+	239013951	Adventuress_damaged_12	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_12_D955CCC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_12		2962
+	241690857	frog_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_frog_04_2710F446.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_04		1758
+	241752532	Ambient_Day_Element_02_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_day_element_02_03_F323B9BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	4415
+	247082657	Impact_PickAxe_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_hitCrate_001_3501F81F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Wood\Impact_PickAxe_Wood		6263
+	247479220	EvilHead_Hurt_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Hurt_02_9E7DAD90.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_02		8599
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler		686
+	251146730	Ambient_Night_Element_01_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_01_04_F1ADA93B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	9339
+	263730271	BAS_Evil_SpitPlant_Death_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_05_A7D19359.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_05		11677
+	265022886	Waterfall_Far	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_44FE4DC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Far		31129
+	268338743	Boulder_Explosion	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Explosion_1B1F1104.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_VolcanicBoulder\Boulder_Near\Boulder_Explosion		12994
+	269405603	Ambient_Core_Shield_Middle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_02_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Middle		28796
+	270916331	Pickup_Key	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Key_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Key		8559
+	271810230	Impact_Axe_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel_66A3B88E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Barrel\Impact_Axe_Barrel		7836
+	274027457	Impact_Dagger_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_stone_2_A67142C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Stone\Impact_Dagger_Stone		2694
+	281391147	SilentMusicClip	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\WPA_Ambient_Bass1_493769D1.wem		\Interactive Music Hierarchy\Music\Music_Regions\Nothing\WPA_Ambient\SilentMusicClip		12096
+	283455833	Ambient_Core_Shield_Alive	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_Before_Loop_8C9E87BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Alive		83128
+	285115110	Amb_River	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\Water_RiverLoop_DEE9BCCA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Amb_River		164001
+	285744333	Crate_Destroy_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_01		11167
+	287000940	Ambient_Day_Element_02_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_day_element_02_04_B1B6234E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	7825
+	288556157	Player_Footstep_water_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_run\Player_Footstep_water_run_01		4186
+	288737095	Adventuress_Death_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_Death_01_D35F9083.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_01		12852
+	292620961	Player_Footstep_grass_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_walk\Player_Footstep_grass_walk_01		5933
+	293050403	Player_Footstep_grass_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_run\Player_Footstep_grass_run_01		3649
+	299395336	BAS_Evil_Head_Death_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_Vox_03_EF051030.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_03		27367
+	301231688	Impact_Hammer_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Hammer_Crate		4890
+	302774978	Dungeon_EvilOrgan	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_EvilOrgan_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_EvilOrgan		15707
+	308005468	Boulder_Debris	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\DebrisDirt_5E0BD882.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_VolcanicBoulder\Boulder_Near\Boulder_Debris		12700
+	311624009	Boulder_Debris_HeavyRocks	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\RockImpact_EA1A420A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_VolcanicBoulder\Boulder_Near\Boulder_Debris_HeavyRocks		18078
+	320959230	EvilCrawler_Move_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Move_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_02		11538
+	321633064	Dungeon_Strings_Tremolo	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Tremolo_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Tremolo		14550
+	324689740	Dungeon_SoloViolin_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_SoloViolin_1_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_SoloViolin_1		666
+	325773489	Player_Footstep_sand_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_walk\Player_Footstep_sand_walk_02		4068
+	326650516	Crate_Destroy_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_03		15071
+	336420779	Crate_Destroy_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_04_A3E540FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_04		14052
+	339035677	BigBallFire	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_BigBallFire_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Fired\BigBallFire		23220
+	339750059	Player_Footstep_dirt_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_01		2913
+	340074122	Adventuress_damaged_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_05_DAE12786.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_05		3216
+	340824060	Player_Footstep_rubble_walk_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_walk_04_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_walk\Player_Footstep_rubble_walk_04		3504
+	346822129	Impact_Crawler_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_01_154C578C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_EvilCrawler\Impact_Crawler_01		7322
+	349269179	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_1E099337.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_EvilHead\Impact_Hammer_EvilHead\PlayerHit_SpitShot		5764
+	352809797	Player_Footstep_water_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_walk\Player_Footstep_water_walk_03		6325
+	353842310	Heartbeat_Lub	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Heartbeat_Lub_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub		650
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Timpani_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani		608
+	356049012	BAS_Evil_Head_Death_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_Vox_02_24A38B43.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_02		26346
+	356985616	Player_Footstep_wood_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_03		3791
+	357036992	Creature_FinalReveal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_FinalReveal_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_FinalReveal		70613
+	361675366	Adventuress_Death_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_Death_02_FD02025E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_02		6601
+	363110106	Creature_Earthquake_Loop	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Earthquake_Loop_8CD04208.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Earthquake_Loop		18913
+	364736820	Inventory_Select	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Inventory_Select_A6E84B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Inventory_Select		6817
+	365731772	Adventuress_damaged_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_06_F2280C7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_06		2081
+	367076937	Impact_Hammer_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel_2C358D9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Barrel\Impact_Hammer_Barrel		9362
+	370181548	Ambient_Night_Element_02_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_02_04_DC46B032.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	4454
+	387841042	Player_Footstep_grass_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_walk\Player_Footstep_grass_walk_02		5527
+	395293424	Impact_Dagger_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Dagger_SurfaceType_Barrel_0D7E5F4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Barrel\Impact_Dagger_Barrel		6114
+	397519903	Adventuress_damaged_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_07_BC598015.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_07		3355
+	401846827	BAS_Evil_Crawler_Hurt_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_03		8298
+	402893315	waterdrop_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_04_1EE3100D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_04		2730
+	407972354	Player_Footstep_dirt_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_03		5210
+	412591648	BAS_Evil_SpitPlant_Death_Headfall_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_02		6654
+	413261440	Ambient_Night_Element_03_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_03_04_8F63792D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	10446
+	426400611	BAS_Evil_SpitPlant_Death_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_06_8AB57BBF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_06		14778
+	432872011	MIDI_WAG	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MIDI_Project_Adventure_EDEA3A15.wem		\Interactive Music Hierarchy\Other\MIDI_WAG\MIDI_WAG_Single_MIDI_Track_Multiple_MIDI_Channels\MIDI_WAG	Audiokinetic Inc. All rights reserved. Audio content provided by Jeff Edward Ball With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2014 Jeff Edward Ball www.jeffedwardball.com  The Audio Content contained in this file is the property of Jeff Edward Ball Your sole right with regard to this MIDI Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	2749
+	434501617	Player_Footstep_stone_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_02		3329
+	441591698	Evil_SpitPlant_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_10A6F2EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_01		4812
+	450221518	Pickup_WeaponType_Axe	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Axe_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Axe		8072
+	464674442	waterdrop_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_03_C47B151A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_03		1650
+	464874071	Player_Footstep_wood_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_01		1062
+	466737030	Confetti	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_Sparkle_103AAE74.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Confetti		12129
+	467878330	Pickup_WeaponType_Sword	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Sword_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Sword		7925
+	468278613	BAS_Evil_SpitPlant_HurtImpact_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_01_707CBBE5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_01		8203
+	472043901	BAS_Pickup_EvilEssence	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_EvilEssence_2313C659.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\BAS_Pickup_EvilEssence		146266
+	473979008	Inventory_Scroll	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Inventory_Scroll_2FCDFF21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Scroll		3761
+	474305653	Pickup_Misc	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickup_B21E5F34.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		3890
+	474593415	Player_Footstep_rubble_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_run\Player_Footstep_rubble_run_03		3042
+	476522655	Adventuress_exertion_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_03_6A21B87C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_03		3416
+	477947509	frog_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_frog_05_2F8FE97D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_05		1944
+	485003889	frog_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_frog_02_D69ADE22.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_02		3051
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine		3043
+	489594571	Player_Footstep_stone_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_01		3754
+	492838405	EvilCrawler_Eat_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Eat_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_03		8250
+	496256198	QuestRoll_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_QuestRoll_Close_770A78B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Close		5129
+	501305534	Adventuress_exertion_10	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_10_871753BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_10		7376
+	504991743	EvilCrawler_Explode_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Explode_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_03		24958
+	506839907	Player_Footstep_wood_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_01		1599
+	507405528	Music_Desert_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Desert_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Desert\Desert_Part1_Mix\Music_Desert_Mix		15667
+	509347534	Player_Footstep_rubble_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_run\Player_Footstep_rubble_run_01		3076
+	512076338	waterdrop_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_53BED56A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_01		3015
+	519995291	Dungeon_Strings_Choir_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Choir_2_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Choir_1		762
+	520076757	Player_Footstep_rubble_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_run\Player_Footstep_rubble_run_02		3506
+	524493448	Impact_CrystalShard_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Crystals_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_03		10273
+	527337844	CoinRoom_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_TempleDoor_Open_55B10376.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\CoinRoom_Open		24931
+	528358999	EvilCrawler_Stacc_DoubleBass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Stacc_DoubleBass_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Stacc_DoubleBass		612
+	531145738	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_FA5F44D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Stone\Impact_Sword_Stone\PlayerHit_SpitShot		5589
+	539203250	EvilSpitPlant_ImpactPlayer_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_03		7207
+	540584137	Button_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Open_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Open		3405
+	542995811	Pickup_Coin_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Coin_03_EF97E2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_03		5872
+	543249257	Rune_Charge_End_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Wwizard\BAS_rune_charge_end_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Core\Rune_Charge_End\Rune_Charge_End_03		19263
+	544135728	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_C3CB72B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Leaves\Impact_Sword_Leaves\PlayerHit_SpitShot		5589
+	544641944	Destruction_Core_Explosion	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_shield_core_explosion_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Core_Explosion		73031
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant		2560
+	549383379	Ambient_Night_Element_03_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_03_03_5761C3E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	18541
+	551083112	Music_Cave_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Cave_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Mix\Music_Cave_Mix		812
+	558182472	EvilCrawler_Move_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Move_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_01		11190
+	558246075	Player_Footstep_stone_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_run\Player_Footstep_stone_run_03		3579
+	558803562	Ambient_Day_Element_01_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_day_element_01_03_AE7703EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	3904
+	561190385	Music_Dungeon_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Volcanic_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Mix\Music_Dungeon_Mix		4759
+	561416365	EvilCrawler_Piano	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Piano_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Piano		608
+	568476180	Impact_Crawler_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_03		8523
+	571603281	Destroy_Rock_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_03		12727
+	571611364	BAS_Evil_SpitPlant_Hurt_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_04_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_01		10907
+	571682771	Impact_Crawler_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_02		8728
+	571801213	Ambient_Night_Element_03_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_03_01_0769F428.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	10499
+	576059042	Button_Over	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Over_784E565A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Over		938
+	576804319	Button_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Close_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Close		3553
+	576812197	Player_Footstep_grass_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_run\Player_Footstep_grass_run_03		3106
+	577806081	Windmill_Machine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_windMillBlade_001_1521C83F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Machine		83790
+	580300220	BAS_Evil_Crawler_Death_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_03		19114
+	581193606	BAS_Evil_Crawler_Hurt_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_01_E6A52174.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_01		5718
+	585246084	EvilCrawler_Eat_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Eat_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_01		7483
+	585485659	BAS_Evil_SpitPlant_Death_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_04_3D5DF410.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_04		15084
+	587958178	Impact_PickAxe_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_grass_27A7FAF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Grass\Impact_PickAxe_Grass		6228
+	588650531	EvilSpitPlant_Clarinet	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_Clarinet_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Clarinet		2061
+	590566250	Impact_PickAxe_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_stone_2_CE68C5DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Stone\Impact_PickAxe_Stone		6252
+	591600176	EvilCrawler_Move_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Move_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_03		12259
+	592455788	Adventuress_exertion_12	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_12_AC1CB237.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_12		6846
+	596945623	Adventuress_exertion_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_07_DB2D4EA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_07		3530
+	598636424	Player_Footstep_dirt_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\Player_Footstep_dirt_walk_02		3764
+	601886410	Adventuress_exertion_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_06_CB1CB665.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_06		6957
+	606020004	Destruction_Crystals	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crystals_Destroy_BB332117.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Crystals		10678
+	616098569	Destroy_Wood_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Wood_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_01		16331
+	616851024	PinkBall_Fire_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Fire_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Fired\Magic_Blast_Fired\PinkBall_Fire_03		15796
+	621670486	Ambient_Lava	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_dungeonLava_001_DF7FC639.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		40209
+	621816641	Destroy_Rock_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_02		14580
+	624605826	BAS_Evil_Crawler_Death_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_02		20473
+	625959245	Impact_SpitPlant_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_02		3367
+	626030515	Ambient_Night_Element_03_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_03_02_3F5F8AC3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	13826
+	632020663	windMillBlade_003	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_windMillBlade_003_1D3CA555.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\windMillBlade_003		7399
+	633287397	EvilSpitPlant_BigPno	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_BigPno_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_BigPno		2354
+	635787326	EvilCrawler_Explode_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Explode_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_01		23892
+	644004411	EvilCrawler_Explode_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Explode_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_02		23460
+	649241323	Impact_Hammer_Stone_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_stone_2_B64BB6B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Stone\Impact_Hammer_Stone\Impact_Hammer_Stone\Impact_Hammer_Stone_01		5363
+	651734579	EvilSpitPlant_ImpactPlayer_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_02		7010
+	656229177	Impact_Crawler_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_01_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_01		7468
+	659300493	Adventuress_exertion_13	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_13_56031643.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_13		10450
+	660387120	waterdrop_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_06_4D30EF4A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_06		1543
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Trumpets_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets		612
+	662234789	Destroy_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_CrashWood_4A97E0F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Wood		9543
+	662500466	BAS_Evil_SpitPlant_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_E3A1B59D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_01		8763
+	663521142	BAS_Evil_SpitPlant_HurtImpact_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_03_CD7BF9B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_03		7733
+	671025963	Adventuress_damaged_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_01_62AD76F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_01		3265
+	673472141	BAS_Evil_SpitPlant_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_E3A1B59D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_02		8207
+	676619034	DLC_AMB_Heaven	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_AMB_Heaven_FFB38812.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\DLC_AMB_Heaven		239238
+	681775821	Impact_Dagger_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_grass_2_58FB504E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Grass\Impact_Dagger_Grass		5763
+	684463112	Coin	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Coin_Spawn_160FDB93.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Coin		576096
+	687190676	Adventuress_exertion_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_05_65AFCDE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_05		4040
+	689034906	Wizard_Poof_Idle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Wwizard\BAS_Wizard_Poof_03_1F2C42FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Idle		25863
+	690249591	Ambient_Water_River	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\Water_RiverLoop_642A9BED.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_River		185945
+	701770857	Destroy_Wood_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Wood_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_03		17629
+	701812817	Player_Footstep_rubble_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_walk\Player_Footstep_rubble_walk_03		4990
+	706707052	Adventuress_damaged_11	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_11_134A61BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_11		2261
+	714356067	PinkBall_Fire_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Fire_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Fired\Magic_Blast_Fired\PinkBall_Fire_02		16039
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Forest_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix		14951
+	728853193	Destroy_Wood_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Wood_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_02		12450
+	731548434	EvilHead_Staccato_Cello	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\2_Staccato_Cello_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_Cello		2309
+	736232030	Music_Ambient_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Ambient_Mix_9E093120.wem		\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Mix\Music_Ambient_Mix		11954
+	737856040	Pickup_Mushroom	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Mushroom_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Mushroom		4274
+	738144536	waterdrop_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_02_3041D592.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_02		2535
+	745897563	EvilHead_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Charge_02_CB62CEB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_02		16759
+	747629416	WAG_QucickStinger_Death	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Stingers\QucickStinger_Death_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Death\WAG_QucickStinger_Death		105297
+	748354478	Heartbeat_Dub	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Heartbeat_Dub_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub		650
+	748900340	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_B54A0FAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Stone\Impact_Hammer_Stone\PlayerHit_SpitShot		5757
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Cymbal_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal		472
+	753863891	Dungeon_Strings_Choir_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Choir_1_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Choir_1		738
+	754818586	Pickup_WeaponType_Pickaxe	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Pickaxe_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Pickaxe		7917
+	754920644	Waterfall_High	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_9F1BC2D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterfall_High		28607
+	758852917	Crate_Destroy_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_06_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_06		15359
+	758933006	Impact_Sword_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_sword_grass_3848856B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\Impact_Sword_Grass		6227
+	765205196	EvilSpitPlant_ImpactPlayer_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_01		9359
+	766973702	Player_Footstep_grass_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_grass_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\Player_Footstep_Woodlands_walk\Player_Footstep_grass_walk_03		5769
+	767754403	Pickup_CrystalShard	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Generic_05_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_CrystalShard		7089
+	768452881	Adventuress_Death_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_Death_03_2EC743FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_03		5487
+	769521575	Player_Footstep_dirt_run_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_02		2160
+	773182616	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_CE70DBB1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilHead\Impact_Sword_EvilHead\PlayerHit_SpitShot		5340
+	781460930	Amb_Shield_Core_Center	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_03_69CD2908.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Amb_Shield_Core_Center		28581
+	782804215	Rune_Charge_End_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Wwizard\BAS_rune_charge_end_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Core\Rune_Charge_End\Rune_Charge_End_02		15354
+	791272135	EvilCrawler_Eat_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Eat_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_02		9404
+	793060160	WAG_QucickStinger_Victory	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Stingers\QucickStinger_Victory_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Victory\WAG_QucickStinger_Victory		118362
+	796603137	Adventuress_exertion_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_04_6F9CF6C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_04		3595
+	797654782	Player_Footstep_wood_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_run\Player_Footstep_wood_run_03		1265
+	798941566	Player_Footstep_stone_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_01		5192
+	799765973	DLC_ActivateKey_Failed	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_DLC_ActivateKey_Fail_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\DLC_Key\DLC_ActivateKey_Failed		7681
+	803103411	Impact_PickAxe_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_PickAxe_SurfaceType_Barrel_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Barrel\Impact_PickAxe_Barrel		4130
+	803648538	Impact_CrystalShard_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Crystals_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_02		8910
+	808800733	EvilSpitPlant_ImpactPlayer_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_02		6740
+	810217821	EvilHead_Staccato_DoubleBass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\2_Staccato_DoubleBass_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_DoubleBass		2428
+	812794088	EvilHead_Bite_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Bite_03_B9491E83.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_03		7781
+	813955928	QuestRoll_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_QuestRoll_Open_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Open		12517
+	816089490	imp_Hammer_grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_grass_CABC3102.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Grass\imp_Hammer_grass		6188
+	824466461	BAS_Evil_Head_Death_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_01		31764
+	830124314	waterdrop_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_05_BCE63DF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_05		910
+	835763951	PinkBall_Fire_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkBall_Fire_01_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Blast_Fired\Magic_Blast_Fired\PinkBall_Fire_01		17944
+	837232758	Impact_Hammer_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Crate_14C44D86.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Crate\Impact_Hammer_Crate		5757
+	838527785	Creature_EarthSweetener_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_EarthSweetener_02_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Creature_EarthSweetener_02		61712
+	839142330	Dungeon_LowBrass_Long	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_LowBrass_Long_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_LowBrass_Long		1930
+	844876209	Player_Footstep_stone_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_stone_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\Player_Footstep_stone_walk\Player_Footstep_stone_walk_02		3202
+	847242115	EvilHead_Clarinet_and_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Clarinet_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba		2769
+	852422006	Impact_CrystalShard_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Crystals_01_7A7BF028.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		10307
+	855611825	Adventuress_exertion_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_01_D62AB144.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_01		7386
+	862899862	Adventuress_damaged_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_04_5D937D85.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_04		2674
+	864986687	Ambient_Night_Element_02_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_02_02_31BD6980.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	6889
+	867802082	Player_Footstep_sand_walk_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_walk_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_walk\Player_Footstep_sand_walk_03		4166
+	868044476	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\Impact_Bump_FADD8DA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\PlayerHit_SpitShot		5589
+	884177046	Button_Teleport	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Teleport_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Teleport		20024
+	891187179	Adventuress_damaged_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_damaged_02_D0AED08C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_02		3211
+	898477822	Evil_SpitPlant_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_7610A921.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_02		6136
+	902725510	Impact_Dagger_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Dagger_SurfaceType_Crate_A0B433FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Crate\Impact_Dagger_Crate		5826
+	908851993	Impact_Dagger_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_dagger_leaves_BB8EABB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Leaves\Impact_Dagger_Leaves		3821
+	917282363	Impact_PickAxe_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_imp_axe_dirt_1CBFA730.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Dirt\Impact_PickAxe_Dirt		3539
+	917888294	Ambient_Night_Element_01_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_night_element_01_01_DA21A771.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	20100
+	922334387	Adventuress_exertion_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_02_54D9E3B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_02		5893
+	925553325	Player_Footstep_dirt_run_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_dirt_run_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_run\Player_Footstep_dirt_run_03		2972
+	928123683	BAS_Evil_Crawler_Death_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_01		15795
+	929104052	BAS_Evil_Head_Death_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_Vox_01_05D6FB45.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_01		29302
+	929539204	Dungeon_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Timpani_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Timpani		8049
+	930202647	BAS_Evil_Crawler_Hurt_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_02		6814
+	931042639	PinkShield_Impact_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_Impact_02_6379FF4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_02		51891
+	931401541	Rune_Charge_End_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Wwizard\BAS_rune_charge_end_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Core\Rune_Charge_End\Rune_Charge_End_01		19097
+	942011354	BAS_Evil_SpitPlant_HurtImpact_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_02_72CC9174.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_02		9643
+	945967359	BAS_Quest_CompleteCollection_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Quest_CompleteCollection_02_07FAA693.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Collection Complete\BAS_Quest_CompleteCollection_02		12118
+	947204474	Creature_Wind_Loop	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Wind_Loop_8CD04208.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Wind_Loop		44113
+	948901730	Ambient_Day_Element_02_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\forestBirds_001_259A3F79.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	62790
+	951050489	Player_Footstep_water_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\Player_Footstep_water_walk\Player_Footstep_water_walk_02		6227
+	956779705	EvilSpitPlant_Flutes	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_Flutes_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes		2406
+	971725281	TempleDoor_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_TempleDoor_Open_D0506AD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Doors\TempleDoor_Open		46633
+	973984296	EvilHead_Clarinet_and_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tuba_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba		2226
+	980308778	Adventuress_exertion_08	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_08_90C63119.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_08		5735
+	981622377	Ambient_Fire_Torch	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_amb_torch_7F46FEDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Fire_Torch		47134
+	987804829	Destroy_Rock_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Destroy_Rock_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Rock\Destroy_Rock_01		14764
+	998009996	Crate_Destroy_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\BAS_Crate_Destroy_02_5DD7A89C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_02		16240
+	999206556	EvilCrawler_Clarinet	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Clarinet_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Clarinet		612
+	1004673027	BAS_Evil_SpitPlant_Death_Headfall_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_03		8284
+	1007331327	EvilHead_SpawnerDestroy	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_02_7ADE14A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_SpawnerDestroy		13817
+	1007745237	Adventuress_exertion_09	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_09_ECEF4805.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_09		3980
+	1008264668	Impact_SpitPlant_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_01_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_01		3158
+	1008309616	Destruction_Core_ShieldBreak	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_PinkShield_Impact_Final_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Core_ShieldBreak		90477
+	1008720031	Pickup_WeaponType_Hammer	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Hammer_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Hammer		8374
+	1010912770	windMillBlade_004	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Emitters\BAS_windMillBlade_004_EDA31982.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\windMillBlade_004		7273
+	1016342625	Inventory_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Inventory_Close_67D32EC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Close		2704
+	1021735861	Player_Footstep_sand_run_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_run_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_run\Player_Footstep_sand_run_01		3420
+	1023617453	BAS_Evil_SpitPlant_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_0C87BD57.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_03		8171
+	1024725918	Impact_Sword_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Sword_SurfaceType_Barrel_2FB0DA12.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Sword_Barrel		6841
+	1026572653	magic_charge_debris	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Earth_Debris_AA66343E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_debris		148066
+	1028269556	BAS_Evil_Head_Charge_Bite	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Charge_Bite_76492241.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_Charge_Bite		6877
+	1030273903	Dungeon_Tubas	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Tubas_A8B0334E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Tubas		4723
+	1031283392	WAG_QucickStinger_GetItem	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Stingers\QucickStinger_GetItem_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_GetItem\WAG_QucickStinger_GetItem		53756
+	1037987212	Impact_Axe_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Crate_780D81F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Crate\Impact_Axe_Crate		5694
+	1043505733	BAS_Evil_Head_ChargeAhead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Charge_CC42F6FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_ChargeAhead		10189
+	1046704186	EvilSpitPlant_ImpactPlayer_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_03		7448
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead		2806
+	1050138657	Pickup_Coin_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Objects\Pickups\BAS_Pickup_Coin_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_02		8241
+	1055916331	Core_HorribleSound	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Cinematic\BAS_CIN_Creature_Start_647715DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Core_HorribleSound		24315
+	1056788053	Player_Footstep_sand_walk_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_sand_walk_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Sand\Player_Footstep_sand_walk\Player_Footstep_sand_walk_01		4730
+	1056851740	BAS_Evil_Head_Death_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Death_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_03		36877
+	1057116956	EvilHead_Bite_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Bite_01_8BD788D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_01		7340
+	1059060228	EvilHead_Hurt_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Creatures\BAS_Evil_Head_Hurt_03_8D7410C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_03		10194
+	1062017509	Player_Footstep_wood_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_wood_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\Player_Footstep_wood_walk\Player_Footstep_wood_walk_02		1715
+	1064023420	Player_Footstep_rubble_walk_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Footsteps\BAS_Player_Footstep_rubble_walk_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Rubble\Player_Footstep_rubble_walk\Player_Footstep_rubble_walk_02		3711
+	1067218367	Adventuress_exertion_11	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Adventuress_exertion_11_53204876.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_11		7328
+	1069871293	Button_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Interface\BAS_Button_Close_10AB32F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Close		3217
+	1071263068	Ambient_Day_Element_01_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_day_element_01_01_9CE95CA4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	8370
+	1072194896	frog_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_frog_01_6E071245.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_01		2653
+	1072449166	Impact_Hammer_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Character\Weapons\BAS_hitCrate_001_CADE104D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Wood\Impact_Hammer_Wood		6499
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	4132728	Ambient_Pineforest_Night_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_E5913800.wem	4132728.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Night\Ambient_Pineforest_Night_Short	
+	21620910	Dungeon_Strings_Ostinato	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Ostinato_A8B0334E.wem	21620910.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Ostinato	
+	51080236	Dungeon_BigPno	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_BigPno_A8B0334E.wem	51080236.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_BigPno	
+	59370237	Ambient_Woodlands_Night_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\amb_forest_night_background_loop_02_5F611FBD.wem	59370237.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Woodlands\Night\Ambient_Woodlands_Night_Short	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	59818700	Wwizard_DialogueLine_Q8a_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_1_9629B607.wem	59818700.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_03	
+	60790338	Wwizard_DialogueLine_Q5a_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_3_D099AD66.wem	60790338.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_03	
+	61633704	Music_NightTime_Woodlands	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_NightTime_Woodlands_A8B0334E.wem	61633704.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Mix\Music_NightTime_Woodlands	
+	62513828	Dungeon_Strings_Sitar	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Sitar_A8B0334E.wem	62513828.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Sitar	
+	64488070	Wwizard_DialogueLine_Q5a_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_7_D099AD66.wem	64488070.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_07	
+	75905970	Wwizard_DialogueLine_Q8d_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8d_1_B34C288E.wem	75905970.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8d_01	
+	130624668	Wwizard_DialogueLine_Q7_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q7_1_A5A9BF53.wem	130624668.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q7_01	
+	141653825	Blacksmith_DialogueLine_Q3b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q3b_01_C076EFC3.wem	141653825.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q3b_01	
+	141752377	Wwizard_DialogueLine_Q3a_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_2_E6579851.wem	141752377.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_03	
+	144964242	Ambient_Village_Day_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01_4EAFB556.wem	144964242.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Day\Ambient_Village_Day_Short	
+	152211720	EvilSpitPlant_Flutes_Battle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Battle_Flutes_A8B0334E.wem	152211720.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes_Battle	
+	154369548	Ambient_Woodlands_Day_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_forest_day_background_loop_01_DC3D174D.wem	154369548.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Woodlands\Day\Ambient_Woodlands_Day_Short	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	161027881	Wwizard_DialogueLine_Q6_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q6_1_C61C8771.wem	161027881.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q6_02	
+	169317805	Wwizard_DialogueLine_Q8b_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_4_D099AD66.wem	169317805.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_04	
+	171544410	Wwizard_DialogueLine_Q8a_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_2_7D423E60.wem	171544410.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_05	
+	177080104	Wwizard_DialogueLine_Q4a_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_A2EB1042.wem	177080104.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_03	
+	184998337	Blacksmith_DialogueLine_Q3b_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q3b_02_6EFAB877.wem	184998337.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q3b_02	
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tamburine_A8B0334E.wem	202341787.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick	
+	225760600	EvilCrawler_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Tuba_A8B0334E.wem	225760600.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Tuba	
+	226571535	Wwizard_DialogueLine_Q8d_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8d_1_155AEEB5.wem	226571535.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8d_02	
+	239106325	Wwizard_DialogueLine_Q4a_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_1_3D20DCCD.wem	239106325.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_01	
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem	248883937.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler	
+	260687181	Wwizard_DialogueLine_Q6_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q6_3_D099AD66.wem	260687181.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q6_05	
+	267519239	Wwizard_DialogueLine_Q2_2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q2_1_89F23945.wem	267519239.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q2_2	
+	281391147	SilentMusicClip	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\WPA_Ambient_Bass1_493769D1.wem	281391147.wem	\Interactive Music Hierarchy\Music\Music_Regions\Nothing\WPA_Ambient\SilentMusicClip	
+	302774978	Dungeon_EvilOrgan	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_EvilOrgan_A8B0334E.wem	302774978.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_EvilOrgan	
+	312874557	Blacksmith_DialogueLine_Q4b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem	312874557.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q4b_01	
+	321633064	Dungeon_Strings_Tremolo	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Tremolo_A8B0334E.wem	321633064.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Tremolo	
+	324689740	Dungeon_SoloViolin_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_SoloViolin_1_A8B0334E.wem	324689740.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_SoloViolin_1	
+	330905590	Wwizard_DialogueLine_Q8a_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_1_CC84430A.wem	330905590.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_01	
+	338325124	Wwizard_DialogueLine_Q5a_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_6_D099AD66.wem	338325124.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_06	
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Timpani_A8B0334E.wem	355999611.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani	
+	367614517	Wwizard_DialogueLine_Q3a_10	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_4_530CCC12.wem	367614517.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_10	
+	368345425	Wwizard_DialogueLine_Q8d_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8d_1_A71E5D1F.wem	368345425.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8d_03	
+	369256951	Ambient_Forest_Day_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\treesVillage_001_25642BE7.wem	369256951.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Day\Ambient_Forest_Day_Short	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	393693165	amb_cave_background_LP_short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_cave_background_LP_FB342558.wem	393693165.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Cave\amb_cave_background_LP_short	
+	405742020	Wwizard_DialogueLine_Q4a_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_E3BCC16E.wem	405742020.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_05	
+	414569993	Wwizard_DialogueLine_Q6_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q6_2_E27DEE24.wem	414569993.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q6_03	
+	424173504	Wwizard_DialogueLine_Q4a_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_1_BE1DD286.wem	424173504.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_02	
+	442213243	Wwizard_DialogueLine_Q8a_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_2_9DDC7E33.wem	442213243.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_04	
+	455178146	Wwizard_DialogueLine_Q3a_08	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_3_406BB86E.wem	455178146.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_08	
+	466892797	Wwizard_DialogueLine_Q8b_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_2_D099AD66.wem	466892797.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_02	
+	469922254	Wwizard_DialogueLine_Q3a_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_2_7FC0E448.wem	469922254.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_04	
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Tamburine_A8B0334E.wem	487608963.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine	
+	489506136	Wwizard_DialogueLine_Q8a_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_2_C8FB6D48.wem	489506136.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_06	
+	499136652	Wwizard_DialogueLine_Q6_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q6_1_D24D15AD.wem	499136652.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q6_01	
+	499607732	Wwizard_DialogueLine_Q3a_09	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_4_ABAF60B0.wem	499607732.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_09	
+	501172588	Blacksmith_DialogueLine_Q3b_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q3b_03_C71A0B27.wem	501172588.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q3b_03	
+	503906180	Wwizard_DialogueLine_Q4a_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_1A2BBBB3.wem	503906180.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_04	
+	506705032	Wwizard_DialogueLine_Q5a_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_5_D099AD66.wem	506705032.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_05	
+	507405528	Music_Desert_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Desert_Mix_A8B0334E.wem	507405528.wem	\Interactive Music Hierarchy\Music\Music_Regions\Desert\Desert_Part1_Mix\Music_Desert_Mix	
+	519995291	Dungeon_Strings_Choir_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Choir_2_A8B0334E.wem	519995291.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Choir_1	
+	528358999	EvilCrawler_Stacc_DoubleBass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Stacc_DoubleBass_A8B0334E.wem	528358999.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Stacc_DoubleBass	
+	530205856	Wwizard_DialogueLine_Q8b_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_3_D099AD66.wem	530205856.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_03	
+	533092119	Wwizard_DialogueLine_Q3a_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_3_55FA5AC9.wem	533092119.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_06	
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem	547742854.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant	
+	551083112	Music_Cave_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Cave_Mix_A8B0334E.wem	551083112.wem	\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Mix\Music_Cave_Mix	
+	561190385	Music_Dungeon_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Volcanic_Mix_A8B0334E.wem	561190385.wem	\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Mix\Music_Dungeon_Mix	
+	561416365	EvilCrawler_Piano	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Piano_A8B0334E.wem	561416365.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Piano	
+	574334117	Wwizard_DialogueLine_Q8b_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_5_D099AD66.wem	574334117.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_05	
+	588650531	EvilSpitPlant_Clarinet	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_Clarinet_A8B0334E.wem	588650531.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Clarinet	
+	613971765	Wwizard_DialogueLine_Q5b_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5b_2_48039DF2.wem	613971765.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_03	
+	633287397	EvilSpitPlant_BigPno	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_BigPno_A8B0334E.wem	633287397.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_BigPno	
+	652010598	Ambient_Dungeon_Day_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_5F4FC494.wem	652010598.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Dungeon\Ambient_Dungeon_Day_Short	
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Trumpets_A8B0334E.wem	661714509.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets	
+	669867001	Blacksmith_DialogueLine_Q3b_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q3b_05_0BE1568E.wem	669867001.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q3b_05	
+	674148759	Wwizard_DialogueLine_Q1_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q1_1_29728411.wem	674148759.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q1_1	
+	685782540	Wwizard_DialogueLine_Q8b_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_7_D099AD66.wem	685782540.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_07	
+	689306552	Wwizard_DialogueLine_Q8b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_1_D099AD66.wem	689306552.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_01	
+	704786839	Wwizard_DialogueLine_Q7_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q7_1_86639876.wem	704786839.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q7_02	
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Forest_Mix_A8B0334E.wem	715406799.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix	
+	716183293	Wwizard_DialogueLine_Q2_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q2_1_AEC9F7A1.wem	716183293.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q2_1	
+	727053417	Wwizard_DialogueLine_Q8b_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8b_6_D099AD66.wem	727053417.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8b_06	
+	731548434	EvilHead_Staccato_Cello	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\2_Staccato_Cello_A8B0334E.wem	731548434.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_Cello	
+	736232030	Music_Ambient_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Ambient_Mix_9E093120.wem	736232030.wem	\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Mix\Music_Ambient_Mix	
+	741157044	Wwizard_DialogueLine_Q8c_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8c_1_2B3074D2.wem	741157044.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8c_03	
+	745580301	Wwizard_DialogueLine_Q5a_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_2_D099AD66.wem	745580301.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_02	
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Cymbal_A8B0334E.wem	749927517.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal	
+	753863891	Dungeon_Strings_Choir_1	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Strings_Choir_1_A8B0334E.wem	753863891.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Strings_Choir_1	
+	759193162	Wwizard_DialogueLine_Q5b_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5b_1_5E527456.wem	759193162.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_02	
+	759379745	Ambient_Village_Night_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_village_night_background_loop_01_4E2A3652.wem	759379745.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Night\Ambient_Village_Night_Short	
+	765406834	Wwizard_DialogueLine_Q5a_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_1_D099AD66.wem	765406834.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_01	
+	778893805	Wwizard_DialogueLine_Q4a_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q4a_3_D099AD66.wem	778893805.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_06	
+	784864794	Wwizard_DialogueLine_Q3a_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_3_3134463F.wem	784864794.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_07	
+	808845836	Wwizard_DialogueLine_Q5b_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5b_2_BB5F6080.wem	808845836.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_04	
+	810217821	EvilHead_Staccato_DoubleBass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\2_Staccato_DoubleBass_A8B0334E.wem	810217821.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_DoubleBass	
+	836084269	Wwizard_DialogueLine_Q8c_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8c_1_64E603BB.wem	836084269.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8c_01	
+	839142330	Dungeon_LowBrass_Long	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_LowBrass_Long_A8B0334E.wem	839142330.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_LowBrass_Long	
+	839389611	Wwizard_DialogueLine_Q7_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q7_2_D099AD66.wem	839389611.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q7_03	
+	847242115	EvilHead_Clarinet_and_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Clarinet_A8B0334E.wem	847242115.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba	
+	854494413	Wwizard_DialogueLine_Q7_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q7_3_D099AD66.wem	854494413.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q7_04	
+	859741990	Wwizard_DialogueLine_Q6_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q6_2_4F501126.wem	859741990.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q6_04	
+	929539204	Dungeon_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Timpani_A8B0334E.wem	929539204.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Timpani	
+	952108554	Wwizard_DialogueLine_Q1_3	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q1_1_0F755EBB.wem	952108554.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q1_3	
+	955324476	Wwizard_DialogueLine_Q3a_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_1_4A3E1924.wem	955324476.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_01	
+	956779705	EvilSpitPlant_Flutes	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\3_Flutes_A8B0334E.wem	956779705.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes	
+	957684222	Wwizard_DialogueLine_Q3a_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_2_E3FB80C1.wem	957684222.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_05	
+	961613579	Wwizard_DialogueLine_Q3a_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q3a_1_546D8C7D.wem	961613579.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q3a_02	
+	971196653	Wwizard_DialogueLine_Q8c_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8c_1_2386D6BC.wem	971196653.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8c_02	
+	973984296	EvilHead_Clarinet_and_Tuba	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tuba_A8B0334E.wem	973984296.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba	
+	979023528	Ambient_Day_Desert_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_desert_day_background_loop_01_3B1C885B.wem	979023528.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Desert\Ambient_Region_Desert_Day\Ambient_Day_Desert_Short	
+	996135909	Wwizard_DialogueLine_Q8a_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q8a_1_A7D3AAC2.wem	996135909.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q8a_02	
+	999206556	EvilCrawler_Clarinet	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\MFYG\1_Clarinet_A8B0334E.wem	999206556.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Clarinet	
+	1008779655	Wwizard_DialogueLine_Q1_2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q1_1_82FDE6C2.wem	1008779655.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q1_2	
+	1030148940	Blacksmith_DialogueLine_Q3b_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Blacksmith_DialogueLine_Q3b_04_D099AD66.wem	1030148940.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q3b_04	
+	1030273903	Dungeon_Tubas	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Volcanic_Tubas_A8B0334E.wem	1030273903.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Dungeon_Tubas	
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem	1047176001.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead	
+	1058535481	Wwizard_DialogueLine_Q5a_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5a_4_D099AD66.wem	1058535481.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_04	
+	1061806185	Ambient_Desert_Night_Short	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_amb_desert_night_background_loop_01_88B2C1C0.wem	1061806185.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Desert\Ambient_Region_Desert_Night\Ambient_Desert_Night_Short	
+	1065470308	Wwizard_DialogueLine_Q2_3	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q2_1_50BB679E.wem	1065470308.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q2_3	
+	1072872472	Wwizard_DialogueLine_Q5b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Voices\English(US)\Wwizard_VoiceLine_Q5b_1_AD4B4203.wem	1072872472.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5b_01	
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	299482527	WAG_Desert	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald_6E4E60A8.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_Desert		239824
+	609174261	WAG_DLC_Room	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Halls\AK Brasilien Halle_B5110816.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_DLC_Room	Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 	212368
+

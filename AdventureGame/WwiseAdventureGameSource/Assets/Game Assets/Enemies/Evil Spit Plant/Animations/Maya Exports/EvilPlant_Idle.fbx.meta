@@ -1,0 +1,1743 @@
+fileFormatVersion: 2
+guid: b95d83e329a894c0abde7a15ab30083b
+timeCreated: 1476018018
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: directionalLight1
+    100004: directionalLight2
+    100006: DungeonMatWOod
+    100008: EnergyMat
+    100010: EvilPlant
+    100012: //RootNode
+    100014: EvilSpitPlant
+    100016: EvilSpitPlant_Base
+    100018: EvilSpitPlant_Mesh
+    100020: Green
+    100022: Head
+    100024: Head_Controlss
+    100026: ikHandle6
+    100028: Jaw_begin
+    100030: Jaw_end
+    100032: Leaf_back_left_mid
+    100034: Leaf_back_left_start
+    100036: Leaf_back_right_mid
+    100038: Leaf_back_right_start
+    100040: Leaf_back_right_top_end
+    100042: Leaf_back_right_top_start
+    100044: Leaf_BackLeft_IKHandle
+    100046: Leaf_backRight
+    100048: Leaf_BackRight_IKHandle
+    100050: Leaf_front_left_mid
+    100052: Leaf_front_left_start
+    100054: Leaf_front_left_top_end
+    100056: Leaf_front_left_top_start
+    100058: Leaf_front_right_mid
+    100060: Leaf_front_right_start
+    100062: Leaf_front_right_top_end
+    100064: Leaf_front_right_top_start
+    100066: Leaf_FrontLeft_IKHandle
+    100068: Leaf_frontRight
+    100070: Leaf_FrontRight__IKHandle
+    100072: Leaf_midRight
+    100074: Petal_bottom_mid
+    100076: Petal_left_mid
+    100078: Petal_right_mid
+    100080: Petal_top_mid
+    100082: polySurface1
+    100084: polySurface10
+    100086: polySurface100
+    100088: polySurface101
+    100090: polySurface102
+    100092: polySurface103
+    100094: polySurface104
+    100096: polySurface105
+    100098: polySurface106
+    100100: polySurface107
+    100102: polySurface108
+    100104: polySurface109
+    100106: polySurface11
+    100108: polySurface110
+    100110: polySurface111
+    100112: polySurface112
+    100114: polySurface113
+    100116: polySurface114
+    100118: polySurface115
+    100120: polySurface116
+    100122: polySurface117
+    100124: polySurface118
+    100126: polySurface119
+    100128: polySurface12
+    100130: polySurface120
+    100132: polySurface121
+    100134: polySurface122
+    100136: polySurface123
+    100138: polySurface124
+    100140: polySurface125
+    100142: polySurface126
+    100144: polySurface127
+    100146: polySurface128
+    100148: polySurface129
+    100150: polySurface13
+    100152: polySurface130
+    100154: polySurface131
+    100156: polySurface132
+    100158: polySurface133
+    100160: polySurface134
+    100162: polySurface135
+    100164: polySurface136
+    100166: polySurface137
+    100168: polySurface138
+    100170: polySurface139
+    100172: polySurface14
+    100174: polySurface140
+    100176: polySurface141
+    100178: polySurface142
+    100180: polySurface143
+    100182: polySurface144
+    100184: polySurface145
+    100186: polySurface146
+    100188: polySurface147
+    100190: polySurface148
+    100192: polySurface149
+    100194: polySurface15
+    100196: polySurface150
+    100198: polySurface151
+    100200: polySurface152
+    100202: polySurface153
+    100204: polySurface154
+    100206: polySurface155
+    100208: polySurface156
+    100210: polySurface157
+    100212: polySurface158
+    100214: polySurface159
+    100216: polySurface16
+    100218: polySurface160
+    100220: polySurface161
+    100222: polySurface162
+    100224: polySurface163
+    100226: polySurface164
+    100228: polySurface165
+    100230: polySurface166
+    100232: polySurface167
+    100234: polySurface168
+    100236: polySurface169
+    100238: polySurface17
+    100240: polySurface170
+    100242: polySurface171
+    100244: polySurface172
+    100246: polySurface173
+    100248: polySurface174
+    100250: polySurface175
+    100252: polySurface18
+    100254: polySurface19
+    100256: polySurface2
+    100258: polySurface20
+    100260: polySurface21
+    100262: polySurface22
+    100264: polySurface23
+    100266: polySurface24
+    100268: polySurface25
+    100270: polySurface26
+    100272: polySurface27
+    100274: polySurface28
+    100276: polySurface29
+    100278: polySurface3
+    100280: polySurface30
+    100282: polySurface31
+    100284: polySurface32
+    100286: polySurface33
+    100288: polySurface34
+    100290: polySurface35
+    100292: polySurface36
+    100294: polySurface37
+    100296: polySurface38
+    100298: polySurface39
+    100300: polySurface4
+    100302: polySurface40
+    100304: polySurface41
+    100306: polySurface42
+    100308: polySurface43
+    100310: polySurface44
+    100312: polySurface45
+    100314: polySurface46
+    100316: polySurface47
+    100318: polySurface48
+    100320: polySurface49
+    100322: polySurface5
+    100324: polySurface50
+    100326: polySurface51
+    100328: polySurface52
+    100330: polySurface53
+    100332: polySurface54
+    100334: polySurface55
+    100336: polySurface56
+    100338: polySurface57
+    100340: polySurface58
+    100342: polySurface59
+    100344: polySurface6
+    100346: polySurface60
+    100348: polySurface61
+    100350: polySurface62
+    100352: polySurface63
+    100354: polySurface64
+    100356: polySurface65
+    100358: polySurface66
+    100360: polySurface67
+    100362: polySurface68
+    100364: polySurface69
+    100366: polySurface7
+    100368: polySurface70
+    100370: polySurface71
+    100372: polySurface72
+    100374: polySurface73
+    100376: polySurface74
+    100378: polySurface75
+    100380: polySurface76
+    100382: polySurface77
+    100384: polySurface78
+    100386: polySurface79
+    100388: polySurface8
+    100390: polySurface80
+    100392: polySurface81
+    100394: polySurface82
+    100396: polySurface83
+    100398: polySurface84
+    100400: polySurface85
+    100402: polySurface86
+    100404: polySurface87
+    100406: polySurface88
+    100408: polySurface89
+    100410: polySurface9
+    100412: polySurface90
+    100414: polySurface91
+    100416: polySurface92
+    100418: polySurface93
+    100420: polySurface94
+    100422: polySurface95
+    100424: polySurface96
+    100426: polySurface97
+    100428: polySurface98
+    100430: polySurface99
+    100432: Root
+    100434: Stem_lower
+    100436: Stem_middle
+    100438: Stem_start
+    100440: Stem_top
+    100442: Top_face
+    100444: Top_front
+    100446: transform1
+    100448: transform10
+    100450: transform100
+    100452: transform101
+    100454: transform102
+    100456: transform103
+    100458: transform104
+    100460: transform105
+    100462: transform106
+    100464: transform107
+    100466: transform108
+    100468: transform109
+    100470: transform11
+    100472: transform110
+    100474: transform111
+    100476: transform112
+    100478: transform113
+    100480: transform114
+    100482: transform115
+    100484: transform116
+    100486: transform117
+    100488: transform118
+    100490: transform119
+    100492: transform12
+    100494: transform120
+    100496: transform121
+    100498: transform122
+    100500: transform123
+    100502: transform124
+    100504: transform125
+    100506: transform126
+    100508: transform127
+    100510: transform128
+    100512: transform129
+    100514: transform13
+    100516: transform130
+    100518: transform131
+    100520: transform132
+    100522: transform133
+    100524: transform134
+    100526: transform135
+    100528: transform136
+    100530: transform137
+    100532: transform138
+    100534: transform139
+    100536: transform14
+    100538: transform140
+    100540: transform141
+    100542: transform142
+    100544: transform143
+    100546: transform144
+    100548: transform145
+    100550: transform146
+    100552: transform147
+    100554: transform148
+    100556: transform149
+    100558: transform15
+    100560: transform150
+    100562: transform151
+    100564: transform152
+    100566: transform153
+    100568: transform154
+    100570: transform155
+    100572: transform156
+    100574: transform157
+    100576: transform158
+    100578: transform159
+    100580: transform16
+    100582: transform160
+    100584: transform161
+    100586: transform162
+    100588: transform163
+    100590: transform164
+    100592: transform165
+    100594: transform166
+    100596: transform167
+    100598: transform168
+    100600: transform169
+    100602: transform17
+    100604: transform170
+    100606: transform171
+    100608: transform172
+    100610: transform173
+    100612: transform174
+    100614: transform175
+    100616: transform176
+    100618: transform177
+    100620: transform178
+    100622: transform179
+    100624: transform18
+    100626: transform180
+    100628: transform181
+    100630: transform182
+    100632: transform183
+    100634: transform184
+    100636: transform186
+    100638: transform19
+    100640: transform2
+    100642: transform20
+    100644: transform21
+    100646: transform22
+    100648: transform23
+    100650: transform24
+    100652: transform25
+    100654: transform26
+    100656: transform27
+    100658: transform28
+    100660: transform29
+    100662: transform3
+    100664: transform30
+    100666: transform31
+    100668: transform32
+    100670: transform33
+    100672: transform34
+    100674: transform35
+    100676: transform36
+    100678: transform37
+    100680: transform38
+    100682: transform39
+    100684: transform4
+    100686: transform40
+    100688: transform41
+    100690: transform42
+    100692: transform43
+    100694: transform44
+    100696: transform45
+    100698: transform46
+    100700: transform47
+    100702: transform48
+    100704: transform49
+    100706: transform5
+    100708: transform50
+    100710: transform51
+    100712: transform52
+    100714: transform53
+    100716: transform54
+    100718: transform55
+    100720: transform56
+    100722: transform57
+    100724: transform58
+    100726: transform59
+    100728: transform6
+    100730: transform60
+    100732: transform61
+    100734: transform62
+    100736: transform63
+    100738: transform64
+    100740: transform65
+    100742: transform66
+    100744: transform67
+    100746: transform68
+    100748: transform69
+    100750: transform7
+    100752: transform70
+    100754: transform71
+    100756: transform72
+    100758: transform73
+    100760: transform74
+    100762: transform75
+    100764: transform76
+    100766: transform77
+    100768: transform78
+    100770: transform79
+    100772: transform8
+    100774: transform80
+    100776: transform81
+    100778: transform82
+    100780: transform83
+    100782: transform84
+    100784: transform85
+    100786: transform86
+    100788: transform87
+    100790: transform88
+    100792: transform89
+    100794: transform9
+    100796: transform90
+    100798: transform91
+    100800: transform92
+    100802: transform93
+    100804: transform94
+    100806: transform95
+    100808: transform96
+    100810: transform97
+    100812: transform98
+    100814: transform99
+    100816: WoodDagger
+    100818: Yellow
+    400000: Body
+    400002: directionalLight1
+    400004: directionalLight2
+    400006: DungeonMatWOod
+    400008: EnergyMat
+    400010: EvilPlant
+    400012: //RootNode
+    400014: EvilSpitPlant
+    400016: EvilSpitPlant_Base
+    400018: EvilSpitPlant_Mesh
+    400020: Green
+    400022: Head
+    400024: Head_Controlss
+    400026: ikHandle6
+    400028: Jaw_begin
+    400030: Jaw_end
+    400032: Leaf_back_left_mid
+    400034: Leaf_back_left_start
+    400036: Leaf_back_right_mid
+    400038: Leaf_back_right_start
+    400040: Leaf_back_right_top_end
+    400042: Leaf_back_right_top_start
+    400044: Leaf_BackLeft_IKHandle
+    400046: Leaf_backRight
+    400048: Leaf_BackRight_IKHandle
+    400050: Leaf_front_left_mid
+    400052: Leaf_front_left_start
+    400054: Leaf_front_left_top_end
+    400056: Leaf_front_left_top_start
+    400058: Leaf_front_right_mid
+    400060: Leaf_front_right_start
+    400062: Leaf_front_right_top_end
+    400064: Leaf_front_right_top_start
+    400066: Leaf_FrontLeft_IKHandle
+    400068: Leaf_frontRight
+    400070: Leaf_FrontRight__IKHandle
+    400072: Leaf_midRight
+    400074: Petal_bottom_mid
+    400076: Petal_left_mid
+    400078: Petal_right_mid
+    400080: Petal_top_mid
+    400082: polySurface1
+    400084: polySurface10
+    400086: polySurface100
+    400088: polySurface101
+    400090: polySurface102
+    400092: polySurface103
+    400094: polySurface104
+    400096: polySurface105
+    400098: polySurface106
+    400100: polySurface107
+    400102: polySurface108
+    400104: polySurface109
+    400106: polySurface11
+    400108: polySurface110
+    400110: polySurface111
+    400112: polySurface112
+    400114: polySurface113
+    400116: polySurface114
+    400118: polySurface115
+    400120: polySurface116
+    400122: polySurface117
+    400124: polySurface118
+    400126: polySurface119
+    400128: polySurface12
+    400130: polySurface120
+    400132: polySurface121
+    400134: polySurface122
+    400136: polySurface123
+    400138: polySurface124
+    400140: polySurface125
+    400142: polySurface126
+    400144: polySurface127
+    400146: polySurface128
+    400148: polySurface129
+    400150: polySurface13
+    400152: polySurface130
+    400154: polySurface131
+    400156: polySurface132
+    400158: polySurface133
+    400160: polySurface134
+    400162: polySurface135
+    400164: polySurface136
+    400166: polySurface137
+    400168: polySurface138
+    400170: polySurface139
+    400172: polySurface14
+    400174: polySurface140
+    400176: polySurface141
+    400178: polySurface142
+    400180: polySurface143
+    400182: polySurface144
+    400184: polySurface145
+    400186: polySurface146
+    400188: polySurface147
+    400190: polySurface148
+    400192: polySurface149
+    400194: polySurface15
+    400196: polySurface150
+    400198: polySurface151
+    400200: polySurface152
+    400202: polySurface153
+    400204: polySurface154
+    400206: polySurface155
+    400208: polySurface156
+    400210: polySurface157
+    400212: polySurface158
+    400214: polySurface159
+    400216: polySurface16
+    400218: polySurface160
+    400220: polySurface161
+    400222: polySurface162
+    400224: polySurface163
+    400226: polySurface164
+    400228: polySurface165
+    400230: polySurface166
+    400232: polySurface167
+    400234: polySurface168
+    400236: polySurface169
+    400238: polySurface17
+    400240: polySurface170
+    400242: polySurface171
+    400244: polySurface172
+    400246: polySurface173
+    400248: polySurface174
+    400250: polySurface175
+    400252: polySurface18
+    400254: polySurface19
+    400256: polySurface2
+    400258: polySurface20
+    400260: polySurface21
+    400262: polySurface22
+    400264: polySurface23
+    400266: polySurface24
+    400268: polySurface25
+    400270: polySurface26
+    400272: polySurface27
+    400274: polySurface28
+    400276: polySurface29
+    400278: polySurface3
+    400280: polySurface30
+    400282: polySurface31
+    400284: polySurface32
+    400286: polySurface33
+    400288: polySurface34
+    400290: polySurface35
+    400292: polySurface36
+    400294: polySurface37
+    400296: polySurface38
+    400298: polySurface39
+    400300: polySurface4
+    400302: polySurface40
+    400304: polySurface41
+    400306: polySurface42
+    400308: polySurface43
+    400310: polySurface44
+    400312: polySurface45
+    400314: polySurface46
+    400316: polySurface47
+    400318: polySurface48
+    400320: polySurface49
+    400322: polySurface5
+    400324: polySurface50
+    400326: polySurface51
+    400328: polySurface52
+    400330: polySurface53
+    400332: polySurface54
+    400334: polySurface55
+    400336: polySurface56
+    400338: polySurface57
+    400340: polySurface58
+    400342: polySurface59
+    400344: polySurface6
+    400346: polySurface60
+    400348: polySurface61
+    400350: polySurface62
+    400352: polySurface63
+    400354: polySurface64
+    400356: polySurface65
+    400358: polySurface66
+    400360: polySurface67
+    400362: polySurface68
+    400364: polySurface69
+    400366: polySurface7
+    400368: polySurface70
+    400370: polySurface71
+    400372: polySurface72
+    400374: polySurface73
+    400376: polySurface74
+    400378: polySurface75
+    400380: polySurface76
+    400382: polySurface77
+    400384: polySurface78
+    400386: polySurface79
+    400388: polySurface8
+    400390: polySurface80
+    400392: polySurface81
+    400394: polySurface82
+    400396: polySurface83
+    400398: polySurface84
+    400400: polySurface85
+    400402: polySurface86
+    400404: polySurface87
+    400406: polySurface88
+    400408: polySurface89
+    400410: polySurface9
+    400412: polySurface90
+    400414: polySurface91
+    400416: polySurface92
+    400418: polySurface93
+    400420: polySurface94
+    400422: polySurface95
+    400424: polySurface96
+    400426: polySurface97
+    400428: polySurface98
+    400430: polySurface99
+    400432: Root
+    400434: Stem_lower
+    400436: Stem_middle
+    400438: Stem_start
+    400440: Stem_top
+    400442: Top_face
+    400444: Top_front
+    400446: transform1
+    400448: transform10
+    400450: transform100
+    400452: transform101
+    400454: transform102
+    400456: transform103
+    400458: transform104
+    400460: transform105
+    400462: transform106
+    400464: transform107
+    400466: transform108
+    400468: transform109
+    400470: transform11
+    400472: transform110
+    400474: transform111
+    400476: transform112
+    400478: transform113
+    400480: transform114
+    400482: transform115
+    400484: transform116
+    400486: transform117
+    400488: transform118
+    400490: transform119
+    400492: transform12
+    400494: transform120
+    400496: transform121
+    400498: transform122
+    400500: transform123
+    400502: transform124
+    400504: transform125
+    400506: transform126
+    400508: transform127
+    400510: transform128
+    400512: transform129
+    400514: transform13
+    400516: transform130
+    400518: transform131
+    400520: transform132
+    400522: transform133
+    400524: transform134
+    400526: transform135
+    400528: transform136
+    400530: transform137
+    400532: transform138
+    400534: transform139
+    400536: transform14
+    400538: transform140
+    400540: transform141
+    400542: transform142
+    400544: transform143
+    400546: transform144
+    400548: transform145
+    400550: transform146
+    400552: transform147
+    400554: transform148
+    400556: transform149
+    400558: transform15
+    400560: transform150
+    400562: transform151
+    400564: transform152
+    400566: transform153
+    400568: transform154
+    400570: transform155
+    400572: transform156
+    400574: transform157
+    400576: transform158
+    400578: transform159
+    400580: transform16
+    400582: transform160
+    400584: transform161
+    400586: transform162
+    400588: transform163
+    400590: transform164
+    400592: transform165
+    400594: transform166
+    400596: transform167
+    400598: transform168
+    400600: transform169
+    400602: transform17
+    400604: transform170
+    400606: transform171
+    400608: transform172
+    400610: transform173
+    400612: transform174
+    400614: transform175
+    400616: transform176
+    400618: transform177
+    400620: transform178
+    400622: transform179
+    400624: transform18
+    400626: transform180
+    400628: transform181
+    400630: transform182
+    400632: transform183
+    400634: transform184
+    400636: transform186
+    400638: transform19
+    400640: transform2
+    400642: transform20
+    400644: transform21
+    400646: transform22
+    400648: transform23
+    400650: transform24
+    400652: transform25
+    400654: transform26
+    400656: transform27
+    400658: transform28
+    400660: transform29
+    400662: transform3
+    400664: transform30
+    400666: transform31
+    400668: transform32
+    400670: transform33
+    400672: transform34
+    400674: transform35
+    400676: transform36
+    400678: transform37
+    400680: transform38
+    400682: transform39
+    400684: transform4
+    400686: transform40
+    400688: transform41
+    400690: transform42
+    400692: transform43
+    400694: transform44
+    400696: transform45
+    400698: transform46
+    400700: transform47
+    400702: transform48
+    400704: transform49
+    400706: transform5
+    400708: transform50
+    400710: transform51
+    400712: transform52
+    400714: transform53
+    400716: transform54
+    400718: transform55
+    400720: transform56
+    400722: transform57
+    400724: transform58
+    400726: transform59
+    400728: transform6
+    400730: transform60
+    400732: transform61
+    400734: transform62
+    400736: transform63
+    400738: transform64
+    400740: transform65
+    400742: transform66
+    400744: transform67
+    400746: transform68
+    400748: transform69
+    400750: transform7
+    400752: transform70
+    400754: transform71
+    400756: transform72
+    400758: transform73
+    400760: transform74
+    400762: transform75
+    400764: transform76
+    400766: transform77
+    400768: transform78
+    400770: transform79
+    400772: transform8
+    400774: transform80
+    400776: transform81
+    400778: transform82
+    400780: transform83
+    400782: transform84
+    400784: transform85
+    400786: transform86
+    400788: transform87
+    400790: transform88
+    400792: transform89
+    400794: transform9
+    400796: transform90
+    400798: transform91
+    400800: transform92
+    400802: transform93
+    400804: transform94
+    400806: transform95
+    400808: transform96
+    400810: transform97
+    400812: transform98
+    400814: transform99
+    400816: WoodDagger
+    400818: Yellow
+    4300000: EvilSpitPlant_Mesh
+    7400000: Idle_fixed
+    9500000: //RootNode
+    13700000: EvilSpitPlant_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_fixed
+      takeName: Idle
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: directionalLight1
+        weight: 1
+      - path: directionalLight2
+        weight: 1
+      - path: DungeonMatWOod
+        weight: 1
+      - path: DungeonMatWOod/transform179
+        weight: 1
+      - path: EnergyMat
+        weight: 1
+      - path: EnergyMat/transform177
+        weight: 1
+      - path: EvilPlant
+        weight: 1
+      - path: EvilPlant/polySurface1
+        weight: 1
+      - path: EvilPlant/polySurface1/transform4
+        weight: 1
+      - path: EvilPlant/polySurface2
+        weight: 1
+      - path: EvilPlant/polySurface2/transform2
+        weight: 1
+      - path: EvilPlant/polySurface3
+        weight: 1
+      - path: EvilPlant/polySurface3/transform5
+        weight: 1
+      - path: EvilPlant/polySurface4
+        weight: 1
+      - path: EvilPlant/polySurface4/transform6
+        weight: 1
+      - path: EvilPlant/polySurface5
+        weight: 1
+      - path: EvilPlant/polySurface5/transform8
+        weight: 1
+      - path: EvilPlant/polySurface6
+        weight: 1
+      - path: EvilPlant/polySurface6/transform7
+        weight: 1
+      - path: EvilPlant/polySurface7
+        weight: 1
+      - path: EvilPlant/polySurface7/transform3
+        weight: 1
+      - path: EvilPlant/polySurface8
+        weight: 1
+      - path: EvilPlant/polySurface8/transform9
+        weight: 1
+      - path: EvilPlant/polySurface9
+        weight: 1
+      - path: EvilPlant/polySurface9/transform12
+        weight: 1
+      - path: EvilPlant/polySurface10
+        weight: 1
+      - path: EvilPlant/polySurface10/transform13
+        weight: 1
+      - path: EvilPlant/polySurface11
+        weight: 1
+      - path: EvilPlant/polySurface11/transform14
+        weight: 1
+      - path: EvilPlant/polySurface12
+        weight: 1
+      - path: EvilPlant/polySurface12/transform11
+        weight: 1
+      - path: EvilPlant/polySurface13
+        weight: 1
+      - path: EvilPlant/polySurface13/transform10
+        weight: 1
+      - path: EvilPlant/polySurface14
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface15
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface15/transform34
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface16
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface16/transform35
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface17
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface17/transform36
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface18
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface18/transform37
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface19
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface19/transform38
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface20
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface20/transform39
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface21
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface21/transform40
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface22
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface22/transform41
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface23
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface23/transform42
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface24
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface24/transform43
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface25
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface25/transform44
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface26
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface26/transform45
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface27
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface27/transform46
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface28
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface28/transform47
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface29
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface29/transform48
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface30
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface30/transform49
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface31
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface31/transform50
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface32
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface32/transform51
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface33
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface33/transform52
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface34
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface34/transform53
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface35
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface35/transform54
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface36
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface36/transform55
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface37
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface37/transform56
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface38
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface38/transform57
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface39
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface39/transform58
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface40
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface40/transform59
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface41
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface41/transform60
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface42
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface42/transform73
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface43
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface43/transform74
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface44
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface44/transform75
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface45
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface45/transform76
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface46
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface46/transform77
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface47
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface47/transform78
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface48
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface48/transform79
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface49
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface49/transform80
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface50
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface50/transform81
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface51
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface51/transform82
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface52
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface52/transform83
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface53
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface53/transform84
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface54
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface54/transform85
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface55
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface55/transform61
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface56
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface56/transform62
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface57
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface57/transform63
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface58
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface58/transform64
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface59
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface59/transform65
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface60
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface60/transform66
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface61
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface61/transform67
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface62
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface62/transform68
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface63
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface63/transform69
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface64
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface64/transform70
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface65
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface65/transform71
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface66
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface66/transform72
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface67
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface67/transform98
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface68
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface68/transform99
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface69
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface69/transform100
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface70
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface70/transform101
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface71
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface71/transform102
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface72
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface72/transform103
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface73
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface73/transform104
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface74
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface74/transform105
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface75
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface75/transform106
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface76
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface76/transform107
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface77
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface77/transform108
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface78
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface78/transform109
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface79
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface79/transform110
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface80
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface80/transform86
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface81
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface81/transform87
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface82
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface82/transform88
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface83
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface83/transform89
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface84
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface84/transform90
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface85
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface85/transform91
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface86
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface86/transform92
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface87
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface87/transform93
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface88
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface88/transform94
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface89
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface89/transform95
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface90
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface90/transform96
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface91
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface91/transform97
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface92
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface92/transform123
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface93
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface93/transform124
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface94
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface94/transform125
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface95
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface95/transform126
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface96
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface96/transform127
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface97
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface97/transform128
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface98
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface98/transform129
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface99
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface99/transform130
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface100
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface100/transform131
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface101
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface101/transform132
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface102
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface102/transform133
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface103
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface103/transform134
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface104
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface104/transform135
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface105
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface105/transform111
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface106
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface106/transform112
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface107
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface107/transform113
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface108
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface108/transform114
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface109
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface109/transform115
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface110
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface110/transform116
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface111
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface111/transform117
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface112
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface112/transform118
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface113
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface113/transform119
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface114
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface114/transform120
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface115
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface115/transform121
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface116
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface116/transform122
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface117
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface117/transform136
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface118
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface118/transform137
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface119
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface119/transform138
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface120
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface120/transform139
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface121
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface121/transform140
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface122
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface122/transform141
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface123
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface123/transform142
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface124
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface124/transform143
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface125
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface125/transform144
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface126
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface126/transform145
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface127
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface127/transform146
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface128
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface128/transform147
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface129
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface129/transform148
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface130
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface130/transform149
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface131
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface131/transform150
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface132
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface132/transform151
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface133
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface133/transform152
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface134
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface134/transform153
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface135
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface135/transform154
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface136
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface136/transform155
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface137
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface137/transform156
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface138
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface138/transform157
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface139
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface139/transform158
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface140
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface140/transform159
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface141
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface141/transform160
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface142
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface142/transform164
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface143
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface143/transform165
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface144
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface144/transform166
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface145
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface145/transform167
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface146
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface146/transform168
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface147
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface147/transform169
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface148
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface148/transform170
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface149
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface149/transform171
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface150
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface150/transform172
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface151
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface151/transform173
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface152
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface152/transform174
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface153
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface153/transform175
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface154
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface154/transform176
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface155
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface155/transform161
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface156
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface156/transform162
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface157
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface157/transform163
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface158
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface158/transform23
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface159
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface159/transform24
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface160
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface160/transform18
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface161
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface161/transform19
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface162
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface162/transform22
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface163
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface163/transform21
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface164
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface164/transform20
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface165
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface165/transform16
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface166
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface166/transform17
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface167
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface167/transform26
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface168
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface168/transform27
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface169
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface169/transform25
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface170
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface170/transform31
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface171
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface171/transform28
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface172
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface172/transform29
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface173
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface173/transform30
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface174
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface174/transform32
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface175
+        weight: 1
+      - path: EvilPlant/polySurface14/polySurface175/transform33
+        weight: 1
+      - path: EvilPlant/polySurface14/transform15
+        weight: 1
+      - path: EvilPlant/transform1
+        weight: 1
+      - path: EvilSpitPlant
+        weight: 1
+      - path: EvilSpitPlant/Body
+        weight: 1
+      - path: EvilSpitPlant_Base
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_backRight
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_backRight/transform181
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_frontRight
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_frontRight/transform182
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_midRight
+        weight: 1
+      - path: EvilSpitPlant_Base/Leaf_midRight/transform180
+        weight: 1
+      - path: EvilSpitPlant_Base/transform186
+        weight: 1
+      - path: EvilSpitPlant_Mesh
+        weight: 1
+      - path: Green
+        weight: 1
+      - path: Green/transform183
+        weight: 1
+      - path: Head_Controlss
+        weight: 1
+      - path: Head_Controlss/ikHandle6
+        weight: 1
+      - path: Leaf_BackLeft_IKHandle
+        weight: 1
+      - path: Leaf_BackRight_IKHandle
+        weight: 1
+      - path: Leaf_FrontLeft_IKHandle
+        weight: 1
+      - path: Leaf_FrontRight__IKHandle
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Leaf_back_left_start
+        weight: 1
+      - path: Root/Leaf_back_left_start/Leaf_back_left_mid
+        weight: 1
+      - path: Root/Leaf_back_right_start
+        weight: 1
+      - path: Root/Leaf_back_right_start/Leaf_back_right_mid
+        weight: 1
+      - path: Root/Leaf_back_right_start/Leaf_back_right_mid/Leaf_back_right_top_start
+        weight: 1
+      - path: Root/Leaf_back_right_start/Leaf_back_right_mid/Leaf_back_right_top_start/Leaf_back_right_top_end
+        weight: 1
+      - path: Root/Leaf_front_left_start
+        weight: 1
+      - path: Root/Leaf_front_left_start/Leaf_front_left_mid
+        weight: 1
+      - path: Root/Leaf_front_left_start/Leaf_front_left_mid/Leaf_front_left_top_start
+        weight: 1
+      - path: Root/Leaf_front_left_start/Leaf_front_left_mid/Leaf_front_left_top_start/Leaf_front_left_top_end
+        weight: 1
+      - path: Root/Leaf_front_right_start
+        weight: 1
+      - path: Root/Leaf_front_right_start/Leaf_front_right_mid
+        weight: 1
+      - path: Root/Leaf_front_right_start/Leaf_front_right_mid/Leaf_front_right_top_start
+        weight: 1
+      - path: Root/Leaf_front_right_start/Leaf_front_right_mid/Leaf_front_right_top_start/Leaf_front_right_top_end
+        weight: 1
+      - path: Root/Stem_start
+        weight: 1
+      - path: Root/Stem_start/Stem_lower
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Jaw_begin
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Jaw_begin/Jaw_end
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Petal_bottom_mid
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Petal_left_mid
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Petal_right_mid
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Petal_top_mid
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Top_face
+        weight: 1
+      - path: Root/Stem_start/Stem_lower/Stem_middle/Stem_top/Head/Top_face/Top_front
+        weight: 1
+      - path: WoodDagger
+        weight: 1
+      - path: WoodDagger/transform184
+        weight: 1
+      - path: Yellow
+        weight: 1
+      - path: Yellow/transform178
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

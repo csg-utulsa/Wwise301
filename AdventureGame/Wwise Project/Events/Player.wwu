@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Player" ID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Folder Name="General" ID="{37F93323-7FFC-445A-82E1-B1BD681D626F}" ShortID="582874008">
+					<ChildrenList>
+						<Event Name="Player_Death" ID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}">
+							<ChildrenList>
+								<Action Name="" ID="{A403DC78-AAFE-4765-A2C5-91E37A865418}" ShortID="20472335">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{BC66CAE6-0FF9-472B-94EA-D3CC8CE82DBB}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Health" ID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}">
+							<ChildrenList>
+								<Action Name="" ID="{7CA0E7DA-1ED3-40C4-BBBA-E05FFC78DF34}" ShortID="851673820">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HeartBeat" ID="{7F07BCDC-B794-4EDB-B756-8D84F08FEBCA}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_WeaponImpact" ID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}">
+							<ChildrenList>
+								<Action Name="" ID="{E0E13C45-4DA9-4A91-8FF1-DB0AA0B43A0C}" ShortID="308196963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impact_Weapon_Type" ID="{B31BECE7-EFA3-41BB-98AF-C6D8871C22B6}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_WeaponSwing" ID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}">
+							<ChildrenList>
+								<Action Name="" ID="{E1B2E86B-32F4-4DA3-8C5E-589664506F02}" ShortID="79415079">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Swing_Weapon_Type" ID="{32B411EB-AAC0-45B9-AAD2-A23B0006DDAE}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F4624D8E-988B-45EE-ADD4-58549315DD56}" ShortID="498103975">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Swing_Weapon_Dialogue" ID="{65D537DD-F07E-4BBB-84D7-AEEC07D8022E}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Hurt_Vox" ID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}">
+							<ChildrenList>
+								<Action Name="" ID="{F1ECCA94-C86C-48CD-8378-6E1B3594C129}" ShortID="91770512">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OnHit" ID="{64F80E28-BB13-4366-A842-BAF15DAD2F75}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4D60843A-45CC-4F5A-9948-E94D836B6886}" ShortID="901433174">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OnHit_Dialogue" ID="{8BF858F9-4438-4815-888F-6A7998581473}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pickup_Coins" ID="{1C8D40AF-CE04-489F-92DE-5DA195664503}">
+							<ChildrenList>
+								<Action Name="" ID="{CF873D05-220C-40BC-A94D-4C8C416280A3}" ShortID="690240077">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup_Coins" ID="{69B00EFA-8243-4648-A76C-EE349B2EAF8B}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}">
+							<ChildrenList>
+								<Action Name="" ID="{245C704B-37A4-44D0-BCB2-5B0C9E6DCD2C}" ShortID="874863862">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup_WeaponType" ID="{57B777DC-3538-4215-94BD-64BA1502998B}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}">
+							<ChildrenList>
+								<Action Name="" ID="{F96613E5-7F7B-4AFD-BE0F-69C084EF1BAD}" ShortID="407624794">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pickup_ItemType" ID="{F799B56F-CB88-41E8-9835-0600EF86133B}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SoundBankSpecific" ID="{7562AF83-31FF-4665-B59C-CF06B25FEC02}" ShortID="183261049">
+					<ChildrenList>
+						<Event Name="Player_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}">
+							<ChildrenList>
+								<Action Name="" ID="{6EA960E6-01C6-4EE7-BB9F-1680A4729726}" ShortID="274238770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{80A94060-52B5-4B3B-A85A-7E3152FC65F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+															<Property Name="Max" Type="Real64" Value="0.3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep_Surface" ID="{98D92B66-05D7-44EF-BA0E-4D3EEFF3902D}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

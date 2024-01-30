@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d049da85eb754b93985cd5f6f3b23, type: 3}
+  m_Name: A2BF9DB6-55A5-43E9-8371-16CE6195E3AD
+  m_EditorClassIdentifier: 
+  objectName: InMenu_LowPass
+  id: 1756231317
+  guid: A2BF9DB6-55A5-43E9-8371-16CE6195E3AD

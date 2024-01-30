@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013907991098}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013907991098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011449688512}
+  - component: {fileID: 33000012357619898}
+  - component: {fileID: 23000013081178494}
+  - component: {fileID: 65000011915272024}
+  - component: {fileID: 54000012768483604}
+  - component: {fileID: 114000011691452056}
+  - component: {fileID: 114103980643766168}
+  - component: {fileID: 208154716967285164}
+  m_Layer: 16
+  m_Name: Crate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011449688512
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_LocalRotation: {x: -0.08649861, y: 0.004987666, z: -0.08705033, w: 0.9924291}
+  m_LocalPosition: {x: -251.17, y: 59.002, z: -24.533}
+  m_LocalScale: {x: 0.8134582, y: 0.8134582, z: 0.8134582}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -9.780001, y: 1.409, z: -9.894}
+--- !u!23 &23000013081178494
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2f23f969f7e264bbda7b091347b1b52f, type: 2}
+  - {fileID: 2100000, guid: baec0176157824ac58e8c092755d002e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33000012357619898
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Mesh: {fileID: 4300000, guid: 4a036155776464238870a9c57be962dc, type: 2}
+--- !u!54 &54000012768483604
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  serializedVersion: 2
+  m_Mass: 200
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65000011915272024
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2166293, y: 2.0398743, z: 2.2166295}
+  m_Center: {x: 0.0000000014310203, y: 1.0190567, z: -0.000000007592564}
+--- !u!114 &114000011691452056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd7294e86b3b44ed8793a81959ef9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshFilter: {fileID: 33000012357619898}
+  HP: 50
+  knockbackStrength: 0.161
+  canBeDestroyedBy:
+  - WeaponType: 2
+    damageMultiplier: 1
+  - WeaponType: 3
+    damageMultiplier: 1
+  - WeaponType: 4
+    damageMultiplier: 0.2
+  - WeaponType: 5
+    damageMultiplier: 10
+  - WeaponType: 6
+    damageMultiplier: 2
+  intermediateMeshes:
+  - {fileID: 4300000, guid: baffd8af801d9448baa147c0284513b8, type: 2}
+  - {fileID: 4300000, guid: 7f4ef157b834841eba72e8132317dc87, type: 2}
+  destroyedParticles: {fileID: 1000010698149290, guid: a78df046d76074512ba1b341d49d1d85,
+    type: 2}
+  destroyParticlesAfterSeconds: 10
+  particleSpawnOffset: {x: 0, y: 1, z: 0}
+  spawnsItem: 1
+  itemToSpawn: {fileID: 1102781609485680, guid: 0ccdfd5bad55448d58f93bfa6839652f,
+    type: 2}
+  SpawnScale: 1
+  SpawnOffset: {x: 0, y: 1, z: 0}
+  ParentToThisParent: 0
+  enableItem: 0
+  itemToEnable: {fileID: 0}
+  Destruction:
+    idInternal: -40843281
+    valueGuidInternal: bc8c2bf5264aff448b0b1e5d8e73fa20
+    WwiseObjectReference: {fileID: 11400000, guid: 6b9b23e623586e84da95e7c9e73a6952,
+      type: 2}
+  DestructionLevel:
+    idInternal: -2145248604
+    valueGuidInternal: 355b64b033817e4187ac6d3b1d78bb99
+    WwiseObjectReference: {fileID: 11400000, guid: 2c2bec515554a5c49b2dba716eb96333,
+      type: 2}
+--- !u!114 &114103980643766168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d194b927782944d2ca81f0d00674450b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material:
+    idInternal: -1196528254
+    valueGuidInternal: a4a532f92ad8e3498cf870e8d2716b9e
+    groupIdInternal: -230521123
+    groupGuidInternal: c8ce850565410c458f907f1fc8884a30
+    WwiseObjectReference: {fileID: 11400000, guid: 88a88ce6b92a4264c84652b93f6d2225,
+      type: 2}
+--- !u!208 &208154716967285164
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013907991098}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.108, y: 1.0200001, z: 1.108}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.019, z: 0}
+  m_TimeToStationary: 0.5

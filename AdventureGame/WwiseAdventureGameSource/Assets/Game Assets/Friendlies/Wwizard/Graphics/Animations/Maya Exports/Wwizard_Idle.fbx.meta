@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 196a3844f75f5488e999823c25846dd9
+timeCreated: 1481724321
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_Left
+    100002: Arm_Right
+    100004: BeardTip
+    100006: Chest
+    100008: Eyebrow_Left
+    100010: Eyebrow_Right
+    100012: Hand_Left
+    100014: Hand_Right
+    100016: Hat
+    100018: Hat_End_AlmostEnd
+    100020: Hat_End_Beginning
+    100022: Hat_End_End
+    100024: Hat_End_Mid
+    100026: Hat_Mid
+    100028: HatTip
+    100030: Head
+    100032: joint3
+    100034: joint4
+    100036: LeftHand
+    100038: LowerBeard
+    100040: LowerBeard_AlmostEnd
+    100042: LowerBeard_Bottom
+    100044: LowerBeard_End
+    100046: Mustache
+    100048: polySurface1
+    100050: RightHand
+    100052: Root
+    100054: Shoulder_Left
+    100056: Shoulder_Right
+    100058: ShoulderTop_Left
+    100060: ShoulderTop_Right
+    100062: Stomach
+    100064: WAND
+    100066: //RootNode
+    400000: Arm_Left
+    400002: Arm_Right
+    400004: BeardTip
+    400006: Chest
+    400008: Eyebrow_Left
+    400010: Eyebrow_Right
+    400012: Hand_Left
+    400014: Hand_Right
+    400016: Hat
+    400018: Hat_End_AlmostEnd
+    400020: Hat_End_Beginning
+    400022: Hat_End_End
+    400024: Hat_End_Mid
+    400026: Hat_Mid
+    400028: HatTip
+    400030: Head
+    400032: joint3
+    400034: joint4
+    400036: LeftHand
+    400038: LowerBeard
+    400040: LowerBeard_AlmostEnd
+    400042: LowerBeard_Bottom
+    400044: LowerBeard_End
+    400046: Mustache
+    400048: polySurface1
+    400050: RightHand
+    400052: Root
+    400054: Shoulder_Left
+    400056: Shoulder_Right
+    400058: ShoulderTop_Left
+    400060: ShoulderTop_Right
+    400062: Stomach
+    400064: WAND
+    400066: //RootNode
+    2300000: WAND
+    3300000: WAND
+    4300000: polySurface1
+    4300002: WAND
+    7400000: Wwizard_Idle
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wwizard_Idle
+      takeName: Wwizard_Idle
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BeardTip
+        weight: 1
+      - path: HatTip
+        weight: 1
+      - path: LeftHand
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: RightHand
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Stomach
+        weight: 1
+      - path: Root/Stomach/Chest
+        weight: 1
+      - path: Root/Stomach/Chest/Head
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Eyebrow_Left
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Eyebrow_Right
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat/Hat_Mid
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat/Hat_Mid/Hat_End_Beginning
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat/Hat_Mid/Hat_End_Beginning/Hat_End_Mid
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat/Hat_Mid/Hat_End_Beginning/Hat_End_Mid/Hat_End_AlmostEnd
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Hat/Hat_Mid/Hat_End_Beginning/Hat_End_Mid/Hat_End_AlmostEnd/Hat_End_End
+        weight: 1
+      - path: Root/Stomach/Chest/Head/LowerBeard
+        weight: 1
+      - path: Root/Stomach/Chest/Head/LowerBeard/LowerBeard_Bottom
+        weight: 1
+      - path: Root/Stomach/Chest/Head/LowerBeard/LowerBeard_Bottom/LowerBeard_AlmostEnd
+        weight: 1
+      - path: Root/Stomach/Chest/Head/LowerBeard/LowerBeard_Bottom/LowerBeard_AlmostEnd/LowerBeard_End
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Mustache
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Mustache/joint3
+        weight: 1
+      - path: Root/Stomach/Chest/Head/Mustache/joint4
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Left
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Left/Shoulder_Left
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Left/Shoulder_Left/Arm_Left
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Left/Shoulder_Left/Arm_Left/Hand_Left
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Right
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Right/Shoulder_Right
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Right/Shoulder_Right/Arm_Right
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Right/Shoulder_Right/Arm_Right/Hand_Right
+        weight: 1
+      - path: Root/Stomach/Chest/ShoulderTop_Right/Shoulder_Right/Arm_Right/Hand_Right/WAND
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 75
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

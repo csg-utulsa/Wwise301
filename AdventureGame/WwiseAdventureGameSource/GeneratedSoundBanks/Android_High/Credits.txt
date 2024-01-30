@@ -1,0 +1,62 @@
+Event	ID	Name			Wwise Object Path	Notes
+	433441283	Music_Enemies			\Music\General\Music_Enemies	
+	1882971781	Music_Credits			\Music\SoundBankSpecific\Music_Credits	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3219147252	DayOrNight			\General\DayOrNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	1756231317	InMenu_LowPass			\Gameplay\InMenu_LowPass	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
+	3588190939	Music_EnemyTheme_Volume			\Gameplay\Music_EnemyTheme_Volume	
+	3717892141	CombatLevel			\Enemies\CombatLevel	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
+	1870078530	Adventuress_Death			\Default Work Unit\Adventuress_Death	
+	2029038382	Music_GetItem			\Default Work Unit\Music_GetItem	
+	3921957830	Music_EnemyTheme			\Default Work Unit\Music_EnemyTheme	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick		3045
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler		686
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Timpani_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani		608
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine		3043
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant		2560
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Trumpets_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets		612
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Forest_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix		14951
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Cymbal_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal		472
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead		2806
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\EvilHead_Tamburine_A8B0334E.wem	202341787.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick	
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem	248883937.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler	
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Timpani_A8B0334E.wem	355999611.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani	
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Tamburine_A8B0334E.wem	487608963.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine	
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem	547742854.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant	
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Trumpets_A8B0334E.wem	661714509.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets	
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Forest_Mix_A8B0334E.wem	715406799.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix	
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Cymbal_A8B0334E.wem	749927517.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal	
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem	1047176001.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead	
+

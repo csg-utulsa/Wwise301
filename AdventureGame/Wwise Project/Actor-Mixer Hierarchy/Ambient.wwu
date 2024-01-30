@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{780B3222-149B-4B11-A528-263DFDE531E0}" SchemaVersion="110" RootDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" ParentDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}">
+	<AudioObjects>
+		<WorkUnit Name="Ambient" ID="{780B3222-149B-4B11-A528-263DFDE531E0}" OwnerID="{5B876598-662C-45F5-B41E-3388DA54F2BE}" PersistMode="Nested">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Ambiences" ID="{F66D7E2D-46F0-4A12-89DA-1968A05CA587}" ShortID="831142563">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="OverrideConversion" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambience_Emitters_Large_5_50" ID="{B5ABA2BA-8AB4-48BA-9D54-19B9F0CA3208}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Ambient_General" ID="{25FBFFBC-B59A-4AF5-B85E-EF584BE8B7CA}" WorkUnitID="{FA9BF710-08A9-49D1-B809-553C31C179E2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambient" ID="{E70EE446-5A9F-4382-8B46-9AF3C72F9FC3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Ambiences_Background" ID="{560ECF91-5921-46AB-8E60-4A2FD3652076}" PersistMode="Reference"/>
+						<WorkUnit Name="Ambiences_Emitters" ID="{321260F5-F24C-4A74-891E-22D7C91AE38B}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

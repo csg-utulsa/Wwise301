@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5150FD4F-E7AC-4F59-9BF0-E07D1F06E174}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5150FD4F-E7AC-4F59-9BF0-E07D1F06E174}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{573ECD01-3914-4BC4-A0E1-B0B4131CD40E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Regions" ID="{1378381B-6304-43C8-A350-2C0C481351B1}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambient_Fire_Campfire" ID="{BC8AEB95-BCF4-4E93-BAC7-BF28B5BB8E29}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerEffect" ID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>1.41554095342698E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>122</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>66</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_WoodlandsHarp" ID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-32</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>4.70134228187919</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>52</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Dungeon" ID="{8186A530-D888-42FA-8452-29746B6BA40C}"/>
+						<CurrentStateRef Name="None" ID="{8D3672CD-22C0-43DC-9872-2C6C20070DE5}"/>
+						<CurrentStateRef Name="TopSwing" ID="{0AC84C13-51EB-4DD3-A1A6-E5DF8A234E32}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{DA022E47-ED1D-49CA-AC65-3259C3F1EDC9}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+						<CurrentSwitchRef Name="Day" ID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Character" ID="{AE6BB244-173F-458B-B306-5129BF070A18}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Player_Health" ID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_WeaponSwing" ID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_WeaponImpact" ID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Death" ID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>13</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>1.41554095342698E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>139</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>37</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>22</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Woodlands" ID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
+						<CurrentStateRef Name="TopSwing" ID="{0AC84C13-51EB-4DD3-A1A6-E5DF8A234E32}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}"/>
+						<CurrentSwitchRef Name="Agent" ID="{3A46708C-1DAC-479D-9BB4-C3DE1E9DC2C4}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+						<CurrentSwitchRef Name="Day" ID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ambiences" ID="{0E01CBD4-2706-4297-B042-2324CD845F85}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambient_River" ID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambient_WaterDrop" ID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambient_Campfire_Play" ID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Enemies_Layers" ID="{A0369445-7680-40E2-8659-5D9E24CBDA71}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambient_Lava" ID="{1FD14D4E-ADA6-45D5-80BC-0EECF0F71DD9}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambient_Waterfall" ID="{B0747836-9578-49F6-ADCB-20DAADE76160}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>139</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>49.7506234413965</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Village" ID="{48C53A1C-150C-4743-BDD7-ECE5D136BA9B}"/>
+						<CurrentStateRef Name="RightSwing" ID="{464B173E-5759-4426-8BEA-51D233FC13CD}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Barrel" ID="{8D50D6AE-C02E-4BBC-B9DD-C412749F83D3}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+						<CurrentSwitchRef Name="Day" ID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Creature" ID="{4780EBE6-AE02-49E6-882B-A57ECFE6E8BA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Player_WeaponImpact" ID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_WeaponSwing" ID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerEffect" ID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>12.9</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>1.41554095342698E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>8.57558139534883</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>139</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>37</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Dungeon" ID="{8186A530-D888-42FA-8452-29746B6BA40C}"/>
+						<CurrentStateRef Name="None" ID="{8D3672CD-22C0-43DC-9872-2C6C20070DE5}"/>
+						<CurrentStateRef Name="Enabled" ID="{ECB3C19F-12C4-4EFB-BE3F-32D4C730C0FA}"/>
+						<CurrentStateRef Name="None" ID="{312E6275-4411-4B3E-9E2D-C293EE082CBA}"/>
+						<CurrentStateRef Name="On" ID="{FEC8FAFA-1EEF-400B-904B-6C6818CA4DEF}"/>
+						<CurrentStateRef Name="None" ID="{4C1AAC45-479C-4380-9B60-5F9CE7C79F9A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Agent" ID="{3A46708C-1DAC-479D-9BB4-C3DE1E9DC2C4}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Walk" ID="{10F04FDD-B9C1-40C2-BDA7-A98FA264B5BC}"/>
+						<CurrentSwitchRef Name="Night" ID="{80F53326-DAA4-4AF9-85BB-41B1BC0BC790}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Lesson 4 - Bypassing Effects" ID="{A7ADD04F-EFDA-4004-8D08-D03E6A967D8F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambient_Region_Desert" ID="{6D832CD2-20B5-4E9E-B021-CC019E9CDCD3}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>12</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>139</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>11.4713216957606</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Village" ID="{48C53A1C-150C-4743-BDD7-ECE5D136BA9B}"/>
+						<CurrentStateRef Name="RightSwing" ID="{464B173E-5759-4426-8BEA-51D233FC13CD}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Agent" ID="{3A46708C-1DAC-479D-9BB4-C3DE1E9DC2C4}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+						<CurrentSwitchRef Name="Day" ID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{31BD1FEC-7649-4194-AF9F-0721090A6CF9}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicArcade" ID="{65FB29FC-0A1D-4091-9C76-9C4F4B2CBB3D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
+							<Value>15.3170731707317</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerEffect" ID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="InMenu_LowPass" ID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time_of_Day" ID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
+							<Value>23.7559322033898</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicStinger" ID="{B6EA4362-15D1-447B-88B5-C8487BF1ADC0}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_to_Camera" ID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
+							<Value>89.6045197740113</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Listener_Cone" ID="{DD2011F6-AC69-4516-B16A-686920DAC826}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Game_TimeSpeed" ID="{8EA8CCF1-6537-45BD-BCBB-09B0EAD1CC4D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MicrophoneLevel" ID="{77E18435-EC5B-48E3-9ACA-CFDE3A20F13D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Callback_Microphone" ID="{8F456BC2-8246-498F-B237-78E88CB75C2F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_WoodlandsHarp" ID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Master_Volume" ID="{A2C9CDF3-0957-4A4A-B327-CB3D2B99F39F}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{11F30665-75D7-4B00-8751-01114A8B8BF1}"/>
+							<Value>60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Magic_ChargeIntensity" ID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_EnemyTheme_Volume" ID="{99ABC01B-2115-4BC9-90E2-C8725F391A43}"/>
+							<Value>-60</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{D7C42FC7-158E-4C2A-A8E8-EA363F0BF799}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatLevel" ID="{2DD27F5A-CA67-4C7C-A1F3-DE7A2BEB7B99}"/>
+							<Value>3</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Enemy_EvilHead_MovementSpeed" ID="{F44D214D-C5A0-4E06-9496-0EE007D8E469}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Nowhere" ID="{C187B498-2976-48A0-9E54-3CE05A75173F}"/>
+						<CurrentStateRef Name="None" ID="{8D3672CD-22C0-43DC-9872-2C6C20070DE5}"/>
+						<CurrentStateRef Name="None" ID="{312E6275-4411-4B3E-9E2D-C293EE082CBA}"/>
+						<CurrentStateRef Name="None" ID="{4C1AAC45-479C-4380-9B60-5F9CE7C79F9A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}"/>
+						<CurrentSwitchRef Name="Crate" ID="{F932A5A4-D82A-49E3-8CF8-70E8D2716B9E}"/>
+						<CurrentSwitchRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}"/>
+						<CurrentSwitchRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}"/>
+						<CurrentSwitchRef Name="Close" ID="{382312C0-8B90-490D-8BE1-9090E0E01AC5}"/>
+						<CurrentSwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
+						<CurrentSwitchRef Name="Day" ID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 00f7eafbd15f5439abe93a096976d7fe
+timeCreated: 1512577502
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GameObjectToMove: {instanceID: 0}
+  - MovePosition: {instanceID: 0}
+  - TeleportParticles: {fileID: 1000012744069254, guid: ae05fed08787949eba948fd152b32a6e,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

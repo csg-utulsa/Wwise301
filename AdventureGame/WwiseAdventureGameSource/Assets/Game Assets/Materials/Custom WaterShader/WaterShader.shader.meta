@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 9288679bc9d0449f7b7f348ccacc6090
+timeCreated: 1505485832
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _FoamTex: {fileID: 2800000, guid: c318cd66b25df4d44b3747e9c8677f65, type: 3}
+  - _ScrollingTexture: {fileID: 2800000, guid: 22c4c7a14707b48758da4efe1766837c, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

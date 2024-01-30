@@ -1,0 +1,216 @@
+{
+    "files": [
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Source"
+                }
+            ],
+            "id": "WwiseAdventureGame.Source.tar.xz",
+            "licenses": [],
+            "name": "WwiseAdventureGame.Source.tar.xz",
+            "sha1": "e742f271a55742fa2be487d23bb24adf4a939b69",
+            "size": 610773276,
+            "sourceName": "WwiseAdventureGame.Source.tar.xz",
+            "uncompressedSize": 3582080512,
+            "url": "https://blob-api-builds.gowwise.com/WAG_8070.230/WwiseAdventureGame.Source.tar.xz?Expires=1706624135&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ibG9iLWFwaS1idWlsZHMuZ293d2lzZS5jb20vV0FHXzgwNzAuMjMwL1d3aXNlQWR2ZW50dXJlR2FtZS5Tb3VyY2UudGFyLnh6IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2NjI0MTM1fX19XX0_&Signature=yiEong~W73VYARvcLrq5D6ahThtRbGGLJBPjZsKItWu7ul2aud3PrCUqffK2Zk6KBhj~gV2dMBV-eR6hJeoipxpzFiV5sKzJ1JjNcnjAgcUYahkxHI86Udn6hogttqALw8xsFlya-ai5D~c5eGhGs1rGfa-aff40gPnMzhqTO7Um5W6~-NX4cBHmo-svHP34g-hXbohiElc2w5zzeVcu5X0PJ68dd4wK7kCncE4hb0Vi3pmpr5WvtY1l~OU6wF~GipUlqA876lhL5w3R3CoI6Y5B4fVy-PxhqNaSQUA~dpqpbXPB2eJTJfTnt0TPAiYCOWlIxV6FMjZsURdE6ZgNIQ__&Key-Pair-Id=K2C8231G2H0728"
+        },
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "WwiseProject"
+                }
+            ],
+            "id": "WwiseAdventureGame.WwiseProject.tar.xz",
+            "licenses": [],
+            "name": "WwiseAdventureGame.WwiseProject.tar.xz",
+            "sha1": "d41091b868d46da95e54e3bd5dc023bb9e7f7ce5",
+            "size": 640851128,
+            "sourceName": "WwiseAdventureGame.WwiseProject.tar.xz",
+            "uncompressedSize": 950365184,
+            "url": "https://blob-api-builds.gowwise.com/WAG_8070.230/WwiseAdventureGame.WwiseProject.tar.xz?Expires=1706624135&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ibG9iLWFwaS1idWlsZHMuZ293d2lzZS5jb20vV0FHXzgwNzAuMjMwL1d3aXNlQWR2ZW50dXJlR2FtZS5Xd2lzZVByb2plY3QudGFyLnh6IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2NjI0MTM1fX19XX0_&Signature=ZDYwQg9hKnRm56BcvShR03IVf5YsXZR~2mupmkck75ksIyCeREfDTozfXtGC3Mt15sUCYGFub1fo7Qt1eol3E1vifxsUVmGXDj5lXYOIPBLz0tRXyDnxVOmmkfV3uV1dU3VjYVF3Yh~udp6fmJuxq53UsDBI0h9fcKhfElA4WXkwB4oZtfu9RWgXlS33kmS6288g4YT5o4ilbAydUTxzuS7dt-bgaEMGuMiqei95vB654p8eYKmjwdwnTrJw4dadn53WMrBAQBHZDgocQqiahKFFOfh~3TLj9dvyhKw~i~eeYaxRCuDMOzsuT6-swq~6nsPymJRxoaF0QruCzf1P~w__&Key-Pair-Id=K2C8231G2H0728"
+        },
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Binary"
+                },
+                {
+                    "groupId": "OS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "id": "WwiseAdventureGame.Windows.tar.xz",
+            "licenses": [],
+            "name": "WwiseAdventureGame.Windows.tar.xz",
+            "sha1": "b0988e72bf9ea63ba92d7f7cea085652795ceb43",
+            "size": 72580812,
+            "sourceName": "WwiseAdventureGame.Windows.tar.xz",
+            "uncompressedSize": 263201792,
+            "url": "https://blob-api-builds.gowwise.com/WAG_8070.230/WwiseAdventureGame.Windows.tar.xz?Expires=1706624135&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ibG9iLWFwaS1idWlsZHMuZ293d2lzZS5jb20vV0FHXzgwNzAuMjMwL1d3aXNlQWR2ZW50dXJlR2FtZS5XaW5kb3dzLnRhci54eiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNjYyNDEzNX19fV19&Signature=sAKVOYkOR3-Zfdw68qDCfLLkxPrGXRI7XSuRFzhX4cKG6fzkwGeYLlbuhoU2g50oo-lOFKWaOPGsKe~yOWL35qvCJnK5k6RBKb8bpmB5qVQXsmKvPcLSk45-XCS3eNo2fFqW5uXS9pzuQMzIqfx9veFnC-UHXhCn5yh98Tnx1rheKyI39c8PrEPg8-we7bgfFrjnVfOtLJzt2fLJR7aFLcET8Gzlj~KaAXyqm29QzDO8tqzS~ACw5vh53hPKjgtxdlE9tM0tVO-wGHlwEHVnh~LmGNIlv0EQoz8beweJA3SIERV6lh~74L6bkTDDz-6aQDmDBHfGv1zalkNocxChMw__&Key-Pair-Id=K2C8231G2H0728"
+        },
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Binary"
+                },
+                {
+                    "groupId": "OS",
+                    "groupValueId": "macOS"
+                }
+            ],
+            "id": "WwiseAdventureGame.macOS.tar.xz",
+            "licenses": [],
+            "name": "WwiseAdventureGame.macOS.tar.xz",
+            "sha1": "ac9588f8d90b40bc762da839c4497bc5e762d488",
+            "size": 79579516,
+            "sourceName": "WwiseAdventureGame.macOS.tar.xz",
+            "uncompressedSize": 296286720,
+            "url": "https://blob-api-builds.gowwise.com/WAG_8070.230/WwiseAdventureGame.macOS.tar.xz?Expires=1706624135&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ibG9iLWFwaS1idWlsZHMuZ293d2lzZS5jb20vV0FHXzgwNzAuMjMwL1d3aXNlQWR2ZW50dXJlR2FtZS5tYWNPUy50YXIueHoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MDY2MjQxMzV9fX1dfQ__&Signature=HbK5Lb17ASQnTx1fwvixN8IPZjWO3CUMmGFds87bmQOaclq1id5OCe-JlSi-lsxich9EbJ3T3NBNDHJ-CXpqrzdh9L9B4~~e0v97MwEAlBQr3VIY6SECzS8~TwDRB0z~fYdv2wKn4Qj~gF78I9WonpiA~ywUu1y7gU3QhHPvviTggtCYLtqUQcDdSTQEH7b7SXh3k6jAxeCiWJE265uRHAn7DM0XgDCj44BOqggoT8QWfxlBU4QjKGalq5YPT54QttgXdTKg4gUNp5~MsEQ-EgfRU7vRoY67hDz2a0107yJXPrE-Nk3W0vwc6qw5DHm2d2DDRzGozMJH5Z5cYIZnFw__&Key-Pair-Id=K2C8231G2H0728"
+        },
+        {
+            "documentationFiles": [
+                {
+                    "displayName": "",
+                    "path": "\\Help\\WwiseAdventureGame_en.chm"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Help\\WwiseAdventureGame_ja.chm"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Help\\WwiseAdventureGame_ko.chm"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Help\\WwiseAdventureGame_zh.chm"
+                }
+            ],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "WwiseProject"
+                }
+            ],
+            "id": "WwiseAdventureGame.OfflineDocumentation.tar.xz",
+            "licenses": [],
+            "name": "WwiseAdventureGame.OfflineDocumentation.tar.xz",
+            "sha1": "f229ecb4acd65694724def5cf9b08da50976cf58",
+            "size": 2349636,
+            "sourceName": "WwiseAdventureGame.OfflineDocumentation.tar.xz",
+            "uncompressedSize": 2696704,
+            "url": "https://blob-api-builds.gowwise.com/WAG_8070.230/WwiseAdventureGame.OfflineDocumentation.tar.xz?Expires=1706624135&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9ibG9iLWFwaS1idWlsZHMuZ293d2lzZS5jb20vV0FHXzgwNzAuMjMwL1d3aXNlQWR2ZW50dXJlR2FtZS5PZmZsaW5lRG9jdW1lbnRhdGlvbi50YXIueHoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3MDY2MjQxMzV9fX1dfQ__&Signature=hvYdz0JsEXn34dS73wjWsXepkcaiSaphgVfE~Tzo457VM3me1HRxQKH5TvtvJ5xyxD78LwgCD4mBU70AFKSGsLbkk4cyhMb8Y62dz1THs3Mp1C2h1Y-sD1Y20bQcnylHG4eORnxsfBYdop5LG-1MftXL48eLJ-qRam-ivYLWszAv144qDGaFjhB3qefRmJONbyTp9vPGNpHF7~Q3qOJHjB52GFHNdWcFp02oB7A71u-THJbMZhWxum57cieQgBdBlJ43zo18McqXqhG-d1bEZujilpsj3ShAjn8SZbmIYwgEy9XhOj7aAj4rO9RRPHqp55hjh7syAaEnLunHfXmcUQ__&Key-Pair-Id=K2C8231G2H0728"
+        }
+    ],
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "The Wwise Authoring Project for the Wwise Adventure Game.",
+                    "displayName": "Wwise Project",
+                    "eulaIds": [
+                        "WAG"
+                    ],
+                    "id": "WwiseProject"
+                },
+                {
+                    "$checked": true,
+                    "$disabled": false,
+                    "$visible": true,
+                    "description": "The Wwise Adventure Game, including new Spatial Audio features! Ready to run on Windows and Mac. Note, this version should not be used for the Wwise-251 or Wwise-301 certifications.",
+                    "displayName": "Wwise Adventure Game",
+                    "eulaIds": [
+                        "WAG"
+                    ],
+                    "id": "Binary"
+                },
+                {
+                    "$checked": false,
+                    "$disabled": false,
+                    "$visible": true,
+                    "description": "The full Wwise Adventure Game source project developed with Unity 2020.3.40f1 running with Wwise 2022.1.0.",
+                    "displayName": "Unity source project",
+                    "eulaIds": [
+                        "WAG"
+                    ],
+                    "id": "Source"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "OS",
+            "id": "OS",
+            "values": [
+                {
+                    "$checked": true,
+                    "applicable": true,
+                    "displayName": "Windows",
+                    "eulaIds": [],
+                    "id": "Windows"
+                },
+                {
+                    "$checked": true,
+                    "applicable": false,
+                    "displayName": "macOS",
+                    "eulaIds": [],
+                    "id": "macOS"
+                }
+            ]
+        }
+    ],
+    "eulas": [
+        {
+            "displayContent": "WWISE ADVENTURE GAME™ END USER LICENSE AGREEMENT\n\nREAD CAREFULLY: AUDIOKINETIC INC. (“AUDIOKINETIC”) LICENSES THE WWISE ADVENTURE GAME™ (the “WWISE ADVENTURE GAME”) ONLY ON THE CONDITION THAT LICENSEE ACCEPTS ALL OF THE TERMS AND CONDITIONS BELOW.  THESE ADDITIONAL TERMS AND CONDITIONS GOVERN YOUR USE OF THE WWISE ADVENTURE GAME. THEY ARE IN ADDITION TO THE LICENSE TERMS AND CONDITIONS WHICH LICENSEE MAY ENTERED INTO FOR THE USE OF THE AUDIOKINETIC WWISE TECHNOLOGY (EITHER THROUGH A MASTER LICENSE AGREEMENT OR A LICENSE AGREEMENT)(AS APPLICABLE, THE “LICENSE AGREEMENT”), AS APPLICABLE. IN THE EVENT OF ANY CONFLICT BETWEEN THE TERMS OF THE LICENSE AGREEMENT AND THESE ADDITIONAL TERMS AND CONDITIONS, THESE ADDITIONAL TERMS AND CONDITIONS SHALL PREVAIL.\n\nBy selecting the “I accept” button or other button or mechanism designed to acknowledge agreement to these additional terms and conditions, or by installing, downloading, accessing, or otherwise using all or any portion of the Wwise Adventure Game, (i) you accept these terms and conditions on behalf of the entity for which you are authorized to act (e.g., an employer) and acknowledge that such entity is legally bound by these terms and conditions (and you agree to act in a manner consistent with these terms and conditions) or, if there is no such entity for which you are authorized to act, you accept these terms and conditions on behalf of yourself as an individual and acknowledge that you are legally bound by these terms and conditions, and (ii) you represent and warrant that you have the right, power and authority to act on behalf of and bind such entity (if any) or yourself. You may not accept these terms and conditions on behalf of another entity unless you are an employee or other agent of such other entity with the right, power and authority to act on behalf of such other entity.\nIf Licensee is unwilling to accept these terms and conditions, or you do not have the right, power and authority to act on behalf of and bind such entity or yourself as an individual (if there is no such entity), DO NOT SELECT THE “I ACCEPT” BUTTON OR OTHERWISE CLICK ON ANY BUTTON OR OTHER MECHANISM DESIGNED TO ACKNOWLEDGE AGREEMENT, AND DO NOT INSTALL, DOWNLOAD, ACCESS, OR OTHERWISE USE ALL OR ANY PORTION OF THE WWISE ADVENTURE GAME.\n\n1.\tDEFINITIONS.\n All capitalized terms used herein which are not defined shall have the meaning given to them in the relevant License Agreement, as applicable.\n“Use” or “Using” means to access and modify the Wwise Adventure Game as permitted hereunder.\n“Wwise Adventure Game” means the sample game developed by AUDIOKINETIC and underlying code provided to Licensee to allow Licensee to familiarize itself with and learn to use the AUDIOKINETIC Wwise Technology.\n\n2.\tGRANT OF LICENSE.\n\n2.1\tPursuant to these terms and conditions, AUDIOKINETIC grants Licensee a non-exclusive, non-sublicensable and non-transferable license to Use the Wwise Adventure Game.  Subject to the restrictions contained herein, Licensee may re-write the source code for the Wwise Adventure Game, and modify and recompile same in its sole discretion, either to modify the Wwise Adventure Game or create a new game (all derivative works created by Licensee from the Wwise Adventure Game are referred to as “Derivative Works”). Derivative Works may not be displayed, communicated to the public, resold or redistributed otherwise than as provided hereunder. You may make your Derivative Work available online for non-commercial and demonstration purposes only but cannot otherwise publish same nor make it available for download.\n\n2.2\tLicensee may not:\n(a)\tuse or copy the assets forming part of the Wwise Adventure Game otherwise than as provided in Section 2.1;\n(b)\tcopy or transfer copies of the assets forming part of the Wwise Adventure Game;\n(c)\tmake any public demonstration of any of your Derivative Works otherwise than as provided in Section 2.1;\n(d)\tremove any proprietary notices or third party credits from the Wwise Adventure Game;\n(e)\tredistribute, sell, duplicate, rent, lease, sublicense or assign the Wwise Adventure Game, any Derivative Work or any element or copy thereof;\nor\n(f)\tclaim any trademark rights in the Wwise Adventure Game.\n\n2.3\tThe rights granted hereunder will terminate upon written notice from AUDIOKINETIC if Licensee fails to comply with these terms and conditions. In the event the license hereunder is terminated for any reason, you must immediately stop using the Wwise Adventure Game and any Derivative Works. AUDIOKINETIC may decide in its sole discretion to cease making the Wwise Adventure Game available at any time without recourse from Licensee.\n\n3.\tOWNERSHIP.  The Wwise Adventure Game is protected by copyright laws and international copyright treaties, as well as other intellectual property rights laws and treaties. The Wwise Adventure Game is licensed under these terms and conditions, not sold. AUDIOKINETIC owns all intellectual property in the Wwise Adventure Game.\n\n4.\tWARRANTY; AS IS, WHERE IS.  THE WWISE ADVENTURE GAME IS PROVIDED “AS IS” AND “WHERE IS” BY AUDIOKINETIC AND IS ACCEPTED AS SUCH BY LICENSEE, (B) AUDIOKINETIC AND ITS LICENSORS DISCLAIM ALL EXPRESS AND IMPLIED WARRANTIES RELATING TO THE WWISE ADVENTURE GAME AND DOCUMENTATION, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE AND NON-INFRINGEMENT.  AUDIOKINETIC DOES NOT WARRANT THAT THE WWISE ADVENTURE GAME WILL MEET LICENSEE’S REQUIREMENTS, OR THAT THE ASSOCIATED DOCUMENTATION WILL BE ERROR FREE.  LICENSEE AGREES THAT AUDIOKINETIC WILL NOT BE LIABLE FOR ANY DAMAGES THAT LICENSEE MAY INCUR ARISING OUT OF THE USE OR INABILITY TO USE THE WWISE ADVENTURE GAME.\n\n5.\tLIMITATION OF LIABILITY. EXCEPT IN RELATION TO BREACHES OF AUDIOKINETIC’S INTELLECTUAL PROPERTY RIGHTS, IN NO EVENT SHALL AUDIOKINETIC BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE, RELIANCE OR CONSEQUENTIAL DAMAGES, WHETHER FORESEEABLE OR NOT, INCLUDING, BUT NOT LIMITED TO, DAMAGE OR LOSS OF PROPERTY, EQUIPMENT, INFORMATION OR DATA, LOSS OF PROFITS, REVENUE OR GOODWILL OR COST OF REPLACEMENT SERVICES OCCASIONED BY ANY DEFECT IN THE WWISE  ADVENTURE GAME, OR ANY OTHER CAUSE WHATSOEVER WITH RESPECT TO THE WWISE ADVENTURE GAME OR THESE TERMS AND CONDITIONS, REGARDLESS OF THEORY OF LIABILITY.  THIS LIMITATION WILL APPLY EVEN IF AUDIOKINETIC HAS BEEN ADVISED OR IS AWARE OF THE POSSIBILITY OF SUCH DAMAGES.  IN NO EVENT SHALL AUDIOKINETIC’S LIABILITY FOR ANY CLAIM ARISING OUT OF THESE TERMS AND CONDITIONS EXCEED THE AMOUNT OF $100.\n\n6.\tGOVERNING LAW.  This Agreement shall not be modified or amended except in writing signed by both parties.  This Agreement will be governed by and construed under the laws of the province of Quebec and the laws of Canada applicable therein and the parties hereto submit to the exclusive jurisdiction of the courts of Province of Quebec, District of Montreal.",
+            "displayName": "Wwise Adventure Game",
+            "id": "WAG"
+        }
+    ],
+    "id": "wag.v2022.1.230",
+    "labels": [
+        {
+            "class": "info",
+            "displayName": "Unity 2020.3.40f1"
+        },
+        {
+            "class": "danger",
+            "displayName": "NOT FOR CERTIFICATION"
+        }
+    ],
+    "name": "Wwise Adventure Game",
+    "productDependentData": {
+        "targetWwiseVersion": {
+            "major": 1,
+            "year": 2022
+        },
+        "wwiseSdkBuild": 8070
+    },
+    "tag": "wag",
+    "type": "sample",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 230,
+        "major": 1,
+        "minor": 0,
+        "year": 2022
+    },
+    "$sortGroupIndex": 3,
+    "links": [],
+    "displayName": "Wwise Adventure Game 2022.1.0.230",
+    "children": []
+}

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Ambient" ID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Folder Name="SoundBankSpecific" ID="{33B6BEB6-4ACE-44AE-8115-E32350E530D2}" ShortID="959705002">
+					<ChildrenList>
+						<Event Name="Ambient_River" ID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}">
+							<ChildrenList>
+								<Action Name="" ID="{4A1D9FB0-5DF7-4A22-9D8F-1AF71F023345}" ShortID="944286662">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_River" ID="{42B20E05-96B9-4733-812D-AC61D9B056C5}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Waterfall" ID="{B0747836-9578-49F6-ADCB-20DAADE76160}">
+							<ChildrenList>
+								<Action Name="" ID="{0CADA6FE-5FFA-48EE-B8C8-A6BC1AB68489}" ShortID="83241444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_Waterfall" ID="{5B09A965-1A3D-483D-B2F0-C4DD74C1418C}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_WaterDrop" ID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}">
+							<ChildrenList>
+								<Action Name="" ID="{F07BCA23-CE91-4EF5-8153-4ACE8457B87F}" ShortID="987531667">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Water_Waterdrops" ID="{C8C3EBEE-7546-49BF-BF3A-8136018B8A5B}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Windmill" ID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}">
+							<ChildrenList>
+								<Action Name="" ID="{2A058ABE-BFBA-4833-A145-3A2BC1AEC4AC}" ShortID="673525814">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Windmill" ID="{2D116CAB-645B-43E6-A16E-EE81503C4AA4}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Woodlands" ID="{CF6209A5-C98B-4649-ADA7-D6795F1369CA}">
+							<ChildrenList>
+								<Action Name="" ID="{0FBECF37-8FDB-4D6F-B786-DA12D34C6090}" ShortID="345169471">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Woodlands" ID="{494F85E8-0DF0-40DD-B28D-C90A4224E459}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_PineForest" ID="{9887199A-C53A-4F4B-B207-CACADB99D4EC}">
+							<ChildrenList>
+								<Action Name="" ID="{24E07FA2-ED6D-4CC5-8840-02D163B3CD77}" ShortID="693808791">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_PineForest" ID="{7570C208-3336-4F52-AB16-4CA29F037A25}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Desert" ID="{6D521A86-5974-488D-BA01-9D605693B6CA}">
+							<ChildrenList>
+								<Action Name="" ID="{6D054EF9-723D-48D7-992B-97580A789783}" ShortID="147645862">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Desert" ID="{6D832CD2-20B5-4E9E-B021-CC019E9CDCD3}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Dungeon" ID="{0DA0B07A-4FFA-4946-8E31-D92FE4963F4C}">
+							<ChildrenList>
+								<Action Name="" ID="{0E75B543-28D8-4965-BBD8-B1C65ABD690B}" ShortID="196666549">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Dungeon" ID="{A15AC6D6-36D5-432F-B8DC-890CA72A474E}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Village" ID="{F45A0843-3F9D-4976-B1B2-32097119D30C}">
+							<ChildrenList>
+								<Action Name="" ID="{D40A5393-6ED7-401F-A2F4-E1764201AD23}" ShortID="172155598">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Village" ID="{C52EF234-0B29-44BC-926B-EECF2CBF41C1}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Region_Cave" ID="{C54FB893-8B84-4A04-AE12-7512C79000CF}">
+							<ChildrenList>
+								<Action Name="" ID="{98653C86-35CE-4186-95FD-FA85BAA5A430}" ShortID="965455105">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Region_Cave" ID="{B195D0DF-51D7-443B-9BFB-199F471E3080}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Dungeon" ID="{369F6053-4BDC-4E2D-966C-7F252315F15A}" ShortID="843539911">
+							<ChildrenList>
+								<Folder Name="Core" ID="{C1D6963E-16D2-421D-AAAD-47494B974E9F}" ShortID="1055573633">
+									<ChildrenList>
+										<Event Name="Ambient_Core_HorribleSound" ID="{E93CE2A7-7805-450B-803E-E08AFF6B267A}">
+											<ChildrenList>
+												<Action Name="" ID="{A80D13F8-60AD-4784-BA28-E168B7E7301D}" ShortID="109448426">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Core_HorribleSound" ID="{5DF47B5B-2D46-413F-A58A-79F62788630C}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_Shield_1" ID="{D80ADA5C-F0DC-4351-9196-AD6310F57EEA}">
+											<ChildrenList>
+												<Action Name="" ID="{6858D1BD-0755-48C5-86C7-87A53BACC13B}" ShortID="494355603">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ambient_Core_Shield_Outer" ID="{90C09E48-6C47-4690-B923-3762EE934C38}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_Shield_2" ID="{99797E60-30E9-40AA-B3C3-7F797297FBA1}">
+											<ChildrenList>
+												<Action Name="" ID="{5D48BA26-2B0B-4981-B2A9-1A5443E39A21}" ShortID="634052586">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ambient_Core_Shield_Middle" ID="{FEFE77B6-99F0-45B9-A5CA-5D37E51FCEF7}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_Shield_3" ID="{728C213E-4C7B-464B-AD2A-012B761EF1BE}">
+											<ChildrenList>
+												<Action Name="" ID="{1615C936-FE35-4B90-B80C-FE75ACEC1A3B}" ShortID="830407967">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Amb_Shield_Core_Center" ID="{6557C58E-ED45-4667-981B-23A2B669B29C}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_FinalReveal" ID="{371AE6AB-C596-4F3C-8C7C-774491766239}">
+											<ChildrenList>
+												<Action Name="" ID="{B8CD73BC-0890-43C6-9FFB-8AC02396F51A}" ShortID="1069411533">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Creature_FinalReveal" ID="{648BBC85-B061-4F6D-B544-6C5490CB6035}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{AD03CF8E-BF1A-40D6-8489-D4E520669F2E}" ShortID="417503294">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+														<Property Name="Delay" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Creature_Earthquake_Loop" ID="{2B729C87-07F6-4B63-B20F-BBD50089064E}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{3F6765CE-AF30-45BF-B36E-760D463DB6F8}" ShortID="183786764">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+														<Property Name="Delay" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Creature_Wind_Loop" ID="{DE4FC6A2-B73F-4C86-BEFD-846E79C514D8}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_Shield_Destroyed" ID="{E9AB26B5-CF96-456A-9177-01FEF863BD7F}">
+											<ChildrenList>
+												<Action Name="" ID="{076E7331-7043-40BC-A92F-9BC0B5396C46}" ShortID="787149648">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ambient_Core_Shield_Destroyed" ID="{BDE78E2F-2359-4699-9051-EBA29B41012C}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Ambient_Core_Shield_Alive" ID="{413C2693-74F1-4A1F-8C23-7405F80007C0}">
+											<ChildrenList>
+												<Action Name="" ID="{AF271318-7150-4034-8ECD-9010FDF8B64C}" ShortID="682010270">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Ambient_Core_Shield_Alive" ID="{7C6D1781-28E5-4B71-8E05-853FD10DAEA0}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Ambient_Lava" ID="{1FD14D4E-ADA6-45D5-80BC-0EECF0F71DD9}">
+									<ChildrenList>
+										<Action Name="" ID="{97FE1B84-A589-4345-AD50-9AE75D6AC723}" ShortID="743113301">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambient_Lava" ID="{D8C9FBB3-3535-4064-9EA7-5264BD9F8EA2}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Ambient_WoodlandsElements" ID="{49C24F98-20B6-4CEF-BBDA-28B71C65C74C}">
+							<ChildrenList>
+								<Action Name="" ID="{CDD1F993-8591-45E7-AA4D-E30036CACE1D}" ShortID="389778068">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elements_DayAndNight" ID="{9B2E5B17-3684-407D-A11C-C3399DA6F1E9}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Torch" ID="{19917800-6812-4744-9B26-A3519A86EFA5}">
+							<ChildrenList>
+								<Action Name="" ID="{111C402F-FFA3-4E1D-86F1-570BE71E1481}" ShortID="795305468">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Torch" ID="{E4EFDB48-EBB8-43F5-A556-9D17FC16F36A}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General" ID="{60DE526C-B04F-4530-A3CB-2533EAB43B22}" ShortID="894234581">
+					<ChildrenList>
+						<Event Name="Ambient_Campfire_Play" ID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}">
+							<ChildrenList>
+								<Action Name="" ID="{73D21DA3-AB8E-4FB1-B9C0-59C49FD0514B}" ShortID="492980211">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Campfire" ID="{BC8AEB95-BCF4-4E93-BAC7-BF28B5BB8E29}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Campfire_Stop" ID="{45C3257D-2EAB-49B6-B593-1A3290D7C5A0}">
+							<ChildrenList>
+								<Action Name="" ID="{E4F4534F-D95A-4DEB-A78B-BC54B69E4D4C}" ShortID="94423456">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Fire_Campfire" ID="{BC8AEB95-BCF4-4E93-BAC7-BF28B5BB8E29}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Crystal_Hum" ID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}">
+							<ChildrenList>
+								<Action Name="" ID="{3D90B8A6-18B9-4014-8AC4-AD941D817BD4}" ShortID="5234007">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Crystal_Ringing" ID="{37AAFE7D-2034-4E27-B369-E12E6FBC779B}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="DLC" ID="{86242522-771C-4951-B05C-354AEA9C63AF}" ShortID="834453159">
+					<ChildrenList>
+						<Event Name="DLC_Cannon_Shot" ID="{2566E600-7C95-4E66-800B-FE7CA2C3741F}">
+							<ChildrenList>
+								<Action Name="" ID="{AD30F4D0-8869-4589-9E4E-DED1C7E376F9}" ShortID="571313741">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cannon_Shot" ID="{7ABD7425-930C-4650-9D10-616768CDAF55}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DLC_Button" ID="{3E84C696-077B-4FD3-8892-158C9DF3A153}">
+							<ChildrenList>
+								<Action Name="" ID="{31834229-512E-4145-8FA6-F8609992437E}" ShortID="226737210">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WAG_Button" ID="{41CDCA44-CF70-4784-83F1-945DA37F37CA}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DLC_Ambient_Heaven" ID="{DA561C5D-7659-42C9-BDA4-8B3D97227854}">
+							<ChildrenList>
+								<Action Name="" ID="{ADDFFC0B-0BBB-4884-A9FD-EE6317982B3C}" ShortID="515037637">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DLC_AMB_Heaven" ID="{8ABEE8EC-F598-4307-BE10-C8D384ADAD44}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

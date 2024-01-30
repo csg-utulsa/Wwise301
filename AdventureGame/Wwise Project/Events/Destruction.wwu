@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC6B4AD5-92FD-4D35-BF2B-DF9C9EB6313E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{BC6B4AD5-92FD-4D35-BF2B-DF9C9EB6313E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{992CD7AB-2204-4285-9BA8-19D74E54701D}" ShortID="80544968">
+					<ChildrenList>
+						<Event Name="Destruction_Container" ID="{F52B8CBC-4A26-44FF-8B0B-1E5D8E73FA20}">
+							<ChildrenList>
+								<Action Name="" ID="{A1FE34D9-ABD5-44A0-809B-FECD41BFE5EC}" ShortID="209061017">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Container" ID="{4F7EB3FB-03D8-42F3-9A83-B3A3F67DE4DF}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="RegionSpecific" ID="{4394698E-CFA3-4682-A931-39CF28E5A671}" ShortID="818063210">
+					<ChildrenList>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{42EA45FE-B6AA-42DF-A7D6-D904F1D60431}">
+							<ChildrenList>
+								<Action Name="" ID="{A34857E7-43C9-4576-8F09-B60315EE170D}" ShortID="858083334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_VolcanicBoulder" ID="{36233D86-ED4D-45B7-83CD-59118E397157}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Crystal_Destroy" ID="{D0403EDA-8F7F-4CFA-A39A-04EB7C726517}">
+							<ChildrenList>
+								<Action Name="" ID="{1D17F863-E9F2-41F7-B594-5BBA9E7E423C}" ShortID="168634484">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Crystals" ID="{E9938490-B608-4DBB-8E85-6622F6F5CC1F}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Rock_Destroy" ID="{2DE6AABD-0288-445F-A9B7-67E4BF11C653}">
+							<ChildrenList>
+								<Action Name="" ID="{2210BEC4-C331-45FF-A0F4-8417E5B67E2F}" ShortID="305456840">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Rock" ID="{6EEEBF01-8A2A-462D-B9CC-737EB10557B4}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Core_Explosion" ID="{D7C01EED-F0BC-4672-A90A-BB4959573ED7}">
+							<ChildrenList>
+								<Action Name="" ID="{BDDF9342-D467-4FFB-9CB2-9E0B3918EFB4}" ShortID="33841143">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Core_Explosion" ID="{830147B2-02A2-4530-BF30-BC8780BA60A0}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5B879C46-60E2-4016-A435-E24424474E16}" ShortID="489612850">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Core_Shield_Impact_Hammer" ID="{021D7CE2-8B3D-413F-B5A7-4FA850366FC8}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{80DD2459-F646-49A6-A753-2048B9E3BD51}" ShortID="673758948">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Core_Shield_Destroyed" ID="{BDE78E2F-2359-4699-9051-EBA29B41012C}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Core_ShieldBreak" ID="{9B32D667-4AF8-4699-858D-9FCBFB7A4493}">
+							<ChildrenList>
+								<Action Name="" ID="{6EC1F3C2-DE64-49D7-BFB9-5954DA5EF067}" ShortID="715109458">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Destruction_Core_ShieldBreak" ID="{7E8AFCBF-3EFA-4548-933D-AF8AF69C6904}" WorkUnitID="{F915F10F-FFF9-40D9-8FA4-4990AD58D98A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

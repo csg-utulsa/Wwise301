@@ -1,0 +1,66 @@
+Event	ID	Name			Wwise Object Path	Notes
+	135068334	Blacksmith_DialogueLine_Q4b_01			\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01	
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3210335081	Wwizard_DialogueLine_Q4a_01			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01	
+	3210335082	Wwizard_DialogueLine_Q4a_02			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02	
+	3210335083	Wwizard_DialogueLine_Q4a_03			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03	
+	3210335084	Wwizard_DialogueLine_Q4a_04			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04	
+	3210335085	Wwizard_DialogueLine_Q4a_05			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05	
+	3210335086	Wwizard_DialogueLine_Q4a_06			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4257092447	VoiceAttenuation			\Default Work Unit\VoiceAttenuation	
+
+State	ID	Name	State Group			Notes
+	748895195	None	VoiceAttenuation			
+	930712164	Off	VoiceAttenuation			
+	1651971902	On	VoiceAttenuation			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	965529497	On	VoiceAttenuation	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers		
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	185131821	Modulator LFO (Custom)				
+
+Metadata plug-ins	ID	Name	Type				Notes
+	1309482125	Same_As_PassthroughMix	Wwise System Output Settings			
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	188686969	Pickup_PineCone	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_PineCone_01_7C4108EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_PineCone		27246
+	270916331	Pickup_Key	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_Key_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Key		57150
+	737856040	Pickup_Mushroom	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_Mushroom_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Mushroom		21568
+	754818586	Pickup_WeaponType_Pickaxe	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Pickaxe_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Pickaxe		61570
+	767754403	Pickup_CrystalShard	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_Generic_05_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_CrystalShard		50288
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	177080104	Wwizard_DialogueLine_Q4a_03	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_A2EB1042.wem	177080104.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_03	
+	239106325	Wwizard_DialogueLine_Q4a_01	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_1_3D20DCCD.wem	239106325.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_01	
+	312874557	Blacksmith_DialogueLine_Q4b_01	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem	312874557.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_DialogueLine_Q4b_01	
+	405742020	Wwizard_DialogueLine_Q4a_05	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_E3BCC16E.wem	405742020.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_05	
+	424173504	Wwizard_DialogueLine_Q4a_02	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_1_BE1DD286.wem	424173504.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_02	
+	503906180	Wwizard_DialogueLine_Q4a_04	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_2_1A2BBBB3.wem	503906180.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_04	
+	778893805	Wwizard_DialogueLine_Q4a_06	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\Voices\English(US)\Wwizard_VoiceLine_Q4a_3_D099AD66.wem	778893805.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q4a_06	
+

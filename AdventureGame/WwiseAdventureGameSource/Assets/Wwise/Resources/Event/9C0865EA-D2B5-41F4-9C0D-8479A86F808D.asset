@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59466a3c65b304243aadc0c92a6e7458, type: 3}
+  m_Name: 9C0865EA-D2B5-41F4-9C0D-8479A86F808D
+  m_EditorClassIdentifier: 
+  objectName: Object_ActivateKey_Failed
+  id: 630311347
+  guid: 9C0865EA-D2B5-41F4-9C0D-8479A86F808D

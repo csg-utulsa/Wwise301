@@ -1,0 +1,15 @@
+{
+    "name": "AK.WAG.Utility",
+    "references": [
+        "AK.Wwise.Unity.API",
+        "AK.Wwise.Unity.MonoBehaviour"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

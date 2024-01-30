@@ -1,0 +1,436 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3990952	Enemy_EvilCrawler_Hurt			\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt	
+	15662850	UI_Button_Up			\UI\Generic\UI_Button_Up	
+	18309885	UI_Button_Enter			\UI\Generic\UI_Button_Enter	
+	100151336	Ambient_Campfire_Stop			\Ambient\General\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
+	156563189	UI_Button_Down			\UI\Generic\UI_Button_Down	
+	215992295	Player_Health			\Player\General\Player_Health	
+	433441283	Music_Enemies			\Music\General\Music_Enemies	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	504652456	Enemy_EvilSpitPlant_Charge			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Charge	
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	746676127	Music_ArcadeMachine_Stop			\Music\SoundBankSpecific\Music_ArcadeMachine_Stop	
+	750089663	UI_Menu_Teleport			\UI\Menu\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
+	812304580	Enemy_EvilSpitPlant_ShootLoop_Play			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Play	
+	844130829	Quest_CompleteCollection			\Quest\Quest_CompleteCollection	
+	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
+	1035173718	NPC_Wwizard_IdleGimmick_Poof			\Magic\General\NPC_Wwizard_IdleGimmick_Poof	
+	1042419433	Enemy_EvilSpitPlant_ShootBullet			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootBullet	
+	1070022042	Enemy_EvilHead_Movement			\Enemies\EvilHead\Enemy_EvilHead_Movement	
+	1258303199	Enemy_EvilCrawler_Death			\Enemies\EvilCrawler\Enemy_EvilCrawler_Death	
+	1293226255	Enemy_EvilSpitPlant_Hurt			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Hurt	
+	1464993479	UI_Menu_Resume			\UI\Menu\UI_Menu_Resume	
+	1499896846	Pickup_Coins			\Player\General\Pickup_Coins	
+	1661129442	Ambient_WoodlandsElements			\Ambient\SoundBankSpecific\Ambient_WoodlandsElements	
+	1702412353	Enemy_EVilSpitPlant_Bullet_Impact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact	
+	1795559212	Object_Coin_Drop			\Objects\SoundBankSpecific\Object_Coin_Drop	
+	1880981927	Enemy_EvilHead_SpawnerDestroy			\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy	
+	2135810184	Enemy_EvilCrawler_Movement			\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2283357753	Enemy_EvilHead_Death			\Enemies\EvilHead\Enemy_EvilHead_Death	
+	2325560497	UI_Button_Exit			\UI\Generic\UI_Button_Exit	
+	2340191741	Enemy_EvilHead_Charge			\Enemies\EvilHead\Enemy_EvilHead_Charge	
+	2355650095	Ambient_Crystal_Hum			\Ambient\General\Ambient_Crystal_Hum	
+	2391108228	NPC_Wwizard_Poof			\Magic\General\NPC_Wwizard_Poof	
+	2409105241	Music_ArcadeMachine_Play			\Music\SoundBankSpecific\Music_ArcadeMachine_Play	
+	2453392179	Player_Footstep			\Player\SoundBankSpecific\Player_Footstep	
+	2681420560	Stinger_GetWeapon			\Music\General\Stinger_GetWeapon	
+	2758258135	Enemy_EvilHead_Bite			\Enemies\EvilHead\Enemy_EvilHead_Bite	
+	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
+	2857761532	NPC_Wwizard_StaffOnGround			\NPCs\NPC_Wwizard_StaffOnGround	
+	2892293322	Enemy_EvilSpitPlant_Death			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3083087645	Player_Death			\Player\General\Player_Death	
+	3237189652	UI_Menu_Pause			\UI\Menu\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Quest\Quest_Complete	
+	3260075118	Enemy_EvilHead_Hover_Play			\Enemies\EvilHead\Enemy_EvilHead_Hover_Play	
+	3324372356	Enemy_EVilSpitPlant_Bullet_NoImpact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact	
+	3373889173	Magic_Charge			\Magic\General\Magic_Charge	
+	3474566310	UI_Menu_Select			\UI\Menu\UI_Menu_Select	
+	3580182562	Enemy_EvilCrawler_Explode			\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode	
+	3584751806	Enemy_EvilSpitPlant_ShootLoop_Stop			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Stop	
+	3621593767	Enemy_EvilCrawler_Eat			\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat	
+	3664581270	Ambient_Campfire_Play			\Ambient\General\Ambient_Campfire_Play	
+	3695342915	Player_WeaponImpact			\Player\General\Player_WeaponImpact	
+	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Music\General\Music_Region	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+	3808743129	Player_WeaponSwing			\Player\General\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Player\General\Player_Hurt_Vox	
+	3894226844	Blacksmith_InfiniteLoop			\NPCs\Dialogue\Blacksmith_InfiniteLoop	
+	3999192250	Enemy_EvilHead_Hurt			\Enemies\EvilHead\Enemy_EvilHead_Hurt	
+	4037905639	Enemy_EvilHead_Telegraph			\Enemies\EvilHead\Enemy_EvilHead_Telegraph	
+	4129842532	Enemy_EvilSpitPlant_Death_Headfall			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death_Headfall	
+	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
+	4261614160	Enemy_EvilHead_Hover_Stop			\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	3219147252	DayOrNight			\General\DayOrNight	
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+	4064446173	Surface_Type			\General\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+	286660663	Rubble	Surface_Type			
+	389757836	Agent	Surface_Type			
+	442447909	Barrel	Surface_Type			
+	582824249	Leaves	Surface_Type			
+	803837735	Sand	Surface_Type			
+	1216965916	Stone	Surface_Type			
+	1647104456	Enemy_EvilCrawler	Surface_Type			
+	2058049674	Wood	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	2473969246	Metal	Surface_Type			
+	2654748154	Water	Surface_Type			
+	3065846598	Enemy_EvilHead	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	3276966729	Enemy_EvilSpitPlant	Surface_Type			
+	3444057113	Crystal	Surface_Type			
+	4248645337	Grass	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+	2333396925	Combo			\Player\Combo	
+	4257092447	VoiceAttenuation			\Default Work Unit\VoiceAttenuation	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+	748895195	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+	748895195	None	VoiceAttenuation			
+	930712164	Off	VoiceAttenuation			
+	1651971902	On	VoiceAttenuation			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	651318039	TopSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	959165918	RightSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	965529497	On	VoiceAttenuation	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	129	MIDI note velocity			\MIDI note velocity	
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	215992295	Player_Health			\Player\Player_Health	
+	500836401	Quest_Progress			\Gameplay\Quest_Progress	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	762020526	Distance_to_Camera			\Generic\Distance_to_Camera	
+	1124499852	DopplerEffect			\Generic\DopplerEffect	
+	1744050084	Magic_ChargeIntensity			\Magic\Magic_ChargeIntensity	
+	1756231317	InMenu_LowPass			\Gameplay\InMenu_LowPass	
+	2149718692	Destruction_Level			\Objects\Destruction_Level	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	3046587051	Enemy_EvilHead_MovementSpeed			\Enemies\Enemy_EvilHead_MovementSpeed	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
+	3588190939	Music_EnemyTheme_Volume			\Gameplay\Music_EnemyTheme_Volume	
+	3717648145	Listener_Cone			\Generic\Listener_Cone	
+	3717892141	CombatLevel			\Enemies\CombatLevel	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	26088899	Modulator Envelope_MIDI_Output_Volume (Custom)				
+	47269649	Modulator Envelope_MIDI_Output_Volume			\MIDI_Envelopes\Modulator Envelope_MIDI_Output_Volume	
+	105831254	Modulator Envelope_MIDI_Output_Volume (Custom)				
+	254895623	Modulator Envelope (Custom)				
+	634959200	Modulator Envelope_MIDI_Output_Volume (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
+	1870078530	Adventuress_Death			\Default Work Unit\Adventuress_Death	
+	2029038382	Music_GetItem			\Default Work Unit\Music_GetItem	
+	3921957830	Music_EnemyTheme			\Default Work Unit\Music_EnemyTheme	
+
+Effect plug-ins	ID	Name	Type				Notes
+	785024900	WAG_Questing_PitchShift (Custom)	Wwise Pitch Shifter			
+	1937843064	WAG_Desert	Wwise Convolution Reverb			
+	2373712977	WAG_Enemy_EvilHead_MovementSpeed	Wwise Tremolo			
+	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
+
+Metadata plug-ins	ID	Name	Type				Notes
+	1309482125	Same_As_PassthroughMix	Wwise System Output Settings			
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	79502778	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Silence\Wwise Silence	
+	144235066	SoundSeed Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_wind\SoundSeed Wind	
+	274189149	Wwise Synth One_Square_01	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_01\Wwise Synth One_Square_01	
+	279318901	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Dagger\SoundSeed Woosh	Woosh intended for Dagger
+	292402141	Pickup_SynthOne	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc\Pickup_SynthOne	
+	332159559	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Silence\Wwise Silence	
+	340076572	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Sword\SoundSeed Woosh	Woosh intended for Sword
+	379941640	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Axe\SoundSeed Woosh	Woosh intended for Axe
+	380065115	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\Silence\Wwise Silence	
+	393638398	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Pickaxe\SoundSeed Woosh	Woosh intended for Axe
+	637350807	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Silence\Wwise Silence	
+	717069159	Wwise Synth One_Drums	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Drums\Wwise Synth One_Drums	
+	717943813	Wwise Synth One_Bass	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Bass\Wwise Synth One_Bass	
+	736681753	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_NoImpact\EvilSpitPlant_Silence\Wwise Silence	
+	776592709	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Silence\Wwise Silence	
+	825078784	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Hammer\SoundSeed Woosh	Woosh intended for Axe
+	944426266	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Silence\Wwise Silence	
+	1057826510	Wwise Synth One_Square_02	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_02\Wwise Synth One_Square_02	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7478884	Adventuress_damaged_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_03_E9242A7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_03		1677
+	18622617	BAS_Evil_SpitPlant_Hurt_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_05_3F988811.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_02		8918
+	21340349	Pickup_Coin_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Coin_04_0666795C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_04		8473
+	24304843	Adventuress_damaged_13	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_13_F5E28D0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_13		3396
+	26692395	EvilSpitPlant_ImpactPlayer_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_01		8937
+	27824897	Quest_Complete	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Quest_CompleteCollection_01_C9599907.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Quest_Complete		11538
+	31470392	Get Weapon	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_pickUpWeapon_001_30A9CC5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Get Weapon		25168
+	38322136	EvilSpitPlant_Shoot_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_01_96A1A6BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_01		14708
+	39706661	Impact_PickAxe_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_leaves_2_7CCA73C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Leaves\Impact_PickAxe_Leaves		4951
+	51105901	Wwizard_StaffOnGround	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_dirt_893B756E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wwizard_StaffOnGround		2855
+	52673629	Impact_Dagger_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_dirt_37C5EDAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Dirt\Impact_Dagger_Dirt		2946
+	60150315	EvilHead_Bite_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Bite_02_B9491E83.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_02		7818
+	60580651	EvilHead_Hurt_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Hurt_01_0780FF57.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_01		10546
+	61321815	EvilSpitPlant_Shoot_LP_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_LP_01_9B3DB56E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot_Loop\EvilSpitPlant_Shoot_LP_01		37433
+	61633704	Music_NightTime_Woodlands	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_NightTime_Woodlands_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Mix\Music_NightTime_Woodlands		15295
+	69206909	Impact_Sword_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_leaves_F4781ED9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Leaves\Impact_Sword_Leaves\Impact_Sword_Leaves		7567
+	70306256	Impact_Axe_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_dirt_A8356126.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Dirt\Impact_Axe_Dirt		3724
+	71905540	Heartbeat_Lub2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Heartbeat_Lub2_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub2		650
+	79468423	BAS_Evil_SpitPlant_Hurt_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_06_E89AF1CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_03		9390
+	82985248	EvilHead_Hover_LP	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Hover_LP_7B8380EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hover_LP		12158
+	86058953	Pickup_Coin_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Coin_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_01		4713
+	87450794	Wizard_Poof_Teleport	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Wwizard\BAS_Wizard_Poof_02_54C81E4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Teleport		19270
+	88360415	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_5E867914.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\PlayerHit_SpitShot		5589
+	93186345	Ambient_Crystal_Ringing	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Ambient\Ambient_Emitters\WAG_Crystal_Ringing_2A7C607A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Crystal_Ringing		43250
+	94640661	Impact_Axe_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_hitCrate_001_ED7DBEA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Wood\Impact_Axe_Wood		4485
+	101718933	Impact_SpitPlant_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_03		6803
+	108061160	EvilSpitPlant_Shoot_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_03		12336
+	109351989	Impact_Sword_Wood_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_wood_2_1D61E82D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_02		8664
+	115834427	Adventuress_damaged_10	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_10_97AB97B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_10		2887
+	120480038	Impact_PickAxe_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Crate\Impact_PickAxe_Crate		4275
+	125288342	Heartbeat_Dub2	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Heartbeat_Dub2_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub2		650
+	132383432	Evil_SpitPlant_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_D50496EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_03		4373
+	134654369	Impact_Sword_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_dirt_42C5B984.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\Impact_Sword_Dirt		6946
+	136355781	Impact_Sword_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Sword_SurfaceType_Crate_B1BC5EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Sword_Crate		5930
+	138086648	BAS_Evil_SpitPlant_Death_Headfall_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_01		5834
+	155192250	BAS_Evil_Head_Death_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_02		29680
+	155875358	Impact_Hammer_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Hammer_SurfaceType_Barrel_77710E24.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Hammer_Barrel		6694
+	176533674	Pickup_WeaponType_Dagger	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Dagger_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Dagger		6255
+	192562240	Button_Enter	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Enter_F09E50EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Enter		5384
+	196871823	EvilSpitPlant_Shoot_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_02_50496D8D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_02		13586
+	197932788	EvilHead_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Charge_03_6A0A4F71.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_03		24301
+	200941956	Impact_Sword_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_stone_2_6C3F66B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Stone\Impact_Sword_Stone\Impact_Sword_Stone		6217
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\EvilHead_Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick		3045
+	207450325	Crate_Destroy_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_05_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_05		8185
+	207768492	Inventory_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Inventory_Open_43C54E6B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Open		2918
+	214462698	Impact_Dagger_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_wood_C81333C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Wood\Impact_Dagger_Wood		2191
+	214711863	Impact_Sword_Wood_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_dirt_A2ED6691.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_01		6944
+	228435873	EvilHead_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Charge_01_8A72C6A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_01		17098
+	230048561	Impact_Axe_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_grass_F06A93DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Grass\Impact_Axe_Grass		5728
+	239013951	Adventuress_damaged_12	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_12_D955CCC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_12		2962
+	247082657	Impact_PickAxe_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_hitCrate_001_3501F81F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Wood\Impact_PickAxe_Wood		6263
+	247479220	EvilHead_Hurt_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Hurt_02_9E7DAD90.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_02		8599
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler		686
+	263730271	BAS_Evil_SpitPlant_Death_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_05_A7D19359.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_05		11677
+	271810230	Impact_Axe_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel_66A3B88E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Barrel\Impact_Axe_Barrel		7836
+	274027457	Impact_Dagger_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_stone_2_A67142C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Stone\Impact_Dagger_Stone		2694
+	281391147	SilentMusicClip	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\WPA_Ambient_Bass1_493769D1.wem		\Interactive Music Hierarchy\Music\Music_Regions\Nothing\WPA_Ambient\SilentMusicClip		12096
+	285744333	Crate_Destroy_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_01		11167
+	288737095	Adventuress_Death_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_Death_01_D35F9083.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_01		12852
+	299395336	BAS_Evil_Head_Death_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_Vox_03_EF051030.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_03		27367
+	301231688	Impact_Hammer_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Hammer_Crate		4890
+	320959230	EvilCrawler_Move_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Move_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_02		11538
+	326650516	Crate_Destroy_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_03		15071
+	336420779	Crate_Destroy_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_04_A3E540FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_04		14052
+	340074122	Adventuress_damaged_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_05_DAE12786.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_05		3216
+	346822129	Impact_Crawler_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_01_154C578C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_EvilCrawler\Impact_Crawler_01		7322
+	349269179	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_1E099337.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_EvilHead\Impact_Hammer_EvilHead\PlayerHit_SpitShot		5764
+	353842310	Heartbeat_Lub	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Heartbeat_Lub_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub		650
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Timpani_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani		608
+	356049012	BAS_Evil_Head_Death_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_Vox_02_24A38B43.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_02		26346
+	361675366	Adventuress_Death_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_Death_02_FD02025E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_02		6601
+	364736820	Inventory_Select	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Inventory_Select_A6E84B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Inventory_Select		6817
+	365731772	Adventuress_damaged_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_06_F2280C7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_06		2081
+	367076937	Impact_Hammer_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel_2C358D9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Barrel\Impact_Hammer_Barrel		9362
+	395293424	Impact_Dagger_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Dagger_SurfaceType_Barrel_0D7E5F4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Barrel\Impact_Dagger_Barrel		6114
+	397519903	Adventuress_damaged_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_07_BC598015.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_07		3355
+	401846827	BAS_Evil_Crawler_Hurt_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_03		8298
+	412591648	BAS_Evil_SpitPlant_Death_Headfall_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_02		6654
+	426400611	BAS_Evil_SpitPlant_Death_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_06_8AB57BBF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_06		14778
+	432872011	MIDI_WAG	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\MIDI_Project_Adventure_EDEA3A15.wem		\Interactive Music Hierarchy\Other\MIDI_WAG\MIDI_WAG_Single_MIDI_Track_Multiple_MIDI_Channels\MIDI_WAG	Audiokinetic Inc. All rights reserved. Audio content provided by Jeff Edward Ball With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2014 Jeff Edward Ball www.jeffedwardball.com  The Audio Content contained in this file is the property of Jeff Edward Ball Your sole right with regard to this MIDI Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	2749
+	441591698	Evil_SpitPlant_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_10A6F2EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_01		4812
+	450221518	Pickup_WeaponType_Axe	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Axe_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Axe		8072
+	467878330	Pickup_WeaponType_Sword	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Sword_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Sword		7925
+	468278613	BAS_Evil_SpitPlant_HurtImpact_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_01_707CBBE5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_01		8203
+	473979008	Inventory_Scroll	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Inventory_Scroll_2FCDFF21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Scroll		3761
+	476522655	Adventuress_exertion_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_03_6A21B87C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_03		3416
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine		3043
+	492838405	EvilCrawler_Eat_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Eat_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_03		8250
+	496256198	QuestRoll_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_QuestRoll_Close_770A78B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Close		5129
+	501305534	Adventuress_exertion_10	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_10_871753BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_10		7376
+	504991743	EvilCrawler_Explode_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Explode_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_03		24958
+	507405528	Music_Desert_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Desert_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Desert\Desert_Part1_Mix\Music_Desert_Mix		15667
+	524493448	Impact_CrystalShard_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Crystals_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_03		10273
+	531145738	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_FA5F44D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Stone\Impact_Sword_Stone\PlayerHit_SpitShot		5589
+	539203250	EvilSpitPlant_ImpactPlayer_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_03		7207
+	540584137	Button_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Open_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Open		3405
+	542995811	Pickup_Coin_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Coin_03_EF97E2A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_03		5872
+	544135728	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_C3CB72B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Leaves\Impact_Sword_Leaves\PlayerHit_SpitShot		5589
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant		2560
+	551083112	Music_Cave_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Cave_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Mix\Music_Cave_Mix		812
+	558182472	EvilCrawler_Move_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Move_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_01		11190
+	561190385	Music_Dungeon_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Volcanic_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Mix\Music_Dungeon_Mix		4759
+	568476180	Impact_Crawler_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_03_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_03		8523
+	571611364	BAS_Evil_SpitPlant_Hurt_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_04_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_01		10907
+	571682771	Impact_Crawler_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_02		8728
+	576059042	Button_Over	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Over_784E565A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Over		938
+	576804319	Button_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Close_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Close		3553
+	580300220	BAS_Evil_Crawler_Death_Vox_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_03		19114
+	581193606	BAS_Evil_Crawler_Hurt_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_01_E6A52174.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_01		5718
+	585246084	EvilCrawler_Eat_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Eat_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_01		7483
+	585485659	BAS_Evil_SpitPlant_Death_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_04_3D5DF410.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_04		15084
+	587958178	Impact_PickAxe_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_grass_27A7FAF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Grass\Impact_PickAxe_Grass		6228
+	590566250	Impact_PickAxe_Stone	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_stone_2_CE68C5DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Stone\Impact_PickAxe_Stone		6252
+	591600176	EvilCrawler_Move_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Move_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Move_03		12259
+	592455788	Adventuress_exertion_12	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_12_AC1CB237.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_12		6846
+	596945623	Adventuress_exertion_07	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_07_DB2D4EA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_07		3530
+	601886410	Adventuress_exertion_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_06_CB1CB665.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_06		6957
+	616098569	Destroy_Wood_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Destroy_Wood_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_01		16331
+	624605826	BAS_Evil_Crawler_Death_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_02		20473
+	625959245	Impact_SpitPlant_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_02		3367
+	635787326	EvilCrawler_Explode_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Explode_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_01		23892
+	644004411	EvilCrawler_Explode_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Explode_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explode_02		23460
+	649241323	Impact_Hammer_Stone_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_stone_2_B64BB6B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Stone\Impact_Hammer_Stone\Impact_Hammer_Stone\Impact_Hammer_Stone_01		5363
+	651734579	EvilSpitPlant_ImpactPlayer_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_02		7010
+	656229177	Impact_Crawler_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_01_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilCrawler\Impact_Crawler_01		7468
+	659300493	Adventuress_exertion_13	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_13_56031643.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_13		10450
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Trumpets_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets		612
+	662234789	Destroy_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Other\WAG_CrashWood_4A97E0F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Wood		9543
+	662500466	BAS_Evil_SpitPlant_Charge_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_E3A1B59D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_01		8763
+	663521142	BAS_Evil_SpitPlant_HurtImpact_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_03_CD7BF9B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_03		7733
+	671025963	Adventuress_damaged_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_01_62AD76F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_01		3265
+	673472141	BAS_Evil_SpitPlant_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_E3A1B59D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_02		8207
+	681775821	Impact_Dagger_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_grass_2_58FB504E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Grass\Impact_Dagger_Grass		5763
+	684463112	Coin	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Coin_Spawn_160FDB93.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Coin		576096
+	687190676	Adventuress_exertion_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_05_65AFCDE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_05		4040
+	689034906	Wizard_Poof_Idle	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Wwizard\BAS_Wizard_Poof_03_1F2C42FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Idle		25863
+	701770857	Destroy_Wood_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Destroy_Wood_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_03		17629
+	706707052	Adventuress_damaged_11	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_11_134A61BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_11		2261
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Forest_Mix_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix		14951
+	728853193	Destroy_Wood_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Destroy_Wood_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_02		12450
+	736232030	Music_Ambient_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Ambient_Mix_9E093120.wem		\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Mix\Music_Ambient_Mix		11954
+	745897563	EvilHead_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Charge_02_CB62CEB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_02		16759
+	747629416	WAG_QucickStinger_Death	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Stingers\QucickStinger_Death_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Death\WAG_QucickStinger_Death		105297
+	748354478	Heartbeat_Dub	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Heartbeat_Dub_3D448CAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub		650
+	748900340	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_B54A0FAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Stone\Impact_Hammer_Stone\PlayerHit_SpitShot		5757
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Cymbal_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal		472
+	754818586	Pickup_WeaponType_Pickaxe	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Pickaxe_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Pickaxe		7917
+	758852917	Crate_Destroy_06	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_06_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_06		15359
+	758933006	Impact_Sword_Grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_sword_grass_3848856B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\Impact_Sword_Grass		6227
+	765205196	EvilSpitPlant_ImpactPlayer_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_01		9359
+	768452881	Adventuress_Death_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_Death_03_2EC743FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress_Death_03		5487
+	773182616	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_CE70DBB1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilHead\Impact_Sword_EvilHead\PlayerHit_SpitShot		5340
+	791272135	EvilCrawler_Eat_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Eat_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_02		9404
+	793060160	WAG_QucickStinger_Victory	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Stingers\QucickStinger_Victory_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Victory\WAG_QucickStinger_Victory		118362
+	796603137	Adventuress_exertion_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_04_6F9CF6C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_04		3595
+	803103411	Impact_PickAxe_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_PickAxe_SurfaceType_Barrel_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Barrel\Impact_PickAxe_Barrel		4130
+	803648538	Impact_CrystalShard_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Crystals_02_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_02		8910
+	808800733	EvilSpitPlant_ImpactPlayer_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_02		6740
+	812794088	EvilHead_Bite_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Bite_03_B9491E83.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_03		7781
+	813955928	QuestRoll_Open	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_QuestRoll_Open_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Open		12517
+	816089490	imp_Hammer_grass	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_grass_CABC3102.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Grass\imp_Hammer_grass		6188
+	824466461	BAS_Evil_Head_Death_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_01		31764
+	837232758	Impact_Hammer_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Crate_14C44D86.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Crate\Impact_Hammer_Crate		5757
+	852422006	Impact_CrystalShard_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Crystals_01_7A7BF028.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		10307
+	855611825	Adventuress_exertion_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_01_D62AB144.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_01		7386
+	862899862	Adventuress_damaged_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_04_5D937D85.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_04		2674
+	868044476	PlayerHit_SpitShot	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\Impact_Bump_FADD8DA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\PlayerHit_SpitShot		5589
+	884177046	Button_Teleport	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Teleport_2F6A1E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Teleport		20024
+	891187179	Adventuress_damaged_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_damaged_02_D0AED08C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_02		3211
+	898477822	Evil_SpitPlant_Charge_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_7610A921.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_02		6136
+	902725510	Impact_Dagger_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Dagger_SurfaceType_Crate_A0B433FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Crate\Impact_Dagger_Crate		5826
+	908851993	Impact_Dagger_Leaves	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_dagger_leaves_BB8EABB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Leaves\Impact_Dagger_Leaves		3821
+	917282363	Impact_PickAxe_Dirt	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_imp_axe_dirt_1CBFA730.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Dirt\Impact_PickAxe_Dirt		3539
+	922334387	Adventuress_exertion_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_02_54D9E3B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_02		5893
+	928123683	BAS_Evil_Crawler_Death_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_01_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\BAS_Evil_Crawler_Death_Vox_01		15795
+	929104052	BAS_Evil_Head_Death_Vox_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_Vox_01_05D6FB45.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_01		29302
+	930202647	BAS_Evil_Crawler_Hurt_Vox_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_02_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\BAS_Evil_Crawler_Hurt_Vox_02		6814
+	942011354	BAS_Evil_SpitPlant_HurtImpact_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_02_72CC9174.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_02		9643
+	945967359	BAS_Quest_CompleteCollection_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Quest_CompleteCollection_02_07FAA693.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Collection Complete\BAS_Quest_CompleteCollection_02		12118
+	980308778	Adventuress_exertion_08	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_08_90C63119.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_08		5735
+	981622377	Ambient_Fire_Campfire	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Ambient\Ambient_Emitters\BAS_amb_torch_7F46FEDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Fire_Campfire		47134
+	998009996	Crate_Destroy_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\BAS_Crate_Destroy_02_5DD7A89C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_02		16240
+	1004673027	BAS_Evil_SpitPlant_Death_Headfall_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_03		8284
+	1007331327	EvilHead_SpawnerDestroy	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_02_7ADE14A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_SpawnerDestroy		13817
+	1007745237	Adventuress_exertion_09	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_09_ECEF4805.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_09		3980
+	1008264668	Impact_SpitPlant_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_01_532E49B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_01		3158
+	1008720031	Pickup_WeaponType_Hammer	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Hammer_01_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Hammer		8374
+	1016342625	Inventory_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Inventory_Close_67D32EC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Close		2704
+	1023617453	BAS_Evil_SpitPlant_Charge_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_0C87BD57.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_03		8171
+	1024725918	Impact_Sword_Barrel	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Sword_SurfaceType_Barrel_2FB0DA12.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Sword_Barrel		6841
+	1026572653	magic_charge_debris	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Earth_Debris_AA66343E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_debris		148066
+	1028269556	BAS_Evil_Head_Charge_Bite	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Charge_Bite_76492241.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_Charge_Bite		6877
+	1031283392	WAG_QucickStinger_GetItem	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Stingers\QucickStinger_GetItem_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_GetItem\WAG_QucickStinger_GetItem		53756
+	1037987212	Impact_Axe_Crate	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Impact\BAS_Impact_Axe_SurfaceType_Crate_780D81F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Axe_Surface_Type\Impact_Axe_Crate\Impact_Axe_Crate		5694
+	1043505733	BAS_Evil_Head_ChargeAhead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Charge_CC42F6FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_ChargeAhead		10189
+	1046704186	EvilSpitPlant_ImpactPlayer_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_03		7448
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead		2806
+	1050138657	Pickup_Coin_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Coin_02_9D4616C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_02		8241
+	1056851740	BAS_Evil_Head_Death_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Death_03_2EE4CC84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_03		36877
+	1057116956	EvilHead_Bite_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Bite_01_8BD788D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_01		7340
+	1059060228	EvilHead_Hurt_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Creatures\BAS_Evil_Head_Hurt_03_8D7410C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_03		10194
+	1067218367	Adventuress_exertion_11	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Adventuress_exertion_11_53204876.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_11		7328
+	1069871293	Button_Close	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Interface\BAS_Button_Close_10AB32F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Close		3217
+	1072449166	Impact_Hammer_Wood	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Character\Weapons\BAS_hitCrate_001_CADE104D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Hammer_Surface_Type\Impact_Hammer_Wood\Impact_Hammer_Wood		6499
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	61633704	Music_NightTime_Woodlands	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_NightTime_Woodlands_A8B0334E.wem	61633704.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Mix\Music_NightTime_Woodlands	
+	141653825	Blacksmith_DialogueLine_Q3b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q3b_01_C076EFC3.wem	141653825.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q3b_01	
+	184998337	Blacksmith_DialogueLine_Q3b_02	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q3b_02_6EFAB877.wem	184998337.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q3b_02	
+	202341787	Perc_Normal_Tamburine_Quick	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\EvilHead_Tamburine_A8B0334E.wem	202341787.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine_Quick	
+	248883937	Music_Enemy_EvilCrawler	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilCrawler_A8B0334E.wem	248883937.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilCrawler	
+	281391147	SilentMusicClip	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\WPA_Ambient_Bass1_493769D1.wem	281391147.wem	\Interactive Music Hierarchy\Music\Music_Regions\Nothing\WPA_Ambient\SilentMusicClip	
+	312874557	Blacksmith_DialogueLine_Q4b_01	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem	312874557.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q4b_01	
+	355999611	Perc_Battle_Timpani	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Timpani_A8B0334E.wem	355999611.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Timpani	
+	487608963	Perc_Normal_Tamburine	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Tamburine_A8B0334E.wem	487608963.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Normal_Tamburine	
+	501172588	Blacksmith_DialogueLine_Q3b_03	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q3b_03_C71A0B27.wem	501172588.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q3b_03	
+	507405528	Music_Desert_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Desert_Mix_A8B0334E.wem	507405528.wem	\Interactive Music Hierarchy\Music\Music_Regions\Desert\Desert_Part1_Mix\Music_Desert_Mix	
+	547742854	Music_Enemy_EvilSpitPlant	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilSpitPlant_A8B0334E.wem	547742854.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilSpitPlant	
+	551083112	Music_Cave_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Cave_Mix_A8B0334E.wem	551083112.wem	\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Mix\Music_Cave_Mix	
+	561190385	Music_Dungeon_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Volcanic_Mix_A8B0334E.wem	561190385.wem	\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Mix\Music_Dungeon_Mix	
+	661714509	Perc_Battle_Trumpets	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Trumpets_A8B0334E.wem	661714509.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Trumpets	
+	669867001	Blacksmith_DialogueLine_Q3b_05	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q3b_05_0BE1568E.wem	669867001.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q3b_05	
+	715406799	Music_Woodlands_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Forest_Mix_A8B0334E.wem	715406799.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Mix\Music_Woodlands_Mix	
+	736232030	Music_Ambient_Mix	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Ambient_Mix_9E093120.wem	736232030.wem	\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Mix\Music_Ambient_Mix	
+	749927517	Perc_Battle_Cymbal	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Cymbal_A8B0334E.wem	749927517.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Perc_Battle_Cymbal	
+	1030148940	Blacksmith_DialogueLine_Q3b_04	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Voices\English(US)\Blacksmith_DialogueLine_Q3b_04_D099AD66.wem	1030148940.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\Blacksmith_Loop\Blacksmith_DialogueLine_Q3b_04	
+	1047176001	Music_Enemy_EvilHead	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\SFX\Music\Music_Enemy_EvilHead_A8B0334E.wem	1047176001.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Mix\Music_Enemy_EvilHead	
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	299482527	WAG_Desert	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald_6E4E60A8.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_Desert		239824
+	609174261	WAG_DLC_Room	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\iOS\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Halls\AK Brasilien Halle_B5110816.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_DLC_Room	Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 	212368
+

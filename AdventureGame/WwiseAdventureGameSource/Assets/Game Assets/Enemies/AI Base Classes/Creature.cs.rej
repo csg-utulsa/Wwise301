@@ -1,0 +1,13 @@
+diff a/Assets/Game Assets/Enemies/AI Base Classes/Creature.cs b/Assets/Game Assets/Enemies/AI Base Classes/Creature.cs	(rejected hunks)
+@@ -947,11 +947,6 @@
+                 state = CreatureState.dead;
+ 
+                 DeathSound.Post(gameObject);
+-
+-                if (OnCreatureDeath != null)
+-                {
+-                    OnCreatureDeath();
+-                }
+             }
+             else
+             {

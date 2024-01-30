@@ -1,0 +1,204 @@
+key,English,Français (French)
+wwise_key,English(US),English(US)
+credits_thanksForPlayesting,Thanks for Playtesting!,Merci d'avoir testé le jeu!
+menu_settings,Settings,Paramètres
+menu_advancedSettings,Advanced Settings,Paramètres Advancés
+menu_teleport,Teleport to ...,Téléportez vers ...
+menu_destination,Destination,Destination
+menu_Quest,Questing,Quête
+menu_QuestNavigation,Quest Navigation,Explorer les quêtes
+menu_NewQuestEntry,New Quest Entry,Nouvelle Quête
+menu_graphics,Graphics,Graphiques
+menu_graphicsSettings,Graphics Settings,Paramètres Graphiques
+menu_qualitySettings,Quality,Qualité
+menu_renderDistance,Render Distance,Distance du Rendu
+menu_resolution,Resolution,Résolution
+menu_frameRateLimit,LOCK TO 30 FPS TO PRESERVE BATTERY,LIMITER À 30 IPS POUR PRÉSERVER LA CHARGE
+menu_postProcessingSettings,Post Processing Settings,Paramètres de Post-Traitement
+menu_mouseSensitivity,Mouse Sensitivity,Sensibilité de la souris
+menu_audio,Audio,Audio
+menu_audioSettings,Audio Settings,Paramètres Audio
+menu_masterVolume,Master Volume,Volume Principal
+menu_musicVolume,Music Volume,Volume de la Musique
+menu_quit,Quit Game,Quitter
+menu_resume,Resume,Continuer
+menu_back,Back,Retour
+menu_language,Language,Langue
+menu_timeofday,Time of Day,Heure du Jour
+menu_cameramovesensitivity,Camera Movement Sensitivity,Sensibilité des Mouvements de Caméra
+notification_newWeapon,NEW WEAPON!,NOUVELLE ARME!
+notification_newWeaponInstructions,SWIPE UP FROM THE ATTACK BUTTON TO OPEN BACKPACK,BALAYER LE BOUTON D'ATTAQUE VERS LE HAUT POUR OUVRIR LA BESACE
+quest_skipQuest,Skip quest,Passer la Quête
+quest_getQuest,Get quest,Obtenir une Nouvelle Quête
+quest_QuestComplete,Quest Complete,Quête complétée
+player_deathMessage,You diedˌ click [Use] to respawn...,Vous êtes mortˌ cliquez sur [Use] pour réapparaître ...
+dropdown_Dungeon,Dungeon,Donjon
+dropdown_Woodlands,Woodlands,Boisé
+dropdown_Cave,Cave,Caverne
+dropdown_Village,Village,Village
+dropdown_Desert,Desert,Désert
+dropdown_Training,Training Area,Terrain d'Entrainement
+dropdown_PineForest,Pine Forest,Pinède
+dropdown_Forge,Forge,Forge
+dropdown_Core,Core,Coeur
+dropdown_Library,Library,Bibliothèque
+quit_yes,Yes,Oui
+quit_no,No,Non
+quit_sureText,Are you sure?,Êtes-vous sûr?
+quit_toTitleScreen,Quit to Title Screen,Retour à l'Écran-Titre
+Wwizard,WWIZARD,MAGICIEN
+MusicLevel_Wwizard,WWIZARD,MAGICIEN
+MusicLevel_Dream_Wwizard,WWIZARD,MAGICIEN
+Blacksmith,BLACKSMITH,FORGERON
+Forge,WWIZARD,MAGICIEN
+Managers,GAME,JEU
+intro_sequence_1,Welcome to the Wwise Adventure Game. Here are a few things to get you started.,Bienvenue au Wwise Adventure Game. Voici quelques instructions pour vous aider à démarrer votre quête.
+intro_sequence_2,Press [Use] to interactˌ and [Action] to attack.,Appuyez sur [Use] pour interagirˌ et [Action] pour attaquer.
+intro_sequence_3,Use [Inventory] to open your backpackˌ and [Menu] to access the game menu. Enjoy!,Utilisez [Inventory] pour ouvrir votre besaceˌ et [Menu] pour accéder au menu du jeu. Que l'aventure commence!
+quest_1_title,Find the Wwizard,Trouve le Magicien
+quest_1_description,He's probably in the Village...,Il se trouve probablement au Village.
+quest_1_1,Hello! Adventurerˌ you are just in time! Something has gone terribly wrong in the land of Allegro,Salutations! Aventurierˌ tu arrives à point! Une catastrophe s'est abattue sur le Royaume d'Allegro.
+quest_1_2,Our village has been struck by a plague of evil! This dark essence is consuming our beautiful vegetationˌ and poisonous plants have grown in their stead.,Notre village a été frappé par un fléau maléfique! Cette essence sournoise a corrompu la végétationˌ et des plantes empoisonnées envahissent les environs.
+quest_1_3,Can you help me save Allegro Kingdom?,Peux-tu m'aider a sauver le Royaume d'Allegro?
+quest_2_title,Grab the Book of Evil Mysteries,Récupère le Livre des Maléfices
+quest_2_description,Grab the Book of Evil Mysteries from the Wwizard’s house,Récupère le Livre des Maléfices dans la maison du Magicien.
+quest_2_1,I believe I have a book somewhere in my house that may help us clean this infestation.,Il me semble avoir un livreˌ quelque part dans ma chaumièreˌ qui pourrait peut-être nous aider à nous débarrasser de cette infestation.
+quest_2_2,I remember placing it somewhere in the small room to the left of the entrance. Would you kindly retrieve it for me?,Je crois me rappeler l'avoir laissé dans la petite pièce qui se trouve à gauche de l'entrée. Pourrais-tu me le rapporter?
+quest_2_3,Why can I not retrieve it myself?  Wellˌ if you must knowˌ I have developed a crippling case of claustrophobiaˌ and as you can seeˌ my house is rather... small.,Pourquoi ne puis-je y aller moi-même? Eh bienˌ pour tout te direˌ une récente attaque de claustrophobie me paralyseˌ et m'empêche d'entrer dans ma propre maison qui estˌ comme tu peux le constaterˌ plutôt...exiguë.
+quest_3_title,Retrieve the sword & collect the Evil Essence.,Récupère l'épée & récolte l'Essence Maléfique
+quest_3_description,Retrieve the swordˌ then kill the Spit Plants in the Woodlands to collect the evil essence.,Récupère l'épeeˌ puis va exterminer les Plantes Écumeuses qui se trouvent dans le Boiséˌ afin de récolter leur essence maléfique.
+quest_3_1,Magnificent! Let me see… Hmmm… Nothing here resembles our specific predicament. Clearlyˌ that would have been too easy!,Magnifique! Voyons voir... Hum... Rien ici ne ressemble à notre situation particulière. C'eut été trop simple!
+quest_3_2,This must be a new kind of evil that has not yet been documented...,Il s'agit sûrement d'un nouveau fléau qui n'a pas encore été rapporté...
+quest_3_3,To continue our researchˌ can you collect a sample of this dark essence and return it to me?,Pour faire avancer nos recherchesˌ pourrais-tu aller récolter un échantillon de cette essence maléfiqueˌ et me la rapporter aussitôt?
+quest_3_4,I would clearly embark on this dangerous journey myselfˌ but I fear my claustrophobia would rear its head.,Je me lancerais moi-même dans ce dangereux péripleˌ mais je crains que ma claustrophobie ne m'en empêche.
+quest_3_5,Alsoˌ I am terrified of combatˌ evilˌ dangerˌ monstersˌ and hearty exercise. Have fun!,De plusˌ je suis terrifié des combatsˌ du dangerˌ des monstresˌ ainsi que de toute forme d'entraînement physique un tant soit peu demandant. Amuse-toi bien!
+quest_3_6,Oh and one more thing! I have heard tales from the villagers that the corrupted plants can hurl poisonous venom at anyone who would pass! Be wary!,Un dernier conseil! J'ai entendu dire par les villageois que les plantes infectées pouvaient lancer un venin empoisonné à quiconque s'en approcherait! Soit prudent!
+quest_3_7,I see that you are armed with a wooden sword. Clearlyˌ you need a sturdier weapon to venture on this quest.,Je vois que tu es armé d'une épée de bois. Tu as clairement besoin d'une arme plus solide avant de te lancer dans cette quête.
+quest_3_8,Go see the Blacksmithˌ I believe that he will be able to make you a mighty blade.,Va voir le Forgeronˌ je crois qu'il sera en mesure de te fournir une lame redoutable.
+quest_3_9,Remember...  the plants contain the pure form of the dark essence. You will need to hackˌ and possibly slash in order to obtain it.,Rappelle-toi... Les plantes contiennent la forme la plus pure de l'essence maléfique. Il te faudra user de ruse et d'audace afin de pourfendre l'ennemi.
+quest_3_10,When you retrieve your new weaponˌ venture over the bridge and into the Woodlands. Thereˌ you will find the evil!,Dirige-toi vers le pont après avoir récupéré ton armeˌ et engage-toi dans le Boisé. C'est là que tu trouveras le mal!
+quest_3_b_1,Greetingsˌ Adventurer! I heard that you will be venturing into the Woodlands. Word travels fast in these parts.,Salutationsˌ Aventurier! J'ai ouïe dire que tu allais t'aventurer dans le Boisé. Eh ouiˌ la rumeur se répand vite en cette contrée.
+quest_3_b_2,You had best be careful. I was there yesterday to gather wood for my smithyˌ and the dark plants had already taken root.,Il te faudra être prudent. J'y suis moi-même allé hier afin de ramasser du bois pour ma forgeˌ et les Plantes Maléfiques avaient déjà pris racine.
+quest_3_b_3,Luck alone saved me. I may make implements of battleˌ but I am no warrior.,Seule la chance me sauva. Bien que je fabrique des engins de batailleˌ je suis loin d'être un guerrier.
+quest_3_b_4,As the evil sent a ball of venom my wayˌ I turned to flee and my sword swung on my beltˌ deflecting the poison.,Alors que la bestiole m'envoyait une boule de veninˌ je me suis retourné pour fuir et mon épée a basculé sur ma ceinture et fait dévier le poison.
+quest_3_b_5,With luck and precisionˌ you may also be able to deflect them.,Avec de la chance et de la précisionˌ tu pourras peut-être toi aussi éviter le péril.
+quest_4_title,Retrieve the pickaxe & collect the spell ingredients,Récupère la pioche & récolte les ingrédients du sortilège
+quest_4_description,Retrieve the pickaxeˌ then bring back the ingredients and the key.,Récupérez la piocheˌ puis rapporte les ingrédients et la clé.
+quest_4_1,How strange... We need to act immediately!,Comme c'est étrange... Il nous faut agir sans tarder!
+quest_4_2,Ahhh...yes! I can design a spell that can indeed end this plague. I will need some ingredientsˌ quickly!,Ahhh...oui! Je peux élaborer un sortilège qui peut mettre fin à ce fléau une fois pour toute. J'aurai besoin sans tarder de quelques ingrédients!
+quest_4_3,Here is the list. Look for mushrooms and crystals in the cave.,Voici la liste. Va explorer la Caverneˌ tu y trouveras les champignons et les cristaux dont j'ai besoin.
+quest_4_4,I will also need a special key. If the heart of the evil is where I believe it to beˌ this will be invaluable.,J'aurai aussi besoin d'une clé particulière. Si le coeur de ce maléfice se trouve là où je le penseˌ cette clé nous sera indispensable.
+quest_4_5,I have an old cabin in the pine forestˌ you will find it there. Beware - the creatures you face will be more formidable!,Je possède une vieille cabane dans la Pinèdeˌ c'est là que tu la trouveras. Méfie-toi - les créatures que tu affronteras seront des plus redoutables!
+quest_4_6,To retrieve the crystalsˌ you will need a pickaxe. Hacking at rocks and gems with your sword will only dull the blade. To the Blacksmith with you!,Pour récupérer les cristauxˌ tu auras besoin d'une pioche. La lame de ton épée n'en viendrait pas a boutˌ elle ne ferait que s'émousser. Allezˌ chez le Forgeron!
+quest_4_b_1,Here you are Adventurer! One hearty pickaxe that has served me well when mining ore.,Te revoiciˌ Aventurier! Pour toiˌ une solide pioche qui m'a fort bien servi lorsque je faisais l'extraction du minerai.
+quest_5_title,Venturing to the Dungeon,Pénètre dans le Donjon
+quest_5_description,Meet the Wwizard in the Desert and then venture into the Dungeon.,Va retrouver le Magicien dans le Désertˌ puis pénètre dans le Donjon.
+quest_5_1,Ah! Perfect! This is exactly what we need for the spell! And you also found the key! Wonderful!,Ah! Excellent! C'est exactement ce dont nous avions besoin pour le sortilège! Et tu as aussi trouvé la clé! Magnifique!
+quest_5_2,I believe the evil's source to be in an ancient dungeon within the desert.,Je soupçonne que la source du mal se trouve dans un Donjon oubliéˌ au creux du Désert.
+quest_5_3,It was sealed eons ago after dark rituals were performed there. This key shall grant us access.,Ce donjon fut scellé durant les temps immémoriauxˌ après que des rituels de magie noire y aient été pratiqués. Cette clé nous y donnera accès.
+quest_5_4,There is only one item remainingˌ and that is a scroll on which to inscribe the spell.,Il ne nous manque qu'un itemˌ un parchemin sur lequel le sortilège sera inscrit.
+quest_5_5,Howeverˌ for a spell this powerfulˌ only the most ancient vellum will do.,Cependantˌ pour un sortilège aussi puissantˌ seul le vélin le plus ancien conviendra.
+quest_5_6,I can only hope that within the dungeonˌ we will find what we need.,Je ne peux qu'espérer que nous trouverons ce dont nous avons besoin dans les profondeurs du Donjon.
+quest_5_7,I will meet you there!,Je te rejoindrai là-bas!
+quest_5_8,Goodˌ you have arrived! Let us venture into the dungeon.,Bienˌ tu es arrivé! Il est temps pour nous de pénétrer dans ce Donjon.
+quest_5_9,The most ancient scrolls should be located in a library within the dungeon.,Les parchemins les plus anciens devraient être situés dans une bibliothèque du Donjon.
+quest_5_10,Lead onˌ I will follow. Just a few steps behind. Where I will be safe...,Ouvre la marcheˌ je vais suivre. Tout juste derrière toi. La où je serai en sécurité...
+quest_5_11,The key from my cabin will unlock the Dungeon's entrance.,La clé de ma cabane déverouillera l'entrée du Donjon.
+quest_6_title,Find the Ancient Scroll,Trouve le Parchemin Ancien
+quest_6_description,Find the Hammer and smash down the barricade! Then find the scroll in the Library.,Trouve le Marteau et détruit la barricade! Trouve ensuite le parchemin dans la Bibliothèque.
+quest_6_1,Blast! The library's entrance has been blocked!,Malédictions! L'entrée de la bibliothèque a été bloquée!
+quest_6_2,These rocks have a strange energy about them. I doubt that your mundane pickaxe will have any effect. What to do...  what to do...,Une étrange énergie émane de ces rochers. Je doute que ta vulgaire pioche ait un quelconque effet. Que faire... que faire...
+quest_6_3,There! The hammer at the top of the stairs! I sense a magical force emanating from it!,Là! Le marteau en haut des escaliers! Je sens une force magique qui s'en dégage!
+quest_6_4,It should be strong enough to rid us of this blockade. Destroy the rocks and let us proceed into the Library!,Il devrait être assez fort pour nous débarrasser de ce blocus. Détruis les rochers pour que nous puissions entrer dans la Bibliothèque!
+quest_6_4R,There must be an ancient scroll in here somewhere!,Il doit y avoir un ancien parchemin quelque part!
+quest_7_title,Find the Core,Trouve le Coeur
+quest_7_description,Find the root of all evil.,Trouve la source de la malédiction.
+quest_7_1,Perfection! We have all that we need for the spell now. I will start preparations immediately!,Enfin! Nous avons tout ce dont nous avons besoin pour le sortilège. Je vais commencer les préparatifs immédiatement!
+quest_7_2,The darkest rituals were performed in a place known as the Forge. If any place is the source of this evilˌ that will be it.,Les rituels de magie noire avaient lieu dans un endroit connu sous le nom de la Forge. C'est certainement là que se trouve la source de ce mal.
+quest_7_3,It is located deeper in the Dungeonˌ beyond this library.,Elle est située dans la partie la plus profonde du Donjonˌ derrière la Bibliothèque.
+quest_7_4,Onward to our final destination - your courage has lifted the chains of fear from me!,En route vers notre destination finale - ton courage m'a libéré de la peur!
+quest_8_title,Destroy the lair of the enemy,Détruits le repaire de l'ennemi
+quest_8_description,Prepare for the final fight. Once you're readyˌ head to the Core.,Prépare-toi pour le combat final. Une fois prêtˌ dirige-toi vers le Cœur.
+quest_8_1,There! This is the source of the evil.,La voilà! C'est la source du mal.
+quest_8_2,And as one would expect in a situation like thisˌ it does seem to be protected by a mystical shield.,Et comme on pourrait s'y attendre dans une situation pareilleˌ elle semble protégée par un bouclier mystique.
+quest_8_3,You will not be able to do anything until the spell is cast. Let us venture closer!,Tu ne pourras rien faire tant que le sortilège n'aura pas été lancé. Approchons-nous!
+quest_8_4,I must charge the rune first.,Je dois d'abord charger la rune.
+quest_8_5,The final ingredient of the spell is the purest essence of courage and heroismˌ so only you can channel the energy and destroy the shield.,L'ingrédient final du sortilège est l'essence la plus pure du courage et de l'héroïsme. Toi seul as le pouvoir de canaliser l'énergie et ainsi détruire le bouclier.
+quest_8_6,Go to the core when you are readyˌ and I will charge the rune!,Dirige-toi vers le Coeur lorsque tu seras prëtˌ et je chargerai la rune!
+quest_8_s_1,Defend me! My incantations must not be interrupted!,Défends-moi! Rien ne doit interrompre mes incantations!
+quest_8_s_1R,You can cast the spell from the rune once it is charged!,Tu peux lancer le sortilège à partir de la rune dès qu'elle sera chargée!
+quest_8_s_1_ready,The spell is ready! Hurry to the rune and cast the spell to remove the shield!,Le sortilège est prêt! Hâte-toi vers la rune et lance le sortilège qui détruira le bouclier!
+quest_8_s_2,The shield is more powerful than I imagined.  I must charge the rune again!,Ce bouclier est plus puissant que je ne l'aurais cru. Je dois charger la rune de nouveau!
+quest_8_s_2_ready,It is readyˌ cast the spell againˌ now!,C'est prêtˌ lance le sortilège une autre foisˌ maintenant!
+quest_8_s_3,The shield is weakenedˌ but it still stands.  One more blast from the spell should finish it!  Focus all of your courageˌ all of your hope!,Le bouclier est grandement affaibliˌ mais il tient toujours. Une dernière volée du sortilège devrait l'achever! Rassemble tout ton courageˌ tout ton espoir!
+quest_8_s_3_ready,The rune is charged! Destroy the shield!,la rune est chargee! Détruis le bouclier!
+quest_8_7,Amazing! The shield is destroyed!,Incroyable! Le bouclier est détruit!
+quest_8_8,You must destroy the core before the magic can replenish itself. Strike the core with all of your might!,Tu dois détruire le coeur avant que la magie puisse se reconstituer. Frappe le coeur de toutes tes forces!
+quest_8_8R,Strike the coreˌ before it is too late!,Frappe le coeurˌ avant qu'il ne soit trop tard!
+quest_8_final_1,You did it!  I can feel the evil energies fading. The darkness has been vanquished.,Tu as réussi! Je peux sentir les énergies malfaisantes disparaître. La noirceur a été vaincu.
+quest_8_final_2,Wait...  do you hear that?  That horrible sound?,Attends... Tu entends ça? Ce son horrible?
+quest_8_final_3,No...no! We did not defeat the evilˌ we set it free!,Non...non! Nous n'avons pas vaincu le malˌ nous l'avons libéré!
+tutorialArea_helpNeeded,HELP NEEDED!,ASSISTANCE DEMANDÉE!
+tutorialArea_comeToVillage,Please come to the village and contact me!,Présentez-vous au village et contactez-moi!
+tutorialArea_theWwizard,- THE WWIZARD,- Le Magicien
+tutorialArea_fakeNewsHeadline,BREAKING NEWS,NOUVELLES
+tutorialArea_fakeNewsText,Local townspeople reported witnessing strangers appearing out of nowhere in a local training area. It is strongly recommended to keep an eye out for such phenomenonsˌ and to report them to the local Wwizard!,Les habitants du village rapportent avoir vu d'étranges créatures apparaître de nulle part dans un terrain d'entrainement des environs. Il est fortement conseillé de demeurer à l'affût d'apparitions similairesˌ et de les rapporter au Magicien dès que possible!
+controls_movement,MOVEMENT,MOUVEMENT
+controls_camera,CAMERA CONTROL,CONTROL DE LA CAMÉRA
+controls_action,ATTACK,ATTAQUE
+controls_use,INTERACT / PICK UP,INTERAGIR / RAMASSER
+controls_sprint,SPRINT,COURIR
+controls_menu,MENU,MENU
+controls_inventory,INVENTORY,INVENTAIRE
+UI_pickup,to PICK UP,pour RAMASSER
+UI_hold,Hold,TENIR
+UI_press,Press,APPUYER
+UI_release,Release,RELÂCHER
+UI_toChargeSpell,to CHARGE,pour CHARGER
+UI_toShootSpell,to SHOOT,pour TIRER
+UI_toTalk,to TALK,pour PARLER
+UI_toContinue,to CONTINUE,pour CONTINUER
+UI_toDestroy,to DESTROY,pour DÉTRUIRE
+UI_toUse,to USE,pour UTILISER
+UI_toConfirm,to CONFIRM,pour CONFIRMER
+UI_toOpen,to OPEN,pour OUVRIR
+UI_switchWeapon,SWITCH WEAPON,CHANGER D'ARME
+UI_toUnlock,to UNLOCK,pour DÉVERROUILLER
+UI_toUnlockNeedKey,to UNLOCK (need key),pour DÉVERROUILLER (avec la clé)
+quest_generic_obj_returnToWwizard,Return to the Wwizard.,Retourner au Magicien
+quest_1_obj_1_title,Talk to the Wwizard.,Parler au Magicien
+quest_2_obj_2_title,Collect the Book.,Récupérer le Livre
+quest_3_obj_1_title,Collect the Sword from the Blacksmith.,Récupérer l'Épée chez le Forgeron
+quest_3_obj_2_title,Collect the Evil Essence from the Evil Spit Plants in the Woodlands.,Récolter l'Essence Maléfique des Plantes Écumeuses dans le Boisé
+quest_4_obj_1_title,Collect the Pickaxe from the Blacksmith.,Récupérer la Pioche chez le Forgeron
+quest_4_obj_2_title,Collect Crystal Shards.,Récolter les Éclats de Cristaux
+quest_4_obj_3_title,Collect Mushrooms.,Récolter les Champignons
+quest_4_obj_4_title,Collect Pine Cones.,Récolter les Pommes de Pins
+quest_4_obj_5_title,Collect the Dungeon Key.,Récupérer la Clé du Donjon
+quest_5_obj_1_title,Find the Wwizard in the Desert.,Retrouver le Magicien dans le Désert
+quest_5_obj_2_title,Open the Door to the Dungeon.,Ouvrir la Porte du Donjon
+quest_5_obj_3_title,Arrive in the Dungeon.,Pénétrer dans le Donjon
+quest_6_obj_1_title,Collect the Hammer.,Récolter le Marteau
+quest_6_obj_2_title,Destroy the barricade to the Library.,Détruire la Barricade qui bloque l'entrée de la Bibliothèque
+quest_6_obj_3_title,Collect the Ancient Scroll.,Récolter le Parchemin Ancien
+quest_7_obj_1_title,Find the Forge.,Trouver la Forge
+quest_7_obj_2_title,Find the source of the corruption.,Trouver la Source de la Corruption
+quest_8_obj_1_title,Destroy the Shield protecting the Core.,Détruire le Bouclier qui protègent le Coeur
+quest_8_obj_2_title,Destroy the Core.,Détruire le Coeur
+cheats_title,Cheats,Triche
+cheats_godmode,God mode,Mode Dieu
+cheats_bighead,Big head,Grande tête
+cheats_slowmo,Slow-mo,Ralenti
+cheats_pauseai,Pause AI,Pause IA
+graphic_ambocclu,Ambient Occlusion,Occlusion ambiante
+graphic_depth,Depth of Field,Profondeur de champ
+graphic_glow,Simulated Glow,Lueur simulée
+graphic_default,Default,Défaut
+graphic_high,High,Haut
+graphic_medium,Medium,Moyen
+graphic_low,Low,Bas
+audio_lowpass,Low Pass in Menu,Passe-bas dans le menu
+audio_earlyreflection,Early Reflections,Premières réflexions
+audio_latereverb,Late Reverb,Reverb tardive
+audio_spatialAudio,Spatial Audio,Audio Spatial
+audio_locked,Locked,Fermé

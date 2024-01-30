@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD7B4661-87CC-4938-98A5-D297216CCC65}" SchemaVersion="110" RootDocumentID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" ParentDocumentID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}">
+	<SoundBanks>
+		<WorkUnit Name="Context" ID="{DD7B4661-87CC-4938-98A5-D297216CCC65}" OwnerID="{A22BFD52-CAB4-469C-ACD0-5A88F0878FA9}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="Quest_01" ID="{A1C74F17-38B8-49EA-9FDF-411D9151A7BE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Quest 1" ID="{5D9AD31F-D102-40C5-9101-B79F9DAFB90A}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest 2" ID="{D166A6BF-F865-481A-8AB3-1C3BE0FC5630}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_02" ID="{E85CC70B-9F84-4759-B48F-37ED8C5655B3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Quest 1" ID="{5D9AD31F-D102-40C5-9101-B79F9DAFB90A}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest 2" ID="{D166A6BF-F865-481A-8AB3-1C3BE0FC5630}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Weapon" ID="{117673D8-8358-4B4F-999F-3AA17017CC35}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_03" ID="{9E2A9FDE-0FA1-49FF-9F14-CEA8FED6E4E0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Quest 3" ID="{ADC31BF8-38CD-4014-A607-081D6CD4E4A0}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_04" ID="{106C6348-D455-4306-852E-EFF25077C8A7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest 4" ID="{3217F816-E938-4C8F-91F1-990AE6A1C96E}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_05" ID="{B018D6F1-61F2-4994-BAD8-3A4478D3413D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest 5" ID="{85A935F0-2B03-4AEF-9076-4EE9E99E290C}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_TempleDoor_Open_Play" ID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" WorkUnitID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_TempleDoor_Open_Stop" ID="{92070154-8029-4CAE-816F-579CB6F4999C}" WorkUnitID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_06" ID="{0644D5B4-395D-4B00-8CB3-57D5DE8C37FB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Quest 6" ID="{63BC6C60-D62F-4009-B5AF-D7B6880B398A}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_07" ID="{15BDDB76-B5AD-4328-8644-24F09EDB71C2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Quest 7" ID="{3E916945-7907-438B-90DE-C23637205D58}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+				<SoundBank Name="Quest_08" ID="{5CC7D4A8-58F1-4342-8916-7728E7863998}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Magic_Charge" ID="{9B7276C5-B34F-402A-9F1C-C83A9200DFAA}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Blast" ID="{93F38D56-9A09-4243-A38E-8D7819014897}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_HorribleSound" ID="{E93CE2A7-7805-450B-803E-E08AFF6B267A}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_Explosion" ID="{D7C01EED-F0BC-4672-A90A-BB4959573ED7}" WorkUnitID="{BC6B4AD5-92FD-4D35-BF2B-DF9C9EB6313E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_ShieldBreak" ID="{9B32D667-4AF8-4699-858D-9FCBFB7A4493}" WorkUnitID="{BC6B4AD5-92FD-4D35-BF2B-DF9C9EB6313E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_WeaponType" ID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Stop" ID="{3AF9B346-F69E-4C4B-A9D1-F52B13F73CC5}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Object_Rune_Charge_Stop" ID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" WorkUnitID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Object_Rune_Charge_Play" ID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" WorkUnitID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest 8" ID="{A1A5ABD4-297C-4DE1-A6D0-24B353C57B0F}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Blast_Impact" ID="{159898B0-0B04-4F62-86BE-C4EDA88332CF}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList>
+						<GameSyncRef Name="CrystalShard" ID="{BA857697-5903-404F-BA5C-74283CA8ACA9}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="PineCone" ID="{7D238609-07F1-4183-A003-B06858FBF184}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Sword" ID="{FB4B4D53-5FCA-4219-AA50-F5CE3CE8ED33}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Book" ID="{AF43671C-6572-422F-9825-BE8A684A891A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Item" ID="{5B79FB7F-E3F7-4253-91A3-EA0C92CD16AC}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Axe" ID="{BC4F34E7-7386-4380-AC5C-24DE2EEB9577}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Katana" ID="{791EF9D4-1692-43B5-AB1C-785DB4CABF85}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="Dagger" ID="{2CBDAEAA-F3DA-43BF-8A22-3D3ADBD5AE1A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="EvilEssence" ID="{D9F0456F-7C10-43EB-AB81-C02CE4A2440F}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Key" ID="{B3B25FD9-1264-46C7-8193-5C0A6D9A440C}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Coin" ID="{49D44F16-F3AB-4919-B4D5-3460CCAAD547}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Misc" ID="{F3626EB8-98EA-4A45-A2EB-5C493348127A}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Hammer" ID="{2A09CD6E-3A3B-4A97-9603-1897BC265713}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Staff" ID="{77224FE2-E9E5-4AF7-8CDD-9DA1C2826782}" WorkUnitID="{4D745D34-CAEF-4948-833B-56358A8D01B1}" Origin="Manual"/>
+						<GameSyncRef Name="PickAxe" ID="{EF808417-879D-4B51-B783-F713E462C722}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+						<GameSyncRef Name="Mushroom" ID="{04238445-8F6E-4BDE-88E7-A206A6F9C3C3}" WorkUnitID="{0DAE2117-D55A-4BEB-97D6-4A00F280A0C8}" Origin="Manual"/>
+					</GameSyncExclusionList>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

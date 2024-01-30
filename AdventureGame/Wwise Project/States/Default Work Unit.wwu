@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{185F8797-8C29-4F9F-91A9-8EFE425BC31C}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{185F8797-8C29-4F9F-91A9-8EFE425BC31C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Effects_LateReverb" ID="{0807A54C-BC8A-4A53-B502-B0BD0F532F36}">
+					<ChildrenList>
+						<State Name="None" ID="{312E6275-4411-4B3E-9E2D-C293EE082CBA}"/>
+						<State Name="Disable" ID="{54160129-7801-4BF6-8E1C-6029B32A629F}">
+							<Comment>When no LateReverb should be applied. </Comment>
+						</State>
+						<State Name="Enable" ID="{130AC2F9-C1D7-450F-9A6A-3012B6C62616}">
+							<Comment>When no LateReverb should be applied. 
+* When setting the State level, make sure not to set it to the specific value set in the e.g. RoomVerb, but instead to how much more / less compared to the old value it should be. So if Reverb Level parameter is -27, set the state 'Enable' to 0, not -27.</Comment>
+						</State>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="VoiceAttenuation" ID="{AADE649C-8836-4C79-84FE-728035363C62}">
+					<ChildrenList>
+						<State Name="None" ID="{F686EEB9-9BB7-4CAA-ADA2-80A6AE2DBE6C}"/>
+						<State Name="On" ID="{FEC8FAFA-1EEF-400B-904B-6C6818CA4DEF}"/>
+						<State Name="Off" ID="{EE1F6209-E5D3-47A1-B94B-88B130C5580C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="SpatialAudio" ID="{55CAF362-1A3A-491F-83B6-57905914057B}">
+					<ChildrenList>
+						<State Name="None" ID="{10D9C9CD-4985-484F-A58F-0F96F4E503F5}"/>
+						<State Name="Enabled" ID="{ECB3C19F-12C4-4EFB-BE3F-32D4C730C0FA}"/>
+						<State Name="Disabled" ID="{37BE1D37-5AAC-40B9-8D4E-193694DE8510}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}" SchemaVersion="110" RootDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" ParentDocumentID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}" OwnerID="{25A6530C-C531-4E39-A906-7B8B6447DDD2}" PersistMode="Nested">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{2177E4DF-435F-413B-B2DF-F0223EDCF7B4}" ShortID="286747567">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="OverrideConversion" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A12FEFDC-95EF-4E86-9FD1-37F3CF662FBB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="False"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3BC2716-03FF-46CB-84BA-3C79D877D62F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="False"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Button" ID="{893D2A0B-B8BC-4C2F-BB2D-2F18607E90C0}" ShortID="565628623">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E6AE31F1-98DF-4AEA-988C-3445F9B51750}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Button_Over" ID="{743CB019-96F5-4C15-8CA0-40FAD8F9EA18}" ShortID="1048632403">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-29</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A3754382-D576-42AF-BA9D-99A04C1A8CD2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Over" ID="{292332F2-D4BA-4208-9978-9F88DA057F2C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00886272321428572"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00147712053571429"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0488680710565476"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Over.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576059042"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Over" ID="{292332F2-D4BA-4208-9978-9F88DA057F2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Button_Enter" ID="{1918C28B-64AB-4769-8F5C-7FEEDB8B19B3}" ShortID="988512328">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{131698E8-9B0A-413F-90CD-6CB7AE697123}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Enter" ID="{D1600F98-DC12-4CF0-9DF0-9B137F4B7C38}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0689020647321428"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.420916573660714"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Enter.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="192562240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Enter" ID="{D1600F98-DC12-4CF0-9DF0-9B137F4B7C38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Button_Close" ID="{F3EF5B29-90FA-4912-8E54-E44BC80CC156}" ShortID="834857951">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{80F34ECD-F7DF-4B3A-BA87-D4DBE49D9605}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Close" ID="{580F89DC-C185-4653-8290-2CF0513ED4F7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0355673828125"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.277280412946429"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1069871293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Close" ID="{580F89DC-C185-4653-8290-2CF0513ED4F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{09AFA87F-B0CA-4A8F-AB98-DCC51DC7BD93}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Inventory" ID="{DE60A674-C91A-4AE6-9DA4-C88F6C91BA2D}" ShortID="913285034">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AC0E2DED-41BF-48F8-A604-D8A4E7467D43}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Inventory_Scroll" ID="{32949C9C-5158-4633-A55F-B8D98ED05CD8}" ShortID="558239131">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DCC02278-7393-47B0-BF03-75037C550009}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Scroll" ID="{CED45119-2E48-4C6E-83D6-CC12555246CA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0122174246651786"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0043857421875"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.27410888671875"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Inventory_Scroll.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473979008"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Scroll" ID="{CED45119-2E48-4C6E-83D6-CC12555246CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inventory_Open" ID="{60000B83-405D-4B9E-9346-59F2A7B208D0}" ShortID="577955913">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4279F65C-0020-4BEF-ADAD-754A58F2A59C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Open" ID="{C2AE06E3-1F06-47E1-A30F-0DCD96F52786}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0181708984375"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0100071614583333"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.210150390625"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Inventory_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="207768492"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Open" ID="{C2AE06E3-1F06-47E1-A30F-0DCD96F52786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inventory_Close" ID="{58AF1975-6EC9-4780-8538-2A8ECA09703E}" ShortID="665599711">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{36238C65-6B95-48BD-96B9-B9CCE1FC909C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Close" ID="{49ACF27B-E12E-4C9D-9C7D-EB26AF6B0248}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0335602678571429"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.20271484375"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Inventory_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1016342625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Close" ID="{49ACF27B-E12E-4C9D-9C7D-EB26AF6B0248}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{9016B08A-853A-445C-AE72-9C3B1CEB559B}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Menu" ID="{BA72571E-72EC-44BD-8D1F-0BD0E2B0B58B}" ShortID="811268266">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0F714879-4E91-488B-B168-57954DC83915}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Inventory_Select" ID="{9AEED124-33C7-4759-9032-501A97AAADAE}" ShortID="225716691">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Inventory_Select" ID="{1207CCC7-5744-4AD0-990F-445128AE7A80}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.127193266369048"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.755677641369048"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Inventory_Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="364736820"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Inventory_Select" ID="{1207CCC7-5744-4AD0-990F-445128AE7A80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Button_Close" ID="{B3A69D25-E42F-492E-A945-09F696DE37A7}" ShortID="224207726">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E8BECB14-F5DE-4F29-87FD-C39CE969DEFE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Close" ID="{26774305-FCA2-4BDB-9D9D-A6C17F12E66F}">
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576804319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Close" ID="{26774305-FCA2-4BDB-9D9D-A6C17F12E66F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Button_Teleport" ID="{731A8150-954D-4230-A30C-442A2C6BA52E}" ShortID="796017373">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Teleport" ID="{8E556858-6BDF-4AF1-9B5A-6310FE503571}">
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Teleport.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884177046"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Teleport" ID="{8E556858-6BDF-4AF1-9B5A-6310FE503571}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Button_Open" ID="{94B7605A-C4B8-47F7-BB69-B6BE48965B15}" ShortID="444126993">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Button_Open" ID="{2DE3E795-EFC9-4155-A317-ABCC75251D73}">
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Button_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="540584137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Button_Open" ID="{2DE3E795-EFC9-4155-A317-ABCC75251D73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{08F553D4-5151-4501-A6F5-0261C3DF48E3}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="Questing" ID="{C52706D9-0DCE-45A3-91A1-AF469FAD4085}" ShortID="877701992">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverridePriority" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F53576CC-04DE-4776-B7B6-4BB20384D99C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2FE2ACF2-1470-4BC6-89C5-C6EE951C70B6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Get Weapon" ID="{098DEDBE-0446-458A-899B-670F23C1E672}" ShortID="1060656300">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{51EEE871-44B2-4DCD-A0BC-8E852A514971}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_pickUpWeapon_001" ID="{F8D2F3A4-C330-418D-B9DE-72BA30C78B0F}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.996164091688633"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0524296890362438"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.23157537877939"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character\Weapons\BAS_pickUpWeapon_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="31470392"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_pickUpWeapon_001" ID="{F8D2F3A4-C330-418D-B9DE-72BA30C78B0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Collection Complete" ID="{767183B0-DA01-4AFC-9844-9AB9822692AE}" ShortID="875586601">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B321CDFF-3B4E-4170-B88A-A483F386EF32}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_Quest_CompleteCollection_02" ID="{6A7926A3-D4DA-4934-B165-4BAB893EEF55}" ShortID="1045609384">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D4A552A0-2D07-41E4-BD33-048A29EBBE94}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="False"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Priority" Type="int16">
+													<ValueList>
+														<Value>80</Value>
+													</ValueList>
+												</Property>
+												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_Quest_CompleteCollection_02" ID="{635C1330-AADF-40AF-825E-D2DAF68BD010}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00256479904632153"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.1251796316204"/>
+														<Property Name="FadeOutShape" Type="int16" Value="4"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.169276737057221"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.58299626138879"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Interface\BAS_Quest_CompleteCollection_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="945967359"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_Quest_CompleteCollection_02" ID="{635C1330-AADF-40AF-825E-D2DAF68BD010}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{5A39C519-CF34-40E4-B15B-50ABBBCEDD28}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<Sound Name="Quest_Complete" ID="{76B7A787-D942-40DC-BDDA-3926568F0038}" ShortID="167565799">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2BEA335B-BD3F-49CC-AE3F-FB4F7DDA12AA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{269E5ED2-6170-4983-839E-6C9E18789974}">
+												<Effect Name="WAG_Questing_PitchShift (Custom)" ID="{0AE132F2-B97F-447E-AE5C-3760A4A084A4}" ShortID="785024900" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{05284F51-4601-4261-B7C6-688A6012B9D0}" ShortID="959898379">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Pitch"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="Quest_Progress" ID="{B7826E2B-2C59-4806-B282-D37CF93F2E48}" WorkUnitID="{CD9AA7D0-E89B-4663-8B1D-2234BDDCDFB1}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{91511EB2-5DA0-4690-8C65-2D358A04B0BE}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>-500</YPos>
+																								<Flags>5</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>10</XPos>
+																								<YPos>-400</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>20</XPos>
+																								<YPos>-300</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>30</XPos>
+																								<YPos>-200</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>40</XPos>
+																								<YPos>-100</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>50</XPos>
+																								<YPos>0</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>60</XPos>
+																								<YPos>100</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>70</XPos>
+																								<YPos>200</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>80</XPos>
+																								<YPos>300</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>90</XPos>
+																								<YPos>400</YPos>
+																								<Flags>0</Flags>
+																								<SegmentShape>Constant</SegmentShape>
+																							</Point>
+																							<Point>
+																								<XPos>100</XPos>
+																								<YPos>500</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Quest_CompleteCollection_01" ID="{04571D48-FC1E-4DBE-AC6E-6B188CF5B507}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.608010323660714"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.810680431547619"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.4063328218006"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_Quest_CompleteCollection_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="27824897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{71956947-C708-40D4-B0C2-EE5FCFAC7E97}"/>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Quest_CompleteCollection_01" ID="{04571D48-FC1E-4DBE-AC6E-6B188CF5B507}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{851CDE86-E2AC-4D01-99E8-C519C553EAEF}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="2.22044604925031E-16"/>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+						<ActorMixer Name="QuestRoll" ID="{5EBACA6E-AEAA-40CC-9F4D-62E328FBC4ED}" ShortID="1000942262">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+								<Property Name="OverridePriority" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C03429C9-458A-4936-A5F6-D11B677569D2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{974B445E-FBE2-4646-8DE7-5EF07A2BC7F7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="False"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="QuestRoll_Close" ID="{64486503-E2B9-4456-B177-FE7BE99CBDD4}" ShortID="780366361">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{88EDAE12-194D-43EB-871D-A78267132C3D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Close" ID="{3613A917-6C3C-450E-AE33-04DC6ECB160A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00518866703642085"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.745870886485487"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_QuestRoll_Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496256198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Close" ID="{3613A917-6C3C-450E-AE33-04DC6ECB160A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="QuestRoll_Open" ID="{9A50790A-2C33-440F-963E-1ACC6F651C93}" ShortID="171034214">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E07A692-0AE7-4162-B188-18066F0FECD1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Priority" Type="int16">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="UI_Quest" ID="{D365C4F6-C056-4829-8198-81B9F3A8EC0C}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{4C883836-7B64-40A3-B28C-B1F1D8AEE67D}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_QuestRoll_Open" ID="{2334F552-0E14-4307-A3AB-2A06BCE1D2D9}">
+											<Language>SFX</Language>
+											<AudioFile>Interface\BAS_QuestRoll_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="813955928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_QuestRoll_Open" ID="{2334F552-0E14-4307-A3AB-2A06BCE1D2D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{92ECC0A8-8CA8-4D8B-8578-A9F21832F298}">
+									<PropertyList>
+										<Property Name="PanY" Type="Real64" Value="100"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</ActorMixer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{1CA4E5F9-2DB4-49BF-B18E-77E6370B5518}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="100"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

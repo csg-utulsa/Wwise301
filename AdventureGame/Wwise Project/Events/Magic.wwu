@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Magic" ID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Folder Name="General" ID="{ABDCF911-2817-4098-BB98-C3B64D426924}" ShortID="849107635">
+					<ChildrenList>
+						<Event Name="NPC_Wwizard_Poof" ID="{BE2DCBF1-942E-4646-8D7B-FA557C01FA74}">
+							<ChildrenList>
+								<Action Name="" ID="{679B5C04-4E1F-4D1A-BC1C-FDAFD176C165}" ShortID="723336664">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wizard_Poof_Teleport" ID="{D1F64770-ADEE-428E-9176-5D1EF1D5DC8C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magic_Charge" ID="{9B7276C5-B34F-402A-9F1C-C83A9200DFAA}">
+							<ChildrenList>
+								<Action Name="" ID="{FCECF5CD-96F5-4C4D-810C-599A0C6A9EB4}" ShortID="781539718">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Charge" ID="{1A5C719B-292A-4A8E-9158-B1D6EB7BE63A}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NPC_Wwizard_IdleGimmick_Poof" ID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}">
+							<ChildrenList>
+								<Action Name="" ID="{B99635C6-000F-41E5-ACDA-CB6F17471F45}" ShortID="872509722">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wizard_Poof_Idle" ID="{2354D324-B3EE-4939-9763-DF229C3DF75A}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SoundBankSpecific" ID="{616B3CA7-9885-4690-B9D4-3FF2D037BEC3}" ShortID="360130426">
+					<ChildrenList>
+						<Event Name="Magic_Blast" ID="{93F38D56-9A09-4243-A38E-8D7819014897}">
+							<ChildrenList>
+								<Action Name="" ID="{B5075934-10B9-41DF-841C-A0D2DF029F15}" ShortID="323099809">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Blast_Fired" ID="{CCA47B2A-6B08-4CD1-B84E-DDE21F747A0E}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3106C1C3-C2AD-495B-B1ED-24FFFA938CA6}" ShortID="715226468">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BigBallFire" ID="{E327EF66-DE6B-43A8-B50D-12F3A033EDFE}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magic_Blast_Impact" ID="{159898B0-0B04-4F62-86BE-C4EDA88332CF}">
+							<ChildrenList>
+								<Action Name="" ID="{05153A5A-4455-40AA-AA10-04BC4E215D97}" ShortID="623458664">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Blast_Impact" ID="{A74A85B5-ABD8-4196-A54E-C764E95B2431}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A4F3C22D-B891-41DD-B3D1-0E2762931C89}" ShortID="130833151">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Core_Shield_Impact" ID="{588BB8DB-3014-4DC1-B792-AFEED179B35E}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Magic_Stop" ID="{3AF9B346-F69E-4C4B-A9D1-F52B13F73CC5}">
+							<ChildrenList>
+								<Action Name="" ID="{86E602BB-8A4E-4CDF-B24F-78137EAA6C86}" ShortID="310236454">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic" ID="{1A4D5EDF-6E72-439A-8664-5C2C0DA1EC8A}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

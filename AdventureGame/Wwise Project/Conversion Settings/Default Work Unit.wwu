@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}" SchemaVersion="110">
+	<Conversions>
+		<WorkUnit Name="Default Work Unit" ID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{128F3909-BA7F-49EA-AA82-09A0EAF60E75}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemies" ID="{02FCCE0E-5BB9-49B0-A966-079B9D6AEB4A}" PersistMode="Reference"/>
+				<WorkUnit Name="Objects" ID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambient" ID="{FA9BF710-08A9-49D1-B809-553C31C179E2}" PersistMode="Reference"/>
+				<WorkUnit Name="NPC" ID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}" PersistMode="Reference"/>
+				<Conversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Windows">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseDither" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Windows">
+							<ConversionPlugin Name="" ID="{131EE9D6-DFE2-499F-A30A-13A909BD5D0B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+			</ChildrenList>
+		</WorkUnit>
+	</Conversions>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+newmtl Color_Atlas_Matte
+map_Kd ColorAtlas.psd
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Color_Atlas_Shiny
+map_Kd ColorAtlas.psd
+Kd 1 1 1
+d 1
+

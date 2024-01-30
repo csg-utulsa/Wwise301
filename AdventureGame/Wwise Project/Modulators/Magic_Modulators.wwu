@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78E95D4F-DD50-4D8E-88D5-BFF54B1BF578}" SchemaVersion="110">
+	<Modulators>
+		<WorkUnit Name="Magic_Modulators" ID="{78E95D4F-DD50-4D8E-88D5-BFF54B1BF578}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Modulator_Output_Level_Magic" ID="{1F48C2CF-1692-4C9F-88CE-D7EABB2DA15F}" ShortID="260795440">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F9617F6C-C69E-4398-A980-46EC112920AA}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{11C94BC4-DE3F-4ADF-92B5-121C1D668545}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="0.1"/>
+											<Property Name="Min" Type="Real64" Value="-0.1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.637"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.253">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{088897E5-D689-4E93-8421-95F45F4669A9}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+						<Property Name="EnvelopeSustainLevel" Type="Real64" Value="23.2">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{31AB515A-1A29-4ADE-A164-28B063C73720}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="False"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.305">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{AAAF962C-1226-4433-ACFA-EC83184D8C80}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="0.6"/>
+											<Property Name="Min" Type="Real64" Value="-4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

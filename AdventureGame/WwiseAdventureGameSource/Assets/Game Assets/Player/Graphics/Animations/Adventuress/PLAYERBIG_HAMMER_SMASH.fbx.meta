@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 5d3e9476ca486405dad695330c0cc45d
+timeCreated: 1484601107
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Adventuress1
+    100002: Chest
+    100004: errding
+    100006: foot_left
+    100008: foot_right
+    100010: forearm_left
+    100012: forearm_right
+    100014: hair_back_band
+    100016: hair_back_base
+    100018: hair_back_knot
+    100020: hair_long_bot
+    100022: hair_long_top
+    100024: hair_side_bot
+    100026: hair_side_top
+    100028: HammerOfDoom:polySurface1
+    100030: hand_left
+    100032: hand_right
+    100034: Handle_arm_left
+    100036: Handle_arm_right
+    100038: Handle_foot_left
+    100040: Handle_foot_right
+    100042: Head
+    100044: head
+    100046: Hips
+    100048: knee_left
+    100050: knee_right
+    100052: LeftArm
+    100054: LeftFoot
+    100056: LeftFootController
+    100058: LeftForeArm
+    100060: LeftHand
+    100062: LeftLeg
+    100064: LeftShoulder
+    100066: LeftToeBase
+    100068: LeftUpLeg
+    100070: leg_left
+    100072: leg_right
+    100074: locator1
+    100076: locator2
+    100078: locator3
+    100080: locator4
+    100082: Neck
+    100084: neck
+    100086: pCube1
+    100088: //RootNode
+    100090: QuickRigCharacter_Guides
+    100092: Reference
+    100094: RightArm
+    100096: RightFoot
+    100098: RightFootController
+    100100: RightForeArm
+    100102: RightHand
+    100104: RightLeg
+    100106: RightShoulder
+    100108: RightToeBase
+    100110: RightUpLeg
+    100112: Root
+    100114: shoulder_left
+    100116: shoulder_right
+    100118: Spine
+    100120: Spine1
+    100122: Spine2
+    100124: Stomach
+    100126: toe_left
+    100128: toe_right
+    100130: topChest
+    100132: Weapon_Slot
+    400000: Adventuress1
+    400002: Chest
+    400004: errding
+    400006: foot_left
+    400008: foot_right
+    400010: forearm_left
+    400012: forearm_right
+    400014: hair_back_band
+    400016: hair_back_base
+    400018: hair_back_knot
+    400020: hair_long_bot
+    400022: hair_long_top
+    400024: hair_side_bot
+    400026: hair_side_top
+    400028: HammerOfDoom:polySurface1
+    400030: hand_left
+    400032: hand_right
+    400034: Handle_arm_left
+    400036: Handle_arm_right
+    400038: Handle_foot_left
+    400040: Handle_foot_right
+    400042: Head
+    400044: head
+    400046: Hips
+    400048: knee_left
+    400050: knee_right
+    400052: LeftArm
+    400054: LeftFoot
+    400056: LeftFootController
+    400058: LeftForeArm
+    400060: LeftHand
+    400062: LeftLeg
+    400064: LeftShoulder
+    400066: LeftToeBase
+    400068: LeftUpLeg
+    400070: leg_left
+    400072: leg_right
+    400074: locator1
+    400076: locator2
+    400078: locator3
+    400080: locator4
+    400082: Neck
+    400084: neck
+    400086: pCube1
+    400088: //RootNode
+    400090: QuickRigCharacter_Guides
+    400092: Reference
+    400094: RightArm
+    400096: RightFoot
+    400098: RightFootController
+    400100: RightForeArm
+    400102: RightHand
+    400104: RightLeg
+    400106: RightShoulder
+    400108: RightToeBase
+    400110: RightUpLeg
+    400112: Root
+    400114: shoulder_left
+    400116: shoulder_right
+    400118: Spine
+    400120: Spine1
+    400122: Spine2
+    400124: Stomach
+    400126: toe_left
+    400128: toe_right
+    400130: topChest
+    400132: Weapon_Slot
+    2300000: HammerOfDoom:polySurface1
+    2300002: pCube1
+    3300000: HammerOfDoom:polySurface1
+    3300002: pCube1
+    4300000: Adventuress1
+    4300002: pCube1
+    4300004: HammerOfDoom:polySurface1
+    7400000: FreezeFrame
+    7400002: BIG_HAMMER_SMASH
+    9500000: //RootNode
+    13700000: Adventuress1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BIG_HAMMER_SMASH
+      takeName: BIG_HAMMER_SMASH
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adventuress1
+        weight: 1
+      - path: errding
+        weight: 1
+      - path: errding/Handle_arm_left
+        weight: 1
+      - path: errding/Handle_arm_right
+        weight: 1
+      - path: errding/Handle_foot_left
+        weight: 1
+      - path: errding/Handle_foot_right
+        weight: 1
+      - path: errding/LeftFootController
+        weight: 1
+      - path: errding/locator1
+        weight: 1
+      - path: errding/locator2
+        weight: 1
+      - path: errding/locator3
+        weight: 1
+      - path: errding/locator4
+        weight: 1
+      - path: errding/RightFootController
+        weight: 1
+      - path: errding/Root
+        weight: 1
+      - path: errding/Root/leg_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left/foot_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left/foot_left/toe_left
+        weight: 1
+      - path: errding/Root/leg_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right/foot_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right/foot_right/toe_right
+        weight: 1
+      - path: errding/Root/Stomach
+        weight: 1
+      - path: errding/Root/Stomach/Chest
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base/hair_back_band
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base/hair_back_band/hair_back_knot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_long_top
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_long_top/hair_long_bot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_side_top
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_side_top/hair_side_bot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left/forearm_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left/forearm_left/hand_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right/forearm_right
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right/forearm_right/hand_right
+        weight: 1
+      - path: HammerOfDoom:polySurface1
+        weight: 1
+      - path: QuickRigCharacter_Guides
+        weight: 1
+      - path: QuickRigCharacter_Guides/Head
+        weight: 1
+      - path: QuickRigCharacter_Guides/Hips
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftFoot
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftForeArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftHand
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftShoulder
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftToeBase
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftUpLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/Neck
+        weight: 1
+      - path: QuickRigCharacter_Guides/Reference
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightFoot
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightForeArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightHand
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightShoulder
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightToeBase
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightUpLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine1
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine2
+        weight: 1
+      - path: Weapon_Slot
+        weight: 1
+      - path: Weapon_Slot/pCube1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FreezeFrame
+      takeName: BIG_HAMMER_SMASH
+      firstFrame: 25
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Adventuress1
+        weight: 1
+      - path: errding
+        weight: 1
+      - path: errding/Handle_arm_left
+        weight: 1
+      - path: errding/Handle_arm_right
+        weight: 1
+      - path: errding/Handle_foot_left
+        weight: 1
+      - path: errding/Handle_foot_right
+        weight: 1
+      - path: errding/LeftFootController
+        weight: 1
+      - path: errding/locator1
+        weight: 1
+      - path: errding/locator2
+        weight: 1
+      - path: errding/locator3
+        weight: 1
+      - path: errding/locator4
+        weight: 1
+      - path: errding/RightFootController
+        weight: 1
+      - path: errding/Root
+        weight: 1
+      - path: errding/Root/leg_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left/foot_left
+        weight: 1
+      - path: errding/Root/leg_left/knee_left/foot_left/toe_left
+        weight: 1
+      - path: errding/Root/leg_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right/foot_right
+        weight: 1
+      - path: errding/Root/leg_right/knee_right/foot_right/toe_right
+        weight: 1
+      - path: errding/Root/Stomach
+        weight: 1
+      - path: errding/Root/Stomach/Chest
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base/hair_back_band
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_back_base/hair_back_band/hair_back_knot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_long_top
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_long_top/hair_long_bot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_side_top
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/neck/head/hair_side_top/hair_side_bot
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left/forearm_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_left/forearm_left/hand_left
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right/forearm_right
+        weight: 1
+      - path: errding/Root/Stomach/Chest/topChest/shoulder_right/forearm_right/hand_right
+        weight: 1
+      - path: HammerOfDoom:polySurface1
+        weight: 1
+      - path: QuickRigCharacter_Guides
+        weight: 1
+      - path: QuickRigCharacter_Guides/Head
+        weight: 1
+      - path: QuickRigCharacter_Guides/Hips
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftFoot
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftForeArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftHand
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftShoulder
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftToeBase
+        weight: 1
+      - path: QuickRigCharacter_Guides/LeftUpLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/Neck
+        weight: 1
+      - path: QuickRigCharacter_Guides/Reference
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightFoot
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightForeArm
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightHand
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightShoulder
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightToeBase
+        weight: 1
+      - path: QuickRigCharacter_Guides/RightUpLeg
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine1
+        weight: 1
+      - path: QuickRigCharacter_Guides/Spine2
+        weight: 1
+      - path: Weapon_Slot
+        weight: 1
+      - path: Weapon_Slot/pCube1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 75
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

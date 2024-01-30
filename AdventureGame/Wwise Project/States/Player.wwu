@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{023743DB-58AD-48B7-86CD-FBDCAD16B30A}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Player" ID="{023743DB-58AD-48B7-86CD-FBDCAD16B30A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Combo" ID="{6BD5EF3C-D82A-4EA2-8DBE-C4A33C57E2BB}">
+					<ChildrenList>
+						<State Name="None" ID="{4C1AAC45-479C-4380-9B60-5F9CE7C79F9A}"/>
+						<State Name="RightSwing" ID="{464B173E-5759-4426-8BEA-51D233FC13CD}"/>
+						<State Name="LeftSwing" ID="{19DE1A92-F702-4FE7-A59C-A18F6F5ED385}"/>
+						<State Name="TopSwing" ID="{0AC84C13-51EB-4DD3-A1A6-E5DF8A234E32}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

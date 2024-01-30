@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2048928861	DLC_Ambient_Heaven			\Ambient\DLC\DLC_Ambient_Heaven	
+	2622476831	DLC_Button			\Ambient\DLC\DLC_Button	
+	2874568351	DLC_Cannon_Shot			\Ambient\DLC\DLC_Cannon_Shot	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	762020526	Distance_to_Camera			\Generic\Distance_to_Camera	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	360368708	Modulator Envelope (Custom)				
+
+Metadata plug-ins	ID	Name	Type				Notes
+	2198414564	Same_As_MainMix	Wwise System Output Settings			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	52615721	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\WAG_Button\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73574320	Ambient_DLC_Cannon	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_TmpShotSound_9BEE6806.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Ambient_DLC_Cannon		2151
+	466737030	Confetti	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Other\WAG_Sparkle_103AAE74.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Confetti		12129
+	676619034	DLC_AMB_Heaven	D:\Jenkins\ws\master\wpa-game\Wwise Project\.cache\Android_High\SFX\Ambient\Ambient_Background\BAS_AMB_Heaven_FFB38812.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\DLC_AMB_Heaven		239238
+

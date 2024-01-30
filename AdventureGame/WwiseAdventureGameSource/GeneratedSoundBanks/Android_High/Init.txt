@@ -1,0 +1,184 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	3219147252	DayOrNight			\General\DayOrNight	
+	3917897988	Distance_to_Player			\General\Distance_to_Player	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+	1183803292	Far	Distance_to_Player			
+	1451272583	Close	Distance_to_Player			
+	2849147824	Medium	Distance_to_Player			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	326723740	MagicZone			\MusicStates\MagicZone	
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+	2333396925	Combo			\Player\Combo	
+	3190472332	Effects_LateReverb			\Default Work Unit\Effects_LateReverb	
+	3556213387	SpatialAudio			\Default Work Unit\SpatialAudio	
+	4257092447	VoiceAttenuation			\Default Work Unit\VoiceAttenuation	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MagicZone			
+	975018643	MZ1_OutsideHouse	MagicZone			
+	3530070619	MZ2_InsideHouse	MagicZone			
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+	748895195	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+	748895195	None	Effects_LateReverb			
+	768281003	Disable	Effects_LateReverb			When no LateReverb should be applied. 
+	2256756024	Enable	Effects_LateReverb			When no LateReverb should be applied.  * When setting the State level, make sure not to set it to the specific value set in the e.g. RoomVerb, but instead to how much more / less compared to the old value it should be. So if Reverb Level parameter is -27, set the state 'Enable' to 0, not -27.
+	748895195	None	SpatialAudio			
+	3248502869	Disabled	SpatialAudio			
+	4174102348	Enabled	SpatialAudio			
+	748895195	None	VoiceAttenuation			
+	930712164	Off	VoiceAttenuation			
+	1651971902	On	VoiceAttenuation			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	1005299	Enabled	SpatialAudio	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music		
+	83930905	WwizardHouse	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	173210282	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_MezzanineRoom\Wwise_RoomVerb_(Custom)		When no LateReverb should be applied. 
+	230944755	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_PathToForge\Hall_Medium_(Custom)		When no LateReverb should be applied. 
+	257334077	Disable	Effects_LateReverb	\Effects\Default Work Unit\Reverbs\WAG_Dungeon_Entrance		When no LateReverb should be applied. 
+	261903322	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Forge\Holy_(Custom)		When no LateReverb should be applied. 
+	274412102	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_RoadToCore\Phone_Booth_(Custom)		When no LateReverb should be applied. 
+	490146230	Silent	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	494757083	Woodlands	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	564177613	Cave	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	698019677	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library_Statue\Wwise_RoomVerb_(Custom)		When no LateReverb should be applied. 
+	709395049	MZ2_InsideHouse	MagicZone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	751448017	Disable	Effects_LateReverb	\Effects\Default Work Unit\Reverbs\WAG_Dungeon_Core		When no LateReverb should be applied. 
+	812009021	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_DLC_Entrance\Wwise_RoomVerb_(Custom)		When no LateReverb should be applied. 
+	845453630	Dungeon	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	865592045	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_MezzanineRoomEntrance\Wwise_RoomVerb_(Custom)		When no LateReverb should be applied. 
+	903245861	Desert	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	906729382	Nowhere	Music_Regions	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+	948043145	Disable	Effects_LateReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library\WAG_Room_Large_(Custom)		When no LateReverb should be applied. 
+	1064249781	MZ2_InsideHouse	MagicZone	\Effects\Factory Effects\Wwise Flanger\Flanging\Standard		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Reflect Acoustic Textures\Textures\Concrete	
+	1333239961	MenuSlider_Master_Volume			\Gameplay\MenuSlider_Master_Volume	
+	1378045158	MusicArcade			\SideChain\MusicArcade	
+	1636576504	MusicStinger			\SideChain\MusicStinger	
+	1755085759	Wood_Deep			\Factory Reflect Acoustic Textures\Textures\Wood_Deep	
+	1756231317	InMenu_LowPass			\Gameplay\InMenu_LowPass	
+	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
+	2642438544	MenuSlider_Music_Volume			\Gameplay\MenuSlider_Music_Volume	
+	2928161104	Curtains			\Factory Reflect Acoustic Textures\Textures\Curtains	
+	2947261878	Game_TimeSpeed			\Gameplay\Game_TimeSpeed	
+	3195498748	Cork_Tiles			\Factory Reflect Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Reflect Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Reflect Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\World\Ambient	
+	322219352	Region_Village			\Default Work Unit\Master Audio Bus\World\AUX\Region_Village	
+	654058533	Region_PineForest			\Default Work Unit\Master Audio Bus\World\AUX\Region_PineForest	
+	838047381	Non-World			\Default Work Unit\Master Audio Bus\Non-World	
+	983310469	AUX			\Default Work Unit\Master Audio Bus\World\AUX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\World\Player	
+	1269715591	Region_Cave			\Default Work Unit\Master Audio Bus\World\AUX\Region_Cave	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Non-World\UI	
+	1695690031	Objects			\Default Work Unit\Master Audio Bus\World\Objects	
+	1756441591	Region_Woodlands			\Default Work Unit\Master Audio Bus\World\AUX\Region_Woodlands	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\World\Enemies	
+	2609808943	World			\Default Work Unit\Master Audio Bus\World	
+	3103268467	Region_Desert			\Default Work Unit\Master Audio Bus\World\AUX\Region_Desert	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\World\Voice	
+	3259822206	EnemyTheme			\Default Work Unit\Master Audio Bus\Non-World\Music\EnemyTheme	
+	3334061918	Region_Dungeon			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon	
+	3787826988	Core			\Default Work Unit\Master Audio Bus\World\Ambient\Core	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3911885026	Music Arcade			\Default Work Unit\Master Audio Bus\World\Objects\Music Arcade	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\World\Voice\Dialogue	
+	3962056604	Music Stinger			\Default Work Unit\Master Audio Bus\Non-World\Music Stinger	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Non-World\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243931001	Dungeon_Forge			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_PathToForge	
+	905084756	Dungeon_DLC_Entrance			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_DLC_Entrance	
+	918440440	Dungeon_DLC_CoinRoom			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_DLC_CoinRoom	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Entrance	
+	1421251628	Woodlands			\Default Work Unit\Master Audio Bus\World\AUX\Region_Woodlands\Woodlands	
+	1479780851	RoadToWoodlands			\Default Work Unit\Master Audio Bus\World\AUX\Region_Woodlands\RoadToWoodlands	
+	1750943985	RoadToPineForest			\Default Work Unit\Master Audio Bus\World\AUX\Region_PineForest\RoadToPineForest	
+	1762369803	Reflect_AuxBus			\Default Work Unit\Master Audio Bus\World\AUX\Reflect_AuxBus	
+	1850388778	Desert			\Default Work Unit\Master Audio Bus\World\AUX\Region_Desert\Desert	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Core	
+	2412664669	Music_Aux			\Default Work Unit\Master Audio Bus\Non-World\Music_Aux	
+	2482365692	PineForest			\Default Work Unit\Master Audio Bus\World\AUX\Region_PineForest\PineForest	
+	2598995339	Training			\Default Work Unit\Master Audio Bus\World\AUX\Region_Village\Training	
+	3082052254	PineForest_Hut			\Default Work Unit\Master Audio Bus\World\AUX\Region_PineForest\PineForest_Hut	
+	3132368115	WwizardHouse			\Default Work Unit\Master Audio Bus\World\AUX\Region_Village\WwizardHouse	
+	3352684520	CaveEntrance			\Default Work Unit\Master Audio Bus\World\AUX\Region_Cave\CaveEntrance	
+	3497669663	RoadToDesert			\Default Work Unit\Master Audio Bus\World\AUX\Region_Desert\RoadToDesert	
+	3945572659	Village			\Default Work Unit\Master Audio Bus\World\AUX\Region_Village\Village	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\World\AUX\Region_Cave\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_MezzanineRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	125812960	WAG_PitchShift_SlowMotionMode	Wwise Pitch Shifter			
+	135805232	WAG_Room_Large_(Custom)	Wwise RoomVerb			
+	171042078	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	210348734	WAG_Exterior (Custom)	Wwise RoomVerb			
+	286374244	WAG_Exterior (Custom)	Wwise RoomVerb			
+	293032590	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	340577010	WAG_Exterior (Custom)	Wwise RoomVerb			
+	381192976	Room_Large (Custom)	Wwise RoomVerb			
+	384632663	WAG_Dungeon_Core	Wwise RoomVerb			
+	385945448	WAG_Music	Wwise RoomVerb			
+	445611739	Hall_Medium_(Custom)	Wwise RoomVerb			
+	503218738	Phone_Booth_(Custom)	Wwise RoomVerb			
+	515435302	Wwise Delay (Custom)	Wwise Delay			
+	588347440	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	656189815	WAG_Exterior (Custom)	Wwise RoomVerb			
+	705739009	Room_Large (Custom)	Wwise RoomVerb			
+	707590278	Holy_(Custom)	Wwise RoomVerb			
+	728462504	WAG_Exterior (Custom)	Wwise RoomVerb			
+	825815201	Echoes_Linear (Custom)	Wwise Delay			
+	831154295	WAG_Exterior (Custom)	Wwise RoomVerb			
+	1006930435	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+	1070542748	WAG_Exterior (Custom)	Wwise RoomVerb			
+	1242019057	WAG_SideChainArcade	Wwise Meter			
+	1305889293	WAG_SideChainStinger	Wwise Meter			
+	1783154876	WAG_Cave	Wwise RoomVerb			
+	1883259540	WAG_PineForest_Hut	Wwise Matrix Reverb			
+	1937843064	WAG_Desert	Wwise Convolution Reverb			
+	2439616960	WAG_Dungeon_Entrance	Wwise RoomVerb			
+	2545004126	Wwise_Reflect	Wwise Reflect			
+	3025917178	Standard	Wwise Flanger			
+	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
+	4131355637	HomeCinema	Mastering Suite			
+	4259739631	WAG_Music_EnemyThemeMeter	Wwise Meter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

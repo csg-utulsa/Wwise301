@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B77330F7-BBF2-41FB-B209-8732BD348A14}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Objects" ID="{B77330F7-BBF2-41FB-B209-8732BD348A14}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Destruction_Level" ID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

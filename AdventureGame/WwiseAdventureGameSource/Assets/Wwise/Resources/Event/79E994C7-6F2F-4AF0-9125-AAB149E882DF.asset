@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59466a3c65b304243aadc0c92a6e7458, type: 3}
+  m_Name: 79E994C7-6F2F-4AF0-9125-AAB149E882DF
+  m_EditorClassIdentifier: 
+  objectName: UI_Button_Exit
+  id: 2325560497
+  guid: 79E994C7-6F2F-4AF0-9125-AAB149E882DF

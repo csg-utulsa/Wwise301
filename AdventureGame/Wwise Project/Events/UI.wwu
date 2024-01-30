@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB3742CC-CCE8-4B97-86E1-2CE1666D85A2}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="UI" ID="{CB3742CC-CCE8-4B97-86E1-2CE1666D85A2}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Folder Name="Quest Roll" ID="{37B3E481-E952-47AF-92EE-4A7ABA2B4582}" ShortID="196054863">
+					<ChildrenList>
+						<Event Name="UI_QuestRoll_Close" ID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}">
+							<ChildrenList>
+								<Action Name="" ID="{A8C0E3B1-1EB4-4E3B-83AC-826C259802C1}" ShortID="758640946">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuestRoll_Close" ID="{64486503-E2B9-4456-B177-FE7BE99CBDD4}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Hide" ID="{7338840D-47AA-49C7-B598-CFEF41459A42}">
+							<ChildrenList>
+								<Action Name="" ID="{37B9E8BA-8A41-47F6-9199-1ABFAE7D6BA7}" ShortID="876511326">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuestRoll_Close" ID="{64486503-E2B9-4456-B177-FE7BE99CBDD4}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Open" ID="{81178E46-95EF-4779-AB9E-2D5734984EF8}">
+							<ChildrenList>
+								<Action Name="" ID="{A73A1B79-74E3-433C-901F-6EEDEFF3B66E}" ShortID="1046932679">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuestRoll_Open" ID="{9A50790A-2C33-440F-963E-1ACC6F651C93}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_QuestRoll_Show" ID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}">
+							<ChildrenList>
+								<Action Name="" ID="{F5BCDA67-5D86-4326-B7CE-7EF47CD7ED2A}" ShortID="304409824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuestRoll_Open" ID="{9A50790A-2C33-440F-963E-1ACC6F651C93}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Generic" ID="{CCFE81C7-D1D3-4B5E-B6DC-CBA8AB68FFAD}" ShortID="875117399">
+					<ChildrenList>
+						<Event Name="UI_Button_Down" ID="{1CF76F02-9289-49BB-B568-B32E7CB1551D}">
+							<ChildrenList>
+								<Action Name="" ID="{7B7138A6-7CCA-4E64-ABDB-123235AA488A}" ShortID="324793090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Over" ID="{743CB019-96F5-4C15-8CA0-40FAD8F9EA18}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Enter" ID="{CE7B657B-F319-4C41-8CD7-82FBEA81EF7A}">
+							<ChildrenList>
+								<Action Name="" ID="{039F8489-AA27-483C-A2EC-06608D50C448}" ShortID="343398710">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Enter" ID="{1918C28B-64AB-4769-8F5C-7FEEDB8B19B3}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Exit" ID="{79E994C7-6F2F-4AF0-9125-AAB149E882DF}">
+							<ChildrenList>
+								<Action Name="" ID="{5504E09A-467B-4BAD-822B-DBD3B2EF3151}" ShortID="688438676">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Close" ID="{F3EF5B29-90FA-4912-8E54-E44BC80CC156}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Up" ID="{1975C582-9BE3-4B94-AF65-DC7C428D2057}">
+							<ChildrenList>
+								<Action Name="" ID="{C0EED189-DCD3-4C23-85E0-E9D69A4A3B7B}" ShortID="457344785">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Over" ID="{743CB019-96F5-4C15-8CA0-40FAD8F9EA18}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Inventory" ID="{E8985DDC-2722-450A-8EBA-C95AFD9E4839}" ShortID="921910132">
+					<ChildrenList>
+						<Event Name="UI_Inventory_Close" ID="{B2445F20-C2C6-4632-B596-1BC3BDF68AE0}">
+							<ChildrenList>
+								<Action Name="" ID="{42D2A3C2-1EB8-45EF-A371-9EA98E81D06F}" ShortID="453675572">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inventory_Close" ID="{58AF1975-6EC9-4780-8538-2A8ECA09703E}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Inventory_Open" ID="{E1F08740-DE9E-4039-BDE2-C46B8D8B18F8}">
+							<ChildrenList>
+								<Action Name="" ID="{552E6024-89C6-45A0-AF4C-903DBBEBDB73}" ShortID="648411678">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inventory_Open" ID="{60000B83-405D-4B9E-9346-59F2A7B208D0}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Inventory_Roll" ID="{0FB5BEB2-B5B9-42FE-A8BF-D6DFBE133F84}">
+							<ChildrenList>
+								<Action Name="" ID="{0D27CCED-C82E-4DBA-9DC7-6BF7F1803F3A}" ShortID="385715961">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inventory_Scroll" ID="{32949C9C-5158-4633-A55F-B8D98ED05CD8}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{E569C118-E9CC-4E4B-94C3-ABEC358B5F96}" ShortID="181836022">
+					<ChildrenList>
+						<Event Name="UI_Menu_Pause" ID="{38C87385-C5F6-411F-9E84-D9EA1B4D1D98}">
+							<ChildrenList>
+								<Action Name="" ID="{E98FCD69-ED47-4869-93C1-1AA5882878A1}" ShortID="934392304">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Open" ID="{94B7605A-C4B8-47F7-BB69-B6BE48965B15}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Resume" ID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}">
+							<ChildrenList>
+								<Action Name="" ID="{510189A3-65D0-4758-AA6B-443B2EA4FA79}" ShortID="711217382">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Close" ID="{B3A69D25-E42F-492E-A945-09F696DE37A7}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Select" ID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}">
+							<ChildrenList>
+								<Action Name="" ID="{04362A47-0086-4A87-AF7F-B23EA66576A7}" ShortID="929324500">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inventory_Select" ID="{9AEED124-33C7-4759-9032-501A97AAADAE}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Teleport" ID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}">
+							<ChildrenList>
+								<Action Name="" ID="{8DF5C958-EDC7-4CF1-963D-71C88077250E}" ShortID="635324741">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Teleport" ID="{731A8150-954D-4230-A30C-442A2C6BA52E}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

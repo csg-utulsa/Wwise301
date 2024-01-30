@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Objects" ID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SoundBankSpecific" ID="{46308734-DFB3-416E-AA36-FFC482114A98}" ShortID="193485677">
+					<ChildrenList>
+						<Event Name="Door_TempleDoor_Open_Play" ID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}">
+							<ChildrenList>
+								<Action Name="" ID="{4AD44F69-2BAF-48FD-BEBA-467A7D4DE5F5}" ShortID="627185908">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TempleDoor_Open" ID="{FF20C191-78CE-4C8A-A8A8-4D8E453DFF18}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Object_ActivateKey_Success" ID="{26455C14-A2D3-4E82-9EAA-D0429D7C60D4}">
+							<ChildrenList>
+								<Action Name="" ID="{199564EB-F542-4BA4-A0DC-7E5CEAB43526}" ShortID="870225221">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DLC_ActivateKey_Success" ID="{AB611BD1-70F9-4574-B098-640B5E8B8B82}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Object_ActivateKey_Failed" ID="{9C0865EA-D2B5-41F4-9C0D-8479A86F808D}">
+							<ChildrenList>
+								<Action Name="" ID="{61D54991-BB12-4ACE-9FCD-1B602231E23F}" ShortID="46926974">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DLC_ActivateKey_Failed" ID="{9D9B9FBE-BC39-4EAC-BFC4-5210205E2F51}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Object_Coin_Drop" ID="{C68C81D1-9D17-4C7F-8356-964F200DDE92}">
+							<ChildrenList>
+								<Action Name="" ID="{58F38A6D-43E6-43F7-946E-B15868E58672}" ShortID="257131555">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coin" ID="{A9A6D4AC-E8C7-49B1-8EC9-BEAE8EFB8D17}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door_TempleDoor_Open_Stop" ID="{92070154-8029-4CAE-816F-579CB6F4999C}">
+							<ChildrenList>
+								<Action Name="" ID="{2E614B52-536D-416B-BCEF-7E2A46805309}" ShortID="501928978">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TempleDoor_Open" ID="{FF20C191-78CE-4C8A-A8A8-4D8E453DFF18}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door_DLCdoor_Open_Stop" ID="{9ECAE2DE-A602-41D0-9804-A68F69366076}">
+							<ChildrenList>
+								<Action Name="" ID="{62C0DEA1-3241-4440-9C37-8D8588823622}" ShortID="743854782">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinRoom_End" ID="{2FA8D2D1-6C67-4388-BE4F-5DC31F7CC076}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E5C5A80F-B296-41A1-AF24-600E89F399D2}" ShortID="805420395">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinRoom_Open" ID="{0658A60E-6DB1-4408-960A-A212DC57095A}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Door_DLCdoor_Open_Play" ID="{936CD5EF-9820-4A21-B810-D0492C1490C3}">
+							<ChildrenList>
+								<Action Name="" ID="{95CE3B79-0725-48E3-9A49-C2E5EA8B056D}" ShortID="882965566">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinRoom_Open" ID="{0658A60E-6DB1-4408-960A-A212DC57095A}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Object_Rune_Charge_Stop" ID="{ACA095B5-7387-4C6B-AC03-D2462587900A}">
+							<ChildrenList>
+								<Action Name="" ID="{0E63D106-D642-44DA-AD6C-5F1172DF90D8}" ShortID="896719532">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rune_Charge_End" ID="{1CE07C4C-5E16-4671-9D12-E120DEB854B9}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{24FA7EC1-F3A7-474F-8244-65721BC09167}" ShortID="593495542">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rune_Charge_LP" ID="{27368D1F-7672-4A00-A1EA-E5FE649BF80D}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Object_Rune_Charge_Play" ID="{CA13E948-FC8A-4C86-A933-FEB51278A585}">
+							<ChildrenList>
+								<Action Name="" ID="{D0F3737D-0720-4B0B-A7A1-1CD49DC958FD}" ShortID="480702358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rune_Charge_LP" ID="{27368D1F-7672-4A00-A1EA-E5FE649BF80D}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

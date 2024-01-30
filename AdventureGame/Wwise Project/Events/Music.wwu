@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Music" ID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" PersistMode="Standalone">
+			<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Bay Area Sound, Inc.
+With the help of Damian Kastbauer for Lost Chocolate Lab.
+(c) 2012 Bay Area Sound, Inc.
+www.basound.com
+
+The Audio Content contained in this file is the property of Bay Area Sound, Inc.
+Your sole right with regard to this Audio Content is to listen to the Audio 
+Content as part of this Sample Project.  This Audio Content cannot be used
+or modified for a commercial purpose nor for public demonstration.</Comment>
+			<ChildrenList>
+				<Folder Name="SoundBankSpecific" ID="{11A662D5-CAB9-4E18-AE99-5D1D0145B48D}" ShortID="142894883">
+					<ChildrenList>
+						<Event Name="Music_ArcadeMachine_Play" ID="{DE3E5ECC-6C17-4EEA-B522-4A7F4462B078}">
+							<ChildrenList>
+								<Action Name="" ID="{9640A8E9-0EB5-43A5-A8A5-ACFFBD74DCFB}" ShortID="737788397">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MIDI_WAG" ID="{52B39571-666B-4D12-A413-944AA7DF321B}" WorkUnitID="{71557659-FD02-4853-8643-35ABDDB6A1DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_ArcadeMachine_Stop" ID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}">
+							<ChildrenList>
+								<Action Name="" ID="{EED5456B-1632-4255-A870-4419FC3E781B}" ShortID="641420708">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MIDI_WAG" ID="{52B39571-666B-4D12-A413-944AA7DF321B}" WorkUnitID="{71557659-FD02-4853-8643-35ABDDB6A1DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Credits" ID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}">
+							<ChildrenList>
+								<Action Name="" ID="{A42E56C4-92A3-4327-ACB8-FEC6773A75E9}" ShortID="2372943">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+										<Property Name="Volume" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woodlands_Day" ID="{C818CFAC-6C85-472C-BDD0-3B9C6B80B105}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DBD58527-6EDF-46E3-AEBA-28DAFA0EB208}" ShortID="975679711">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woodlands_Day" ID="{C818CFAC-6C85-472C-BDD0-3B9C6B80B105}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_DungeonEnemyOnly" ID="{9910D8A5-7271-413E-A41F-37FC0F57B992}">
+							<ChildrenList>
+								<Action Name="" ID="{368C382D-79FE-48FB-9507-58C41AD7EFEF}" ShortID="787985236">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DungeonAndEnemies" ID="{00E14AD2-CFF1-420B-B86D-0AF369A03306}" WorkUnitID="{71557659-FD02-4853-8643-35ABDDB6A1DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_TitleScreen" ID="{AB1B2D9B-58CE-423A-AC9A-D5A824F42D6C}">
+							<ChildrenList>
+								<Action Name="" ID="{69131810-EAA6-46ED-80D5-56C74C4A7FB5}" ShortID="111560993">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_TitleScreen" ID="{B3F3F04C-3460-4415-B202-7488F71C2348}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{92217409-6C70-4704-9CAA-292238864F75}" ShortID="81238104">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MZ1_OutsideHouse" ID="{283E4478-5D33-4BB6-8014-3B3302549B8C}" WorkUnitID="{8BA87567-DB07-419C-A49E-41B6151761DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="General" ID="{263F1E25-D062-4D65-A876-D76812909E8C}" ShortID="314144814">
+					<ChildrenList>
+						<Event Name="Music_Enemies" ID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}">
+							<ChildrenList>
+								<Action Name="" ID="{3A3C83C3-1E46-44D0-AC2B-FB84294B11FB}" ShortID="994885344">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Enemies" ID="{72B67994-42FE-4C7E-AC72-3E813D637CC6}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Region" ID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}">
+							<ChildrenList>
+								<Action Name="" ID="{ECC54EC4-D30F-439B-A426-DF8C43990636}" ShortID="1006199476">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Regions" ID="{1378381B-6304-43C8-A350-2C0C481351B1}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1BDA11AA-D43C-401C-98F2-2A173630098E}" ShortID="308527507">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Enemies" ID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" WorkUnitID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stinger_GetWeapon" ID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}">
+							<ChildrenList>
+								<Action Name="" ID="{E55A0B79-11A4-43A5-A1DE-113F2FBAE1A7}" ShortID="908615433">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Get Weapon" ID="{098DEDBE-0446-458A-899B-670F23C1E672}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

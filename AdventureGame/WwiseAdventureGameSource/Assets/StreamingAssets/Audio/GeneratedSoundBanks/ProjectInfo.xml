@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Wwise Adventure Game" GUID="{0405FE9F-22D5-41EF-B245-E5DC92910373}" Generator="2022.1.8.8316"/>
+	<CacheRoot>../../../../../Wwise Project/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{25AC3366-CB08-43EC-B16C-0EEF0424A5C9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{85C28F35-DDF9-3483-2316-8998EDA42D44}</FileHash>
+</ProjectInfo>

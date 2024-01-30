@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="NPCs" ID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Dialogue" ID="{018AC0C6-5007-42A7-8503-3C17CA31793E}" ShortID="709402881">
+					<ChildrenList>
+						<Folder Name="Quest 1" ID="{5D9AD31F-D102-40C5-9101-B79F9DAFB90A}" ShortID="928176833">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q1_1" ID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}">
+									<ChildrenList>
+										<Action Name="" ID="{78BEFEDB-9B27-47D6-80ED-74812B06BCDC}" ShortID="117818522">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q1_1" ID="{36153833-8790-4255-B71D-61DF85E2E18C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q1_2" ID="{A52B770D-06F1-44A5-9665-41F86EC74571}">
+									<ChildrenList>
+										<Action Name="" ID="{9C6DF58F-CFD6-4BA8-BFED-A79E55021455}" ShortID="271826611">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q1_2" ID="{22522B1C-1E0B-4D14-8D4F-CC03E66D9349}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q1_3" ID="{30E2D63F-4B24-4251-BB37-B41990136FC0}">
+									<ChildrenList>
+										<Action Name="" ID="{BBE317EF-7251-4B94-AC68-DD0035384880}" ShortID="1036383655">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q1_3" ID="{CE6F11AC-BA45-482C-B036-A1A96C8539CE}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 2" ID="{D166A6BF-F865-481A-8AB3-1C3BE0FC5630}" ShortID="177450871">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q2_1" ID="{1BEB1FB6-365A-4078-8D18-28727C82A133}">
+									<ChildrenList>
+										<Action Name="" ID="{B1598B4B-CDDD-47DE-920F-A56FE3C56CA3}" ShortID="485460854">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q2_1" ID="{E5A61898-2F41-4915-BB36-0C62E24D135C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q2_2" ID="{FCECD427-EBCE-43A2-9EF1-6339E5BC707D}">
+									<ChildrenList>
+										<Action Name="" ID="{7352C709-6F69-4ECE-86E9-4ECD530EE019}" ShortID="250449209">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q2_2" ID="{4A9A71D3-7315-46C2-9B27-D22880B96D69}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q2_3" ID="{E86FB16A-D137-41F5-AD05-F5D304320F4D}">
+									<ChildrenList>
+										<Action Name="" ID="{71BB40B5-5885-4CAF-99C0-80F1A517B637}" ShortID="447050761">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q2_3" ID="{1DC48634-8520-4009-A193-85EB1FCA4071}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 3" ID="{ADC31BF8-38CD-4014-A607-081D6CD4E4A0}" ShortID="396249986">
+							<ChildrenList>
+								<Event Name="Blacksmith_DialogueLine_Q3b_01" ID="{44B1109B-F93D-4380-87C0-A28497A32D8D}">
+									<ChildrenList>
+										<Action Name="" ID="{ABF487D4-E2FE-4B77-8012-1AF1D3BEE54E}" ShortID="106084837">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_01" ID="{6E0D3A05-0F26-4371-B627-EB2CFF706960}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blacksmith_DialogueLine_Q3b_02" ID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}">
+									<ChildrenList>
+										<Action Name="" ID="{615E9E86-046B-470A-8605-9F452CF54605}" ShortID="32040236">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_02" ID="{DF4C5797-958A-45BE-BCB8-AFA7E18C964E}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blacksmith_DialogueLine_Q3b_03" ID="{C76DEDD5-072D-470D-8E18-58272B44114D}">
+									<ChildrenList>
+										<Action Name="" ID="{D3BA64A9-4646-4AEF-A453-6C708FE699B0}" ShortID="729250886">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_03" ID="{A4625000-3CBC-4C3F-BB1C-7215438EF1E1}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blacksmith_DialogueLine_Q3b_04" ID="{F404B199-661F-4015-8B1C-2E57459467CA}">
+									<ChildrenList>
+										<Action Name="" ID="{3AB9E7E2-2027-4B9D-89D7-87E34DE85879}" ShortID="116229195">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_04" ID="{5DA881B7-382F-4345-B392-BEA957B8FFFF}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blacksmith_DialogueLine_Q3b_05" ID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}">
+									<ChildrenList>
+										<Action Name="" ID="{1096C203-DE00-4795-81D3-C52B948ED71A}" ShortID="29224919">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_05" ID="{A4AEF245-A0A9-4E53-8560-0B2BB979866A}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_01" ID="{F453350F-76D0-462F-A918-08520519CDDC}">
+									<ChildrenList>
+										<Action Name="" ID="{C3B5EBE4-6D09-45E4-AD94-678616DE8593}" ShortID="1051360331">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_01" ID="{6C93D155-AFB7-49C4-8C38-C0EFAA53F452}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_02" ID="{52175C07-A72E-46E3-B5DA-CBA1605D887F}">
+									<ChildrenList>
+										<Action Name="" ID="{AD6F8DD7-E50A-4BBE-95A0-EDBA2ED7C8A4}" ShortID="972996564">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_02" ID="{761AA107-D97D-4205-AC13-0828A5A05C10}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_03" ID="{219313F0-B0DF-4D98-AAB6-7833341A984A}">
+									<ChildrenList>
+										<Action Name="" ID="{BF7F9CC9-7EAF-4F38-98D7-2FC4E119CFEA}" ShortID="105858134">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_03" ID="{BC8B0FD4-5A91-484A-88C1-050EEB051092}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_04" ID="{AF768276-848D-49C0-B4DF-E5C0AA0A20CC}">
+									<ChildrenList>
+										<Action Name="" ID="{9C2D5196-C575-427E-8B8A-2E89CBD8529A}" ShortID="478501225">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_04" ID="{28FBAC3A-269E-400D-943C-F4FF637943D1}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_05" ID="{90CF2651-3C6B-415D-AEF5-1EE0FDA1701D}">
+									<ChildrenList>
+										<Action Name="" ID="{8A14AD59-41D7-4C3D-B36B-C25E2C94C030}" ShortID="242748311">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_05" ID="{17F01946-9174-422D-9657-D5A13E8F38DA}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_06" ID="{E0E2097C-0B80-4F20-920B-D96CA54E21F7}">
+									<ChildrenList>
+										<Action Name="" ID="{620D283D-59A9-405C-ADFC-1F1FD812C329}" ShortID="227414886">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_06" ID="{96BD9278-874C-4AC9-A899-7C89F1E1D7BA}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_07" ID="{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}">
+									<ChildrenList>
+										<Action Name="" ID="{B0E4AD06-3190-4E1D-B052-FDD5257E9F08}" ShortID="556220215">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_07" ID="{2A734FE4-909A-461F-A880-0AAFE1B580EA}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_08" ID="{AF5BDE58-7813-4244-BEE3-F8E1DB37D200}">
+									<ChildrenList>
+										<Action Name="" ID="{D504F7CD-E084-4D88-A17A-56391CB8FB3D}" ShortID="977977131">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_08" ID="{BB00413E-36A9-4D2C-A5A2-8938FEDD2C65}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_09" ID="{01B482B7-84C8-4214-AA97-122F590636F5}">
+									<ChildrenList>
+										<Action Name="" ID="{FA545130-98DC-4AE6-B864-8B06A784888E}" ShortID="378581022">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_09" ID="{816E31CD-4EC8-4E69-A301-478603DB29CE}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q3a_10" ID="{E85E116F-7C12-4B22-8A46-38BF20C07964}">
+									<ChildrenList>
+										<Action Name="" ID="{6A41C3CA-25A6-4A85-89BB-37037788021F}" ShortID="396478304">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q3a_10" ID="{A500C1C4-BD9B-464C-89CD-162107823BBE}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 4" ID="{3217F816-E938-4C8F-91F1-990AE6A1C96E}" ShortID="559769485">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q4a_01" ID="{56943864-117B-4342-8159-48E68EC2CB07}">
+									<ChildrenList>
+										<Action Name="" ID="{572792F3-6A68-471E-BC41-3ACAC1561FEF}" ShortID="395188155">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_01" ID="{1A0503FB-99AE-4773-8E82-354361D211FA}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q4a_02" ID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}">
+									<ChildrenList>
+										<Action Name="" ID="{B36476B4-E558-456E-9296-0EE75531E43B}" ShortID="384208834">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_02" ID="{A02D471E-145E-4D54-9851-1571B1922BB2}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q4a_03" ID="{4435B477-398A-4ECE-8A15-DAE8D1275418}">
+									<ChildrenList>
+										<Action Name="" ID="{A34B5A80-298E-47A3-BE53-F3EAE033D480}" ShortID="662285816">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_03" ID="{43C135A0-1ECE-4B0B-B402-0C8803B41E91}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q4a_04" ID="{D076FAD1-40D8-443D-B933-49B2C541E96C}">
+									<ChildrenList>
+										<Action Name="" ID="{7494E2B6-1278-43E5-BC6C-9B347EF4FC8B}" ShortID="1050749518">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_04" ID="{ED08AE00-21DA-44E2-94A2-0E612F9F75E9}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q4a_05" ID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}">
+									<ChildrenList>
+										<Action Name="" ID="{175003ED-51E2-479E-882F-AE3DF5228A99}" ShortID="508565829">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_05" ID="{EB2831B2-D4D5-4F2B-9041-2C82708B654D}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q4a_06" ID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}">
+									<ChildrenList>
+										<Action Name="" ID="{01DF7C6E-F4B6-4EF3-9234-2ECA3CA506ED}" ShortID="913999066">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q4a_06" ID="{F995244C-8ECB-4AFE-89CF-6F1D695A0C8C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blacksmith_DialogueLine_Q4b_01" ID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}">
+									<ChildrenList>
+										<Action Name="" ID="{9195C756-716D-4E3E-A79A-A9BD15DA367D}" ShortID="151100162">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blacksmith_DialogueLine_Q4b_01" ID="{106FC02E-0FA5-439A-87A4-2056AAD6C960}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 5" ID="{85A935F0-2B03-4AEF-9076-4EE9E99E290C}" ShortID="745118552">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q5a_01" ID="{FB5C2FDF-A6F7-48C7-9146-570510B4FEA7}">
+									<ChildrenList>
+										<Action Name="" ID="{E27DAA60-975E-462C-AA38-79B1E15A6D59}" ShortID="145213110">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_01" ID="{32BF9303-E4DB-4C1E-A7DA-3187EF349378}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_02" ID="{A0F62C24-A087-44E4-AC65-CB15E9635298}">
+									<ChildrenList>
+										<Action Name="" ID="{1E093A5B-FB7E-4EDE-B65A-ADF027D7A12F}" ShortID="114703363">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_02" ID="{BC2F7DDD-1A98-4E95-A425-92FE4E022DD8}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_03" ID="{71EB143A-0763-4078-B38B-99F76CE5CC23}">
+									<ChildrenList>
+										<Action Name="" ID="{AF19F6FE-6FD3-416D-A4CD-89A5FE6625AB}" ShortID="617617678">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_03" ID="{A42B978F-5ABC-483C-849B-D6B9E19672E4}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_04" ID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}">
+									<ChildrenList>
+										<Action Name="" ID="{4B58D9F5-0EEB-435A-8E8E-589ADC2F1572}" ShortID="978131794">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_04" ID="{A5A695AF-783E-46D8-BEB4-2F1766CB664C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_05" ID="{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}">
+									<ChildrenList>
+										<Action Name="" ID="{ED886939-E0A8-4914-ABA4-3B12E24132CD}" ShortID="624900575">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_05" ID="{0F146B14-FDF1-4F0C-A4AF-A5469573B22C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_06" ID="{2F9D2130-05EE-4903-8B8E-C01607221A11}">
+									<ChildrenList>
+										<Action Name="" ID="{45807A9F-2D37-4AC0-8407-125AC55D79E1}" ShortID="260127264">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_06" ID="{A31EEC20-3C1F-4A2A-B0CB-5972CB1246A8}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_07" ID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}">
+									<ChildrenList>
+										<Action Name="" ID="{7C1EB70D-45DC-4E61-A292-6CA38A8323A9}" ShortID="317745224">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5a_07" ID="{F1332660-F668-4A5C-A052-8B700FCD05FE}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5b_01" ID="{738FB950-967E-4774-B023-74348EB0061B}">
+									<ChildrenList>
+										<Action Name="" ID="{6FA785D8-5055-438C-BCA8-05169DC47F23}" ShortID="569039824">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5b_01" ID="{7B08B52E-39F9-4597-9877-9C037B8A8F1F}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5b_02" ID="{8FB5B7C9-086F-4702-930C-CD7442620985}">
+									<ChildrenList>
+										<Action Name="" ID="{3EAFA301-E65D-4BE2-823E-008CA1BDD1B6}" ShortID="680225556">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5b_02" ID="{7DBCDFF2-D9E9-4170-9B4D-A9E679CB1CFC}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5b_03" ID="{FDD160A5-58E5-4D85-9EBD-154DFBE1C96D}">
+									<ChildrenList>
+										<Action Name="" ID="{F52DBACA-3F91-4686-811E-E166F82C4B17}" ShortID="673165660">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5b_03" ID="{E2A28F87-B4FB-4BF5-82D9-3DAA951465E1}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5b_04" ID="{823CDCA8-59CB-4795-8BE6-0E8BCC85BDDC}">
+									<ChildrenList>
+										<Action Name="" ID="{A1C4F7AE-B9E3-4AAF-B38C-3A393A2B4870}" ShortID="637348217">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q5b_04" ID="{0E385B9A-F9CB-4893-B1F9-8AF15B7F0ADD}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 6" ID="{63BC6C60-D62F-4009-B5AF-D7B6880B398A}" ShortID="215658680">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q6_01" ID="{7FAD3EF3-C1AD-40B9-BABB-C23578CFAE05}">
+									<ChildrenList>
+										<Action Name="" ID="{EDEDC25C-6049-42D0-B823-4AAC6005B00D}" ShortID="566424264">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q6_01" ID="{7BD8BB99-0F15-488A-98B2-A17616DAB48A}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q6_02" ID="{E9F66C20-DB53-46B7-B777-850B3731E82F}">
+									<ChildrenList>
+										<Action Name="" ID="{7754CC16-1682-438E-910B-541EE31E1F33}" ShortID="1022868604">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q6_02" ID="{A4D8F486-941B-481D-BCCD-589D78F66461}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q6_03" ID="{13522477-455F-4372-81F3-0C0362643CB5}">
+									<ChildrenList>
+										<Action Name="" ID="{2B2E25E2-9BB7-46D5-9F80-D5473C2ED8B7}" ShortID="1020067674">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q6_03" ID="{86F435E9-7C54-4E51-9C99-212A3863F467}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q6_04" ID="{00EEAE82-D714-42EF-B781-1788C8CFD881}">
+									<ChildrenList>
+										<Action Name="" ID="{3579F149-B658-4537-BCF8-5267D5D0B7EC}" ShortID="69457118">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q6_04" ID="{53C726BB-0379-45A7-8619-D699B6141FDB}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q6_05" ID="{D6D7A8D2-F5CE-4C97-95BA-E34F6D2A8A72}">
+									<ChildrenList>
+										<Action Name="" ID="{E1265357-7AE3-46EA-A883-BA86DCEFEC3C}" ShortID="94476954">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q6_05" ID="{D8F86D7D-DC59-4473-A0BD-562585ED554F}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 7" ID="{3E916945-7907-438B-90DE-C23637205D58}" ShortID="834438156">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q7_01" ID="{6F25D3ED-609C-4113-8D23-D3BCD85312ED}">
+									<ChildrenList>
+										<Action Name="" ID="{3C83D246-FC7E-4F39-A2F4-5DB96A42D4A4}" ShortID="192526912">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q7_01" ID="{6B88D1C7-78F6-4059-A77D-15C0A1FB4A54}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q7_02" ID="{6797E4AE-1FA4-4787-81D4-F4703008FADE}">
+									<ChildrenList>
+										<Action Name="" ID="{F2CE7EBB-F1D8-4743-88EB-10C4B53F17BD}" ShortID="720897318">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q7_02" ID="{0CEEDBC4-EB96-4944-A772-6E02C1BF3857}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q7_03" ID="{2ED7B848-FA73-4F43-9CFF-336085A35E06}">
+									<ChildrenList>
+										<Action Name="" ID="{EBE8A970-4551-4ED8-8ED7-B0DB13ABD174}" ShortID="199358329">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q7_03" ID="{53655B9F-1BC1-4BAF-AC3F-6D325A8CB913}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q7_04" ID="{9E3207EB-E84A-48F8-A64E-12FF712F5279}">
+									<ChildrenList>
+										<Action Name="" ID="{B2952D9C-7972-48A0-850D-9DFE7339B7B5}" ShortID="569591620">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q7_04" ID="{76E2A01B-0E25-4867-AAED-95CC2C3E0C39}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_02" ID="{CB300F9F-EB2F-4899-9FAB-A4020F9C64F8}">
+									<ChildrenList>
+										<Action Name="" ID="{02930703-0F3A-4971-A0CF-295844AE8CB6}" ShortID="120200775">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_02" ID="{686B6172-BCB8-43DC-8BAA-0AEC555345E4}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_03" ID="{0858EDAD-5AA8-44F3-8F51-0D176163F35F}">
+									<ChildrenList>
+										<Action Name="" ID="{7BD7E019-1880-4462-A085-8F1C13D9A3E6}" ShortID="235554390">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_03" ID="{5B09BB72-C49C-405E-9749-6CD4545D153B}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_05" ID="{7433450B-BB99-4294-9BB0-CBA08A90F8A7}">
+									<ChildrenList>
+										<Action Name="" ID="{D50D14DC-016F-48C4-9F2D-15C36E0131E1}" ShortID="564026834">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_05" ID="{A33479E5-BBFE-4A31-BA2F-928DAC3F8870}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_04" ID="{8BEF0188-BA99-4301-8CAA-248992CF2DDE}">
+									<ChildrenList>
+										<Action Name="" ID="{4FF482B8-BBD8-4C44-8AA3-4F0E4AC5319B}" ShortID="636869978">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_04" ID="{4D136560-FDC2-4957-8F44-0F2E15D9F704}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_06" ID="{5F6A40FF-927F-46CE-B366-14932960775D}">
+									<ChildrenList>
+										<Action Name="" ID="{16CF47D7-3424-4D3B-B2FD-BB2E8DA102D9}" ShortID="866800421">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_06" ID="{904E9F2B-5959-4F0B-ADD9-8AC920164577}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8a_01" ID="{11A4A604-D657-4C76-B829-01D1B63E839D}">
+									<ChildrenList>
+										<Action Name="" ID="{D807F4F4-2A5B-4DFA-9E32-D8E318ACF392}" ShortID="198791829">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8a_01" ID="{D21A1E45-0397-4B2B-AF12-4A2A4DCB949E}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Quest 8" ID="{A1A5ABD4-297C-4DE1-A6D0-24B353C57B0F}" ShortID="511006855">
+							<ChildrenList>
+								<Event Name="Wwizard_DialogueLine_Q8b_01" ID="{9B63AAF0-EE35-4CB1-8E47-167E72C6CBD4}">
+									<ChildrenList>
+										<Action Name="" ID="{9EE2A231-C2FD-4221-97B9-C303D74A232D}" ShortID="808045763">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_01" ID="{176C014B-466E-45B2-8BC0-FB265F5CCFFF}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_02" ID="{D8CEA237-D36C-4AD4-BAFE-B14F2A241168}">
+									<ChildrenList>
+										<Action Name="" ID="{D45060BB-B928-4F50-B09B-05ED123C32FC}" ShortID="1062970417">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_02" ID="{C0519CA3-BBC4-4D75-B7A4-6143FBD9F3E6}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_03" ID="{37BB38C0-CAB1-4B6B-AA2A-3AC7F728022D}">
+									<ChildrenList>
+										<Action Name="" ID="{4E4EF7D1-EEE7-4241-B22F-4D5B82121E5F}" ShortID="820118742">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_03" ID="{3CAB11CE-EB83-4499-8C98-F01346D6DF7B}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_04" ID="{FD8FAAF6-BBF7-4528-B19D-D154617DD92F}">
+									<ChildrenList>
+										<Action Name="" ID="{8E99D604-081F-466F-98E8-4CCF98972A22}" ShortID="500853228">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_04" ID="{5F415A91-52A5-458B-A316-0A4FD82BDDE2}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_05" ID="{CE30FD3C-F2BC-46BB-B437-516CFA92873C}">
+									<ChildrenList>
+										<Action Name="" ID="{65809926-E10A-4A1F-B735-84D999B32A8A}" ShortID="1016950098">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_05" ID="{6F47AE5B-31F5-4820-A9D7-31DBAA7532B8}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_06" ID="{48BD5129-1821-49E2-8216-C7D183EBF145}">
+									<ChildrenList>
+										<Action Name="" ID="{F363E828-F9CA-42D7-8BF3-D14018C81E43}" ShortID="374611819">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_06" ID="{1BA1E319-4594-4069-B02C-E76497627523}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8b_07" ID="{FA538B93-5418-41D4-B04A-261CD8199F5C}">
+									<ChildrenList>
+										<Action Name="" ID="{03F1921A-8927-4230-BB89-B5FA74D5DD44}" ShortID="868902012">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8b_07" ID="{392E3AC3-0DA8-4A37-A607-8C1EDEA490BA}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8c_01" ID="{B987F52C-A315-4D26-8023-324CBA342706}">
+									<ChildrenList>
+										<Action Name="" ID="{8A3AEF74-AF6C-4C40-823E-DF7351C02B6B}" ShortID="1059504230">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8c_01" ID="{E5225A3E-2210-416F-AE12-7996EF0D3371}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8c_02" ID="{590C6752-8BCF-4E3A-9CA6-7033E99DD941}">
+									<ChildrenList>
+										<Action Name="" ID="{2372B528-F150-4F17-B0D0-BCF6AE17E1E2}" ShortID="821070764">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8c_02" ID="{3CA109FF-924A-423B-8A00-B81BA14963C1}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8c_03" ID="{152C0CA8-3B1E-4E26-8C63-C4D7CDF8A929}">
+									<ChildrenList>
+										<Action Name="" ID="{DF82F1B9-706A-42A2-BF9E-B3B55A31AF51}" ShortID="774060496">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8c_03" ID="{2218CD9D-4E4E-4063-B44F-B68B90DB65B7}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8d_01" ID="{3B683523-B803-4B62-A562-120BF99EF601}">
+									<ChildrenList>
+										<Action Name="" ID="{1E188C55-4541-4ED4-9206-37E3B6D6CC5C}" ShortID="286113074">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8d_01" ID="{702D716A-21CD-4995-8C9E-CDD4D55CF2FF}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8d_02" ID="{B2674317-52F2-4246-9759-57DD2A3598A9}">
+									<ChildrenList>
+										<Action Name="" ID="{C1D93245-D4D1-4A8E-98F7-112FF4E04A50}" ShortID="949256182">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8d_02" ID="{2F53CB7F-7B61-49FB-BD90-AB84FF7B0111}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q8d_03" ID="{B9F2C194-CA7D-4159-B7EC-9F7457DF3CAA}">
+									<ChildrenList>
+										<Action Name="" ID="{3D01729E-3370-44E8-AA48-CA214DBB9118}" ShortID="1058724186">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wwizard_DialogueLine_Q8d_03" ID="{FEECC3FA-8D25-4149-8BE5-B052F92889E4}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Blacksmith_InfiniteLoop" ID="{DE034498-A661-497D-BD4C-E2D8C5AD88B6}">
+							<ChildrenList>
+								<Action Name="" ID="{465AFDA3-EBF4-4EAC-957C-65DA78671673}" ShortID="102687559">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blacksmith_Loop" ID="{35C6E179-0600-4C9B-9A00-B2EA72CB8E79}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="NPC_Wwizard_StaffOnGround" ID="{043CC3FE-76CA-4416-A960-616573CB563D}">
+					<ChildrenList>
+						<Action Name="" ID="{378AB6D7-E650-4EAC-9894-8890AA610EBC}" ShortID="1027037080">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wwizard_StaffOnGround" ID="{1C35C405-1A20-4A05-AC4A-768639CAD41E}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

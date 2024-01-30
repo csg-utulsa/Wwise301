@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Title Screen.unity
+    guid: 978b515f4fcc24a00935db4b2226d84f
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Main Scene.unity
+    guid: 86d58f7f6ffbb458fab12317cf03f7be
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Dungeon Scene.unity
+    guid: d4a11eee24b02489c8d8f542cef29d40
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Dungeon Scene - Spatial Audio.unity
+    guid: ede78c90b934f6d469daee3d6c6c84d4
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Secret Room.unity
+    guid: 5096a5c5a2f634750943159b61d90640
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Credits.unity
+    guid: 753d355340c0441a7937f540276038a9
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Cave Audio Environment.unity
+    guid: 4a7e2b1c668894e4aa26e2b7a0b0f731
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Desert Audio Environment.unity
+    guid: d9a474463dc5cae41a06ba648897d1c4
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Dungeon Audio Environment.unity
+    guid: 449db1f4ff0ac98478fd1d52adb89bae
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Pine Forest Audio Environment.unity
+    guid: 7bffca075b0c1db4c8fe25e7ce8850dc
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Village Audio Environment.unity
+    guid: 0d4cc744819976346877a07d18653bd0
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Woodlands Audio Environment.unity
+    guid: 38bd554f01e38104ab5628b50439a1ec
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Certificate Scenes/Cert-251/Lesson 6.3 - Desert
+      Audio Environment.unity
+    guid: 42b86f95c26c8e24cb74da315b80756f
+  m_configObjects: {}

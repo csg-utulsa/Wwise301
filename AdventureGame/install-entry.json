@@ -1,0 +1,93 @@
+{
+    "bundle": {
+        "id": "wag.v2022.1.230",
+        "type": "",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2022,
+            "major": 1,
+            "minor": "230",
+            "build": 0
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "displayName": " 2022.1.230.0",
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": [],
+        "children": []
+    },
+    "targetDir": "C:\\Users\\hzeng\\OneDrive - University of Tulsa\\Documents\\GitHub\\Wwise301\\AdventureGame",
+    "installType": "normal",
+    "parentId": null,
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "WwiseProject"
+            },
+            {
+                "id": "Packages",
+                "valueId": "Binary"
+            },
+            {
+                "id": "Packages",
+                "valueId": "Source"
+            },
+            {
+                "id": "OS",
+                "valueId": "Windows"
+            },
+            {
+                "id": "OS",
+                "valueId": "macOS"
+            }
+        ],
+        "files": [
+            "WwiseAdventureGame.Source.tar.xz",
+            "WwiseAdventureGame.WwiseProject.tar.xz",
+            "WwiseAdventureGame.Windows.tar.xz",
+            "WwiseAdventureGame.OfflineDocumentation.tar.xz"
+        ],
+        "date": 1706581238126
+    },
+    "sampleFiles": [
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.probuilder@4.2.3/Samples~/Editor/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.probuilder@4.2.3/Samples~/HDRP/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.probuilder@4.2.3/Samples~/Runtime/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.probuilder@4.2.3/Samples~/UniversalRenderPipeline/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/01 BuyingConsumables/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/02 BuyingSubscription/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/03 FetchingAdditionalProducts/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/04 IntegratingSelfProvidedBackendReceiptValidation/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/05 LocalReceiptValidation/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/06 InitializeGamingServices/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 01 RefreshingAppReceipt/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 02 RestoringTransactions/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 03 HandlingDeferredPurchases/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 04 RetrievingProductReceipt/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 05 FraudDetection/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 06 GettingIntroductoryPrices/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 07 gettingProductDetails/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 08 PromptingProducts/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 09 PresentCodeRedemptionSheet/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 10 CanMakePayments/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Apple App Store - 12 UpgradeDowngradeSubscription/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Google Play Store - 01 UpgradeDowngradeSubscription/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Google Play Store - 02 RestoringTransactions/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Google Play Store - 03 ConfirmingSubscriptionPriceChange/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Google Play Store - 04 HandlingDeferredPurchases/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.purchasing@4.4.1/Samples~/Google Play Store - 05 FraudDetection/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.services.analytics@4.0.1/Samples~/StandardEvents/.sample.json",
+        "WwiseAdventureGameSource/Library/PackageCache/com.unity.settings-manager@1.0.0/Samples~/.sample.json"
+    ],
+    "children": [],
+    "unpackedFiles": []
+}

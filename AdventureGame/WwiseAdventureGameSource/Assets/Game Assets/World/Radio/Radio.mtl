@@ -1,0 +1,9 @@
+newmtl DungeonMat2
+Kd 0.195715 0.2379858 0.3206896
+d 1
+
+newmtl RadioTexture
+map_Kd RadioTexture (1).png
+Kd 0.6037736 0.6037736 0.6037736
+d 1
+

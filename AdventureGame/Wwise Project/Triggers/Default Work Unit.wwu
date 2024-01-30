@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9978C530-D1B6-4667-995D-0EBC998A7E7B}" SchemaVersion="110">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{9978C530-D1B6-4667-995D-0EBC998A7E7B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Adventuress_Death" ID="{194D81F5-6A20-4B96-87A4-502F37CA6D7E}"/>
+				<Trigger Name="Music_EnemyTheme" ID="{6DCC58B0-20F5-4944-9A24-69A833A2435B}"/>
+				<Trigger Name="Music_GetItem" ID="{52F3AA1D-0522-4D5C-A496-DFA8A283EF95}"/>
+				<Trigger Name="Music_QuestComplete" ID="{A15E23A3-0029-4F05-88A8-BF2160843B58}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

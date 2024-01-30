@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{676FF4D0-C472-40E9-87F4-8E41880D7388}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Enemies" ID="{676FF4D0-C472-40E9-87F4-8E41880D7388}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="EvilCrawler" ID="{D8449F17-A8EF-43A1-B6F4-BE2053646FC2}" ShortID="456655881">
+					<ChildrenList>
+						<Event Name="Enemy_EvilCrawler_Death" ID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}">
+							<ChildrenList>
+								<Action Name="" ID="{542FA2A6-4E3A-4EF8-B680-F075CE2A13A0}" ShortID="18615614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilCrawler_Die" ID="{B650E8E2-E280-47EA-8716-CCA75FDAB2D1}" WorkUnitID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilCrawler_Eat" ID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}">
+							<ChildrenList>
+								<Action Name="" ID="{B4B960E3-80E6-48F5-B920-9D2D35C0E582}" ShortID="38516540">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilCrawler_Eat" ID="{627C8573-D935-485B-AE86-25B0696554AC}" WorkUnitID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilCrawler_Explode" ID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}">
+							<ChildrenList>
+								<Action Name="" ID="{FA9F0718-55BB-49C7-8E4B-E7B0CA350630}" ShortID="197312214">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilCrawler_Explode" ID="{0A516B52-3B65-4725-81FF-3AC69D3EABB1}" WorkUnitID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilCrawler_Hurt" ID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}">
+							<ChildrenList>
+								<Action Name="" ID="{C84C9BEB-87B6-4B11-AC05-44D5CCBDA151}" ShortID="771317942">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilCrawler_Hurt" ID="{3BB783D6-F727-4F24-887E-4B0A5922BC6F}" WorkUnitID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilCrawler_Movement" ID="{37E1081C-623E-42D2-8F87-13ADA174F864}">
+							<ChildrenList>
+								<Action Name="" ID="{5E26AE03-5AEE-4B38-88A1-14FA64027AE6}" ShortID="423314511">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilCrawler_Move" ID="{1EA8DD00-DA27-471C-BEA3-B1206DBD36EC}" WorkUnitID="{940E3ADE-780E-44E6-AA19-4B038D6F7B5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EvilHead" ID="{86478ECD-712B-4731-9020-66648B231D61}" ShortID="1041134965">
+					<ChildrenList>
+						<Event Name="Enemy_EvilHead_Charge" ID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}">
+							<ChildrenList>
+								<Action Name="" ID="{4329CC4D-8348-4F77-9FED-6D803A9553FC}" ShortID="985396700">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Attack_Charge" ID="{2DD9CBF6-8CB2-41CC-A0A9-DDED82AEE4DF}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Death" ID="{33741091-4554-4D42-B0F5-AFB0FAD96326}">
+							<ChildrenList>
+								<Action Name="" ID="{CA33602B-0A49-4BE0-936B-1E6698273081}" ShortID="21041778">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Death" ID="{BFB63ED3-88A3-4598-B130-38A6EC3F4B91}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Hover_Play" ID="{282381A5-1886-4371-9E79-58379C8BCDF2}">
+							<ChildrenList>
+								<Action Name="" ID="{D4317EBC-D49A-4821-AC9C-F0577F6E2ADB}" ShortID="624569109">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Hover_LP" ID="{A8D76E27-7D12-4DD2-8D01-B91142C4A9EB}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Movement" ID="{82A4B395-FF37-459D-A690-8D4D38D669D7}">
+							<ChildrenList>
+								<Action Name="" ID="{BAD355D2-1E48-4EA9-AB84-003C58A1116C}" ShortID="45111680">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Attack_Charge" ID="{2DD9CBF6-8CB2-41CC-A0A9-DDED82AEE4DF}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Telegraph" ID="{7D5C20C7-7D4B-4B2C-BFA4-E4E0082A7C5C}">
+							<ChildrenList>
+								<Action Name="" ID="{ED683498-9CA1-46AF-836F-67E3FF8A8407}" ShortID="822430631">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Telegraph" ID="{512B7166-9804-490B-8A5D-BF0620A4A4D5}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Hurt" ID="{3F88DB87-F71B-46EB-8B79-2DED365C9F81}">
+							<ChildrenList>
+								<Action Name="" ID="{B6651BAC-87CA-44BC-9D0B-CBDE7C6F62DF}" ShortID="921585833">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Probability" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Hurt" ID="{30ACA7DC-6F2D-4229-A37B-C011A09ECFE4}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Bite" ID="{8581C194-4BA1-4866-8172-BDF1395B15A8}">
+							<ChildrenList>
+								<Action Name="" ID="{941E4325-1E4A-4249-A23E-D7C3B0FD2559}" ShortID="888625830">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Attack_Bite" ID="{D57EF59F-28AA-4626-ABDD-7D41490878E6}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_Hover_Stop" ID="{94A0C34C-1445-40EF-868D-0B1302A7B56A}">
+							<ChildrenList>
+								<Action Name="" ID="{5A03A529-975A-494A-9D61-DD8BA078BEFF}" ShortID="934727385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_Hover_LP" ID="{A8D76E27-7D12-4DD2-8D01-B91142C4A9EB}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilHead_SpawnerDestroy" ID="{E75317BD-39E3-4BF5-88B8-43663586D277}">
+							<ChildrenList>
+								<Action Name="" ID="{5CB32F84-DEC5-4A5D-9476-7761F6D00721}" ShortID="286368476">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilHead_SpawnerDestroy" ID="{84441E14-F1A4-48EB-9037-7EE326D4038A}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EvilSpitPlant" ID="{04D7E2AA-E0B7-4D37-82DF-10AC4093D252}" ShortID="887463058">
+					<ChildrenList>
+						<Event Name="Enemy_EvilSpitPlant_Death" ID="{9359B05E-124F-4802-8F45-0488128BB6F9}">
+							<ChildrenList>
+								<Action Name="" ID="{6C46A467-2D05-44DB-B82F-3E690C3428AD}" ShortID="396599499">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Death" ID="{2FE129FF-2B20-4249-96D2-7A9F3C60BE8E}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF1A6C70-EF5B-4EB8-9BF7-A480A2A0DC7C}" ShortID="817295520">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Hurt" ID="{9EF85C94-8343-465A-B2F3-3276EDBD0F66}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_ShootBullet" ID="{5F91100A-55A2-4146-98DA-46A45310C142}">
+							<ChildrenList>
+								<Action Name="" ID="{48966147-AD4F-4A4E-BF73-2345AD38A6C8}" ShortID="468943889">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Shoot" ID="{5329EC1B-69CF-4A80-85D3-5FA859599D93}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_Hurt" ID="{AEB6D6B8-37F7-4A91-BF62-DE8C4E37BDE5}">
+							<ChildrenList>
+								<Action Name="" ID="{8FC82A5C-5280-4895-8080-1D2C23E1A7AE}" ShortID="792264665">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Hurt" ID="{9EF85C94-8343-465A-B2F3-3276EDBD0F66}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_ShootLoop_Play" ID="{CB530657-AC26-4A43-B468-B24503EB2ED9}">
+							<ChildrenList>
+								<Action Name="" ID="{D4C0C14B-ED60-43B7-B7AA-16C62533925E}" ShortID="31803630">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Shoot_Loop" ID="{95D273BB-9EAB-425D-BB6B-0AADBE2C39F3}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_Charge" ID="{5778D5FC-12FA-42F5-98AE-68B276802979}">
+							<ChildrenList>
+								<Action Name="" ID="{4193FFB4-26A7-41FC-A782-22BEE3D44968}" ShortID="768676887">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Charge" ID="{A09156CE-413B-44A8-A53D-0AF888B6AA3C}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_ShootLoop_Stop" ID="{944457D5-8E3B-4054-BB0C-2FDCDBD4B18E}">
+							<ChildrenList>
+								<Action Name="" ID="{115DCD8C-26CE-44E4-98A8-9C7FD012FEBB}" ShortID="174222122">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Shoot_Loop" ID="{95D273BB-9EAB-425D-BB6B-0AADBE2C39F3}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EvilSpitPlant_Death_Headfall" ID="{74630DDC-215A-4DB7-ACFC-708C5615E441}">
+							<ChildrenList>
+								<Action Name="" ID="{2AB8CCE0-FB3A-4266-8F9F-B1E0EED072B2}" ShortID="462450969">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Death_Headfall" ID="{FA0A8048-D0F4-4EF7-B942-0265D550899E}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EVilSpitPlant_Bullet_Impact" ID="{0BF8BE60-442E-47E1-A9CD-06E40AF6852D}">
+							<ChildrenList>
+								<Action Name="" ID="{9B08C3D7-235A-422C-AC1C-F1E33BC4FFDF}" ShortID="150684652">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Bullet_Impact" ID="{29BF5E5B-D274-4092-B697-1EB097D49F35}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_EVilSpitPlant_Bullet_NoImpact" ID="{905AB196-06B9-475B-BDA2-2BEC7182D653}">
+							<ChildrenList>
+								<Action Name="" ID="{012ADD30-BE8D-4BD2-8EAB-C88B6CFA87E6}" ShortID="515717685">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilSpitPlant_Bullet_NoImpact" ID="{74F7E9F2-0844-4D0B-A10C-A6715D6BA961}" WorkUnitID="{D0444BF3-A57A-4524-8729-7119CED64E37}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

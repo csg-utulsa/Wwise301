@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="World" ID="{5B876598-662C-45F5-B41E-3388DA54F2BE}" ShortID="47726964">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Ambient_General" ID="{25FBFFBC-B59A-4AF5-B85E-EF584BE8B7CA}" WorkUnitID="{FA9BF710-08A9-49D1-B809-553C31C179E2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="World" ID="{3B761651-1A4B-45CF-95EC-782823B15565}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Ambient" ID="{780B3222-149B-4B11-A528-263DFDE531E0}" PersistMode="Reference"/>
+						<WorkUnit Name="Enemies" ID="{F7C13263-D4E6-40E0-814D-F91F96A8585B}" PersistMode="Reference"/>
+						<WorkUnit Name="Player" ID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}" PersistMode="Reference"/>
+						<WorkUnit Name="NPCs" ID="{FE345DBC-02F9-490F-8727-6049197C2E87}" PersistMode="Reference"/>
+						<WorkUnit Name="Objects" ID="{72CF64F5-BF44-4E77-907A-6E1211F62BCE}" PersistMode="Reference"/>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Wwise System Output Settings" CompanyID="0" PluginID="900" PluginType="9">
+								<ObjectRef Name="Same_As_MainMix" ID="{01EEFED8-8B32-4997-BC1E-449098D24985}" WorkUnitID="{B2E8A470-3EFB-4B74-BE2E-E43D3E6F9712}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+				<ActorMixer Name="Non_World" ID="{25A6530C-C531-4E39-A906-7B8B6447DDD2}" ShortID="206346724">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="UI_General" ID="{D6A7C852-5D6E-4713-8BD3-E2FFDD010D60}" WorkUnitID="{0A89C0A4-0258-4FE9-97D5-2DFBD103277C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Non-World" ID="{BB3F7B7F-D338-40E1-940A-8634D0AF03B4}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Instruments" ID="{AAF89608-DACC-4417-A53B-470A8E65CACD}" PersistMode="Reference"/>
+						<WorkUnit Name="UI" ID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}" PersistMode="Reference"/>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Wwise System Output Settings" CompanyID="0" PluginID="900" PluginType="9">
+								<ObjectRef Name="Same_As_PassthroughMix" ID="{6CC605AA-130B-45F6-9D11-ACA966C7A6A0}" WorkUnitID="{B2E8A470-3EFB-4B74-BE2E-E43D3E6F9712}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
