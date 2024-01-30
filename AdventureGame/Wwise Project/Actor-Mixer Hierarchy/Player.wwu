@@ -12976,7 +12976,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 														<Property Name="Pitch" Type="int32">
-															<ValueList/>
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{E3180CAE-4C7B-45D5-85A5-AEBEF155B0EE}">
@@ -13081,9 +13080,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_run_04" ID="{EB2D8237-4F97-4213-9967-34AB86353AD1}" ShortID="626275864">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13110,9 +13106,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_run_05" ID="{837AD68F-6C05-4A45-BCDE-1BE6C7C8C801}" ShortID="398004563">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13139,9 +13132,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_run_06" ID="{60BE1208-AE7E-433F-B8DA-6268422B7916}" ShortID="485521541">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13283,9 +13273,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_walk_04" ID="{B36E7CAD-AE8A-4FEA-AE28-0A47AA8C2299}" ShortID="721128311">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13312,9 +13299,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_walk_05" ID="{B9255879-5891-47E6-9C6B-D2F02C092926}" ShortID="324280369">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13341,9 +13325,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_dirt_walk_06" ID="{41DE0C31-BB51-4FB4-878B-8D3A1983EE8C}" ShortID="22767155">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -13433,9 +13414,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -13508,9 +13486,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -13547,9 +13522,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -13787,9 +13759,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -13826,9 +13795,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -13865,9 +13831,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14038,9 +14001,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14077,9 +14037,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14116,9 +14073,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14207,9 +14161,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14246,9 +14197,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14357,9 +14305,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14576,9 +14521,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14615,9 +14557,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14654,9 +14593,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14822,9 +14758,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -14861,9 +14794,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
@@ -14911,9 +14841,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15053,9 +14980,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15092,9 +15016,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15167,9 +15088,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15294,9 +15212,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15441,9 +15356,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15624,9 +15536,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15663,9 +15572,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15702,9 +15608,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15829,9 +15732,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15904,9 +15804,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15943,9 +15840,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -16185,9 +16079,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_sand_run_04" ID="{15FCB7E7-CC53-4967-87AC-23F5A18048DF}" ShortID="670751705">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -16214,9 +16105,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_sand_run_05" ID="{31569946-D52A-4C0E-992A-3BA9630C94E4}" ShortID="794795076">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -16243,9 +16131,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Sound Name="Player_Footstep_sand_run_06" ID="{49E37F64-E64F-489D-8D91-01F42D9D6CA9}" ShortID="242490526">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
@@ -16348,9 +16233,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -16387,9 +16269,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -16498,9 +16377,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Inclusion" Type="bool">
-																	<ValueList/>
-																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -18288,6 +18164,86 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</ObjectList>
 					</ObjectLists>
 				</ActorMixer>
+				<BlendContainer Name="Campfire" ID="{57C16E77-5833-4386-AF26-285A1D9C4AEF}" ShortID="176736594">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Burn" ID="{EC1722FD-D5A0-47FE-AFFB-3023450ED19E}" ShortID="740609520">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="designed-fire-winds-swoosh-04-116788" ID="{A7D4739C-2364-4C8E-9B13-BD6FC5A4325A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>designed-fire-winds-swoosh-04-116788.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699402021"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="designed-fire-winds-swoosh-04-116788" ID="{A7D4739C-2364-4C8E-9B13-BD6FC5A4325A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Scream" ID="{BECBFE08-F8D9-47CA-BA5C-3769C8895E0A}" ShortID="971068637">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VOXScrm_Wilhelm scream (ID 0477)_BSB" ID="{D4310260-D126-428C-8D90-289F42B5E275}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>VOXScrm_Wilhelm scream (ID 0477)_BSB.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="765561187"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VOXScrm_Wilhelm scream (ID 0477)_BSB" ID="{D4310260-D126-428C-8D90-289F42B5E275}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -102,6 +102,7 @@ namespace AK
         static const AkUniqueID PICKUP_ITEMTYPE = 509318909U;
         static const AkUniqueID PICKUP_WEAPONTYPE = 3012415428U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
+        static const AkUniqueID PLAYER_FIRE = 2583440997U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
         static const AkUniqueID PLAYER_HURT_VOX = 3842195348U;

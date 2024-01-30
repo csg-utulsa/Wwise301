@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{41046C03-50DC-B329-A6F1-2BC6392CEA5D}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{78F193B3-671C-B6EB-571D-E86A57D6B0BF}">
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -1046,6 +1046,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_05_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="699402021" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>designed-fire-winds-swoosh-04-116788.wav</ShortName>
+					<CachePath>SFX/designed-fire-winds-swoosh-04-116788_E3A14AB8.wem</CachePath>
+				</File>
 				<File Id="701770857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_03.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Destroy_Wood_03_16D20EBA.wem</CachePath>
@@ -1115,6 +1119,10 @@
 				<File Id="765205196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_ImpactPlayer_01_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="765561187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOXScrm_Wilhelm scream (ID 0477)_BSB.wav</ShortName>
+					<CachePath>SFX/VOXScrm_Wilhelm scream (ID 0477)_BSB_E3A14AB8.wem</CachePath>
 				</File>
 				<File Id="766973702" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_03.wav</ShortName>
@@ -2452,6 +2460,12 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1762369803" Name="Reflect_AuxBus" GUID="{4F8873C9-4D57-4F48-87AC-5F9B4E93C178}"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="2583440997" Name="Player_Fire" GUID="{21933AE8-4C33-4A7B-B988-1528A184DB16}" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.44" DurationMax="10.44">
+					<MediaRefs>
+						<MediaRef Id="699402021"/>
+						<MediaRef Id="765561187"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25778288" DurationMax="0.6232777">
 					<AuxBusRefs>
@@ -7647,7 +7661,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{53C70796-A66B-7095-EF7C-351D746C2582}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{8923E074-4EE8-4761-2EE7-D6BF7359B8E3}">
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -9104,6 +9118,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_05_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="699402021" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>designed-fire-winds-swoosh-04-116788.wav</ShortName>
+					<CachePath>SFX/designed-fire-winds-swoosh-04-116788_E3A14AB8.wem</CachePath>
+				</File>
 				<File Id="701770857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_03.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Destroy_Wood_03_16D20EBA.wem</CachePath>
@@ -9225,6 +9243,10 @@
 					<ShortName>Wwizard_VoiceLine_Q5a_1.wav</ShortName>
 					<Path>Media/English(US)/765406834.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q5a_1_D099AD66.wem</CachePath>
+				</File>
+				<File Id="765561187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOXScrm_Wilhelm scream (ID 0477)_BSB.wav</ShortName>
+					<CachePath>SFX/VOXScrm_Wilhelm scream (ID 0477)_BSB_E3A14AB8.wem</CachePath>
 				</File>
 				<File Id="766973702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_03.wav</ShortName>
@@ -11366,6 +11388,12 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1762369803" Name="Reflect_AuxBus" GUID="{4F8873C9-4D57-4F48-87AC-5F9B4E93C178}"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="2583440997" Name="Player_Fire" GUID="{21933AE8-4C33-4A7B-B988-1528A184DB16}" MaxAttenuation="15" DurationType="OneShot" DurationMin="10.44" DurationMax="10.44">
+					<MediaRefs>
+						<MediaRef Id="699402021"/>
+						<MediaRef Id="765561187"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2453392179" Name="Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.25778288" DurationMax="0.6232777">
 					<AuxBusRefs>
@@ -14037,5 +14065,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33EC3339-49D5-E494-F191-B1148144E1D9}</FileHash>
+	<FileHash>{5F13BFF2-3C0A-3D79-7B40-96AE00005E8F}</FileHash>
 </SoundBanksInfo>

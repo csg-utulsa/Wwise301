@@ -148,6 +148,20 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Fire" ID="{21933AE8-4C33-4A7B-B988-1528A184DB16}">
+							<ChildrenList>
+								<Action Name="" ID="{D7D12899-1E30-4144-81AA-5D8FB9B73F4A}" ShortID="321136086">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Campfire" ID="{57C16E77-5833-4386-AF26-285A1D9C4AEF}" WorkUnitID="{84C05677-5F03-43C0-81C3-BA52CE7089EA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SoundBankSpecific" ID="{7562AF83-31FF-4665-B59C-CF06B25FEC02}" ShortID="183261049">
