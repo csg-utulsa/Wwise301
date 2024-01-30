@@ -403,7 +403,7 @@
 									<Custom CreatedFrom="{B5ABA2BA-8AB4-48BA-9D54-19B9F0CA3208}">
 										<Attenuation Name="Ambience_Emitters_Large_5_50 (Custom)" ID="{5D256C8B-DFE5-46DC-B482-770C704C2977}" ShortID="1016345838">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+												<Property Name="RadiusMax" Type="Real64" Value="15"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -419,19 +419,19 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>8.33333333333333</XPos>
+																	<XPos>2.5</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>41.4576833333333</XPos>
-																	<YPos>-17.90044</YPos>
+																	<XPos>7.445</XPos>
+																	<YPos>-0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>50</XPos>
+																	<XPos>15</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -452,19 +452,19 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>8.33333333333333</XPos>
+																	<XPos>2.5</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>41.4576833333333</XPos>
+																	<XPos>12.437305</XPos>
 																	<YPos>-17.90044</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>50</XPos>
+																	<XPos>15</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -485,19 +485,19 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>8.33333333333333</XPos>
+																	<XPos>2.5</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>41.4576833333333</XPos>
+																	<XPos>12.437305</XPos>
 																	<YPos>-17.90044</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>50</XPos>
+																	<XPos>15</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -518,12 +518,12 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>6.19122</XPos>
+																	<XPos>1.857366</XPos>
 																	<YPos>47</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>50</XPos>
+																	<XPos>15</XPos>
 																	<YPos>100</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -548,12 +548,12 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>12.6959166666667</XPos>
+																	<XPos>3.80877500000001</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>50</XPos>
+																	<XPos>15</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
