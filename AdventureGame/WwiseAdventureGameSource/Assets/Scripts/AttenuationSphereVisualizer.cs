@@ -14,6 +14,10 @@ public class AttenuationSphere : MonoBehaviour
         if (AutoRadius)
         {
             AkAmbient m_AkAmbient = GetComponent<AkAmbient>();
+            if(m_AkAmbient == null )
+            {
+                m_AkAmbient = gameObject.transform.parent.gameObject.GetComponent<AkAmbient>();
+            }
             if (m_AkAmbient != null)
             {
                 radius = AkWwiseProjectInfo.GetData().GetEventMaxAttenuation(m_AkAmbient.data.Id);
