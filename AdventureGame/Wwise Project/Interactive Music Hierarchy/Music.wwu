@@ -13182,6 +13182,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<Property Name="Tempo" Type="Real64" Value="60"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Music" ID="{8992FE46-F151-4091-BB9C-5CD2C9DFD9A5}" WorkUnitID="{575850EC-F830-409B-B4D6-0B8AD5AC15C7}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 						</Reference>
@@ -13195,6 +13198,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Property Name="EndPosition" Type="Real64" Value="36000"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="60"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -13313,7 +13317,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{1270473C-97A7-4D1A-86CA-4B756AA96CF9}" ShortID="541667970"/>
+						<MusicPlaylistItem Name="" ID="{1270473C-97A7-4D1A-86CA-4B756AA96CF9}" ShortID="541667970">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{574E53BE-2E2E-47F5-8A39-48CFE3674986}" ShortID="69744940">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="rock village A" ID="{EAE0547A-60CC-4345-8618-600F93CF6A67}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="rock village A2" ID="{BEEECA15-7AF7-4B12-A588-CFFCBE33B61D}" ShortID="574616446">
@@ -13323,6 +13339,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<Property Name="Tempo" Type="Real64" Value="60"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Music" ID="{8992FE46-F151-4091-BB9C-5CD2C9DFD9A5}" WorkUnitID="{575850EC-F830-409B-B4D6-0B8AD5AC15C7}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 						</Reference>
@@ -13336,6 +13355,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Property Name="EndPosition" Type="Real64" Value="36000"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="60"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -13456,7 +13476,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{6563AF0E-702E-4825-A890-4FFD46174DDA}" ShortID="1031851589"/>
+						<MusicPlaylistItem Name="" ID="{6563AF0E-702E-4825-A890-4FFD46174DDA}" ShortID="1031851589">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{25B78B2F-8DD7-4D47-90F1-BA4A2072863C}" ShortID="814874447">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="rock village A" ID="{8FE65F4E-540A-417D-9294-C9B6C1845107}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="rock village A3" ID="{FC896A5C-9A67-4989-A5A6-9EFEDA5742BF}" ShortID="934018647">
@@ -13478,6 +13510,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Property Name="EndPosition" Type="Real64" Value="36000"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="60"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -13713,7 +13746,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{3F139FF5-6ED7-4E98-82E2-1AFA956AEBC6}" ShortID="152550526"/>
+						<MusicPlaylistItem Name="" ID="{3F139FF5-6ED7-4E98-82E2-1AFA956AEBC6}" ShortID="152550526">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{BA1D34CD-A704-47D8-8F7D-70C152BD1BFA}" ShortID="216370602">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="rock village A" ID="{EC6C6AA5-FCFB-476C-A2F1-7347C30E6F0D}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>

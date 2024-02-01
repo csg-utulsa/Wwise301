@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{66A9E01C-23D4-2D37-DEA4-FE4DF82E8DC6}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{7D14765C-C7D4-A25D-DD75-D1244ADFA7FB}">
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -234,6 +234,10 @@
 					<Path>Media/English(US)/141653825.wem</Path>
 					<CachePath>Voices/English(US)/Blacksmith_DialogueLine_Q3b_01_C076EFC3.wem</CachePath>
 				</File>
+				<File Id="142004931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_gongsV1_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_gongsV1_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
+				</File>
 				<File Id="152211720" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Battle_Flutes.wav</ShortName>
 					<Path>Media/152211720.wem</Path>
@@ -247,6 +251,10 @@
 				<File Id="155875358" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Barrel.wav</ShortName>
 					<CachePath>SFX/Character/Impact/BAS_Impact_Hammer_SurfaceType_Barrel_42922F4E.wem</CachePath>
+				</File>
+				<File Id="163089296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_pizz_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_pizz_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="166328661" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_05.wav</ShortName>
@@ -619,6 +627,10 @@
 				<File Id="434501617" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_02_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="438148682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_wooden_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_wooden_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="441591698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -1360,6 +1372,10 @@
 					<CachePath>SFX/Music/MFYG/2_Sitar_A8B0334E.wem</CachePath>
 					<PrefetchSize>15247</PrefetchSize>
 				</File>
+				<File Id="928049014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_kalimba_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_kalimba_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
+				</File>
 				<File Id="928123683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_01_16D20EBA.wem</CachePath>
@@ -1473,6 +1489,10 @@
 				<File Id="1016342625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Inventory_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Inventory_Close_AB95D2DA.wem</CachePath>
+				</File>
+				<File Id="1017367344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_tubaV1_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_tubaV1_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="1021735861" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_run_01.wav</ShortName>
@@ -2334,6 +2354,23 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="433441283" Name="Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="380708902" Name="Music_RV_A1" GUID="{B221EE69-4A3C-4D0B-A515-54CF900F721B}" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="928049014"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="380708901" Name="Music_RV_A2" GUID="{BC1FFCA3-2A01-493B-BA14-5475CC24F592}" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="163089296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="380708900" Name="Music_RV_A3" GUID="{6BDA2368-7158-4BCD-B81E-740EE35AC409}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="142004931"/>
+						<MediaRef Id="438148682"/>
+						<MediaRef Id="1017367344"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.9228421" DurationMax="0.9228421">
 					<MediaRefs>
@@ -7588,7 +7625,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{E30EE81E-926D-5F86-93C5-ECA66755C57F}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{F467A2AD-4B15-E9EE-471D-6947DC71F177}">
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -7898,6 +7935,10 @@
 					<Path>Media/English(US)/141752377.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q3a_2_E6579851.wem</CachePath>
 				</File>
+				<File Id="142004931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_gongsV1_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_gongsV1_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
+				</File>
 				<File Id="142147549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\Impact_Crate_Loud.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Crate_Loud_16D20EBA.wem</CachePath>
@@ -7924,6 +7965,10 @@
 				<File Id="161554800" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Explosion.wav</ShortName>
 					<CachePath>SFX/Objects/Explosion_CC5286BC.wem</CachePath>
+				</File>
+				<File Id="163089296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_pizz_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_pizz_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="166328661" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_05.wav</ShortName>
@@ -8469,6 +8514,10 @@
 					<ShortName>Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
 					<Path>Media/436811808.wem</Path>
 					<CachePath>SFX/Ambient/Ambient_Background/BAS_amb_village_day_background_loop_01_6D988D46.wem</CachePath>
+				</File>
+				<File Id="438148682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_wooden_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_wooden_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="441591698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -9480,6 +9529,10 @@
 					<CachePath>SFX/Music/MFYG/2_Sitar_A8B0334E.wem</CachePath>
 					<PrefetchSize>15247</PrefetchSize>
 				</File>
+				<File Id="928049014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_kalimba_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_kalimba_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
+				</File>
 				<File Id="928123683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_01_16D20EBA.wem</CachePath>
@@ -9656,6 +9709,10 @@
 				<File Id="1016342625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Inventory_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Inventory_Close_AB95D2DA.wem</CachePath>
+				</File>
+				<File Id="1017367344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockVillage_tubaV1_60bpm4-4_L9M_PA.wav</ShortName>
+					<CachePath>SFX/RockVillage_tubaV1_60bpm4-4_L9M_PA_164904F4.wem</CachePath>
 				</File>
 				<File Id="1021735861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_run_01.wav</ShortName>
@@ -11108,6 +11165,23 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="433441283" Name="Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="380708902" Name="Music_RV_A1" GUID="{B221EE69-4A3C-4D0B-A515-54CF900F721B}" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="928049014"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="380708901" Name="Music_RV_A2" GUID="{BC1FFCA3-2A01-493B-BA14-5475CC24F592}" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="163089296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="380708900" Name="Music_RV_A3" GUID="{6BDA2368-7158-4BCD-B81E-740EE35AC409}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="142004931"/>
+						<MediaRef Id="438148682"/>
+						<MediaRef Id="1017367344"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1532327793" Name="Music_TitleScreen" GUID="{AB1B2D9B-58CE-423A-AC9A-D5A824F42D6C}" DurationType="Infinite">
 					<MediaRefs>
@@ -13960,5 +14034,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E513B899-EB42-336F-1211-B25889DB62DF}</FileHash>
+	<FileHash>{094F948A-ACF4-9BB4-FCBA-72BD33407925}</FileHash>
 </SoundBanksInfo>

@@ -89,6 +89,9 @@ namespace AK
         static const AkUniqueID MUSIC_DUNGEONENEMYONLY = 2276042689U;
         static const AkUniqueID MUSIC_ENEMIES = 433441283U;
         static const AkUniqueID MUSIC_REGION = 3741135221U;
+        static const AkUniqueID MUSIC_RV_A1 = 380708902U;
+        static const AkUniqueID MUSIC_RV_A2 = 380708901U;
+        static const AkUniqueID MUSIC_RV_A3 = 380708900U;
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
         static const AkUniqueID NPC_WWIZARD_IDLEGIMMICK_POOF = 1035173718U;
         static const AkUniqueID NPC_WWIZARD_POOF = 2391108228U;
