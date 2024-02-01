@@ -9,8 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+<<<<<<< Updated upstream
 		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{11A76929-54A6-3C5B-9222-83E8A2610492}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
+=======
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{583FE251-7016-17C1-22BE-9889EC7388DC}">
+>>>>>>> Stashed changes
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -3911,7 +3915,10 @@
 			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{061DEB0E-5FF6-8EA9-AD04-526904A5E4AF}">
+<<<<<<< Updated upstream
 			<ObjectPath>\SoundBanks\Default Work Unit\DLC\DLC</ObjectPath>
+=======
+>>>>>>> Stashed changes
 			<ShortName>DLC</ShortName>
 			<Path>DLC.bnk</Path>
 			<Media>
@@ -3969,8 +3976,12 @@
 				<GameParameter Id="762020526" Name="Distance_to_Camera" ObjectPath="\Game Parameters\Generic\Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 			</GameParameters>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{4C2EF380-F562-0EE8-2468-8CC5D331FD57}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Dungeon</ObjectPath>
+=======
+		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{1F77A31E-4352-4554-CFC8-73E4821F69E7}">
+>>>>>>> Stashed changes
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<Media>
@@ -4939,7 +4950,10 @@
 			</AcousticTextures>
 		</SoundBank>
 		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{CF1C6829-4DC0-1B96-33E5-8F2A3D9FADDB}">
+<<<<<<< Updated upstream
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
+=======
+>>>>>>> Stashed changes
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -5459,7 +5473,10 @@
 			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{473B0201-F0C6-9489-D2CD-0F6122633171}">
+<<<<<<< Updated upstream
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Desert</ObjectPath>
+=======
+>>>>>>> Stashed changes
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -7304,7 +7321,10 @@
 			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{7FB712A5-24EC-1B39-83BF-008ECB93D8CD}">
+<<<<<<< Updated upstream
 			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_08</ObjectPath>
+=======
+>>>>>>> Stashed changes
 			<ShortName>Quest_08</ShortName>
 			<Path>English(US)/Quest_08.bnk</Path>
 			<Media>
@@ -7677,8 +7697,12 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{DC13CD61-BAFF-060E-DA2B-68C5AE374A91}">
 			<ObjectPath>\SoundBanks\Default Work Unit\All_In_One</ObjectPath>
+=======
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{8CF7636D-1BA3-1212-B099-9FB93E64811D}">
+>>>>>>> Stashed changes
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -7761,6 +7785,14 @@
 				<File Id="39706661" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_imp_axe_leaves_2.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_imp_axe_leaves_2_C7EA81D8.wem</CachePath>
+				</File>
+				<File Id="42597138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Bass_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Bass_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
+				<File Id="46437243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi1_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="51080236" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Volcanic_BigPno.wav</ShortName>
@@ -7929,6 +7961,10 @@
 					<ShortName>Cinematic\BAS_CIN_PinkBall_Impact_02.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_PinkBall_Impact_02_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="116588101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Strings2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Strings2_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
 				<File Id="117108038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_water_walk_01_8374BCAA.wem</CachePath>
@@ -7936,6 +7972,10 @@
 				<File Id="117550963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_PinkBall_Impact_03.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_PinkBall_Impact_03_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="119809490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass1_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="120480038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate.wav</ShortName>
@@ -8049,6 +8089,10 @@
 				<File Id="180963865" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Other\WAG_TitleScreen_V1.wav</ShortName>
 					<CachePath>SFX/Other/WAG_TitleScreen_V1_A8B0334E.wem</CachePath>
+				</File>
+				<File Id="183968445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi3_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi3_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="184650763" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Ambient\Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</ShortName>
@@ -8265,6 +8309,10 @@
 					<ShortName>Objects\BAS_Crate_Destroy_01.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crate_Destroy_01_16D20EBA.wem</CachePath>
 				</File>
+				<File Id="286073441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_BassTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_BassTwinkle_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
 				<File Id="287000940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Background\amb_day_element_02_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_day_element_02_04_F32BB3A8.wem</CachePath>
@@ -8319,6 +8367,14 @@
 					<ShortName>Blacksmith_DialogueLine_Q4b_01.wav</ShortName>
 					<Path>Media/English(US)/312874557.wem</Path>
 					<CachePath>Voices/English(US)/Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem</CachePath>
+				</File>
+				<File Id="313322875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass3_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass3_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
+				<File Id="316710176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Strings1_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Strings1_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="320959230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
@@ -8640,6 +8696,10 @@
 					<ShortName>Ambient\Ambient_Background\BAS_frog_02.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/BAS_frog_02_0B3540F8.wem</CachePath>
 				</File>
+				<File Id="487367045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Dizi2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Dizi2_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
 				<File Id="487608963" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Tamburine.wav</ShortName>
 					<Path>Media/487608963.wem</Path>
@@ -8723,6 +8783,10 @@
 				<File Id="512076338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/BAS_WaterDrops_A1247F08.wem</CachePath>
+				</File>
+				<File Id="519584103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Shaker_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Shaker_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="519995291" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Volcanic_Strings_Choir_2.wav</ShortName>
@@ -8874,6 +8938,10 @@
 				<File Id="578971414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_grass_run_05_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="579697901" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_GlassTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_GlassTwinkle_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="580300220" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_03.wav</ShortName>
@@ -9147,6 +9215,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_03_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="702579186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Bass2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Bass2_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
 				<File Id="704786839" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q7_1.wav</ShortName>
 					<Path>Media/English(US)/704786839.wem</Path>
@@ -9313,6 +9385,10 @@
 					<Path>Media/English(US)/784864794.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q3a_3_3134463F.wem</CachePath>
 				</File>
+				<File Id="786953135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_StringTwinkle_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_StringTwinkle_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
+				</File>
 				<File Id="791272135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Eat_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Eat_02_16D20EBA.wem</CachePath>
@@ -9399,6 +9475,10 @@
 				<File Id="824466461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Death_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Death_01_16D20EBA.wem</CachePath>
+				</File>
+				<File Id="825239440" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Drums_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Drums_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="827321451" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_04.wav</ShortName>
@@ -9537,6 +9617,10 @@
 				<File Id="894401231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_06_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="895036324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BattleMusic_Glass2_130bpm4-4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/BattleMusic_Glass2_130bpm4-4_L8M_P0_164904F4.wem</CachePath>
 				</File>
 				<File Id="897538720" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\WPA_Ambient_Bass_2.wav</ShortName>
@@ -10523,8 +10607,18 @@
 						<MediaRef Id="971725281"/>
 					</MediaRefs>
 				</Event>
+<<<<<<< Updated upstream
 				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.2515416" DurationMax="1.5402917">
+=======
+				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2726606664" Name="Drums" GUID="{AA637D7D-A5D6-4C02-A14F-19EAB749C921}" MaxAttenuation="30" DurationType="OneShot" DurationMin="17.068" DurationMax="17.068">
+					<MediaRefs>
+						<MediaRef Id="825239440"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.2515416" DurationMax="1.5402917">
+>>>>>>> Stashed changes
 					<MediaRefs>
 						<MediaRef Id="580300220"/>
 						<MediaRef Id="624605826"/>
@@ -10764,8 +10858,28 @@
 						<AuxBusRef Id="1762369803" Name="Reflect_AuxBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Reflect_AuxBus" GUID="{4F8873C9-4D57-4F48-87AC-5F9B4E93C178}"/>
 					</AuxBusRefs>
 				</Event>
+<<<<<<< Updated upstream
 				<Event Id="2689787085" Name="Magic_Stop" ObjectPath="\Events\Magic\SoundBankSpecific\Magic_Stop" GUID="{3AF9B346-F69E-4C4B-A9D1-F52B13F73CC5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2409105241" Name="Music_ArcadeMachine_Play" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Play" GUID="{DE3E5ECC-6C17-4EEA-B522-4A7F4462B078}" DurationType="Infinite">
+=======
+				<Event Id="2689787085" Name="Magic_Stop" GUID="{3AF9B346-F69E-4C4B-A9D1-F52B13F73CC5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1040548709" Name="Melody" GUID="{9E0BC441-8EB6-4480-92CA-61B6343068E4}" DurationType="OneShot" DurationMin="19.116" DurationMax="19.116">
+					<MediaRefs>
+						<MediaRef Id="42597138"/>
+						<MediaRef Id="46437243"/>
+						<MediaRef Id="116588101"/>
+						<MediaRef Id="119809490"/>
+						<MediaRef Id="183968445"/>
+						<MediaRef Id="313322875"/>
+						<MediaRef Id="316710176"/>
+						<MediaRef Id="487367045"/>
+						<MediaRef Id="519584103"/>
+						<MediaRef Id="702579186"/>
+						<MediaRef Id="895036324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2409105241" Name="Music_ArcadeMachine_Play" GUID="{DE3E5ECC-6C17-4EEA-B522-4A7F4462B078}" DurationType="Infinite">
+>>>>>>> Stashed changes
 					<MediaRefs>
 						<MediaRef Id="432872011"/>
 					</MediaRefs>
@@ -12539,8 +12653,20 @@
 						<MediaRef Id="31470392"/>
 					</MediaRefs>
 				</Event>
+<<<<<<< Updated upstream
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" GUID="{BF5E1436-4D49-4EDA-AAFE-265F853BFED5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\UI\Generic\UI_Button_Down" GUID="{1CF76F02-9289-49BB-B568-B32E7CB1551D}" DurationType="OneShot" DurationMin="0.04739095" DurationMax="0.04739095">
+=======
+				<Event Id="452547817" Name="Stop_All" GUID="{BF5E1436-4D49-4EDA-AAFE-265F853BFED5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="774640590" Name="Twinkles" GUID="{B83446D8-BE70-4F63-9161-B88BF02A42B8}" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="286073441"/>
+						<MediaRef Id="579697901"/>
+						<MediaRef Id="786953135"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="156563189" Name="UI_Button_Down" GUID="{1CF76F02-9289-49BB-B568-B32E7CB1551D}" DurationType="OneShot" DurationMin="0.04739095" DurationMax="0.04739095">
+>>>>>>> Stashed changes
 					<MediaRefs>
 						<MediaRef Id="576059042"/>
 					</MediaRefs>
@@ -13489,7 +13615,10 @@
 			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{4D65FBB8-1070-79F5-A508-DA1CA3B71B22}">
+<<<<<<< Updated upstream
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Village</ObjectPath>
+=======
+>>>>>>> Stashed changes
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -14085,5 +14214,9 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< Updated upstream
 	<FileHash>{ADA5881C-9127-A7EA-026B-C0B218C46422}</FileHash>
+=======
+	<FileHash>{09869E4D-1B91-AF84-CF73-867805C347AD}</FileHash>
+>>>>>>> Stashed changes
 </SoundBanksInfo>

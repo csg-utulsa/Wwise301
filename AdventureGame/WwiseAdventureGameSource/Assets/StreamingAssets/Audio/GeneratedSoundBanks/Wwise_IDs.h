@@ -56,6 +56,7 @@ namespace AK
         static const AkUniqueID DOOR_DLCDOOR_OPEN_STOP = 2379298625U;
         static const AkUniqueID DOOR_TEMPLEDOOR_OPEN_PLAY = 3492604883U;
         static const AkUniqueID DOOR_TEMPLEDOOR_OPEN_STOP = 2622623673U;
+        static const AkUniqueID DRUMS = 2726606664U;
         static const AkUniqueID ENEMY_EVILCRAWLER_DEATH = 1258303199U;
         static const AkUniqueID ENEMY_EVILCRAWLER_EAT = 3621593767U;
         static const AkUniqueID ENEMY_EVILCRAWLER_EXPLODE = 3580182562U;
@@ -83,6 +84,7 @@ namespace AK
         static const AkUniqueID MAGIC_BLAST_IMPACT = 1230192158U;
         static const AkUniqueID MAGIC_CHARGE = 3373889173U;
         static const AkUniqueID MAGIC_STOP = 2689787085U;
+        static const AkUniqueID MELODY = 1040548709U;
         static const AkUniqueID MUSIC_ARCADEMACHINE_PLAY = 2409105241U;
         static const AkUniqueID MUSIC_ARCADEMACHINE_STOP = 746676127U;
         static const AkUniqueID MUSIC_CREDITS = 1882971781U;
@@ -112,6 +114,7 @@ namespace AK
         static const AkUniqueID QUEST_COMPLETECOLLECTION = 844130829U;
         static const AkUniqueID STINGER_GETWEAPON = 2681420560U;
         static const AkUniqueID STOP_ALL = 452547817U;
+        static const AkUniqueID TWINKLES = 774640590U;
         static const AkUniqueID UI_BUTTON_DOWN = 156563189U;
         static const AkUniqueID UI_BUTTON_ENTER = 18309885U;
         static const AkUniqueID UI_BUTTON_EXIT = 2325560497U;

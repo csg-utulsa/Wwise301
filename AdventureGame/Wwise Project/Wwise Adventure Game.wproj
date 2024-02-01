@@ -35,7 +35,10 @@
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
+<<<<<<< Updated upstream
 				<Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True"/>
+=======
+>>>>>>> Stashed changes
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\WwiseAdventureGameSource\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
