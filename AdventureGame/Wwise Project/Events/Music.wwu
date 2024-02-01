@@ -166,6 +166,56 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Wwise301" ID="{73A65E3E-4F6C-42C8-AFA9-B1665D1512A7}" ShortID="519571727">
+					<ChildrenList>
+						<Folder Name="Assignment02" ID="{C4993BB4-6D67-4AEC-80E2-A8047407B340}" ShortID="1023590359">
+							<ChildrenList>
+								<Event Name="Drums" ID="{165CB7E6-EEFE-41E4-BC4A-459E3BCAAA59}">
+									<ChildrenList>
+										<Action Name="" ID="{22783A45-4D5B-49BE-A1D6-C81961887A08}" ShortID="155192295">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drums" ID="{79B5F93F-C38E-4B4F-83FA-3E4ABD432927}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Twinkles" ID="{75EE21DE-46D5-4CB0-A232-33FB70D65400}">
+									<ChildrenList>
+										<Action Name="" ID="{ADEDE264-D1E8-4AB3-9C1E-8FEE85F5415A}" ShortID="417567949">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Twinkles" ID="{B13AED54-0B0C-456A-B6C3-08313F9E5F32}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Main" ID="{8000511D-7662-4796-9C39-E3DDC3846BAD}">
+									<ChildrenList>
+										<Action Name="" ID="{AFBD44D9-A348-4FEF-A1D4-755D4C63C3D2}" ShortID="466451249">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Main" ID="{E8326093-C65E-4B77-A7FE-DA2CE77F363E}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
