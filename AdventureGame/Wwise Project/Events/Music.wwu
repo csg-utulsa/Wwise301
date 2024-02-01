@@ -166,56 +166,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Wwise301" ID="{C67A8520-7AD7-4209-B3E0-A14B97207E10}" ShortID="982052250">
-					<ChildrenList>
-						<Folder Name="1BattleMusic" ID="{41628B7E-4E79-4CDD-9A3B-67C8FE96C345}" ShortID="240878516">
-							<ChildrenList>
-								<Event Name="Drums" ID="{AA637D7D-A5D6-4C02-A14F-19EAB749C921}">
-									<ChildrenList>
-										<Action Name="" ID="{3D6A44E1-F49F-4E82-8EE5-BA2C2C1FDDF3}" ShortID="94028869">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="1Drums" ID="{87E42669-C866-42BE-80DA-C0B5E4866A9C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Twinkles" ID="{B83446D8-BE70-4F63-9161-B88BF02A42B8}">
-									<ChildrenList>
-										<Action Name="" ID="{E6E7D602-1BCB-4A6A-9E7A-05E85E3DF48D}" ShortID="889392069">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="1Twinkles" ID="{FBF5D2B6-B5B2-4ED9-BF89-8B912C362D3A}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Melody" ID="{9E0BC441-8EB6-4480-92CA-61B6343068E4}">
-									<ChildrenList>
-										<Action Name="" ID="{2B2CABED-185D-45AA-965E-22371CB1ED6F}" ShortID="346881482">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="1BattleMusic" ID="{F48B6348-ED61-4B54-BAEE-9DCE0B5D9E81}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
