@@ -16,6 +16,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 				<Folder Name="SoundBankSpecific" ID="{11A662D5-CAB9-4E18-AE99-5D1D0145B48D}" ShortID="142894883">
 					<ChildrenList>
 						<Event Name="Music_ArcadeMachine_Play" ID="{DE3E5ECC-6C17-4EEA-B522-4A7F4462B078}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{9640A8E9-0EB5-43A5-A8A5-ACFFBD74DCFB}" ShortID="737788397">
 									<PropertyList>
@@ -30,6 +33,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							</ChildrenList>
 						</Event>
 						<Event Name="Music_ArcadeMachine_Stop" ID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{EED5456B-1632-4255-A870-4419FC3E781B}" ShortID="641420708">
 									<PropertyList>
@@ -159,6 +165,48 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Get Weapon" ID="{098DEDBE-0446-458A-899B-670F23C1E672}" WorkUnitID="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Split_01" ID="{AB277128-B776-4756-9793-CAA4B917AE7D}">
+							<ChildrenList>
+								<Action Name="" ID="{275F6994-1DAB-488D-B7EA-FA331B275DF2}" ShortID="389555539">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Split_01" ID="{8A3A6744-F8E0-434A-B5E2-90FF9984135C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Split_02" ID="{34A1E901-31C6-4AFB-ADF8-BBF4C060A7A4}">
+							<ChildrenList>
+								<Action Name="" ID="{BF4254A4-4B3D-4D60-9C57-63B5CF110B47}" ShortID="89881842">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Split_02" ID="{66F40C66-1F99-4C6D-B8C0-9F68EFAC6A9D}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Split_03" ID="{254A8975-783C-41DF-BEBA-5E03F3754AF4}">
+							<ChildrenList>
+								<Action Name="" ID="{EF4377AC-AEC4-46A1-860A-06EC7E4C24CA}" ShortID="717081694">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Split_03" ID="{6622CA30-4036-40FB-8707-9FE57B267151}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -10,7 +10,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	452547817	Stop_All			\Default Work Unit\Stop_All	
 	504652456	Enemy_EvilSpitPlant_Charge			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Charge	
 	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
-	746676127	Music_ArcadeMachine_Stop			\Music\SoundBankSpecific\Music_ArcadeMachine_Stop	
 	750089663	UI_Menu_Teleport			\UI\Menu\UI_Menu_Teleport	
 	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
 	812304580	Enemy_EvilSpitPlant_ShootLoop_Play			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Play	
@@ -19,6 +18,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1035173718	NPC_Wwizard_IdleGimmick_Poof			\Magic\General\NPC_Wwizard_IdleGimmick_Poof	
 	1042419433	Enemy_EvilSpitPlant_ShootBullet			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootBullet	
 	1070022042	Enemy_EvilHead_Movement			\Enemies\EvilHead\Enemy_EvilHead_Movement	
+	1173432504	Music_Split_02			\Music\General\Music_Split_02	
+	1173432505	Music_Split_03			\Music\General\Music_Split_03	
+	1173432507	Music_Split_01			\Music\General\Music_Split_01	
 	1258303199	Enemy_EvilCrawler_Death			\Enemies\EvilCrawler\Enemy_EvilCrawler_Death	
 	1293226255	Enemy_EvilSpitPlant_Hurt			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Hurt	
 	1464993479	UI_Menu_Resume			\UI\Menu\UI_Menu_Resume	
@@ -36,7 +38,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2340191741	Enemy_EvilHead_Charge			\Enemies\EvilHead\Enemy_EvilHead_Charge	
 	2355650095	Ambient_Crystal_Hum			\Ambient\General\Ambient_Crystal_Hum	
 	2391108228	NPC_Wwizard_Poof			\Magic\General\NPC_Wwizard_Poof	
-	2409105241	Music_ArcadeMachine_Play			\Music\SoundBankSpecific\Music_ArcadeMachine_Play	
 	2453392179	Player_Footstep			\Player\SoundBankSpecific\Player_Footstep	
 	2681420560	Stinger_GetWeapon			\Music\General\Stinger_GetWeapon	
 	2758258135	Enemy_EvilHead_Bite			\Enemies\EvilHead\Enemy_EvilHead_Bite	
@@ -141,7 +142,6 @@ Custom State	ID	Name	State Group	Owner		Notes
 	965529497	On	VoiceAttenuation	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	129	MIDI note velocity			\MIDI note velocity	
 	207908541	Time_of_Day			\Ambient\Time_of_Day	
 	215992295	Player_Health			\Player\Player_Health	
 	500836401	Quest_Progress			\Gameplay\Quest_Progress	
@@ -159,12 +159,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3588190939	Music_EnemyTheme_Volume			\Gameplay\Music_EnemyTheme_Volume	
 	3717648145	Listener_Cone			\Generic\Listener_Cone	
 	3717892141	CombatLevel			\Enemies\CombatLevel	
-
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	26088899	Modulator Envelope_MIDI_Output_Volume (Custom)				
-	47269649	Modulator Envelope_MIDI_Output_Volume			\MIDI_Envelopes\Modulator Envelope_MIDI_Output_Volume	
-	105831254	Modulator Envelope_MIDI_Output_Volume (Custom)				
-	634959200	Modulator Envelope_MIDI_Output_Volume (Custom)				
 
 Trigger	ID	Name			Wwise Object Path	Notes
 	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
@@ -185,7 +179,6 @@ Metadata plug-ins	ID	Name	Type				Notes
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	79502778	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Silence\Wwise Silence	
 	144235066	SoundSeed Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_wind\SoundSeed Wind	
-	274189149	Wwise Synth One_Square_01	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_01\Wwise Synth One_Square_01	
 	279318901	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Dagger\SoundSeed Woosh	Woosh intended for Dagger
 	332159559	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Silence\Wwise Silence	
 	340076572	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Sword\SoundSeed Woosh	Woosh intended for Sword
@@ -193,13 +186,10 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	380065115	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\Silence\Wwise Silence	
 	393638398	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Pickaxe\SoundSeed Woosh	Woosh intended for Axe
 	637350807	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Silence\Wwise Silence	
-	717069159	Wwise Synth One_Drums	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Drums\Wwise Synth One_Drums	
-	717943813	Wwise Synth One_Bass	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Bass\Wwise Synth One_Bass	
 	736681753	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_NoImpact\EvilSpitPlant_Silence\Wwise Silence	
 	776592709	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Silence\Wwise Silence	
 	825078784	SoundSeed Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Hammer\SoundSeed Woosh	Woosh intended for Axe
 	944426266	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Silence\Wwise Silence	
-	1057826510	Wwise Synth One_Square_02	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\Instruments\Arcade Machine\Synth_Square_02\Wwise Synth One_Square_02	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5088739	Woodlands_NightTime_Bassoon_2	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Forest_NightTime_Bassoon_2_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Layers\Woodlands_NightTime_Bassoon_2		690
@@ -235,6 +225,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	101718933	Impact_SpitPlant_03	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_1D44499D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_03		62042
 	108061160	EvilSpitPlant_Shoot_03	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_16D20EBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_03		12766
 	109351989	Impact_Sword_Wood_02	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Weapons\BAS_imp_sword_wood_2_780E572F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_02		69710
+	114014129	Celeste_80bpm4-4_L1M	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Celeste_80bpm4-4_L1M_62D8BCDE.wem		\Interactive Music Hierarchy\Music\Music_Split_01\Music_Split_01\Celeste_80bpm4-4_L1M		347473
 	115834427	Adventuress_damaged_10	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_damaged_10_6A72FADA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_10		31178
 	120480038	Impact_PickAxe_Crate	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate_1D44499D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Crate\Impact_PickAxe_Crate		34962
 	125288342	Heartbeat_Dub2	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Heartbeat_Dub2_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub2		1110
@@ -298,7 +289,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	412591648	BAS_Evil_SpitPlant_Death_Headfall_02	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_02_16D20EBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_02		7065
 	420289128	Pizzicato_Strings	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Pizzicato_Strings_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layers\Pizzicato_Strings		14722
 	426400611	BAS_Evil_SpitPlant_Death_06	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_06_848AC319.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_06		16182
-	432872011	MIDI_WAG	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\MIDI_Project_Adventure_EDEA3A15.wem		\Interactive Music Hierarchy\Other\MIDI_WAG\MIDI_WAG_Single_MIDI_Track_Multiple_MIDI_Channels\MIDI_WAG	Audiokinetic Inc. All rights reserved. Audio content provided by Jeff Edward Ball With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2014 Jeff Edward Ball www.jeffedwardball.com  The Audio Content contained in this file is the property of Jeff Edward Ball Your sole right with regard to this MIDI Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	2749
 	434167254	3_Violin_Cave	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\MFYG\3_Violin_Cave_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Layers\3_Violin_Cave		15921
 	441591698	Evil_SpitPlant_Charge_01	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_5D1F4E89.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_01		5006
 	450221518	Pickup_WeaponType_Axe	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_WeaponType_Axe_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Axe		69808
@@ -307,6 +297,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	473979008	Inventory_Scroll	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Interface\BAS_Inventory_Scroll_F3AC450F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Scroll		3975
 	474305653	Pickup_Misc	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickup_43F8E40A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		22256
 	476522655	Adventuress_exertion_03	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_exertion_03_42EC1C96.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress_exertion_03		34550
+	480050318	ChineseKettleDrums_B_80bpm4-4_L1M	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\ChineseKettleDrums_B_80bpm4-4_L1M_62D8BCDE.wem		\Interactive Music Hierarchy\Music\Music_Split_01\Music_Split_01\ChineseKettleDrums_B_80bpm4-4_L1M		340419
+	483864844	3FLLegato_B_80bpm4-4_L1M	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\3FLLegato_B_80bpm4-4_L1M_62D8BCDE.wem		\Interactive Music Hierarchy\Music\Music_Split_03\Music_Split_03\3FLLegato_B_80bpm4-4_L1M		426560
 	487608963	Perc_Normal_Tamburine	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Tamburine_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Layers\Perc_Normal_Tamburine		3029
 	492838405	EvilCrawler_Eat_03	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Eat_03_16D20EBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_03		8623
 	492864942	1_Harp	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\MFYG\1_Harp_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layers\1_Harp		8311
@@ -413,6 +405,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	897538720	WAG_Ambient_Bass1	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\WPA_Ambient_Bass_2_068FF542.wem		\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Layers\WAG_Ambient_Bass1		2822
 	898477822	Evil_SpitPlant_Charge_02	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_38DECB5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_02		6399
 	902725510	Impact_Dagger_Crate	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Impact\BAS_Impact_Dagger_SurfaceType_Crate_BAD6F0D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Crate\Impact_Dagger_Crate		39144
+	903937866	VCSLeg_B_80bpm4-4_L1M	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\VCSLeg_B_80bpm4-4_L1M_62D8BCDE.wem		\Interactive Music Hierarchy\Music\Music_Split_01\Music_Split_01\VCSLeg_B_80bpm4-4_L1M		394227
 	908851993	Impact_Dagger_Leaves	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Weapons\BAS_imp_dagger_leaves_C717D6E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Leaves\Impact_Dagger_Leaves		33348
 	917282363	Impact_PickAxe_Dirt	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Weapons\BAS_imp_axe_dirt_CD28C886.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Dirt\Impact_PickAxe_Dirt		29400
 	922334387	Adventuress_exertion_02	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_exertion_02_87B6D597.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_02		64972
@@ -441,6 +434,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1023617453	BAS_Evil_SpitPlant_Charge_03	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_4980C12D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_03		8626
 	1024725918	Impact_Sword_Barrel	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Impact\BAS_Impact_Sword_SurfaceType_Barrel_212E781C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Sword_Barrel		62898
 	1026572653	magic_charge_debris	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Earth_Debris_87100238.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Magic\Magic_Charge\magic_charge_debris		1056256
+	1026751004	PianoArr1_B_80bpm4-4_L1M	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\PianoArr1_B_80bpm4-4_L1M_62D8BCDE.wem		\Interactive Music Hierarchy\Music\Music_Split_02\Music_Split_02\PianoArr1_B_80bpm4-4_L1M		324294
 	1028269556	BAS_Evil_Head_Charge_Bite	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_Bite_21275FEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_Charge_Bite		7434
 	1030273903	Dungeon_Tubas	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Volcanic_Tubas_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Layers\Dungeon_Tubas		4698
 	1031283392	WAG_QucickStinger_GetItem	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Stingers\QucickStinger_GetItem_A8B0334E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_GetItem\WAG_QucickStinger_GetItem		54152

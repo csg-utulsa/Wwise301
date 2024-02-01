@@ -50,9 +50,6 @@ namespace AK
         static const AkUniqueID DESTRUCTION_CRYSTAL_DESTROY = 448719855U;
         static const AkUniqueID DESTRUCTION_ROCK_DESTROY = 1999886838U;
         static const AkUniqueID DESTRUCTION_VOLCANICBOULDER_IMPACT = 2541270269U;
-        static const AkUniqueID DLC_AMBIENT_HEAVEN = 2048928861U;
-        static const AkUniqueID DLC_BUTTON = 2622476831U;
-        static const AkUniqueID DLC_CANNON_SHOT = 2874568351U;
         static const AkUniqueID DOOR_DLCDOOR_OPEN_PLAY = 3556635307U;
         static const AkUniqueID DOOR_DLCDOOR_OPEN_STOP = 2379298625U;
         static const AkUniqueID DOOR_TEMPLEDOOR_OPEN_PLAY = 3492604883U;
@@ -84,12 +81,13 @@ namespace AK
         static const AkUniqueID MAGIC_BLAST_IMPACT = 1230192158U;
         static const AkUniqueID MAGIC_CHARGE = 3373889173U;
         static const AkUniqueID MAGIC_STOP = 2689787085U;
-        static const AkUniqueID MUSIC_ARCADEMACHINE_PLAY = 2409105241U;
-        static const AkUniqueID MUSIC_ARCADEMACHINE_STOP = 746676127U;
         static const AkUniqueID MUSIC_CREDITS = 1882971781U;
         static const AkUniqueID MUSIC_DUNGEONENEMYONLY = 2276042689U;
         static const AkUniqueID MUSIC_ENEMIES = 433441283U;
         static const AkUniqueID MUSIC_REGION = 3741135221U;
+        static const AkUniqueID MUSIC_SPLIT_01 = 1173432507U;
+        static const AkUniqueID MUSIC_SPLIT_02 = 1173432504U;
+        static const AkUniqueID MUSIC_SPLIT_03 = 1173432505U;
         static const AkUniqueID MUSIC_TITLESCREEN = 1532327793U;
         static const AkUniqueID NPC_WWIZARD_IDLEGIMMICK_POOF = 1035173718U;
         static const AkUniqueID NPC_WWIZARD_POOF = 2391108228U;

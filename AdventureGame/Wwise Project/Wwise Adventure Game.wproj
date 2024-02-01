@@ -29,12 +29,14 @@
 						<Value Platform="Windows">50</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjYyMzAiIG1hc2s9IlJTWUE0NDU3IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9 IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMDItMjkiICAvPjxsaWNlbnNl IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMDItMjkiICAvPjxsaWNlbnNl IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw aXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9IjM3IiBuYW1lPSJDcmFu a2Nhc2UgQXVkaW8gUkVWIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDE0 IiBleHBpcmVzPSIyMDI0LTAyLTI5IiAgLz48bGljZW5zZSBpZD0iNjgiIG5hbWU9 ImF0bW9reSBFYXJzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0 IiBleHBpcmVzPSIyMDI0LTAyLTI5IiAgLz48bGljZW5zZSBpZD0iNjMiIG5hbWU9 Ik1hc3RlcmluZyBTdWl0ZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwx MywxNCIgZXhwaXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9IjUzIiBu YW1lPSJQb2x5c3BlY3RyYWwgTUJDIiB0eXBlPSIxIiBwbGF0Zm9ybXM9IjIsMyw0 LDEwLDE0IiBleHBpcmVzPSIyMDIyLTEwLTI2IiAgLz48cGx1Z2luIGlkPSIyNzI2 NzE1NCIgbmFtZT0iQ3JhbmtjYXNlIEF1ZGlvIFJFViIgbGljZW5zZT0iMzciIC8+ PHBsdWdpbiBpZD0iNzAzMzkiIG5hbWU9ImF0bW9reSBFYXJzIiBsaWNlbnNlPSI2 OCIgLz48cGx1Z2luIGlkPSIxMjE4OTY5OSIgbmFtZT0iTWFzdGVyaW5nIFN1aXRl IiBsaWNlbnNlPSI2MyIgLz48cGx1Z2luIGlkPSI3OTQzNDA5OSIgbmFtZT0iUG9s eXNwZWN0cmFsIE1CQyIgbGljZW5zZT0iNTMiIC8+PGFzc2V0IGlkPSI2NTUzNCIg cGx1Z2luPSIyNzI2NzE1NCIgbmFtZT0iUkVWIE1vZGVsZXIgVG9vbCIgdHlwZT0i MyIgIGV4cGlyZXM9IjIwMjQtMDItMjkiIC8+PGFzc2V0IGlkPSI2NTUzNSIgcGx1 Z2luPSIyNzI2NzE1NCIgbmFtZT0iQWxsIGVuZ2luZSBtb2RlbHMiIHR5cGU9IjMi ICBleHBpcmVzPSIyMDI0LTAyLTI5IiAvPjxhc3NldCBpZD0iNjIiIHBsdWdpbj0i ODMyMzA3NSIgbmFtZT0iQk9PTSBMaWJyYXJ5IE91dGRvb3IgSW1wdWxzZSBSZXNw b25zZXMiIHR5cGU9IjEiICBleHBpcmVzPSIyMDI0LTAyLTI5IiAvPjwvcHJvamVj dD4=|LAgY69cHNw831Svu1U8/tR3YRmm8r2FLK6i7KmFMgxn7C359xBl5UwYZ4wW EZhNApJJ6bNtGGkx5xmcOAhH/lKzwB1cTXw9WlFWLycokexmlId50SAcCDiAjp6v G2kkau3EPZ5CFHFDu9X+nDsoVSGXk73L1VNGAH7/F8HiGpsS4y5bJuQgzctIIbDB nCfWjdG7f8JzF+Iyy6LXqu9DW1h/UjefxUT1JMw9QWsSUeQUvJQYMSFQ9QY1YklI 5pPxX3QM4kowB0QeN3l94ligD4/4cxkGvbeD8aLzT1A5DGpYR6fy51Ku3z7FfnWq 4OahGUAarHp/PofiOUu4iWwnZSg== "/>
 				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../WwiseAdventureGameSource/Assets/StreamingAssets/Audio/GeneratedSoundBanks/"/>
+				<Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\WwiseAdventureGameSource\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">..\WwiseAdventureGameSource\GeneratedSoundBanks\Windows\</Value>
@@ -67,42 +69,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2011.2|Build=4007|VersionName=v2011.2.2|Config=Release"/>
-			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjYyMzAiIG1hc2s9IlJTWUE0NDU3IiBlbmM9IjAiPjxsaWNl
-bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs
-NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9
-IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMDItMjkiICAvPjxsaWNlbnNl
-IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjQtMDItMjkiICAvPjxsaWNlbnNl
-IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw
-aXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9IjM3IiBuYW1lPSJDcmFu
-a2Nhc2UgQXVkaW8gUkVWIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDE0
-IiBleHBpcmVzPSIyMDI0LTAyLTI5IiAgLz48bGljZW5zZSBpZD0iNjgiIG5hbWU9
-ImF0bW9reSBFYXJzIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0
-IiBleHBpcmVzPSIyMDI0LTAyLTI5IiAgLz48bGljZW5zZSBpZD0iNjMiIG5hbWU9
-Ik1hc3RlcmluZyBTdWl0ZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwx
-MywxNCIgZXhwaXJlcz0iMjAyNC0wMi0yOSIgIC8+PGxpY2Vuc2UgaWQ9IjUzIiBu
-YW1lPSJQb2x5c3BlY3RyYWwgTUJDIiB0eXBlPSIxIiBwbGF0Zm9ybXM9IjIsMyw0
-LDEwLDE0IiBleHBpcmVzPSIyMDIyLTEwLTI2IiAgLz48cGx1Z2luIGlkPSIyNzI2
-NzE1NCIgbmFtZT0iQ3JhbmtjYXNlIEF1ZGlvIFJFViIgbGljZW5zZT0iMzciIC8+
-PHBsdWdpbiBpZD0iNzAzMzkiIG5hbWU9ImF0bW9reSBFYXJzIiBsaWNlbnNlPSI2
-OCIgLz48cGx1Z2luIGlkPSIxMjE4OTY5OSIgbmFtZT0iTWFzdGVyaW5nIFN1aXRl
-IiBsaWNlbnNlPSI2MyIgLz48cGx1Z2luIGlkPSI3OTQzNDA5OSIgbmFtZT0iUG9s
-eXNwZWN0cmFsIE1CQyIgbGljZW5zZT0iNTMiIC8+PGFzc2V0IGlkPSI2NTUzNCIg
-cGx1Z2luPSIyNzI2NzE1NCIgbmFtZT0iUkVWIE1vZGVsZXIgVG9vbCIgdHlwZT0i
-MyIgIGV4cGlyZXM9IjIwMjQtMDItMjkiIC8+PGFzc2V0IGlkPSI2NTUzNSIgcGx1
-Z2luPSIyNzI2NzE1NCIgbmFtZT0iQWxsIGVuZ2luZSBtb2RlbHMiIHR5cGU9IjMi
-ICBleHBpcmVzPSIyMDI0LTAyLTI5IiAvPjxhc3NldCBpZD0iNjIiIHBsdWdpbj0i
-ODMyMzA3NSIgbmFtZT0iQk9PTSBMaWJyYXJ5IE91dGRvb3IgSW1wdWxzZSBSZXNw
-b25zZXMiIHR5cGU9IjEiICBleHBpcmVzPSIyMDI0LTAyLTI5IiAvPjwvcHJvamVj
-dD4=|LAgY69cHNw831Svu1U8/tR3YRmm8r2FLK6i7KmFMgxn7C359xBl5UwYZ4wW
-EZhNApJJ6bNtGGkx5xmcOAhH/lKzwB1cTXw9WlFWLycokexmlId50SAcCDiAjp6v
-G2kkau3EPZ5CFHFDu9X+nDsoVSGXk73L1VNGAH7/F8HiGpsS4y5bJuQgzctIIbDB
-nCfWjdG7f8JzF+Iyy6LXqu9DW1h/UjefxUT1JMw9QWsSUeQUvJQYMSFQ9QY1YklI
-5pPxX3QM4kowB0QeN3l94ligD4/4cxkGvbeD8aLzT1A5DGpYR6fy51Ku3z7FfnWq
-4OahGUAarHp/PofiOUu4iWwnZSg==
-"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
@@ -11043,7 +11009,7 @@ nCfWjdG7f8JzF+Iyy6LXqu9DW1h/UjefxUT1JMw9QWsSUeQUvJQYMSFQ9QY1YklI
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -14229,7 +14195,7 @@ nCfWjdG7f8JzF+Iyy6LXqu9DW1h/UjefxUT1JMw9QWsSUeQUvJQYMSFQ9QY1YklI
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="186">
+				<SharedPropertyList ClassName="Mastering Suite" PluginType="3" CompanyID="0" PluginID="186">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>

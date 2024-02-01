@@ -390,6 +390,13 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DLC" ID="{86242522-771C-4951-B05C-354AEA9C63AF}" ShortID="834453159">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="DLC_Cannon_Shot" ID="{2566E600-7C95-4E66-800B-FE7CA2C3741F}">
 							<ChildrenList>
