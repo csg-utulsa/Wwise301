@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{41046C03-50DC-B329-A6F1-2BC6392CEA5D}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{66A9E01C-23D4-2D37-DEA4-FE4DF82E8DC6}">
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -422,10 +422,6 @@
 				<File Id="299395336" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Death_Vox_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Death_Vox_03_2892D04A.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="301231688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
@@ -908,10 +904,6 @@
 					<Path>Media/602505150.wem</Path>
 					<CachePath>SFX/Music/Volcanic_Strings_Tremolo_068FF542.wem</CachePath>
 					<PrefetchSize>7402</PrefetchSize>
-				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
 				</File>
 				<File Id="616098569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_01.wav</ShortName>
@@ -1617,18 +1609,8 @@
 				</Custom>
 				<ShareSets>
 					<Plugin Id="1309482125" Name="Same_As_PassthroughMix" GUID="{6CC605AA-130B-45F6-9D11-ACA966C7A6A0}" LibName="Wwise System Output Settings" LibId="58982409"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2198414564" Name="Same_As_MainMix" GUID="{01EEFED8-8B32-4997-BC1E-449098D24985}" LibName="Wwise System Output Settings" LibId="58982409"/>
 					<Plugin Id="2373712977" Name="WAG_Enemy_EvilHead_MovementSpeed" GUID="{DB0F6334-AA6B-41E8-9928-2C3EC544C260}" LibName="Wwise Tremolo" LibId="8585219"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 				</ShareSets>
 			</Plugins>
 			<Events>
@@ -3894,7 +3876,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{E1DAA9F9-80AD-43FC-7A69-EC4D84B819AC}">
+		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{061DEB0E-5FF6-8EA9-AD04-526904A5E4AF}">
 			<ShortName>DLC</ShortName>
 			<Path>DLC.bnk</Path>
 			<Media>
@@ -3952,7 +3934,7 @@
 				<GameParameter Id="762020526" Name="Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{E26842BE-46EF-2029-18C3-7FBE417695DD}">
+		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{1F77A31E-4352-4554-CFC8-73E4821F69E7}">
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<Media>
@@ -4352,19 +4334,9 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6A6BFB67-41B4-BB00-542B-9A59D2BD46FB}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{297358F5-B0C1-3B49-E1D0-B9C35F987C4D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-			<Media>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="OtherBank">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
-				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="OtherBank">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
-				</File>
-			</Media>
 			<Plugins>
 				<Custom>
 					<Plugin Id="135805232" Name="WAG_Room_Large_(Custom)" GUID="{6E92FFB5-9790-4910-9491-D71F9D9D01E4}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -4395,19 +4367,9 @@
 					<Plugin Id="1305889293" Name="WAG_SideChainStinger" GUID="{FC59DDA4-B303-4296-9C52-3F202A2585C9}" LibName="Wwise Meter" LibId="8454147"/>
 					<Plugin Id="1783154876" Name="WAG_Cave" GUID="{1CB7A178-252B-4347-AFE4-CBE65856818E}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1883259540" Name="WAG_PineForest_Hut" GUID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2439616960" Name="WAG_Dungeon_Entrance" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2545004126" Name="Wwise_Reflect" GUID="{37779A87-4754-4420-8175-3236FA46AA12}" LibName="Wwise Reflect" LibId="11206659"/>
 					<Plugin Id="3025917178" Name="Standard" GUID="{1A2EAB31-6283-4C0D-89B2-F050DF89D421}" LibName="Wwise Flanger" LibId="8192003"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="4131355637" Name="HomeCinema" GUID="{F9951DC8-664E-4B07-81CF-61716236F00A}" LibName="Mastering Suite" LibId="12189699"/>
 					<Plugin Id="4259739631" Name="WAG_Music_EnemyThemeMeter" GUID="{C8B9B7B4-6579-439F-B692-F51E81E410C2}" LibName="Wwise Meter" LibId="8454147"/>
 				</ShareSets>
@@ -4505,13 +4467,7 @@
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="918440440" Name="Dungeon_DLC_CoinRoom" GUID="{61BAF8B8-BA43-4216-8D84-6D5C224270E8}">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3868582268"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
+				<AuxBus Id="918440440" Name="Dungeon_DLC_CoinRoom" GUID="{61BAF8B8-BA43-4216-8D84-6D5C224270E8}"/>
 				<AuxBus Id="1156828694" Name="Dungeon_Entrance" GUID="{833F2F9A-1CB0-44AA-BC26-A185919E46A5}">
 					<PluginRefs>
 						<ShareSets>
@@ -4547,13 +4503,7 @@
 						</ShareSets>
 					</PluginRefs>
  MaxAttenuation="200"				</AuxBus>
-				<AuxBus Id="1850388778" Name="Desert" GUID="{68D88AD6-5260-4C49-86C7-0C92875ED0E6}">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="1937843064"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
+				<AuxBus Id="1850388778" Name="Desert" GUID="{68D88AD6-5260-4C49-86C7-0C92875ED0E6}"/>
 				<AuxBus Id="1941785149" Name="Dungeon_Library" GUID="{04259656-6FEB-4FD4-A58F-6D79FF1BC412}">
 					<PluginRefs>
 						<Custom>
@@ -4919,7 +4869,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{E043A5AA-B59F-5E14-9F1C-0E616C44CD4F}">
+		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{CF1C6829-4DC0-1B96-33E5-8F2A3D9FADDB}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -5438,7 +5388,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{1EC7AA63-BA6D-4585-31B1-FF4F9D4F1016}">
+		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{13E98291-1B5E-571A-E242-BBDA42B5D855}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -5515,10 +5465,6 @@
 				<File Id="292435902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_06_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="308005468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\DebrisDirt.wav</ShortName>
@@ -5720,11 +5666,6 @@
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="1309482125" Name="Same_As_PassthroughMix" GUID="{6CC605AA-130B-45F6-9D11-ACA966C7A6A0}" LibName="Wwise System Output Settings" LibId="58982409"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2198414564" Name="Same_As_MainMix" GUID="{01EEFED8-8B32-4997-BC1E-449098D24985}" LibName="Wwise System Output Settings" LibId="58982409"/>
 				</ShareSets>
 			</Plugins>
@@ -7274,7 +7215,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{54BE2A9D-87DC-8CA9-3C4C-858DAC65269A}">
+		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{7FB712A5-24EC-1B39-83BF-008ECB93D8CD}">
 			<ShortName>Quest_08</ShortName>
 			<Path>English(US)/Quest_08.bnk</Path>
 			<Media>
@@ -7647,7 +7588,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{53C70796-A66B-7095-EF7C-351D746C2582}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{E30EE81E-926D-5F86-93C5-ECA66755C57F}">
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -8261,10 +8202,6 @@
 				<File Id="299395336" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Death_Vox_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Death_Vox_03_2892D04A.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="301231688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
@@ -8913,10 +8850,6 @@
 				<File Id="606020004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Crystals_Destroy.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crystals_Destroy_F85E4111.wem</CachePath>
-				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
 				</File>
 				<File Id="613971765" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q5b_2.wav</ShortName>
@@ -9958,11 +9891,6 @@
 					<Plugin Id="1866712639" Name="High_Freq_Cut_5" GUID="{604A4C00-7E8F-4859-BF24-F49D8C82555F}" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="1883259540" Name="WAG_PineForest_Hut" GUID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="1904434771" Name="Medium_Room1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="1976939195" Name="Deep" GUID="{76753DA8-3DCF-4812-A726-2745812F6C1B}" LibName="Wwise Flanger" LibId="8192003"/>
 					<Plugin Id="1990128658" Name="Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2038996943" Name="Plate_Sizzle" GUID="{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -10049,11 +9977,6 @@
 					<Plugin Id="3795831770" Name="WAG_Questing_PitchShift" GUID="{269E5ED2-6170-4983-839E-6C9E18789974}" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 					<Plugin Id="3796564934" Name="Hard_Knee_Minus_3dB_RMS" GUID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="3851006675" Name="Secret_message_Distant" GUID="{54C3F2D2-6B8D-4873-A383-2F6F7189C076}" LibName="Wwise Harmonizer" LibId="9043971"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="3900114836" Name="Metal_Hangar" GUID="{C4A4605C-42EF-476A-B53C-E31C7A442C24}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3948262040" Name="Octave_Down" GUID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 					<Plugin Id="4113267698" Name="Hall_Guns" GUID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -13442,7 +13365,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{DFD5199C-D64B-3B5F-AACB-189EDF627701}">
+		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{4D65FBB8-1070-79F5-A508-DA1CA3B71B22}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -14037,5 +13960,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33EC3339-49D5-E494-F191-B1148144E1D9}</FileHash>
+	<FileHash>{E513B899-EB42-336F-1211-B25889DB62DF}</FileHash>
 </SoundBanksInfo>

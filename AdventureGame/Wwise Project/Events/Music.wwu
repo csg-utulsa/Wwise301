@@ -164,6 +164,33 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Music_RV_A1" ID="{B221EE69-4A3C-4D0B-A515-54CF900F721B}">
+							<ChildrenList>
+								<Action Name="" ID="{75E49122-9CF1-479E-A5DC-64A3E5690BE4}" ShortID="789587589">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_RV_A2" ID="{BC1FFCA3-2A01-493B-BA14-5475CC24F592}">
+							<ChildrenList>
+								<Action Name="" ID="{231B779C-B40A-4895-BF24-A3FF6C2085AE}" ShortID="734474868">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_RV_A3" ID="{6BDA2368-7158-4BCD-B81E-740EE35AC409}">
+							<ChildrenList>
+								<Action Name="" ID="{987271B3-200F-4167-9868-B9BFFAAD4538}" ShortID="419208742">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
