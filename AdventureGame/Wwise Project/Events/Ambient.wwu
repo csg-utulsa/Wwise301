@@ -373,6 +373,20 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Ambient_Flame_Thrower" ID="{A87CA449-93B1-40A8-8F29-63A46024A17C}">
+							<ChildrenList>
+								<Action Name="" ID="{8BCE94E6-2032-40BF-AFC7-B8D0FBE0BA39}" ShortID="655578115">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_Flame_Thrower" ID="{EA3AB764-82A3-4C4B-8873-FF99BC3C9A28}" WorkUnitID="{321260F5-F24C-4A74-891E-22D7C91AE38B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="DLC" ID="{86242522-771C-4951-B05C-354AEA9C63AF}" ShortID="834453159">

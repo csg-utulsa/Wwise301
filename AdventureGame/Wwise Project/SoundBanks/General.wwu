@@ -24,6 +24,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Elements_DayAndNight" ID="{9B2E5B17-3684-407D-A11C-C3399DA6F1E9}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}" Origin="Manual" Filter="3"/>
 						<ObjectRef Name="General" ID="{ABDCF911-2817-4098-BB98-C3B64D426924}" WorkUnitID="{BA01ED5B-0803-4F3E-BDD3-1C6A37246B2F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Flame_Thrower" ID="{A87CA449-93B1-40A8-8F29-63A46024A17C}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{992CD7AB-2204-4285-9BA8-19D74E54701D}" WorkUnitID="{BC6B4AD5-92FD-4D35-BF2B-DF9C9EB6313E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EvilCrawler" ID="{D8449F17-A8EF-43A1-B6F4-BE2053646FC2}" WorkUnitID="{676FF4D0-C472-40E9-87F4-8E41880D7388}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="NPC_Wwizard_StaffOnGround" ID="{043CC3FE-76CA-4416-A960-616573CB563D}" WorkUnitID="{CFB15781-8949-47C6-80C5-9B7BCC8AAE4D}" Origin="Manual" Filter="7"/>

@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID AMBIENT_CORE_SHIELD_ALIVE = 1615265847U;
         static const AkUniqueID AMBIENT_CORE_SHIELD_DESTROYED = 1389069565U;
         static const AkUniqueID AMBIENT_CRYSTAL_HUM = 2355650095U;
+        static const AkUniqueID AMBIENT_FLAME_THROWER = 1503180555U;
         static const AkUniqueID AMBIENT_LAVA = 4275106484U;
         static const AkUniqueID AMBIENT_REGION_CAVE = 1331382810U;
         static const AkUniqueID AMBIENT_REGION_DESERT = 3408705206U;

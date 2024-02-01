@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{41046C03-50DC-B329-A6F1-2BC6392CEA5D}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{0996EE20-22F8-2E40-4EA0-DD7DE2B8CFA9}">
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -441,6 +441,10 @@
 					<ShortName>Blacksmith_DialogueLine_Q4b_01.wav</ShortName>
 					<Path>Media/English(US)/312874557.wem</Path>
 					<CachePath>Voices/English(US)/Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem</CachePath>
+				</File>
+				<File Id="313420676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>flamethrower-66586.wav</ShortName>
+					<CachePath>SFX/flamethrower-66586_5637478B.wem</CachePath>
 				</File>
 				<File Id="320959230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
@@ -1641,6 +1645,11 @@
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum" GUID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="93186345"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1503180555" Name="Ambient_Flame_Thrower" GUID="{A87CA449-93B1-40A8-8F29-63A46024A17C}" MaxAttenuation="50" DurationType="OneShot" DurationMin="13.479183" DurationMax="13.479183">
+					<MediaRefs>
+						<MediaRef Id="313420676"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="120976108" Name="Ambient_Torch" GUID="{19917800-6812-4744-9B26-A3519A86EFA5}" MaxAttenuation="15" DurationType="Infinite">
@@ -3894,7 +3903,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{E1DAA9F9-80AD-43FC-7A69-EC4D84B819AC}">
+		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{061DEB0E-5FF6-8EA9-AD04-526904A5E4AF}">
 			<ShortName>DLC</ShortName>
 			<Path>DLC.bnk</Path>
 			<Media>
@@ -3952,7 +3961,7 @@
 				<GameParameter Id="762020526" Name="Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{E26842BE-46EF-2029-18C3-7FBE417695DD}">
+		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{1F77A31E-4352-4554-CFC8-73E4821F69E7}">
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<Media>
@@ -4919,7 +4928,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{E043A5AA-B59F-5E14-9F1C-0E616C44CD4F}">
+		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{CF1C6829-4DC0-1B96-33E5-8F2A3D9FADDB}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -5438,7 +5447,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{1EC7AA63-BA6D-4585-31B1-FF4F9D4F1016}">
+		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{473B0201-F0C6-9489-D2CD-0F6122633171}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -7274,7 +7283,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{54BE2A9D-87DC-8CA9-3C4C-858DAC65269A}">
+		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{7FB712A5-24EC-1B39-83BF-008ECB93D8CD}">
 			<ShortName>Quest_08</ShortName>
 			<Path>English(US)/Quest_08.bnk</Path>
 			<Media>
@@ -7647,7 +7656,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{53C70796-A66B-7095-EF7C-351D746C2582}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{27D2DB02-CFA2-AC82-B75F-53B749CDAF08}">
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -8288,6 +8297,10 @@
 					<ShortName>Blacksmith_DialogueLine_Q4b_01.wav</ShortName>
 					<Path>Media/English(US)/312874557.wem</Path>
 					<CachePath>Voices/English(US)/Blacksmith_DialogueLine_Q4b_01_68BE3F05.wem</CachePath>
+				</File>
+				<File Id="313420676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>flamethrower-66586.wav</ShortName>
+					<CachePath>SFX/flamethrower-66586_5637478B.wem</CachePath>
 				</File>
 				<File Id="320959230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
@@ -10142,6 +10155,11 @@
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum" GUID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="93186345"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1503180555" Name="Ambient_Flame_Thrower" GUID="{A87CA449-93B1-40A8-8F29-63A46024A17C}" MaxAttenuation="50" DurationType="OneShot" DurationMin="13.479183" DurationMax="13.479183">
+					<MediaRefs>
+						<MediaRef Id="313420676"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4275106484" Name="Ambient_Lava" GUID="{1FD14D4E-ADA6-45D5-80BC-0EECF0F71DD9}" MaxAttenuation="50" DurationType="Infinite">
@@ -13442,7 +13460,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{DFD5199C-D64B-3B5F-AACB-189EDF627701}">
+		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{4D65FBB8-1070-79F5-A508-DA1CA3B71B22}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -14037,5 +14055,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33EC3339-49D5-E494-F191-B1148144E1D9}</FileHash>
+	<FileHash>{5779C971-31DA-B5FE-24C6-482B3831B9EC}</FileHash>
 </SoundBanksInfo>

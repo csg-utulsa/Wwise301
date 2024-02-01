@@ -16,7 +16,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	52615721	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\WAG_Button\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	73574320	Ambient_DLC_Cannon	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Other\WAG_TmpShotSound_9E31C75C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Ambient_DLC_Cannon		2441
-	466737030	Confetti	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Other\WAG_Sparkle_1EBD7072.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Confetti		14393
-	676619034	DLC_AMB_Heaven	C:\Users\hzeng\OneDrive - University of Tulsa\Documents\GitHub\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Ambient\Ambient_Background\BAS_AMB_Heaven_15C8EE4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\DLC_AMB_Heaven		267780
+	73574320	Ambient_DLC_Cannon	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Other\WAG_TmpShotSound_9E31C75C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Ambient_DLC_Cannon		2441
+	466737030	Confetti	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Other\WAG_Sparkle_1EBD7072.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Confetti		14393
+	676619034	DLC_AMB_Heaven	D:\Students\Andrew Cross\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Ambient\Ambient_Background\BAS_AMB_Heaven_15C8EE4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\DLC_AMB_Heaven		267779
 
