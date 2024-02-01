@@ -166,6 +166,48 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="AssMain" ID="{F24C5729-2E6F-4C00-A018-6124EF2B44EC}">
+					<ChildrenList>
+						<Action Name="" ID="{C3054612-EFC8-47D1-BC2D-410F2E6B8C63}" ShortID="384672050">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Assignment2Main" ID="{3EED419D-1349-4356-AF9E-A8575A01267E}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AssSideA" ID="{7583BC87-AFDC-4CBF-AAB9-37968F8E9265}">
+					<ChildrenList>
+						<Action Name="" ID="{C191187A-DAB1-4367-A387-42D8F5D3C0E0}" ShortID="22813602">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Assignment2SideA" ID="{61CE739B-C3DF-44B4-A5B6-ABB0A2AE13F5}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AssSideB" ID="{4DB41542-D5ED-4089-A767-4BE0D381ECD2}">
+					<ChildrenList>
+						<Action Name="" ID="{0D400175-FA43-4970-908C-35E39E045196}" ShortID="716914616">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Assignment2SideB" ID="{1BDFEB6A-1B98-4425-9F21-49305D14061E}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -22,8 +22,7 @@
 		<PluginLib LibName="Wwise Reflect" LibId="11206659" Type="Effect" DLL="AkReflect" StaticLib="AkReflectFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
-		<PluginLib LibName="Mastering Suite" LibId="12189699" Type="Effect" DLL="MasteringSuite" StaticLib="MasteringSuiteFX"/>
 		<PluginLib LibName="Wwise System Output Settings" LibId="58982409" Type="Metadata"/>
 	</PluginLibs>
-	<FileHash>{ADEAD6BE-8AE3-F3D2-65B7-F130D08C8A55}</FileHash>
+	<FileHash>{1F3C59F1-B066-06AF-3078-DECDDD2063EC}</FileHash>
 </PluginInfo>

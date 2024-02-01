@@ -175,7 +175,6 @@ Effect plug-ins	ID	Name	Type				Notes
 	2545004126	Wwise_Reflect	Wwise Reflect			
 	3025917178	Standard	Wwise Flanger			
 	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
-	4131355637	HomeCinema	Mastering Suite			
 	4259739631	WAG_Music_EnemyThemeMeter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes

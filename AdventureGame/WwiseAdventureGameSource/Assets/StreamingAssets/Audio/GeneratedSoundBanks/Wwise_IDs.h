@@ -36,6 +36,9 @@ namespace AK
         static const AkUniqueID AMBIENT_WATERFALL = 1934835592U;
         static const AkUniqueID AMBIENT_WINDMILL = 2208964750U;
         static const AkUniqueID AMBIENT_WOODLANDSELEMENTS = 1661129442U;
+        static const AkUniqueID ASSMAIN = 2790985319U;
+        static const AkUniqueID ASSSIDEA = 925906114U;
+        static const AkUniqueID ASSSIDEB = 925906113U;
         static const AkUniqueID BLACKSMITH_DIALOGUELINE_Q3B_01 = 958722917U;
         static const AkUniqueID BLACKSMITH_DIALOGUELINE_Q3B_02 = 958722918U;
         static const AkUniqueID BLACKSMITH_DIALOGUELINE_Q3B_03 = 958722919U;
@@ -416,12 +419,14 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ALL_IN_ONE = 2451497209U;
+        static const AkUniqueID ASSMUSIC = 3946377273U;
         static const AkUniqueID CAVE = 4122393694U;
         static const AkUniqueID CREDITS = 2201105581U;
         static const AkUniqueID DESERT = 1850388778U;
         static const AkUniqueID DLC = 529873620U;
         static const AkUniqueID DUNGEON = 608898761U;
         static const AkUniqueID GENERAL = 133642231U;
+        static const AkUniqueID NEW_SOUNDBANK = 4072029455U;
         static const AkUniqueID PINEFOREST = 2482365692U;
         static const AkUniqueID QUEST_01 = 2307651649U;
         static const AkUniqueID QUEST_02 = 2307651650U;
