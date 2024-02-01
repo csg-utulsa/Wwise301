@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	15662850	UI_Button_Up			\UI\Generic\UI_Button_Up	
 	18309885	UI_Button_Enter			\UI\Generic\UI_Button_Enter	
 	100151336	Ambient_Campfire_Stop			\Ambient\General\Ambient_Campfire_Stop	
+	105348963	Player_Arsoned			\Objects\SoundBankSpecific\Player_Arsoned	
 	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Ambient_Torch	
 	156563189	UI_Button_Down			\UI\Generic\UI_Button_Down	
 	215992295	Player_Health			\Player\General\Player_Health	
@@ -205,6 +206,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5088739	Woodlands_NightTime_Bassoon_2	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Forest_NightTime_Bassoon_2_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Woodlands_Night_Layers\Woodlands_NightTime_Bassoon_2		690
 	7478884	Adventuress_damaged_03	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_damaged_03_D872934D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_03		22736
 	18622617	BAS_Evil_SpitPlant_Hurt_02	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_05_158C7F23.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_02		9415
+	20423393	Arson'd	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\lighting-a-fire-14421_90A8022A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Arson'd		33096
 	21340349	Pickup_Coin_04	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_Coin_04_F1B62322.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_04		55348
 	21620910	Dungeon_Strings_Ostinato	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Volcanic_Strings_Ostinato_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Layers\Dungeon_Strings_Ostinato		15794
 	24116040	Pizzicato_Strings	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\MFYG\1_PizzicatoStrings_2_A8B0334E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layers\Pizzicato_Strings		14598
@@ -406,6 +408,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	850164847	Tremolo Strings	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Tremolo Strings_068FF542.wem		\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layers\Tremolo Strings		7551
 	852422006	Impact_CrystalShard_01	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Objects\Pickups\BAS_Pickup_Crystals_01_C099153E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		71224
 	855611825	Adventuress_exertion_01	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_exertion_01_791EEC96.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress_exertion_01		73140
+	859445204	SCREAMING	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\male-voice-screaming-loudly-6147_90A8022A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\SCREAMING		60671
 	862899862	Adventuress_damaged_04	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Adventuress_damaged_04_D6E4AFEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_04		31746
 	868044476	PlayerHit_SpitShot	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Character\Weapons\Impact_Bump_2FC306C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\PlayerHit_SpitShot		59982
 	869329067	Dungeon_BigPno	D:\Students\Annette Lau\GAME MUSIC\Wwise301\AdventureGame\Wwise Project\.cache\Windows\SFX\Music\Volcanic_BigPno_068FF542.wem		\Interactive Music Hierarchy\Music\Music_Regions\Dungeon\Dungeon_Layers\Dungeon_BigPno		7465

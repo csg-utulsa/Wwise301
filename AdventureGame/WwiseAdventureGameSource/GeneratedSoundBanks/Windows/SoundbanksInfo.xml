@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{7D14765C-C7D4-A25D-DD75-D1244ADFA7FB}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{DCD585C5-42DA-34EF-C053-377D98D29817}">
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
@@ -30,6 +30,10 @@
 				<File Id="18622617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_05.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_05_158C7F23.wem</CachePath>
+				</File>
+				<File Id="20423393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lighting-a-fire-14421.wav</ShortName>
+					<CachePath>SFX/lighting-a-fire-14421_90A8022A.wem</CachePath>
 				</File>
 				<File Id="21340349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_04.wav</ShortName>
@@ -1272,6 +1276,10 @@
 					<ShortName>Character\Adventuress_exertion_01.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_01_791EEC96.wem</CachePath>
 				</File>
+				<File Id="859445204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>male-voice-screaming-loudly-6147.wav</ShortName>
+					<CachePath>SFX/male-voice-screaming-loudly-6147_90A8022A.wem</CachePath>
+				</File>
 				<File Id="862899862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_04.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_damaged_04_D6E4AFEF.wem</CachePath>
@@ -2461,6 +2469,12 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="105348963" Name="Player_Arsoned" GUID="{D19DC930-5322-462E-BBDA-151B3A1F2BAE}" MaxAttenuation="30" DurationType="OneShot" DurationMin="6.6351023" DurationMax="6.6351023">
+					<MediaRefs>
+						<MediaRef Id="20423393"/>
+						<MediaRef Id="859445204"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="0.7571157" DurationMax="1.6066177">
 					<MediaRefs>
@@ -7625,7 +7639,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{F467A2AD-4B15-E9EE-471D-6947DC71F177}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{A9B5D098-D895-E31C-9E59-ACB49A882342}">
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
@@ -7650,6 +7664,10 @@
 				<File Id="18622617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_05.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_05_158C7F23.wem</CachePath>
+				</File>
+				<File Id="20423393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lighting-a-fire-14421.wav</ShortName>
+					<CachePath>SFX/lighting-a-fire-14421_90A8022A.wem</CachePath>
 				</File>
 				<File Id="21340349" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_04.wav</ShortName>
@@ -9418,6 +9436,10 @@
 					<ShortName>Ambient\Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
 					<Path>Media/857167900.wem</Path>
 					<CachePath>SFX/Ambient/Ambient_Background/BAS_amb_cave_background_LP_ADBE6C02.wem</CachePath>
+				</File>
+				<File Id="859445204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>male-voice-screaming-loudly-6147.wav</ShortName>
+					<CachePath>SFX/male-voice-screaming-loudly-6147_90A8022A.wem</CachePath>
 				</File>
 				<File Id="859741990" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q6_2.wav</ShortName>
@@ -11353,6 +11375,12 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="105348963" Name="Player_Arsoned" GUID="{D19DC930-5322-462E-BBDA-151B3A1F2BAE}" MaxAttenuation="30" DurationType="OneShot" DurationMin="6.6351023" DurationMax="6.6351023">
+					<MediaRefs>
+						<MediaRef Id="20423393"/>
+						<MediaRef Id="859445204"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="0.7571157" DurationMax="1.6066177">
 					<MediaRefs>
@@ -14034,5 +14062,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{094F948A-ACF4-9BB4-FCBA-72BD33407925}</FileHash>
+	<FileHash>{FCDC108C-7140-B9D9-B9F3-A51E1A37AF18}</FileHash>
 </SoundBanksInfo>

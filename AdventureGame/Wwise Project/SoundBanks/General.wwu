@@ -31,6 +31,7 @@
 						<ObjectRef Name="WAG_DLC_Room" ID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" WorkUnitID="{53E55471-4509-4D61-9647-D682276CB10A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="General" ID="{60DE526C-B04F-4530-A3CB-2533EAB43B22}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Stop" ID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" WorkUnitID="{04F86131-49AD-4329-98BB-B2DD0F96BDD3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Arsoned" ID="{D19DC930-5322-462E-BBDA-151B3A1F2BAE}" WorkUnitID="{10A079E4-B4DD-45FD-8B61-1565BEA608B0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EvilHead" ID="{86478ECD-712B-4731-9020-66648B231D61}" WorkUnitID="{676FF4D0-C472-40E9-87F4-8E41880D7388}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Torch" ID="{19917800-6812-4744-9B26-A3519A86EFA5}" WorkUnitID="{3AE0B262-D812-41EC-9F52-A61D7B80BDC5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" WorkUnitID="{D6D4F52F-79B5-434A-AD13-672EE62AB7CC}" Origin="Manual" Filter="3"/>

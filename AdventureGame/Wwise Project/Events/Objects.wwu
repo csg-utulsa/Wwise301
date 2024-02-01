@@ -153,6 +153,30 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Player_Arsoned" ID="{D19DC930-5322-462E-BBDA-151B3A1F2BAE}">
+							<ChildrenList>
+								<Action Name="" ID="{8B027455-551D-428B-85FD-EAE2EFABFEAA}" ShortID="607182618">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arson'd" ID="{238EF4ED-2136-420B-9926-C7FF06B15E34}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BEFD72DF-4181-4A77-9D63-B48366E9583D}" ShortID="798096580">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCREAMING" ID="{B31A7E20-5312-4EFE-8DD5-8B1EF4CE656F}" WorkUnitID="{02D504D5-2684-468F-AD20-E61B1D140EE0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
