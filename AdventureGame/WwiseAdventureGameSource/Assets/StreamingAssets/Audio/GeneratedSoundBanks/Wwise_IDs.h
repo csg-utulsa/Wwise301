@@ -419,14 +419,12 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ALL_IN_ONE = 2451497209U;
-        static const AkUniqueID ASSMUSIC = 3946377273U;
         static const AkUniqueID CAVE = 4122393694U;
         static const AkUniqueID CREDITS = 2201105581U;
         static const AkUniqueID DESERT = 1850388778U;
         static const AkUniqueID DLC = 529873620U;
         static const AkUniqueID DUNGEON = 608898761U;
         static const AkUniqueID GENERAL = 133642231U;
-        static const AkUniqueID NEW_SOUNDBANK = 4072029455U;
         static const AkUniqueID PINEFOREST = 2482365692U;
         static const AkUniqueID QUEST_01 = 2307651649U;
         static const AkUniqueID QUEST_02 = 2307651650U;

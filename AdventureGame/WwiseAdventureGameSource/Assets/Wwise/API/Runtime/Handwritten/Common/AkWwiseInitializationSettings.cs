@@ -17,15 +17,15 @@ Copyright (c) 2022 Audiokinetic Inc.
 
 public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 {
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public System.Collections.Generic.List<string> PlatformSettingsNameList
 		= new System.Collections.Generic.List<string>();
 
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public System.Collections.Generic.List<PlatformSettings> PlatformSettingsList
 		= new System.Collections.Generic.List<PlatformSettings>();
 
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public System.Collections.Generic.List<string> InvalidReferencePlatforms
 		= new System.Collections.Generic.List<string>();
 
@@ -39,11 +39,11 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 		get { return PlatformSettingsList.Count; }
 	}
 
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public AkCommonUserSettings UserSettings;
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public AkCommonAdvancedSettings AdvancedSettings;
-	[UnityEngine.HideInInspector]
+	//[UnityEngine.HideInInspector]
 	public AkCommonCommSettings CommsSettings;
 
 	protected override AkCommonUserSettings GetUserSettings()
@@ -230,11 +230,11 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 			return CommsSettings;
 		}
 
-		[UnityEngine.HideInInspector]
+		//[UnityEngine.HideInInspector]
 		public AkCommonUserSettings UserSettings;
-		[UnityEngine.HideInInspector]
+		//[UnityEngine.HideInInspector]
 		public AkCommonAdvancedSettings AdvancedSettings;
-		[UnityEngine.HideInInspector]
+		//[UnityEngine.HideInInspector]
 		public AkCommonCommSettings CommsSettings;
 	}
 

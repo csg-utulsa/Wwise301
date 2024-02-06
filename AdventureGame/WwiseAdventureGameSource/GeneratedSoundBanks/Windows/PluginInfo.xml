@@ -12,7 +12,6 @@
 		<PluginLib LibName="SoundSeed Air Wind" LibId="7798786" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWindSource"/>
 		<PluginLib LibName="SoundSeed Air Woosh" LibId="7864322" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWooshSource"/>
 		<PluginLib LibName="Wwise Flanger" LibId="8192003" Type="Effect" DLL="AkFlanger" StaticLib="AkFlangerFX"/>
-		<PluginLib LibName="Wwise Convolution Reverb" LibId="8323075" Type="Effect" DLL="AkConvolutionReverb" StaticLib="AkConvolutionReverbFX"/>
 		<PluginLib LibName="Wwise Meter" LibId="8454147" Type="Effect" DLL="AkSoundEngineDLL" StaticLib="AkMeterFX"/>
 		<PluginLib LibName="Wwise Tremolo" LibId="8585219" Type="Effect" DLL="AkTremolo" StaticLib="AkTremoloFX"/>
 		<PluginLib LibName="Wwise Stereo Delay" LibId="8847363" Type="Effect" DLL="AkStereoDelay" StaticLib="AkStereoDelayFX"/>
@@ -24,5 +23,5 @@
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 		<PluginLib LibName="Wwise System Output Settings" LibId="58982409" Type="Metadata"/>
 	</PluginLibs>
-	<FileHash>{1F3C59F1-B066-06AF-3078-DECDDD2063EC}</FileHash>
+	<FileHash>{0159F875-EC02-C75B-B341-FD83127136FE}</FileHash>
 </PluginInfo>

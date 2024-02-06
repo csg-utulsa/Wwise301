@@ -170,11 +170,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	1305889293	WAG_SideChainStinger	Wwise Meter			
 	1783154876	WAG_Cave	Wwise RoomVerb			
 	1883259540	WAG_PineForest_Hut	Wwise Matrix Reverb			
-	1937843064	WAG_Desert	Wwise Convolution Reverb			
 	2439616960	WAG_Dungeon_Entrance	Wwise RoomVerb			
 	2545004126	Wwise_Reflect	Wwise Reflect			
 	3025917178	Standard	Wwise Flanger			
-	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
 	4259739631	WAG_Music_EnemyThemeMeter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
