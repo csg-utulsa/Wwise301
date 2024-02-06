@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Credits.unity
     guid: 753d355340c0441a7937f540276038a9
   - enabled: 1
+    path: Assets/Scenes/Woodlands.unity
+    guid: c707070e63c61564781756c6938c1ad6
+  - enabled: 1
     path: Assets/Scenes/Game Scenes/Audio Environment Scenes/Cave Audio Environment.unity
     guid: 4a7e2b1c668894e4aa26e2b7a0b0f731
   - enabled: 1
