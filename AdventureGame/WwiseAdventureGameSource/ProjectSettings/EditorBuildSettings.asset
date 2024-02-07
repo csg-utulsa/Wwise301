@@ -45,4 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Certificate Scenes/Cert-251/Lesson 6.3 - Desert
       Audio Environment.unity
     guid: 42b86f95c26c8e24cb74da315b80756f
+  - enabled: 1
+    path: Assets/Wwise301/Woodlands.unity
+    guid: 94af0d51803bc7e49b8a6cf3d06d1bb8
   m_configObjects: {}
