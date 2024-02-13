@@ -13,7 +13,7 @@
   <WwiseInstallationPathWindows>D:\Program Files\Audiokinetic\Wwise 2022.1.8.8316</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Wwise Project/Wwise Adventure Game.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
-  <WaapiPort>8081</WaapiPort>
+  <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
   <XMLTranslatorTimeout>10</XMLTranslatorTimeout>
   <WaapiTranslatorTimeout>0</WaapiTranslatorTimeout>
