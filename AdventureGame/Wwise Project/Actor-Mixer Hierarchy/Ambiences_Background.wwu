@@ -2768,9 +2768,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -3015,9 +3012,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -3271,9 +3265,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -3555,9 +3546,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -3828,9 +3816,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -4046,9 +4031,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -4360,9 +4342,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -4573,9 +4552,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList/>
-												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsNonCachable" Type="bool">
 													<ValueList>
@@ -4848,9 +4824,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
-										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
@@ -5046,9 +5019,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
-										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
