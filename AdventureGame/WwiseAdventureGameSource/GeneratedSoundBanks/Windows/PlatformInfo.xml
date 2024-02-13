@@ -26,7 +26,7 @@
 		<MaxAttenuationInfo>true</MaxAttenuationInfo>
 		<EstimatedDurationInfo>true</EstimatedDurationInfo>
 		<PrintObjectGuid>true</PrintObjectGuid>
-		<PrintObjectPath>false</PrintObjectPath>
+		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{BFF9624F-6597-E3EF-87B0-B28DAA3D940A}</FileHash>
+	<FileHash>{2568DD7F-3974-D265-F266-43D59CA0677C}</FileHash>
 </PlatformInfo>
