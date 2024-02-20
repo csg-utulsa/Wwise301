@@ -14,6 +14,6 @@ public class SetTimeOfDayRTPC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        TimeOfDayRTPC.SetGlobalValue(GameManager.TimeOfDay);
     }
 }
