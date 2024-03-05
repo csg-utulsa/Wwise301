@@ -643,13 +643,13 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-200</YPos>
+																						<YPos>0.05902</YPos>
 																						<Flags>5</Flags>
 																						<SegmentShape>InvertedSCurve</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>100</XPos>
-																						<YPos>0</YPos>
+																						<YPos>-200</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
