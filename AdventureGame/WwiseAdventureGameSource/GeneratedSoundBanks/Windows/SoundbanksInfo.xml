@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{66A9E01C-23D4-2D37-DEA4-FE4DF82E8DC6}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{1FC669BC-198C-8F86-A3B6-C89EDFCF8802}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
@@ -5755,7 +5755,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{2FB1CC7F-FF43-F8CD-FED6-6FCF87D56D0F}">
+		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{A5DE3F6A-B3BF-F8C7-B17C-81205867C43F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\Credits</ObjectPath>
 			<ShortName>Credits</ShortName>
 			<Path>Credits.bnk</Path>
@@ -7604,7 +7604,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{E30EE81E-926D-5F86-93C5-ECA66755C57F}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{8242A216-7EA9-4458-B33C-F6BB4858E87F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\All_In_One</ObjectPath>
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
@@ -13980,5 +13980,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58390805-9BC9-E159-A634-10EAEC9DCB7F}</FileHash>
+	<FileHash>{715781F4-77B1-F129-E5F2-44E285AC2433}</FileHash>
 </SoundBanksInfo>
