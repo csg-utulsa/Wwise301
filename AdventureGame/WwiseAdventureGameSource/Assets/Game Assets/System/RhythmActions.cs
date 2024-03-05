@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RhythmActions : MonoBehaviour {
+
+    public AK.Wwise.Event MusicEvent;
    
     //////////////////////////////////////////////////////////////////////////////////////// TRANSFORM
     [System.Serializable]
