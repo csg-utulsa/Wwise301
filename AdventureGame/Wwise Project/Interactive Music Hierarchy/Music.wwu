@@ -203,7 +203,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="EndPosition" Type="Real64" Value="22220.9677419355"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1038,9 +1040,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="21717.4515235457"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1692,9 +1691,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="24567.8670360111"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2805,7 +2801,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="EndPosition" Type="Real64" Value="22125"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -3749,7 +3747,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="EndPosition" Type="Real64" Value="29000"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -5196,9 +5196,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="30270.9677419355"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -6813,7 +6810,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="EndPosition" Type="Real64" Value="20000"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Inclusion" Type="bool">
-											<ValueList/>
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -8540,7 +8539,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Property Name="EndPosition" Type="Real64" Value="22098.1359649123"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="Inclusion" Type="bool">
-									<ValueList/>
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
 								</Property>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
