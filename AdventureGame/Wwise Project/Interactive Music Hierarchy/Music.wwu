@@ -1344,7 +1344,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{DDC26152-7179-4B1F-91E6-8B30E0976F63}">
+												<AudioFileSource Name="ForestMusicDraft_BattleStrings_120bpm4-4_L20M" ID="{DDC26152-7179-4B1F-91E6-8B30E0976F63}">
 													<PropertyList>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -1418,7 +1418,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{DDC26152-7179-4B1F-91E6-8B30E0976F63}"/>
+																					<AudioSourceRef Name="ForestMusicDraft_BattleStrings_120bpm4-4_L20M" ID="{DDC26152-7179-4B1F-91E6-8B30E0976F63}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -8911,7 +8911,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</MusicSegment>
 								<MusicSegment Name="CompProj1" ID="{2BA3E070-974F-4B40-A636-303C54ADA6C7}" ShortID="206087410">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="44000"/>
+										<Property Name="EndPosition" Type="Real64" Value="79192"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 									</PropertyList>
 									<ReferenceList>
@@ -9351,7 +9351,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="ForestMusicDraft_Strings_120bpm4-4_L20M_1" ID="{AC2E0C95-F60B-4858-B5EA-6C88A8BB80B7}" ShortID="188779004">
+										<MusicTrack Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{AC2E0C95-F60B-4858-B5EA-6C88A8BB80B7}" ShortID="188779004">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 											</PropertyList>
@@ -9361,7 +9361,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ForestMusicDraft_Strings_120bpm4-4_L20M_1" ID="{3CE9192C-F8C6-4119-B0E1-21A59440814B}">
+												<AudioFileSource Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{20AB7EF4-4D62-4B69-93EA-720ADEA86328}">
 													<PropertyList>
 														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -9369,9 +9369,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>ForestMusicDraft_Strings_120bpm4-4_L20M_1.wav</AudioFile>
+													<AudioFile>ForestMusicDraft_Strings_120bpm4-4_L20M.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="173644757"/>
+														<MediaID ID="452152942"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -9392,13 +9392,14 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ForestMusicDraft_Strings_120bpm4-4_L20M_1" ID="{4B815358-C813-40AE-9337-352C710F7D8F}">
+																				<MusicClip Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{F18B548B-F848-44EB-B573-DE5AAE3FDEB0}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="39596"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="39596"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ForestMusicDraft_Strings_120bpm4-4_L20M_1" ID="{3CE9192C-F8C6-4119-B0E1-21A59440814B}"/>
+																					<AudioSourceRef Name="ForestMusicDraft_Strings_120bpm4-4_L20M" ID="{20AB7EF4-4D62-4B69-93EA-720ADEA86328}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
