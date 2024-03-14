@@ -3693,6 +3693,623 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
+								<MusicSegment Name="BlaineVillage" ID="{53871E4F-C3C2-4184-A206-8FEE7445C161}" ShortID="791331227">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="79606.226105953"/>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WwiseVillage_Shaker1_120bpm4-4_L37M" ID="{28CEDAD2-33A4-46B5-BFF9-CDD9146FDF07}" ShortID="1023629315">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Shaker1_120bpm4-4_L37M" ID="{EE716CBA-A31A-418A-809F-EA30B31C469A}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Shaker1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="19299857"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4DB7E0A2-1D71-4863-BDB2-01572096E98D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{472BBAC7-E480-4DDC-B702-AE65CB018083}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Shaker1_120bpm4-4_L37M" ID="{FEA1B459-409A-4570-9CEC-B9C583934E92}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Shaker1_120bpm4-4_L37M" ID="{EE716CBA-A31A-418A-809F-EA30B31C469A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_StingerBase1_120bpm4-4_L37M" ID="{F32B8303-9605-4772-97B8-CE0369E4BA91}" ShortID="378084438">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_StingerBase1_120bpm4-4_L37M" ID="{2567C303-CD6C-4913-83C8-713F38965B2E}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_StingerBase1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="971214909"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseVillage_StingerBase2_120bpm4-4_L37M" ID="{5B03EA4E-B761-4FD3-AE1B-7AD35AB6A6A1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_StingerBase2_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="64333606"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{21314092-B087-463D-864D-49479370DC03}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{DEFD8CCE-190C-4486-9CF8-35C9E76CD56E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_StingerBase1_120bpm4-4_L37M" ID="{B8EEC55E-2B66-4A48-AAB4-F2F48480071F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_StingerBase1_120bpm4-4_L37M" ID="{2567C303-CD6C-4913-83C8-713F38965B2E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2F4EE7F0-7CF0-4FB8-8AA2-E4EF51998EA8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_StingerBase2_120bpm4-4_L37M" ID="{1612565F-56D4-4C44-84DB-E9126C9B4CE0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_StingerBase2_120bpm4-4_L37M" ID="{5B03EA4E-B761-4FD3-AE1B-7AD35AB6A6A1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_Whistle1_120bpm4-4_L37M" ID="{5DB87EB7-C404-4109-93AA-B67D7A7613F9}" ShortID="856635746">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Whistle1_120bpm4-4_L37M" ID="{2D2A365E-F1B7-4226-9048-9B98FE85EA7B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Whistle1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83153499"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseVillage_Whistle2_120bpm4-4_L37M" ID="{82A03BE6-7B99-405F-A0A8-98ED6C26E4C2}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Whistle2_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="951877422"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{194B415B-6D20-4919-858D-DB7428EDD95F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{49E3D8C4-61FB-48EC-BE8E-4F39BBBF9263}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Whistle1_120bpm4-4_L37M" ID="{BF0B5CBB-5464-43DD-9CFB-28814DEF23BE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Whistle1_120bpm4-4_L37M" ID="{2D2A365E-F1B7-4226-9048-9B98FE85EA7B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B5631CFF-5A31-44E3-AD6A-2C4E3A56F5D6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Whistle2_120bpm4-4_L37M" ID="{EE289E56-8F70-4587-9090-F3161246F24A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="39.3227744401966"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Whistle2_120bpm4-4_L37M" ID="{82A03BE6-7B99-405F-A0A8-98ED6C26E4C2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_Bongos1_120bpm4-4_L37M" ID="{222B613D-951A-427D-A28C-980C2147BEE8}" ShortID="901799452">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Bongos1_120bpm4-4_L37M" ID="{995DE0B5-4D5F-4CAC-9ED3-F4E604B3244E}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Bongos1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="987984595"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C8A811DC-D18D-4765-ADFC-709B8E662754}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B5BA228C-15D6-4D69-964E-632CF05249BE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Bongos1_120bpm4-4_L37M" ID="{4BA2BEF4-5E3F-4168-A154-A83C4A727D0C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Bongos1_120bpm4-4_L37M" ID="{995DE0B5-4D5F-4CAC-9ED3-F4E604B3244E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_Cowbell1_120bpm4-4_L37M" ID="{72544606-A26C-4C21-9EFB-3CD57BD55FE0}" ShortID="339974092">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Cowbell1_120bpm4-4_L37M" ID="{5103418C-A4CD-452C-95C4-14E63F52DA44}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Cowbell1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438382540"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseVillage_Cowbell2_120bpm4-4_L37M" ID="{C5C923EF-D06C-423C-9AF6-EA04408C57CC}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Cowbell2_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="293904274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4091227E-7A61-4F62-BF61-33E43900861D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F870F44E-FF08-44FB-A31F-B82CA6942453}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Cowbell1_120bpm4-4_L37M" ID="{31166630-0BB0-47CC-AAB0-965848077D62}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Cowbell1_120bpm4-4_L37M" ID="{5103418C-A4CD-452C-95C4-14E63F52DA44}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9A01C598-9744-4F4A-8C2A-1A3C7F25237B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Cowbell2_120bpm4-4_L37M" ID="{84BBCC26-8509-4D88-B129-C8FE0D875060}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Cowbell2_120bpm4-4_L37M" ID="{C5C923EF-D06C-423C-9AF6-EA04408C57CC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_DrumSet1_120bpm4-4_L37M" ID="{41E96D37-916B-43CB-B9E1-DFAD3F57AED2}" ShortID="610732178">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_DrumSet1_120bpm4-4_L37M" ID="{9CDF5E7E-0A68-4F0C-926F-9C121320D04C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_DrumSet1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972224351"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E9868990-4D15-4169-B70C-73233BF601B1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3B0240B8-F76F-4551-873D-FD0861B6FED4}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_DrumSet1_120bpm4-4_L37M" ID="{A559A864-DB95-4D5C-B2DA-5FB8702E7A9B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_DrumSet1_120bpm4-4_L37M" ID="{9CDF5E7E-0A68-4F0C-926F-9C121320D04C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_Harmonica1_120bpm4-4_L37M" ID="{C0EF44C4-7EC5-4214-AAB6-460E26C7EFC0}" ShortID="429523258">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Harmonica1_120bpm4-4_L37M" ID="{F0A32F0E-1F40-4A39-B207-B7FDEF8BAA75}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Harmonica1_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="149926644"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{25CEAAE9-90FD-4CD4-B941-0A47276D5AB2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6F21DF1A-4E5B-4DDF-944E-E8B4965D5537}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Harmonica1_120bpm4-4_L37M" ID="{19ECF8FA-BCCB-435B-B556-DFBC83A22317}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Harmonica1_120bpm4-4_L37M" ID="{F0A32F0E-1F40-4A39-B207-B7FDEF8BAA75}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseVillage_Marimba_120bpm4-4_L37M" ID="{28050D6A-7262-4973-80FB-5D0B5BED049A}" ShortID="27752484">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseVillage_Marimba_120bpm4-4_L37M" ID="{842F5BB7-343E-465A-AE59-0006BA611975}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseVillage_Marimba_120bpm4-4_L37M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="472443820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{52C38F47-EB27-49BC-800D-444D78049786}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{841A7D8B-F5DF-49D9-ACEE-424E39E9DA09}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseVillage_Marimba_120bpm4-4_L37M" ID="{ABB154CB-BB0F-42D3-88EF-7BBE6040DDE2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="72000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseVillage_Marimba_120bpm4-4_L37M" ID="{842F5BB7-343E-465A-AE59-0006BA611975}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D4302152-9D1C-4247-88F7-2A10790E37CE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4953C2F5-9DAE-46BE-81EE-66A7770D843E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="72056.2534134353"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{AEF2B5B3-B23C-4E91-8A28-76641A957795}">
@@ -4912,6 +5529,409 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="AmbientBlaine" ID="{D9D5752C-55A1-40B8-AAC8-F51BAAF14538}" ShortID="217409307">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64130.1821577032"/>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WwiseOutskirts_SoftBongos1_120bpm4-4_L32M" ID="{575D2BB8-BAF7-4AA8-811A-1AD43A905B89}" ShortID="257122665">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseOutskirts_SoftBongos1_120bpm4-4_L32M" ID="{BB5E6F77-05D0-425E-9628-5054F2D78BB8}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_SoftBongos1_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="152681565"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D155F018-1EA6-4DFB-8AA4-BD2EA74F5E9A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8AFCEDC1-948D-4226-BF7A-78BAC2A8F11D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_SoftBongos1_120bpm4-4_L32M" ID="{A8B53F09-FAB9-4E04-947F-E6AD914815CB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_SoftBongos1_120bpm4-4_L32M" ID="{BB5E6F77-05D0-425E-9628-5054F2D78BB8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseOutskirts_Sparker1_120bpm4-4_L32M" ID="{645806CC-5CBB-4B2B-8AA2-62C5616F2FBF}" ShortID="7213914">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseOutskirts_Sparker1_120bpm4-4_L32M" ID="{D89A78A6-591F-4F34-846A-EEE96392F4A4}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Sparker1_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="792824812"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseOutskirts_Sparker2_120bpm4-4_L32M" ID="{F37BE4FE-7DE1-46CC-B100-2BEB8EF78586}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Sparker2_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="936335353"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{45B17613-0405-406F-96B2-6147DDF22C0E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5EBC1AEE-E116-44B8-B0A4-72C082BBEF40}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Sparker1_120bpm4-4_L32M" ID="{F37411E3-F107-43F7-8D67-C9BFBCB4138E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Sparker1_120bpm4-4_L32M" ID="{D89A78A6-591F-4F34-846A-EEE96392F4A4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{99CBB3B6-5014-4173-A94B-7021F4216BD6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Sparker2_120bpm4-4_L32M" ID="{03818648-4B5D-4DE9-B8B8-16AE1CBBE296}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Sparker2_120bpm4-4_L32M" ID="{F37BE4FE-7DE1-46CC-B100-2BEB8EF78586}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseOutskirts_Woodblock1_120bpm4-4_L32M" ID="{EDDDF333-A855-4AC7-A8C5-A1C4F6C5C394}" ShortID="403944882">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseOutskirts_Woodblock1_120bpm4-4_L32M" ID="{8B2D671D-E09E-400E-A4BA-13A18AE2F5D1}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Woodblock1_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702203941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0A9ACEF1-0137-48F0-AD5F-C3551ABA5086}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F284DF20-A269-48F9-9021-ABCED1E64B45}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Woodblock1_120bpm4-4_L32M" ID="{5B9454F3-ED47-47F3-8B81-7479B444859C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Woodblock1_120bpm4-4_L32M" ID="{8B2D671D-E09E-400E-A4BA-13A18AE2F5D1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseOutskirts_Bongos1_120bpm4-4_L32M" ID="{82F5285E-22F8-4282-8EC8-85F05D476E8D}" ShortID="941974727">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseOutskirts_Bongos1_120bpm4-4_L32M" ID="{E237E313-9564-4BD7-A8D6-CF42B6FD06CA}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Bongos1_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="812756323"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseOutskirts_Bongos2_120bpm4-4_L32M" ID="{365A0949-F055-4F2A-B0F6-BD6AC133DF3D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Bongos2_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="905564018"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BC1A6B16-AD7B-4C28-8F3E-8CCB23567EAC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6A8B044F-AABB-4165-876F-D70F059A4AB3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Bongos1_120bpm4-4_L32M" ID="{E1D2FA5C-F01B-41C6-BFE3-500EF743F8EB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Bongos1_120bpm4-4_L32M" ID="{E237E313-9564-4BD7-A8D6-CF42B6FD06CA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{750B0A9E-AA79-4A9B-A885-4DEB0B82DF61}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Bongos2_120bpm4-4_L32M" ID="{D992B9D3-E178-45F6-934B-52E8013BFDF2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Bongos2_120bpm4-4_L32M" ID="{365A0949-F055-4F2A-B0F6-BD6AC133DF3D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseOutskirts_Drumset1_120bpm4-4_L32M" ID="{2D7700DF-6570-49C5-AE9D-50932A0FA950}" ShortID="664159837">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseOutskirts_Drumset1_120bpm4-4_L32M" ID="{0324127C-5D23-4AB8-B47D-B23C514665C0}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseOutskirts_Drumset1_120bpm4-4_L32M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="613876680"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2242BB09-D193-4D40-9C70-550C9E03D15E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CCBD7147-4D09-44BA-88F4-09BC973F1382}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseOutskirts_Drumset1_120bpm4-4_L32M" ID="{FD248D30-2DA1-4E5F-99D2-569BBA1CC8C0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseOutskirts_Drumset1_120bpm4-4_L32M" ID="{0324127C-5D23-4AB8-B47D-B23C514665C0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{EF4C6641-3B38-49DD-974F-E2D4C7CB5EF0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{18D3165F-826E-4BEF-9037-5BDC4C0B175F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64075.9691881257"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
