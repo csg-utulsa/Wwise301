@@ -9,16 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{1FC669BC-198C-8F86-A3B6-C89EDFCF8802}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{A66A87F9-303D-36F5-AE33-70BD4E124E33}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
 			<Media>
-				<File Id="5088739" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Bassoon_2.wav</ShortName>
-					<Path>Media/5088739.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Bassoon_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
+				<File Id="6398518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\B290 Dry 16 Layer Intro_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/B290 Dry 16 Layer Intro_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="7478884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_03.wav</ShortName>
@@ -46,12 +44,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_run_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_sand_run_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="24116040" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_PizzicatoStrings_2.wav</ShortName>
-					<Path>Media/24116040.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_PizzicatoStrings_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>14598</PrefetchSize>
-				</File>
 				<File Id="24304843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_13.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_damaged_13_80927FEC.wem</CachePath>
@@ -63,12 +55,6 @@
 				<File Id="27824897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Quest_CompleteCollection_01.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_01_85C652BD.wem</CachePath>
-				</File>
-				<File Id="28925572" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Tuba_mellow.wav</ShortName>
-					<Path>Media/28925572.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Tuba_mellow_A8B0334E.wem</CachePath>
-					<PrefetchSize>14334</PrefetchSize>
 				</File>
 				<File Id="31470392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_pickUpWeapon_001.wav</ShortName>
@@ -164,15 +150,13 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_03.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_03_BE034753.wem</CachePath>
 				</File>
-				<File Id="96379148" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_SoloCello_1.wav</ShortName>
-					<Path>Media/96379148.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_SoloCello_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
-				</File>
 				<File Id="101718933" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_03_1D44499D.wem</CachePath>
+				</File>
+				<File Id="103380541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M_1.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_1_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="108061160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_03.wav</ShortName>
@@ -197,6 +181,14 @@
 				<File Id="117108038" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_water_walk_01_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="117723900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\O Daiko Set SR_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/O Daiko Set SR_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="120295221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Village_100bpm4-4_L24M\E. Cello Legato_100bpm4-4_L24M.wav</ShortName>
+					<CachePath>SFX/Village_100bpm4-4_L24M/E. Cello Legato_100bpm4-4_L24M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="120480038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate.wav</ShortName>
@@ -234,6 +226,10 @@
 					<ShortName>Blacksmith_DialogueLine_Q3b_01.wav</ShortName>
 					<Path>Media/English(US)/141653825.wem</Path>
 					<CachePath>Voices/English(US)/Blacksmith_DialogueLine_Q3b_01_C076EFC3.wem</CachePath>
+				</File>
+				<File Id="145564489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\Solo Violin Medium_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/Solo Violin Medium_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="152211720" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Battle_Flutes.wav</ShortName>
@@ -312,12 +308,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_walk_04.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_sand_walk_04_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="221430130" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Flutes_Cave.wav</ShortName>
-					<Path>Media/221430130.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Flutes_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
-				</File>
 				<File Id="225760600" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\1_Tuba.wav</ShortName>
 					<Path>Media/225760600.wem</Path>
@@ -339,12 +329,6 @@
 				<File Id="230048561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_imp_axe_grass.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_imp_axe_grass_78845A70.wem</CachePath>
-				</File>
-				<File Id="231527019" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Flute.wav</ShortName>
-					<Path>Media/231527019.wem</Path>
-					<CachePath>SFX/Music/Flute_A8B0334E.wem</CachePath>
-					<PrefetchSize>14317</PrefetchSize>
 				</File>
 				<File Id="235900600" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_05.wav</ShortName>
@@ -377,6 +361,10 @@
 				<File Id="263730271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_05.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Death_05_C9C7F873.wem</CachePath>
+				</File>
+				<File Id="265522738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Dynasty O Daiko_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Dynasty O Daiko_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="271810230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel.wav</ShortName>
@@ -465,12 +453,6 @@
 					<ShortName>Objects\BAS_Crate_Destroy_04.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crate_Destroy_04_78598DED.wem</CachePath>
 				</File>
-				<File Id="337799692" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass1.wav</ShortName>
-					<Path>Media/337799692.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass1_068FF542.wem</CachePath>
-					<PrefetchSize>2873</PrefetchSize>
-				</File>
 				<File Id="339750059" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_run_01.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_run_01_8374BCAA.wem</CachePath>
@@ -482,12 +464,6 @@
 				<File Id="340824060" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_04.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_04_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="342576113" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Bassoon_1.wav</ShortName>
-					<Path>Media/342576113.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Bassoon_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
 				</File>
 				<File Id="346822129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_01.wav</ShortName>
@@ -529,6 +505,10 @@
 					<ShortName>Character\Adventuress_Death_02.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_Death_02_699B2DB4.wem</CachePath>
 				</File>
+				<File Id="363231280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Celeste_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Celeste_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="363336156" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_05_8374BCAA.wem</CachePath>
@@ -548,12 +528,6 @@
 				<File Id="370181548" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_04_CD942AE4.wem</CachePath>
-				</File>
-				<File Id="373474637" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Harp_Cave.wav</ShortName>
-					<Path>Media/373474637.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Harp_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>734</PrefetchSize>
 				</File>
 				<File Id="387841042" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_02.wav</ShortName>
@@ -579,12 +553,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_03_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="408937775" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Perc_1.wav</ShortName>
-					<Path>Media/408937775.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Perc_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>526</PrefetchSize>
-				</File>
 				<File Id="412591648" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Death_Headfall_02_16D20EBA.wem</CachePath>
@@ -597,12 +565,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_run_05_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="420289128" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Pizzicato_Strings.wav</ShortName>
-					<Path>Media/420289128.wem</Path>
-					<CachePath>SFX/Music/Pizzicato_Strings_A8B0334E.wem</CachePath>
-					<PrefetchSize>14722</PrefetchSize>
-				</File>
 				<File Id="426400611" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_06.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Death_06_848AC319.wem</CachePath>
@@ -610,12 +572,6 @@
 				<File Id="432872011" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\MIDI_Project_Adventure.mid</ShortName>
 					<CachePath>SFX/Music/MIDI_Project_Adventure_EDEA3A15.wem</CachePath>
-				</File>
-				<File Id="434167254" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Violin_Cave.wav</ShortName>
-					<Path>Media/434167254.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Violin_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>15921</PrefetchSize>
 				</File>
 				<File Id="434501617" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_02.wav</ShortName>
@@ -683,21 +639,9 @@
 					<ShortName>Creatures\BAS_Evil_Crawler_Eat_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Eat_03_16D20EBA.wem</CachePath>
 				</File>
-				<File Id="492864942" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Harp.wav</ShortName>
-					<Path>Media/492864942.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Harp_A8B0334E.wem</CachePath>
-					<PrefetchSize>8311</PrefetchSize>
-				</File>
 				<File Id="496256198" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_QuestRoll_Close_C9E2345B.wem</CachePath>
-				</File>
-				<File Id="498345960" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_SoloViolin.wav</ShortName>
-					<Path>Media/498345960.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_SoloViolin_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
 				</File>
 				<File Id="501172588" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Blacksmith_DialogueLine_Q3b_03.wav</ShortName>
@@ -814,12 +758,6 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_03_01.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_03_01_D9C7900A.wem</CachePath>
 				</File>
-				<File Id="574240802" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Harp_1.wav</ShortName>
-					<Path>Media/574240802.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Harp_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>622</PrefetchSize>
-				</File>
 				<File Id="576059042" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Button_Over.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Button_Over_3C241860.wem</CachePath>
@@ -890,12 +828,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="600642428" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Strings_1.wav</ShortName>
-					<Path>Media/600642428.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Strings_1_068FF542.wem</CachePath>
-					<PrefetchSize>3904</PrefetchSize>
-				</File>
 				<File Id="601886410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_06.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_06_F63DEBFF.wem</CachePath>
@@ -922,11 +854,9 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_03_02.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_03_02_00248131.wem</CachePath>
 				</File>
-				<File Id="626177524" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Flutes_1.wav</ShortName>
-					<Path>Media/626177524.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Flutes_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
+				<File Id="631058418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Celeste Intro_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Celeste Intro_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="633287397" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\3_BigPno.wav</ShortName>
@@ -937,6 +867,10 @@
 				<File Id="635787326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Explode_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Explode_01_16D20EBA.wem</CachePath>
+				</File>
+				<File Id="638478475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\E. Cello Legato_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/E. Cello Legato_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="644004411" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Explode_02.wav</ShortName>
@@ -961,12 +895,6 @@
 				<File Id="659300493" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_13.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_13_30B40061.wem</CachePath>
-				</File>
-				<File Id="660944884" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Tuba_Cave.wav</ShortName>
-					<Path>Media/660944884.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Tuba_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>14687</PrefetchSize>
 				</File>
 				<File Id="661714509" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Trumpets.wav</ShortName>
@@ -1035,6 +963,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_wood_run_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_wood_run_06_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="694718912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer Intro_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer Intro_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="696098400" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_05_8374BCAA.wem</CachePath>
@@ -1050,6 +982,10 @@
 				<File Id="706707052" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_11.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_damaged_11_E117AEB4.wem</CachePath>
+				</File>
+				<File Id="719686994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\Washbrn GTR Harm_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/Washbrn GTR Harm_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="728853193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_02.wav</ShortName>
@@ -1125,15 +1061,13 @@
 					<ShortName>Character\Weapons\Impact_Bump.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Bump_E858F8D5.wem</CachePath>
 				</File>
-				<File Id="776655986" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass_3.wav</ShortName>
-					<Path>Media/776655986.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass_3_068FF542.wem</CachePath>
-					<PrefetchSize>2822</PrefetchSize>
-				</File>
 				<File Id="782286748" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_water_walk_05_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="783738520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\B290 Dry 16 Layer_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/B290 Dry 16 Layer_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="791272135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Eat_02.wav</ShortName>
@@ -1142,12 +1076,6 @@
 				<File Id="793060160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
 					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
-				</File>
-				<File Id="794996938" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_TremoloStrings_2.wav</ShortName>
-					<Path>Media/794996938.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_TremoloStrings_2_068FF542.wem</CachePath>
-					<PrefetchSize>8700</PrefetchSize>
 				</File>
 				<File Id="796603137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_04.wav</ShortName>
@@ -1169,11 +1097,9 @@
 					<ShortName>Objects\Pickups\BAS_Pickup_Crystals_02.wav</ShortName>
 					<CachePath>SFX/Objects/Pickups/BAS_Pickup_Crystals_02_1D44499D.wem</CachePath>
 				</File>
-				<File Id="804366245" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Clarinet_Rhythmic.wav</ShortName>
-					<Path>Media/804366245.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Clarinet_Rhythmic_A8B0334E.wem</CachePath>
-					<PrefetchSize>8435</PrefetchSize>
+				<File Id="807177073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="808800733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
@@ -1184,12 +1110,6 @@
 					<Path>Media/810217821.wem</Path>
 					<CachePath>SFX/Music/MFYG/2_Staccato_DoubleBass_A8B0334E.wem</CachePath>
 					<PrefetchSize>2441</PrefetchSize>
-				</File>
-				<File Id="810693566" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Clarinet_Cave.wav</ShortName>
-					<Path>Media/810693566.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Clarinet_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>15344</PrefetchSize>
 				</File>
 				<File Id="812794088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Bite_03.wav</ShortName>
@@ -1231,23 +1151,11 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="846211921" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Choir.wav</ShortName>
-					<Path>Media/846211921.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Choir_068FF542.wem</CachePath>
-					<PrefetchSize>2218</PrefetchSize>
-				</File>
 				<File Id="847242115" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\EvilHead_Clarinet.wav</ShortName>
 					<Path>Media/847242115.wem</Path>
 					<CachePath>SFX/Music/EvilHead_Clarinet_A8B0334E.wem</CachePath>
 					<PrefetchSize>2767</PrefetchSize>
-				</File>
-				<File Id="850164847" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Tremolo Strings.wav</ShortName>
-					<Path>Media/850164847.wem</Path>
-					<CachePath>SFX/Music/Tremolo Strings_068FF542.wem</CachePath>
-					<PrefetchSize>7551</PrefetchSize>
 				</File>
 				<File Id="851719321" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_run_04.wav</ShortName>
@@ -1299,12 +1207,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_wood_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_wood_run_05_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="886705235" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_TremoloStrings_1.wav</ShortName>
-					<Path>Media/886705235.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_TremoloStrings_1_068FF542.wem</CachePath>
-					<PrefetchSize>9177</PrefetchSize>
-				</File>
 				<File Id="891187179" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_02.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_damaged_02_40AD5AE2.wem</CachePath>
@@ -1312,12 +1214,6 @@
 				<File Id="894401231" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_06_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="897538720" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass_2.wav</ShortName>
-					<Path>Media/897538720.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass_2_068FF542.wem</CachePath>
-					<PrefetchSize>2822</PrefetchSize>
 				</File>
 				<File Id="898477822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_02.wav</ShortName>
@@ -1389,12 +1285,6 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_HurtImpact_02_C278070E.wem</CachePath>
 				</File>
-				<File Id="945215000" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Flutes_2.wav</ShortName>
-					<Path>Media/945215000.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Flutes_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
-				</File>
 				<File Id="945967359" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_02_8BBF564D.wem</CachePath>
@@ -1431,12 +1321,6 @@
 					<ShortName>Ambient\Ambient_Emitters\BAS_amb_torch.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/BAS_amb_torch_BF4E9189.wem</CachePath>
 				</File>
-				<File Id="996805326" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Choir_Cave.wav</ShortName>
-					<Path>Media/996805326.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Choir_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>16349</PrefetchSize>
-				</File>
 				<File Id="998009996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Crate_Destroy_02.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crate_Destroy_02_07BD46EE.wem</CachePath>
@@ -1470,6 +1354,10 @@
 				<File Id="1008720031" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Pickups\BAS_Pickup_WeaponType_Hammer_01.wav</ShortName>
 					<CachePath>SFX/Objects/Pickups/BAS_Pickup_WeaponType_Hammer_01_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="1010170023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Village_100bpm4-4_L24M\Washbrn GTR Harm_100bpm4-4_L24M.wav</ShortName>
+					<CachePath>SFX/Village_100bpm4-4_L24M/Washbrn GTR Harm_100bpm4-4_L24M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="1016342625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Inventory_Close.wav</ShortName>
@@ -2047,28 +1935,9 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="337799692"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="408937775"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="600642428"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="776655986"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="897538720"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="6398518"/>
+										<MediaRef Id="719686994"/>
+										<MediaRef Id="783738520"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -2107,28 +1976,9 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="337799692"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="408937775"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="600642428"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="776655986"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="897538720"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="6398518"/>
+										<MediaRef Id="719686994"/>
+										<MediaRef Id="783738520"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -2233,32 +2083,10 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="1011622525" GUID="{80F53326-DAA4-4AF9-85BB-41B1BC0BC790}"/>
 									<MediaRefs>
-										<MediaRef Id="5088739"/>
-										<MediaRef Id="96379148"/>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="342576113"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="498345960"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="574240802"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="626177524"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="794996938"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="886705235"/>
-										<MediaRef Id="945215000"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="265522738"/>
+										<MediaRef Id="363231280"/>
+										<MediaRef Id="631058418"/>
+										<MediaRef Id="638478475"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -2269,31 +2097,11 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="311764537" GUID="{302B83A9-5065-4408-A152-95F71785E112}"/>
 									<MediaRefs>
-										<MediaRef Id="24116040"/>
-										<MediaRef Id="28925572"/>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="231527019"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="420289128"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="492864942"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="804366245"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="846211921"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="850164847"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="103380541"/>
+										<MediaRef Id="117723900"/>
+										<MediaRef Id="145564489"/>
+										<MediaRef Id="694718912"/>
+										<MediaRef Id="807177073"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -2304,29 +2112,8 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="221430130"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="373474637"/>
-										<MediaRef Id="434167254"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="660944884"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="810693566"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="996805326"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="120295221"/>
+										<MediaRef Id="1010170023"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -3647,7 +3434,6 @@
 				<GameParameter Id="691349574" Name="Enemy_Music_EvilHead" ObjectPath="\Game Parameters\Enemies\Enemy_Music_EvilHead" GUID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
 				<GameParameter Id="762020526" Name="Distance_to_Camera" ObjectPath="\Game Parameters\Generic\Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 				<GameParameter Id="1124499852" Name="DopplerEffect" ObjectPath="\Game Parameters\Generic\DopplerEffect" GUID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}"/>
-				<GameParameter Id="1475400799" Name="Music_WoodlandsHarp" ObjectPath="\Game Parameters\Gameplay\Music_WoodlandsHarp" GUID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
 				<GameParameter Id="1744050084" Name="Magic_ChargeIntensity" ObjectPath="\Game Parameters\Magic\Magic_ChargeIntensity" GUID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
 				<GameParameter Id="1756231317" Name="InMenu_LowPass" ObjectPath="\Game Parameters\Gameplay\InMenu_LowPass" GUID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
 				<GameParameter Id="2149718692" Name="Destruction_Level" ObjectPath="\Game Parameters\Objects\Destruction_Level" GUID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
@@ -5755,22 +5541,22 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{A5DE3F6A-B3BF-F8C7-B17C-81205867C43F}">
+		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{656B659E-CA6A-CB16-F037-42C4D1D018DA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\Credits</ObjectPath>
 			<ShortName>Credits</ShortName>
 			<Path>Credits.bnk</Path>
 			<Media>
-				<File Id="24116040" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_PizzicatoStrings_2.wav</ShortName>
-					<Path>Media/24116040.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_PizzicatoStrings_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>14598</PrefetchSize>
+				<File Id="103380541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M_1.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_1_62D8BCDE.wem</CachePath>
 				</File>
-				<File Id="28925572" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Tuba_mellow.wav</ShortName>
-					<Path>Media/28925572.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Tuba_mellow_A8B0334E.wem</CachePath>
-					<PrefetchSize>14334</PrefetchSize>
+				<File Id="117723900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\O Daiko Set SR_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/O Daiko Set SR_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="145564489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\Solo Violin Medium_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/Solo Violin Medium_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="152211720" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Battle_Flutes.wav</ShortName>
@@ -5790,35 +5576,17 @@
 					<CachePath>SFX/Music/MFYG/1_Tuba_A8B0334E.wem</CachePath>
 					<PrefetchSize>612</PrefetchSize>
 				</File>
-				<File Id="231527019" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Flute.wav</ShortName>
-					<Path>Media/231527019.wem</Path>
-					<CachePath>SFX/Music/Flute_A8B0334E.wem</CachePath>
-					<PrefetchSize>14317</PrefetchSize>
-				</File>
 				<File Id="355999611" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Timpani.wav</ShortName>
 					<Path>Media/355999611.wem</Path>
 					<CachePath>SFX/Music/Timpani_A8B0334E.wem</CachePath>
 					<PrefetchSize>608</PrefetchSize>
 				</File>
-				<File Id="420289128" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Pizzicato_Strings.wav</ShortName>
-					<Path>Media/420289128.wem</Path>
-					<CachePath>SFX/Music/Pizzicato_Strings_A8B0334E.wem</CachePath>
-					<PrefetchSize>14722</PrefetchSize>
-				</File>
 				<File Id="487608963" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Tamburine.wav</ShortName>
 					<Path>Media/487608963.wem</Path>
 					<CachePath>SFX/Music/Tamburine_A8B0334E.wem</CachePath>
 					<PrefetchSize>3029</PrefetchSize>
-				</File>
-				<File Id="492864942" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Harp.wav</ShortName>
-					<Path>Media/492864942.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Harp_A8B0334E.wem</CachePath>
-					<PrefetchSize>8311</PrefetchSize>
 				</File>
 				<File Id="528358999" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\1_Stacc_DoubleBass.wav</ShortName>
@@ -5850,6 +5618,10 @@
 					<CachePath>SFX/Music/Trumpets_A8B0334E.wem</CachePath>
 					<PrefetchSize>612</PrefetchSize>
 				</File>
+				<File Id="694718912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer Intro_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer Intro_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="731548434" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\2_Staccato_Cello.wav</ShortName>
 					<Path>Media/731548434.wem</Path>
@@ -5870,11 +5642,9 @@
 					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
 					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
 				</File>
-				<File Id="804366245" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Clarinet_Rhythmic.wav</ShortName>
-					<Path>Media/804366245.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Clarinet_Rhythmic_A8B0334E.wem</CachePath>
-					<PrefetchSize>8435</PrefetchSize>
+				<File Id="807177073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="810217821" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\2_Staccato_DoubleBass.wav</ShortName>
@@ -5882,23 +5652,11 @@
 					<CachePath>SFX/Music/MFYG/2_Staccato_DoubleBass_A8B0334E.wem</CachePath>
 					<PrefetchSize>2441</PrefetchSize>
 				</File>
-				<File Id="846211921" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Choir.wav</ShortName>
-					<Path>Media/846211921.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Choir_068FF542.wem</CachePath>
-					<PrefetchSize>2218</PrefetchSize>
-				</File>
 				<File Id="847242115" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\EvilHead_Clarinet.wav</ShortName>
 					<Path>Media/847242115.wem</Path>
 					<CachePath>SFX/Music/EvilHead_Clarinet_A8B0334E.wem</CachePath>
 					<PrefetchSize>2767</PrefetchSize>
-				</File>
-				<File Id="850164847" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Tremolo Strings.wav</ShortName>
-					<Path>Media/850164847.wem</Path>
-					<CachePath>SFX/Music/Tremolo Strings_068FF542.wem</CachePath>
-					<PrefetchSize>7551</PrefetchSize>
 				</File>
 				<File Id="956779705" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\3_Flutes.wav</ShortName>
@@ -5926,30 +5684,27 @@
 			<Events>
 				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="24116040"/>
-						<MediaRef Id="28925572"/>
+						<MediaRef Id="103380541"/>
+						<MediaRef Id="117723900"/>
+						<MediaRef Id="145564489"/>
 						<MediaRef Id="152211720"/>
 						<MediaRef Id="202341787"/>
 						<MediaRef Id="225760600"/>
-						<MediaRef Id="231527019"/>
 						<MediaRef Id="355999611"/>
-						<MediaRef Id="420289128"/>
 						<MediaRef Id="487608963"/>
-						<MediaRef Id="492864942"/>
 						<MediaRef Id="528358999"/>
 						<MediaRef Id="561416365"/>
 						<MediaRef Id="588650531"/>
 						<MediaRef Id="633287397"/>
 						<MediaRef Id="661714509"/>
+						<MediaRef Id="694718912"/>
 						<MediaRef Id="731548434"/>
 						<MediaRef Id="747629416"/>
 						<MediaRef Id="749927517"/>
 						<MediaRef Id="793060160"/>
-						<MediaRef Id="804366245"/>
+						<MediaRef Id="807177073"/>
 						<MediaRef Id="810217821"/>
-						<MediaRef Id="846211921"/>
 						<MediaRef Id="847242115"/>
-						<MediaRef Id="850164847"/>
 						<MediaRef Id="956779705"/>
 						<MediaRef Id="973984296"/>
 						<MediaRef Id="999206556"/>
@@ -5959,35 +5714,10 @@
 						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="OneShot" DurationMin="21.5" DurationMax="21.5">
-					<MediaRefs>
-						<MediaRef Id="152211720"/>
-						<MediaRef Id="202341787"/>
-						<MediaRef Id="225760600"/>
-						<MediaRef Id="355999611"/>
-						<MediaRef Id="487608963"/>
-						<MediaRef Id="528358999"/>
-						<MediaRef Id="561416365"/>
-						<MediaRef Id="588650531"/>
-						<MediaRef Id="633287397"/>
-						<MediaRef Id="661714509"/>
-						<MediaRef Id="731548434"/>
-						<MediaRef Id="749927517"/>
-						<MediaRef Id="810217821"/>
-						<MediaRef Id="847242115"/>
-						<MediaRef Id="956779705"/>
-						<MediaRef Id="973984296"/>
-						<MediaRef Id="999206556"/>
-					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
-					</AuxBusRefs>
-				</Event>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Ambient\Time_of_Day" GUID="{A2DD7A69-3307-4418-9A97-F2621CFDBF8F}"/>
 				<GameParameter Id="691349574" Name="Enemy_Music_EvilHead" ObjectPath="\Game Parameters\Enemies\Enemy_Music_EvilHead" GUID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
-				<GameParameter Id="1475400799" Name="Music_WoodlandsHarp" ObjectPath="\Game Parameters\Gameplay\Music_WoodlandsHarp" GUID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
 				<GameParameter Id="1756231317" Name="InMenu_LowPass" ObjectPath="\Game Parameters\Gameplay\InMenu_LowPass" GUID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
 				<GameParameter Id="2322571464" Name="Enemy_Music_EvilCrawler" ObjectPath="\Game Parameters\Enemies\Enemy_Music_EvilCrawler" GUID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}"/>
 				<GameParameter Id="3481128293" Name="Enemy_Music_EviSpitPlant" ObjectPath="\Game Parameters\Enemies\Enemy_Music_EviSpitPlant" GUID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}"/>
@@ -7604,16 +7334,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{8242A216-7EA9-4458-B33C-F6BB4858E87F}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{B8114D23-FE83-79C0-C467-38894E3737C1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\All_In_One</ObjectPath>
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
 			<Media>
-				<File Id="5088739" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Bassoon_2.wav</ShortName>
-					<Path>Media/5088739.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Bassoon_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
+				<File Id="6398518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\B290 Dry 16 Layer Intro_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/B290 Dry 16 Layer Intro_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="7478884" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_03.wav</ShortName>
@@ -7645,12 +7373,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_run_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_sand_run_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="24116040" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_PizzicatoStrings_2.wav</ShortName>
-					<Path>Media/24116040.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_PizzicatoStrings_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>14598</PrefetchSize>
-				</File>
 				<File Id="24304843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_damaged_13.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_damaged_13_80927FEC.wem</CachePath>
@@ -7666,12 +7388,6 @@
 				<File Id="27824897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Quest_CompleteCollection_01.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_01_85C652BD.wem</CachePath>
-				</File>
-				<File Id="28925572" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Tuba_mellow.wav</ShortName>
-					<Path>Media/28925572.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Tuba_mellow_A8B0334E.wem</CachePath>
-					<PrefetchSize>14334</PrefetchSize>
 				</File>
 				<File Id="31470392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_pickUpWeapon_001.wav</ShortName>
@@ -7818,12 +7534,6 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_03.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_03_BE034753.wem</CachePath>
 				</File>
-				<File Id="96379148" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_SoloCello_1.wav</ShortName>
-					<Path>Media/96379148.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_SoloCello_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
-				</File>
 				<File Id="101718933" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_03_1D44499D.wem</CachePath>
@@ -7831,6 +7541,10 @@
 				<File Id="102407192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_PinkBall_Impact_01.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_PinkBall_Impact_01_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="103380541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M_1.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_1_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="108061160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_03.wav</ShortName>
@@ -7863,6 +7577,14 @@
 				<File Id="117550963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_PinkBall_Impact_03.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_PinkBall_Impact_03_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="117723900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\O Daiko Set SR_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/O Daiko Set SR_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="120295221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Village_100bpm4-4_L24M\E. Cello Legato_100bpm4-4_L24M.wav</ShortName>
+					<CachePath>SFX/Village_100bpm4-4_L24M/E. Cello Legato_100bpm4-4_L24M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="120480038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_PickAxe_SurfaceType_Crate.wav</ShortName>
@@ -7918,6 +7640,10 @@
 				<File Id="142147549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\Impact_Crate_Loud.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Crate_Loud_16D20EBA.wem</CachePath>
+				</File>
+				<File Id="145564489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\Solo Violin Medium_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/Solo Violin Medium_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="152211720" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Battle_Flutes.wav</ShortName>
@@ -8056,12 +7782,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_sand_walk_04.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_sand_walk_04_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="221430130" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Flutes_Cave.wav</ShortName>
-					<Path>Media/221430130.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Flutes_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
-				</File>
 				<File Id="222577091" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_PinkShield_After_Loop.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_PinkShield_After_Loop_1B0E4128.wem</CachePath>
@@ -8096,12 +7816,6 @@
 				<File Id="230048561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_imp_axe_grass.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_imp_axe_grass_78845A70.wem</CachePath>
-				</File>
-				<File Id="231527019" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Flute.wav</ShortName>
-					<Path>Media/231527019.wem</Path>
-					<CachePath>SFX/Music/Flute_A8B0334E.wem</CachePath>
-					<PrefetchSize>14317</PrefetchSize>
 				</File>
 				<File Id="235900600" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_05.wav</ShortName>
@@ -8148,6 +7862,10 @@
 				<File Id="265022886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\Waterfall_Strong_1.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/Waterfall_Strong_1_A8749C1D.wem</CachePath>
+				</File>
+				<File Id="265522738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Dynasty O Daiko_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Dynasty O Daiko_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="267519239" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q2_1.wav</ShortName>
@@ -8280,12 +7998,6 @@
 					<ShortName>Objects\BAS_Crate_Destroy_04.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crate_Destroy_04_78598DED.wem</CachePath>
 				</File>
-				<File Id="337799692" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass1.wav</ShortName>
-					<Path>Media/337799692.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass1_068FF542.wem</CachePath>
-					<PrefetchSize>2873</PrefetchSize>
-				</File>
 				<File Id="338325124" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q5a_6.wav</ShortName>
 					<Path>Media/English(US)/338325124.wem</Path>
@@ -8306,12 +8018,6 @@
 				<File Id="340824060" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_04.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_04_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="342576113" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Bassoon_1.wav</ShortName>
-					<Path>Media/342576113.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Bassoon_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
 				</File>
 				<File Id="346822129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_01.wav</ShortName>
@@ -8361,6 +8067,10 @@
 					<ShortName>Cinematic\BAS_CIN_Creature_Earthquake_Loop.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_Creature_Earthquake_Loop_D8574A22.wem</CachePath>
 				</File>
+				<File Id="363231280" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Celeste_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Celeste_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="363336156" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_05_8374BCAA.wem</CachePath>
@@ -8391,12 +8101,6 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_04_CD942AE4.wem</CachePath>
 				</File>
-				<File Id="373474637" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Harp_Cave.wav</ShortName>
-					<Path>Media/373474637.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Harp_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>734</PrefetchSize>
-				</File>
 				<File Id="387841042" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_grass_walk_02_8374BCAA.wem</CachePath>
@@ -8426,12 +8130,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_03_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="408937775" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Perc_1.wav</ShortName>
-					<Path>Media/408937775.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Perc_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>526</PrefetchSize>
-				</File>
 				<File Id="412591648" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Death_Headfall_02_16D20EBA.wem</CachePath>
@@ -8453,12 +8151,6 @@
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/BAS_WaterDrops_03_94096448.wem</CachePath>
 				</File>
-				<File Id="420289128" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Pizzicato_Strings.wav</ShortName>
-					<Path>Media/420289128.wem</Path>
-					<CachePath>SFX/Music/Pizzicato_Strings_A8B0334E.wem</CachePath>
-					<PrefetchSize>14722</PrefetchSize>
-				</File>
 				<File Id="424173504" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q4a_1.wav</ShortName>
 					<Path>Media/English(US)/424173504.wem</Path>
@@ -8471,12 +8163,6 @@
 				<File Id="432872011" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\MIDI_Project_Adventure.mid</ShortName>
 					<CachePath>SFX/Music/MIDI_Project_Adventure_EDEA3A15.wem</CachePath>
-				</File>
-				<File Id="434167254" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Violin_Cave.wav</ShortName>
-					<Path>Media/434167254.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Violin_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>15921</PrefetchSize>
 				</File>
 				<File Id="434501617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_02.wav</ShortName>
@@ -8582,21 +8268,9 @@
 					<ShortName>Creatures\BAS_Evil_Crawler_Eat_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Eat_03_16D20EBA.wem</CachePath>
 				</File>
-				<File Id="492864942" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Harp.wav</ShortName>
-					<Path>Media/492864942.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Harp_A8B0334E.wem</CachePath>
-					<PrefetchSize>8311</PrefetchSize>
-				</File>
 				<File Id="496256198" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_QuestRoll_Close_C9E2345B.wem</CachePath>
-				</File>
-				<File Id="498345960" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_SoloViolin.wav</ShortName>
-					<Path>Media/498345960.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_SoloViolin_A8B0334E.wem</CachePath>
-					<PrefetchSize>714</PrefetchSize>
 				</File>
 				<File Id="499136652" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q6_1.wav</ShortName>
@@ -8763,12 +8437,6 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_03_01.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_03_01_D9C7900A.wem</CachePath>
 				</File>
-				<File Id="574240802" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Harp_1.wav</ShortName>
-					<Path>Media/574240802.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Harp_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>622</PrefetchSize>
-				</File>
 				<File Id="574334117" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q8b_5.wav</ShortName>
 					<Path>Media/English(US)/574334117.wem</Path>
@@ -8848,12 +8516,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="600642428" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Strings_1.wav</ShortName>
-					<Path>Media/600642428.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Strings_1_068FF542.wem</CachePath>
-					<PrefetchSize>3904</PrefetchSize>
-				</File>
 				<File Id="601886410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_06.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_06_F63DEBFF.wem</CachePath>
@@ -8901,11 +8563,9 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_03_02.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_03_02_00248131.wem</CachePath>
 				</File>
-				<File Id="626177524" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Flutes_1.wav</ShortName>
-					<Path>Media/626177524.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Flutes_1_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
+				<File Id="631058418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\Celeste Intro_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/Celeste Intro_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="632020663" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\BAS_windMillBlade_003.wav</ShortName>
@@ -8920,6 +8580,10 @@
 				<File Id="635787326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Explode_01.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Crawler_Explode_01_16D20EBA.wem</CachePath>
+				</File>
+				<File Id="638478475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestNight_100bpm3-4_L32M\E. Cello Legato_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestNight_100bpm3-4_L32M/E. Cello Legato_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="644004411" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Crawler_Explode_02.wav</ShortName>
@@ -8948,12 +8612,6 @@
 				<File Id="660387120" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/BAS_WaterDrops_06_60BA980C.wem</CachePath>
-				</File>
-				<File Id="660944884" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Tuba_Cave.wav</ShortName>
-					<Path>Media/660944884.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Tuba_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>14687</PrefetchSize>
 				</File>
 				<File Id="661714509" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Trumpets.wav</ShortName>
@@ -9050,6 +8708,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_wood_run_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_wood_run_06_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="694718912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer Intro_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer Intro_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="696098400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_05_8374BCAA.wem</CachePath>
@@ -9079,6 +8741,10 @@
 					<ShortName>Wwizard_VoiceLine_Q2_1.wav</ShortName>
 					<Path>Media/English(US)/716183293.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q2_1_AEC9F7A1.wem</CachePath>
+				</File>
+				<File Id="719686994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\Washbrn GTR Harm_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/Washbrn GTR Harm_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="727053417" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q8b_6.wav</ShortName>
@@ -9196,12 +8862,6 @@
 					<ShortName>Character\Weapons\Impact_Bump.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Bump_E858F8D5.wem</CachePath>
 				</File>
-				<File Id="776655986" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass_3.wav</ShortName>
-					<Path>Media/776655986.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass_3_068FF542.wem</CachePath>
-					<PrefetchSize>2822</PrefetchSize>
-				</File>
 				<File Id="778893805" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q4a_3.wav</ShortName>
 					<Path>Media/English(US)/778893805.wem</Path>
@@ -9219,6 +8879,10 @@
 					<ShortName>Wwizard\BAS_rune_charge_end_02.wav</ShortName>
 					<CachePath>SFX/Wwizard/BAS_rune_charge_end_02_16D20EBA.wem</CachePath>
 				</File>
+				<File Id="783738520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outskirts_120bpm4-4_L4M\B290 Dry 16 Layer_120bpm4-4_L4M.wav</ShortName>
+					<CachePath>SFX/Outskirts_120bpm4-4_L4M/B290 Dry 16 Layer_120bpm4-4_L4M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="784864794" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q3a_3.wav</ShortName>
 					<Path>Media/English(US)/784864794.wem</Path>
@@ -9231,12 +8895,6 @@
 				<File Id="793060160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
 					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
-				</File>
-				<File Id="794996938" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_TremoloStrings_2.wav</ShortName>
-					<Path>Media/794996938.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_TremoloStrings_2_068FF542.wem</CachePath>
-					<PrefetchSize>8700</PrefetchSize>
 				</File>
 				<File Id="796603137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_04.wav</ShortName>
@@ -9262,11 +8920,9 @@
 					<ShortName>Objects\Pickups\BAS_Pickup_Crystals_02.wav</ShortName>
 					<CachePath>SFX/Objects/Pickups/BAS_Pickup_Crystals_02_1D44499D.wem</CachePath>
 				</File>
-				<File Id="804366245" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Clarinet_Rhythmic.wav</ShortName>
-					<Path>Media/804366245.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Clarinet_Rhythmic_A8B0334E.wem</CachePath>
-					<PrefetchSize>8435</PrefetchSize>
+				<File Id="807177073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ForestDay_100bpm3-4_L32M\B290 Dry 16 Layer_100bpm3-4_L32M.wav</ShortName>
+					<CachePath>SFX/ForestDay_100bpm3-4_L32M/B290 Dry 16 Layer_100bpm3-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="808800733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
@@ -9282,12 +8938,6 @@
 					<Path>Media/810217821.wem</Path>
 					<CachePath>SFX/Music/MFYG/2_Staccato_DoubleBass_A8B0334E.wem</CachePath>
 					<PrefetchSize>2441</PrefetchSize>
-				</File>
-				<File Id="810693566" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Clarinet_Cave.wav</ShortName>
-					<Path>Media/810693566.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Clarinet_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>15344</PrefetchSize>
 				</File>
 				<File Id="812794088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Bite_03.wav</ShortName>
@@ -9347,23 +8997,11 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_02_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="846211921" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\1_Choir.wav</ShortName>
-					<Path>Media/846211921.wem</Path>
-					<CachePath>SFX/Music/MFYG/1_Choir_068FF542.wem</CachePath>
-					<PrefetchSize>2218</PrefetchSize>
-				</File>
 				<File Id="847242115" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\EvilHead_Clarinet.wav</ShortName>
 					<Path>Media/847242115.wem</Path>
 					<CachePath>SFX/Music/EvilHead_Clarinet_A8B0334E.wem</CachePath>
 					<PrefetchSize>2767</PrefetchSize>
-				</File>
-				<File Id="850164847" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Tremolo Strings.wav</ShortName>
-					<Path>Media/850164847.wem</Path>
-					<CachePath>SFX/Music/Tremolo Strings_068FF542.wem</CachePath>
-					<PrefetchSize>7551</PrefetchSize>
 				</File>
 				<File Id="851719321" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_run_04.wav</ShortName>
@@ -9430,12 +9068,6 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_wood_run_05.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_wood_run_05_8374BCAA.wem</CachePath>
 				</File>
-				<File Id="886705235" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_TremoloStrings_1.wav</ShortName>
-					<Path>Media/886705235.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_TremoloStrings_1_068FF542.wem</CachePath>
-					<PrefetchSize>9177</PrefetchSize>
-				</File>
 				<File Id="888712339" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Ambient\Ambient_Background\amb_forest_night_background_loop_04.wav</ShortName>
 					<Path>Media/888712339.wem</Path>
@@ -9448,12 +9080,6 @@
 				<File Id="894401231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_06_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="897538720" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\WPA_Ambient_Bass_2.wav</ShortName>
-					<Path>Media/897538720.wem</Path>
-					<CachePath>SFX/Music/WPA_Ambient_Bass_2_068FF542.wem</CachePath>
-					<PrefetchSize>2822</PrefetchSize>
 				</File>
 				<File Id="898477822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_02.wav</ShortName>
@@ -9533,12 +9159,6 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_HurtImpact_02_C278070E.wem</CachePath>
 				</File>
-				<File Id="945215000" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\Forest_NightTime_Flutes_2.wav</ShortName>
-					<Path>Media/945215000.wem</Path>
-					<CachePath>SFX/Music/Forest_NightTime_Flutes_2_A8B0334E.wem</CachePath>
-					<PrefetchSize>690</PrefetchSize>
-				</File>
 				<File Id="945967359" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_02_8BBF564D.wem</CachePath>
@@ -9617,12 +9237,6 @@
 					<Path>Media/English(US)/996135909.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q8a_1_A7D3AAC2.wem</CachePath>
 				</File>
-				<File Id="996805326" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Music\MFYG\3_Choir_Cave.wav</ShortName>
-					<Path>Media/996805326.wem</Path>
-					<CachePath>SFX/Music/MFYG/3_Choir_Cave_A8B0334E.wem</CachePath>
-					<PrefetchSize>16349</PrefetchSize>
-				</File>
 				<File Id="998009996" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Crate_Destroy_02.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crate_Destroy_02_07BD46EE.wem</CachePath>
@@ -9665,6 +9279,10 @@
 					<ShortName>Wwizard_VoiceLine_Q1_1.wav</ShortName>
 					<Path>Media/English(US)/1008779655.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q1_1_82FDE6C2.wem</CachePath>
+				</File>
+				<File Id="1010170023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Village_100bpm4-4_L24M\Washbrn GTR Harm_100bpm4-4_L24M.wav</ShortName>
+					<CachePath>SFX/Village_100bpm4-4_L24M/Washbrn GTR Harm_100bpm4-4_L24M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="1010912770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\BAS_windMillBlade_004.wav</ShortName>
@@ -10685,30 +10303,27 @@
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Stop" GUID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="24116040"/>
-						<MediaRef Id="28925572"/>
+						<MediaRef Id="103380541"/>
+						<MediaRef Id="117723900"/>
+						<MediaRef Id="145564489"/>
 						<MediaRef Id="152211720"/>
 						<MediaRef Id="202341787"/>
 						<MediaRef Id="225760600"/>
-						<MediaRef Id="231527019"/>
 						<MediaRef Id="355999611"/>
-						<MediaRef Id="420289128"/>
 						<MediaRef Id="487608963"/>
-						<MediaRef Id="492864942"/>
 						<MediaRef Id="528358999"/>
 						<MediaRef Id="561416365"/>
 						<MediaRef Id="588650531"/>
 						<MediaRef Id="633287397"/>
 						<MediaRef Id="661714509"/>
+						<MediaRef Id="694718912"/>
 						<MediaRef Id="731548434"/>
 						<MediaRef Id="747629416"/>
 						<MediaRef Id="749927517"/>
 						<MediaRef Id="793060160"/>
-						<MediaRef Id="804366245"/>
+						<MediaRef Id="807177073"/>
 						<MediaRef Id="810217821"/>
-						<MediaRef Id="846211921"/>
 						<MediaRef Id="847242115"/>
-						<MediaRef Id="850164847"/>
 						<MediaRef Id="956779705"/>
 						<MediaRef Id="973984296"/>
 						<MediaRef Id="999206556"/>
@@ -10837,28 +10452,9 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="337799692"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="408937775"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="600642428"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="776655986"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="897538720"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="6398518"/>
+										<MediaRef Id="719686994"/>
+										<MediaRef Id="783738520"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -10897,28 +10493,9 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="337799692"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="408937775"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="600642428"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="776655986"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="897538720"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="6398518"/>
+										<MediaRef Id="719686994"/>
+										<MediaRef Id="783738520"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -11023,32 +10600,10 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="1011622525" GUID="{80F53326-DAA4-4AF9-85BB-41B1BC0BC790}"/>
 									<MediaRefs>
-										<MediaRef Id="5088739"/>
-										<MediaRef Id="96379148"/>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="342576113"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="498345960"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="574240802"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="626177524"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="794996938"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="886705235"/>
-										<MediaRef Id="945215000"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="265522738"/>
+										<MediaRef Id="363231280"/>
+										<MediaRef Id="631058418"/>
+										<MediaRef Id="638478475"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -11059,31 +10614,11 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="311764537" GUID="{302B83A9-5065-4408-A152-95F71785E112}"/>
 									<MediaRefs>
-										<MediaRef Id="24116040"/>
-										<MediaRef Id="28925572"/>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="231527019"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="420289128"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="492864942"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="804366245"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="846211921"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="850164847"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="103380541"/>
+										<MediaRef Id="117723900"/>
+										<MediaRef Id="145564489"/>
+										<MediaRef Id="694718912"/>
+										<MediaRef Id="807177073"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -11094,29 +10629,8 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="0" GUID="{CC7A8B99-13DE-4E87-B5B7-7C076B780A22}"/>
 									<MediaRefs>
-										<MediaRef Id="152211720"/>
-										<MediaRef Id="202341787"/>
-										<MediaRef Id="221430130"/>
-										<MediaRef Id="225760600"/>
-										<MediaRef Id="355999611"/>
-										<MediaRef Id="373474637"/>
-										<MediaRef Id="434167254"/>
-										<MediaRef Id="487608963"/>
-										<MediaRef Id="528358999"/>
-										<MediaRef Id="561416365"/>
-										<MediaRef Id="588650531"/>
-										<MediaRef Id="633287397"/>
-										<MediaRef Id="660944884"/>
-										<MediaRef Id="661714509"/>
-										<MediaRef Id="731548434"/>
-										<MediaRef Id="749927517"/>
-										<MediaRef Id="810217821"/>
-										<MediaRef Id="810693566"/>
-										<MediaRef Id="847242115"/>
-										<MediaRef Id="956779705"/>
-										<MediaRef Id="973984296"/>
-										<MediaRef Id="996805326"/>
-										<MediaRef Id="999206556"/>
+										<MediaRef Id="120295221"/>
+										<MediaRef Id="1010170023"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -13006,7 +12520,6 @@
 				<GameParameter Id="691349574" Name="Enemy_Music_EvilHead" ObjectPath="\Game Parameters\Enemies\Enemy_Music_EvilHead" GUID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}"/>
 				<GameParameter Id="762020526" Name="Distance_to_Camera" ObjectPath="\Game Parameters\Generic\Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 				<GameParameter Id="1124499852" Name="DopplerEffect" ObjectPath="\Game Parameters\Generic\DopplerEffect" GUID="{9AD44ECE-46FD-41A5-BE26-B9101C845B48}"/>
-				<GameParameter Id="1475400799" Name="Music_WoodlandsHarp" ObjectPath="\Game Parameters\Gameplay\Music_WoodlandsHarp" GUID="{C6276727-CFA3-49FB-BB76-5F7DAE5C67E3}"/>
 				<GameParameter Id="1744050084" Name="Magic_ChargeIntensity" ObjectPath="\Game Parameters\Magic\Magic_ChargeIntensity" GUID="{72D14A7E-09FE-4B2E-8DC0-A4BCE45B2A0D}"/>
 				<GameParameter Id="1756231317" Name="InMenu_LowPass" ObjectPath="\Game Parameters\Gameplay\InMenu_LowPass" GUID="{A2BF9DB6-55A5-43E9-8371-16CE6195E3AD}"/>
 				<GameParameter Id="2149718692" Name="Destruction_Level" ObjectPath="\Game Parameters\Objects\Destruction_Level" GUID="{B0645B35-8133-417E-87AC-6D3B1D78BB99}"/>
@@ -13980,5 +13493,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{715781F4-77B1-F129-E5F2-44E285AC2433}</FileHash>
+	<FileHash>{FB588D69-48DF-528A-98B9-B2D2DAD45C69}</FileHash>
 </SoundBanksInfo>
