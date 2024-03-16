@@ -987,6 +987,468 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
+								<MusicSegment Name="BlaineWoodlands_Day" ID="{498F1881-3DA2-4133-B707-453C18265F61}" ShortID="143717181">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="61260.3305727853"/>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{FF702DEA-0BCD-41FA-9491-8E5D38217323}" ShortID="566696441">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{2EEBE4DD-CF26-43BE-A315-B0B643BDD575}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816542250"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2BA3798E-69E3-49C1-AEAC-79FDFCF69B37}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D1BA0F61-0FFB-4A9C-AA2F-DCCDAE4526EE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{9B5704AB-CF07-4345-B813-1B303A5FC145}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{2EEBE4DD-CF26-43BE-A315-B0B643BDD575}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{4AABBC16-EE3B-4058-AA1F-B5C56A51A1CE}" ShortID="249855094">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{A671666C-6728-4137-98B4-FF2236FF1138}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Congas1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="87826335"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{E7BE8C6C-D39C-4620-AC7A-1C5224F1A094}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Congas2_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="437820597"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{54C16509-D518-4FDD-9541-081384EB455F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8ED3AA35-F0C4-48A3-BB03-536E85BB7287}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{5CEAD06C-3FCC-4F2B-BF1E-02535A790456}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{A671666C-6728-4137-98B4-FF2236FF1138}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{34663815-0B23-40C7-B795-628DF1CE4D7D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{50A3509A-2C61-4CEF-9E58-FB10E034877D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{E7BE8C6C-D39C-4620-AC7A-1C5224F1A094}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{68F4F4C2-A286-4625-A076-9ECB07F4DC0D}" ShortID="571580767">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{397F0101-DF9A-4790-B56A-B1BF44918E2D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Drumset1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946170355"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{8BD81CEB-979E-4C81-AAB6-499D6FB952F8}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Drumset2_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="701983876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C55B2119-1C16-453A-B86A-40939B65D4B4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{ACFDBDED-A436-4A9E-95B6-B5A2236E8119}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{44C9C65B-BC89-4F01-B11B-246EDE97D3F2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{397F0101-DF9A-4790-B56A-B1BF44918E2D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BEAB5616-0F10-473A-A066-F04E2E35CCC0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{0030ED8A-3E7B-43E6-BDAF-6D0F193D95E1}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{8BD81CEB-979E-4C81-AAB6-499D6FB952F8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{C0B11C8A-DEF4-4E12-A66C-2AB47445532E}" ShortID="6663660">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{756D702B-12F5-4CFD-888B-AF003EF6D1C5}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_StingerBass1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95260433"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6466895C-A771-49CE-8DD2-C55BC1EDC150}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{03EA4298-5657-4E81-8C7B-BAE329A304E6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{AA7D219D-ECF2-49E4-AA79-3D4EF17A753A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{756D702B-12F5-4CFD-888B-AF003EF6D1C5}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{B8B894B9-D785-481A-9F55-A2216298F9A8}" ShortID="421504389">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{618C9EB6-F14B-45C8-8076-E4F005F077D9}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Trumpet1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="497773958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{824236E8-E9E2-4DF7-8408-D222C13395EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6E8235B3-2CD6-4E94-AF52-76ECD9913EF7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{88923DFA-9E0A-47AD-A070-5F16934FF1D6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{618C9EB6-F14B-45C8-8076-E4F005F077D9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{6BEB3E27-25C5-4DA8-AEFB-10D2F149D397}" ShortID="277960817">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{0FE29377-219B-403B-BECF-D7247C973949}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestDay_Woodblock1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="518776608"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AAEBF3E9-4803-41DB-9690-AEC33223E465}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{849EE7A5-2164-40F4-9AB4-2234933B3629}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{3AAE1502-75CF-475A-BD35-EFDC01AF8C04}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{0FE29377-219B-403B-BECF-D7247C973949}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E6940812-D328-4E38-A01D-9FBF9858452F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{626A6401-370E-4C79-8511-0E1B25F3AB3A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="60000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{558A9FBF-A2A5-4619-BC16-13F07FEC1FD1}">
@@ -8735,6 +9197,477 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
+								<MusicSegment Name="BlaineWoodlands_Night" ID="{48DABF23-5C07-48BD-88C7-8CE057706A94}" ShortID="534510429">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="60000"/>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WwiseForestNight_Congas1_120bpm4-4_L31M" ID="{D2456BAB-2ECA-4A4A-A8C5-04F8F5140FB6}" ShortID="419386638">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_Congas1_120bpm4-4_L31M" ID="{13DB67B7-004E-42E5-A1F8-3495D6DA9146}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_Congas1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="378169577"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseForestNight_Congas2_120bpm4-4_L31M" ID="{EFA857C7-FD26-46AC-8A36-0EE389382117}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_Congas2_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="733893330"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{075DF3B7-8170-4DAF-AD6F-94834B5EF4BA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BB5E78ED-8E97-4B3A-B557-1C89FAD71F86}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_Congas1_120bpm4-4_L31M" ID="{6F5E4AD7-83F5-4BC7-9394-6C8F3354D7AB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_Congas1_120bpm4-4_L31M" ID="{13DB67B7-004E-42E5-A1F8-3495D6DA9146}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6F63A62D-EA8E-469E-B88C-0448AD824CB3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_Congas2_120bpm4-4_L31M" ID="{F80BCEB2-80F4-4808-B9A7-C07EECD603D2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_Congas2_120bpm4-4_L31M" ID="{EFA857C7-FD26-46AC-8A36-0EE389382117}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestNight_Drumset1_120bpm4-4_L31M" ID="{33F3E4B7-D983-4C00-AF4D-66F56B108267}" ShortID="911041999">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="MusicTrackType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_Drumset1_120bpm4-4_L31M" ID="{6DD3F206-D570-40F2-94FF-86D15121B3AC}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_Drumset1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="295646904"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="WwiseForestNight_Drumset2_120bpm4-4_L31M" ID="{AD496CE1-97D9-43F9-9D15-E882687E3FA6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_Drumset2_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="270533921"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8E2FDF2D-64FA-47C1-85A9-CDCE756EC1EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A9451ACE-20EF-4406-8C7D-47BF3D8996CC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_Drumset1_120bpm4-4_L31M" ID="{2B212936-01FE-4992-AF3F-9548B5E85D42}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_Drumset1_120bpm4-4_L31M" ID="{6DD3F206-D570-40F2-94FF-86D15121B3AC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4490E74E-72A5-4AFA-9DCA-07F437434208}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_Drumset2_120bpm4-4_L31M" ID="{60316259-5D04-48BB-9A3F-8D51D1536F66}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_Drumset2_120bpm4-4_L31M" ID="{AD496CE1-97D9-43F9-9D15-E882687E3FA6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestNight_GroupViolins1_120bpm4-4_L31M" ID="{1F3A77B3-E16A-4777-B59E-FFA358C5E9CC}" ShortID="347120469">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_GroupViolins1_120bpm4-4_L31M" ID="{6F0410C1-09E8-408E-8935-10F74DDF5ABD}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_GroupViolins1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="614053370"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{376C822D-C5BF-4F88-B2A2-8FBCCA94D3B6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{32F0263C-4014-4939-936F-AD095175AE02}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_GroupViolins1_120bpm4-4_L31M" ID="{E058810A-6EE7-4C33-B82B-52829BE0C410}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_GroupViolins1_120bpm4-4_L31M" ID="{6F0410C1-09E8-408E-8935-10F74DDF5ABD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestNight_MutedBass1_120bpm4-4_L31M" ID="{D0BC7F21-EB87-4B0E-9FAF-27B2E70A81C1}" ShortID="128879376">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_MutedBass1_120bpm4-4_L31M" ID="{C928CB18-7AF2-4C4C-BC29-E136166E196C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_MutedBass1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="392367423"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{63F8B65A-5521-43E4-A13C-BD972598970B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3BA0AA9A-CBF1-4E89-B8EA-74AE027C7E9C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_MutedBass1_120bpm4-4_L31M" ID="{80FCEA3D-D83C-4B7F-BE5B-82B80C4BA80B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_MutedBass1_120bpm4-4_L31M" ID="{C928CB18-7AF2-4C4C-BC29-E136166E196C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestNight_StudioViolins1_120bpm4-4_L31M" ID="{9F188D85-AA29-4314-AF7D-39D533F2480C}" ShortID="749912635">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_StudioViolins1_120bpm4-4_L31M" ID="{6C2FBB60-D39D-44D1-B326-AF9C76CFD9B6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_StudioViolins1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="666607690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{670E519E-12CC-44A4-83CF-EA65A9631002}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F8D4D73A-2588-4AB2-AAD3-D4E2985A05F1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_StudioViolins1_120bpm4-4_L31M" ID="{DBF7D5A5-EBE6-4AB7-A236-BC21CE8F9683}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_StudioViolins1_120bpm4-4_L31M" ID="{6C2FBB60-D39D-44D1-B326-AF9C76CFD9B6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="WwiseForestNight_Woodblock1_120bpm4-4_L31M" ID="{547784FD-F867-4B04-9550-61F0F8A341E2}" ShortID="562685818">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WwiseForestNight_Woodblock1_120bpm4-4_L31M" ID="{CCD4A9AA-2BED-438B-BF12-E933DCBDB9F2}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WwiseForestNight_Woodblock1_120bpm4-4_L31M.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="259273707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0F760C72-4559-4407-ADB4-2F73FAC51202}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4125277C-1E19-4A6E-9A80-EEA9A676F3D7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="WwiseForestNight_Woodblock1_120bpm4-4_L31M" ID="{BA59292E-AE8A-4CB3-BAAF-1E6C75852CD7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="WwiseForestNight_Woodblock1_120bpm4-4_L31M" ID="{CCD4A9AA-2BED-438B-BF12-E933DCBDB9F2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7F764781-7CB1-4499-AF67-5C314D75CA11}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E23C669D-9B57-417A-B230-46A9FBA2D127}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="60000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{B602D74D-21AA-4265-9C30-55B11B962BA0}">
@@ -8960,7 +9893,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 				</MusicSwitchContainer>
 				<MusicSegment Name="WAG_QucickStinger_Victory" ID="{0BA641DA-5862-43B6-BE6D-0F517668ADCA}" ShortID="47999363">
 					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="7212.52515090543"/>
+						<Property Name="EndPosition" Type="Real64" Value="60000"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
@@ -8985,6 +9918,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<MusicTrack Name="WAG_QucickStinger_Victory" ID="{6D4B1DD9-1B96-44CD-B028-71A0543F6C9F}" ShortID="400046089">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
@@ -9094,6 +10032,66 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</ObjectList>
 							</ObjectLists>
 						</MusicTrack>
+						<MusicTrack Name="BlaineStinger" ID="{2395E84E-4305-438E-BC1A-8BEA10BE3937}" ShortID="689848679">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STINGER_1" ID="{F4966509-6FE6-43D1-BCCF-E70D72EE34BE}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>STINGER_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81469052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E67BB2B0-A161-43C9-B163-3012E9698FE9}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList/>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{128CFDFA-7AB0-438F-93D2-FB86FEC763A0}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="STINGER_1" ID="{3E144671-9599-4BB2-9555-A535851842F2}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="STINGER_1" ID="{F4966509-6FE6-43D1-BCCF-E70D72EE34BE}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{1CAA2629-74DC-4395-B040-A1B606462B90}"/>
@@ -9141,7 +10139,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 				</MusicSegment>
 				<MusicSegment Name="WAG_QucickStinger_Death" ID="{D90D1D71-A65A-4578-B799-DDF7FA53CECF}" ShortID="115289769">
 					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="12173.3433038286"/>
+						<Property Name="EndPosition" Type="Real64" Value="60000"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
@@ -9166,6 +10164,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<MusicTrack Name="WAG_QucickStinger_Death" ID="{0082CB80-98E7-4CDC-891D-926A02ABC2B7}" ShortID="886136934">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
@@ -9287,6 +10290,70 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								</ObjectList>
 							</ObjectLists>
 						</MusicTrack>
+						<MusicTrack Name="BlaineStinger" ID="{A7D9F435-1191-430C-AD75-DBD40770BA41}" ShortID="501638153">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STINGER_1" ID="{E1D24511-BF25-4163-BE02-41436A537CD2}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>STINGER_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81469052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7F257BE2-B84F-458C-83A3-41B0DBAEA8B7}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{B6DE4B03-FBC1-4B67-9C63-76EDB5F7AC3D}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="STINGER_1" ID="{B46C3C4F-00D5-4C92-B4C5-2A035283C826}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="STINGER_1" ID="{E1D24511-BF25-4163-BE02-41436A537CD2}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{C0E64FCE-3B23-48F0-AFEE-1A0EBA64556A}"/>
@@ -9329,7 +10396,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 				</MusicSegment>
 				<MusicSegment Name="WAG_QucickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" ShortID="52658175">
 					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="12500"/>
+						<Property Name="EndPosition" Type="Real64" Value="60375"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
@@ -9358,6 +10425,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<MusicTrack Name="WAG_QucickStinger_GetItem" ID="{C9305776-BDA8-4ADE-8AA0-64A9E1D0EE6B}" ShortID="242737635">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Priority" Type="int16">
 									<ValueList>
 										<Value>100</Value>
@@ -9463,6 +10535,67 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																			</Curve>
 																		</PropertyCurve>
 																	</PropertyCurveList>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+						<MusicTrack Name="BlaineStinger" ID="{F506AFD9-C1F9-434B-A702-81C17E3665AF}" ShortID="213603996">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STINGER_1" ID="{B284A5B3-DA43-43D7-8FA4-620063BADA57}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>STINGER_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81469052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{4A78D4AD-C7ED-41F3-ACAB-4392AB357DD8}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList/>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{CAA6AB29-5D32-4540-9D2C-052429FEDD53}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="STINGER_1" ID="{346B94FF-F39D-4A34-8AF4-AF538CFBC3D7}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="1.70530256582424E-13"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="STINGER_1" ID="{B284A5B3-DA43-43D7-8FA4-620063BADA57}"/>
 																</MusicClip>
 															</Local>
 														</Reference>
@@ -13966,6 +15099,564 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</Reference>
 												</ReferenceList>
 											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="BlaineEnemyLayer" ID="{220CCB01-812C-4AC3-9C13-417461C60DD1}" ShortID="664038687">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="60000"/>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="WwiseForestCombat_DidDooDoo1_120bpm4-4_L31M" ID="{EACD6B74-47B9-42B5-9C16-1BF40039607F}" ShortID="310577570">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestCombat_DidDooDoo1_120bpm4-4_L31M" ID="{2E3BF18B-FEBA-4AFA-8EE5-60D3D06CB78C}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestCombat_DidDooDoo1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22748779"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{3C64964C-4BD9-4457-9EA1-CE2CB338B808}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816542250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{503522A6-8C3A-4E79-9315-BAF057655952}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5077D3BF-461B-43A1-A7FA-EF3A6D9FEEE0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestCombat_DidDooDoo1_120bpm4-4_L31M" ID="{F413BF35-E2A8-48BF-B5F8-96020B9CCF78}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestCombat_DidDooDoo1_120bpm4-4_L31M" ID="{2E3BF18B-FEBA-4AFA-8EE5-60D3D06CB78C}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{7F976929-C982-4B79-AE53-C2976150C2B0}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M" ID="{3C64964C-4BD9-4457-9EA1-CE2CB338B808}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="WwiseForestCombat_Timpani1_120bpm4-4_L31Mwav" ID="{9FEEFF0E-95A6-4785-856A-EF55A3156C91}" ShortID="854751733">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestCombat_Timpani1_120bpm4-4_L31Mwav" ID="{9203E37B-0308-4228-8BCB-BD4A81871456}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestCombat_Timpani1_120bpm4-4_L31Mwav.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656453981"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{C8432FEE-A579-4798-BA35-0C84541BD7E9}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Congas1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87826335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5BDB2E9C-576C-4328-A0F1-426F80F43BCA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B19BB86A-C637-42E9-9ED0-D44F0F048489}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestCombat_Timpani1_120bpm4-4_L31Mwav" ID="{2611D2ED-38F6-4E22-8BCC-3CD143C86BBB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestCombat_Timpani1_120bpm4-4_L31Mwav" ID="{9203E37B-0308-4228-8BCB-BD4A81871456}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{42C3311D-F481-4885-BAA6-DC4F71A69EE3}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Congas1_120bpm4-4_L31M" ID="{C8432FEE-A579-4798-BA35-0C84541BD7E9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track" ID="{5E21CB7A-E4AB-4F2C-ABB3-3B0C8A032B2B}" ShortID="751852289">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{5B94D886-E137-453F-A9E4-338E6B5A74BE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Congas2_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="437820597"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5D6E58A0-F2D8-430A-A92A-1E88339BF503}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4FCC9062-A954-4CF8-9E60-4F2E2ABB8585}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{455E7981-475B-49D4-9111-4879B7F82269}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Congas2_120bpm4-4_L31M" ID="{5B94D886-E137-453F-A9E4-338E6B5A74BE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_01" ID="{5491E1B7-FC9F-4792-9D50-0B395AF987C4}" ShortID="878574764">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{4BA96704-D08B-477B-936E-9BFB8B6972F4}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Drumset1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="946170355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D859D023-0E9E-4B7F-8A1E-960C5FF1A970}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A1E49FF5-502A-4D14-AB7B-749A5C950E7A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{5146F15A-F21C-42DF-B4A0-60A57EC54FE1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Drumset1_120bpm4-4_L31M" ID="{4BA96704-D08B-477B-936E-9BFB8B6972F4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_02" ID="{8AC7405F-7873-457D-807E-223EC09BC95C}" ShortID="685174962">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{4B821C13-F6C7-40E9-8C71-82F4681A7314}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Drumset2_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="701983876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DA3B2425-6DD8-4295-A657-8F8A72F99DDF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{15B5875A-1C3F-43A2-839F-46EBB13C8FE2}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{7BB785FC-4946-4B3F-A3B7-A453D2FF77C9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Drumset2_120bpm4-4_L31M" ID="{4B821C13-F6C7-40E9-8C71-82F4681A7314}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_03" ID="{0B4DAF97-B8E9-49C6-B711-C70C4D4E1B3C}" ShortID="797835170">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{7BB1963B-D5D0-4EBA-BBAA-2BBBE1548CB9}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_StingerBass1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95260433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E779C56D-676A-4A1F-9D31-8BD6E429CF90}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{747B2D5B-9BD5-4895-8F61-AD6303CEA7BE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{839F082C-4BDC-4F31-8D66-A2FC16055039}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_StingerBass1_120bpm4-4_L31M" ID="{7BB1963B-D5D0-4EBA-BBAA-2BBBE1548CB9}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_04" ID="{837DB21F-5407-408D-87DE-582C0B48C134}" ShortID="573704985">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{BA893DEC-26AA-4BE7-8F5D-A51765F22BE1}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Trumpet1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497773958"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3FB07545-C678-4F56-89B0-4BC2C547F0B1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{FD4A22B1-2CB5-4A99-ADA6-CB35D117A9DD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{CC1DDDA6-D884-4302-AF69-41EC5317B6FB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Trumpet1_120bpm4-4_L31M" ID="{BA893DEC-26AA-4BE7-8F5D-A51765F22BE1}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_05" ID="{A3380587-E9C0-439D-9BA0-100371FDAAD9}" ShortID="441940988">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{E83B43CE-F06C-46CC-AE6C-1BA48F87F4DA}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WwiseForestDay_Woodblock1_120bpm4-4_L31M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="518776608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F6D77175-EB06-4B23-AE07-10D1000F04BF}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5BA8B1B0-1A5B-4262-B2CE-CC90B81E7F21}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{C18F4DFC-118E-4ECA-B078-4BB8D09BC7B8}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="WwiseForestDay_Woodblock1_120bpm4-4_L31M" ID="{E83B43CE-F06C-46CC-AE6C-1BA48F87F4DA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{928A6954-D5DA-4249-ABF8-39046886984C}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{DF654BA1-5276-4941-AE04-2F341DC35084}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="60000"/>
+												</PropertyList>
+											</MusicCue>
 										</Local>
 									</Reference>
 								</ObjectList>

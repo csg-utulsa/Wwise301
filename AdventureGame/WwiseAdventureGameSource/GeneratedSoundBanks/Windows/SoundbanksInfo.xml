@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{D840B0FA-02F8-2457-98C1-45A04DEE394D}">
+		<SoundBank Id="133642231" Type="User" GUID="{9831643E-FAF1-405F-8C51-BFCFA54C3C46}" Language="English(US)" Hash="{5E986E4E-F083-5167-9A7B-B1B112A4445A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>English(US)/General.bnk</Path>
@@ -122,6 +122,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_06.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_06_78F6CFC1.wem</CachePath>
 				</File>
+				<File Id="81469052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>STINGER_1.wav</ShortName>
+					<CachePath>SFX/STINGER_1_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="82985248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Hover_LP.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Hover_LP_E4DFD4D4.wem</CachePath>
@@ -142,6 +146,10 @@
 					<ShortName>Wwizard\BAS_Wizard_Poof_02.wav</ShortName>
 					<CachePath>SFX/Wwizard/BAS_Wizard_Poof_02_1BD0FE95.wem</CachePath>
 				</File>
+				<File Id="87826335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="88360415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\Impact_Bump.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Bump_9E38C412.wem</CachePath>
@@ -153,6 +161,10 @@
 				<File Id="94640661" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_hitCrate_001.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_hitCrate_001_4F3DEF66.wem</CachePath>
+				</File>
+				<File Id="95260433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_StingerBass1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_StingerBass1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="95415607" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_03.wav</ShortName>
@@ -340,9 +352,17 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_01_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_01_04_EF0BBFE9.wem</CachePath>
 				</File>
+				<File Id="259273707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Woodblock1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Woodblock1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="263730271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_05.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Death_05_C9C7F873.wem</CachePath>
+				</File>
+				<File Id="270533921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Drumset2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Drumset2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="271810230" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Axe_SurfaceType_Barrel.wav</ShortName>
@@ -390,13 +410,13 @@
 					<ShortName>WwiseVillage_Cowbell2_120bpm4-4_L37M.wav</ShortName>
 					<CachePath>SFX/WwiseVillage_Cowbell2_120bpm4-4_L37M_62D8BCDE.wem</CachePath>
 				</File>
+				<File Id="295646904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Drumset1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Drumset1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="299395336" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Death_Vox_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Death_Vox_03_2892D04A.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="301231688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
@@ -505,6 +525,10 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_04_CD942AE4.wem</CachePath>
 				</File>
+				<File Id="378169577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Congas1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Congas1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="387841042" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_grass_walk_02_8374BCAA.wem</CachePath>
@@ -512,6 +536,10 @@
 				<File Id="388469532" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_06_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="392367423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_MutedBass1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_MutedBass1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="395293424" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Dagger_SurfaceType_Barrel.wav</ShortName>
@@ -552,6 +580,10 @@
 				<File Id="434501617" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_run_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_run_02_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="437820597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="438382540" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseVillage_Cowbell1_120bpm4-4_L37M.wav</ShortName>
@@ -621,6 +653,10 @@
 					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_QuestRoll_Close_C9E2345B.wem</CachePath>
 				</File>
+				<File Id="497773958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Trumpet1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Trumpet1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="501172588" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Blacksmith_DialogueLine_Q3b_03.wav</ShortName>
 					<Path>Media/English(US)/501172588.wem</Path>
@@ -645,6 +681,10 @@
 				<File Id="509347534" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_run_01.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_run_01_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="518776608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Woodblock1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Woodblock1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="519995291" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Volcanic_Strings_Choir_2.wav</ShortName>
@@ -798,13 +838,13 @@
 					<CachePath>SFX/Music/Volcanic_Strings_Tremolo_068FF542.wem</CachePath>
 					<PrefetchSize>7402</PrefetchSize>
 				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
-				</File>
 				<File Id="613876680" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseOutskirts_Drumset1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Drumset1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="614053370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_GroupViolins1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_GroupViolins1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="616098569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_01.wav</ShortName>
@@ -870,6 +910,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_HurtImpact_03_D17BF9BF.wem</CachePath>
 				</File>
+				<File Id="666607690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_StudioViolins1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_StudioViolins1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="669867001" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Blacksmith_DialogueLine_Q3b_05.wav</ShortName>
 					<Path>Media/English(US)/669867001.wem</Path>
@@ -923,6 +967,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_03_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="701983876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="702203941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseOutskirts_Woodblock1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Woodblock1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
@@ -935,13 +983,13 @@
 					<ShortName>Objects\BAS_Destroy_Wood_02.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Destroy_Wood_02_16D20EBA.wem</CachePath>
 				</File>
+				<File Id="733893330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Congas2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Congas2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="745897563" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Charge_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Charge_02_C3766A02.wem</CachePath>
-				</File>
-				<File Id="747629416" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Death.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Death_A8B0334E.wem</CachePath>
 				</File>
 				<File Id="748354478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Heartbeat_Dub.wav</ShortName>
@@ -1005,10 +1053,6 @@
 					<ShortName>WwiseOutskirts_Sparker1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Sparker1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
-				<File Id="793060160" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
-				</File>
 				<File Id="796603137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_04.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_04_7F559680.wem</CachePath>
@@ -1048,6 +1092,10 @@
 				<File Id="816089490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_imp_axe_grass.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_imp_axe_grass_9986EDE0.wem</CachePath>
+				</File>
+				<File Id="816542250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="822235487" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\2_BlowThingy.wav</ShortName>
@@ -1217,6 +1265,10 @@
 					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_02_8BBF564D.wem</CachePath>
 				</File>
+				<File Id="946170355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="948901730" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Ambient\Ambient_Emitters\forestBirds_001.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/forestBirds_001_B90A1727.wem</CachePath>
@@ -1315,10 +1367,6 @@
 					<Path>Media/1030273903.wem</Path>
 					<CachePath>SFX/Music/Volcanic_Tubas_A8B0334E.wem</CachePath>
 					<PrefetchSize>4698</PrefetchSize>
-				</File>
-				<File Id="1031283392" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_GetItem.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_GetItem_A8B0334E.wem</CachePath>
 				</File>
 				<File Id="1037987212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Axe_SurfaceType_Crate.wav</ShortName>
@@ -1420,18 +1468,8 @@
 				</Custom>
 				<ShareSets>
 					<Plugin Id="1309482125" Name="Same_As_PassthroughMix" ObjectPath="\Metadata\Default Work Unit\Same_As_PassthroughMix" GUID="{6CC605AA-130B-45F6-9D11-ACA966C7A6A0}" LibName="Wwise System Output Settings" LibId="58982409"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2198414564" Name="Same_As_MainMix" ObjectPath="\Metadata\Default Work Unit\Same_As_MainMix" GUID="{01EEFED8-8B32-4997-BC1E-449098D24985}" LibName="Wwise System Output Settings" LibId="58982409"/>
 					<Plugin Id="2373712977" Name="WAG_Enemy_EvilHead_MovementSpeed" ObjectPath="\Effects\Default Work Unit\Tremolo\WAG_Enemy_EvilHead_MovementSpeed" GUID="{DB0F6334-AA6B-41E8-9928-2C3EC544C260}" LibName="Wwise Tremolo" LibId="8585219"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 				</ShareSets>
 			</Plugins>
 			<Events>
@@ -1782,9 +1820,7 @@
 				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="747629416"/>
-						<MediaRef Id="793060160"/>
-						<MediaRef Id="1031283392"/>
+						<MediaRef Id="81469052"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
@@ -1894,11 +1930,39 @@
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628" GUID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="1011622525" GUID="{80F53326-DAA4-4AF9-85BB-41B1BC0BC790}"/>
+									<MediaRefs>
+										<MediaRef Id="259273707"/>
+										<MediaRef Id="270533921"/>
+										<MediaRef Id="295646904"/>
+										<MediaRef Id="378169577"/>
+										<MediaRef Id="392367423"/>
+										<MediaRef Id="614053370"/>
+										<MediaRef Id="666607690"/>
+										<MediaRef Id="733893330"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628" GUID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="311764537" GUID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+									<MediaRefs>
+										<MediaRef Id="87826335"/>
+										<MediaRef Id="95260433"/>
+										<MediaRef Id="437820597"/>
+										<MediaRef Id="497773958"/>
+										<MediaRef Id="518776608"/>
+										<MediaRef Id="701983876"/>
+										<MediaRef Id="816542250"/>
+										<MediaRef Id="946170355"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="3945572659" GUID="{48C53A1C-150C-4743-BDD7-ECE5D136BA9B}"/>
@@ -3461,7 +3525,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{E1DAA9F9-80AD-43FC-7A69-EC4D84B819AC}">
+		<SoundBank Id="529873620" Type="User" GUID="{767410A5-6156-432F-87B1-3B57F7807660}" Language="SFX" Hash="{061DEB0E-5FF6-8EA9-AD04-526904A5E4AF}">
 			<ObjectPath>\SoundBanks\Default Work Unit\DLC\DLC</ObjectPath>
 			<ShortName>DLC</ShortName>
 			<Path>DLC.bnk</Path>
@@ -3520,7 +3584,7 @@
 				<GameParameter Id="762020526" Name="Distance_to_Camera" ObjectPath="\Game Parameters\Generic\Distance_to_Camera" GUID="{CEC3FD56-5B7C-44AF-B635-5C3A0C36825E}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{E26842BE-46EF-2029-18C3-7FBE417695DD}">
+		<SoundBank Id="608898761" Type="User" GUID="{D56AC5A7-5699-42ED-BE10-BD6F98CD0252}" Language="SFX" Hash="{1F77A31E-4352-4554-CFC8-73E4821F69E7}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -3921,20 +3985,10 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6A6BFB67-41B4-BB00-542B-9A59D2BD46FB}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{297358F5-B0C1-3B49-E1D0-B9C35F987C4D}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-			<Media>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="OtherBank">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
-				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="OtherBank">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
-				</File>
-			</Media>
 			<Plugins>
 				<Custom>
 					<Plugin Id="135805232" Name="WAG_Room_Large_(Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library\WAG_Room_Large_(Custom)" GUID="{6E92FFB5-9790-4910-9491-D71F9D9D01E4}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -3965,19 +4019,9 @@
 					<Plugin Id="1305889293" Name="WAG_SideChainStinger" ObjectPath="\Effects\Default Work Unit\Meters\WAG_SideChainStinger" GUID="{FC59DDA4-B303-4296-9C52-3F202A2585C9}" LibName="Wwise Meter" LibId="8454147"/>
 					<Plugin Id="1783154876" Name="WAG_Cave" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Cave" GUID="{1CB7A178-252B-4347-AFE4-CBE65856818E}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1883259540" Name="WAG_PineForest_Hut" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_PineForest_Hut" GUID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2439616960" Name="WAG_Dungeon_Entrance" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Dungeon_Entrance" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2545004126" Name="Wwise_Reflect" ObjectPath="\Effects\Factory Reflect\Wwise_Reflect" GUID="{37779A87-4754-4420-8175-3236FA46AA12}" LibName="Wwise Reflect" LibId="11206659"/>
 					<Plugin Id="3025917178" Name="Standard" ObjectPath="\Effects\Factory Effects\Wwise Flanger\Flanging\Standard" GUID="{1A2EAB31-6283-4C0D-89B2-F050DF89D421}" LibName="Wwise Flanger" LibId="8192003"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="4131355637" Name="HomeCinema" ObjectPath="\Effects\Factory Mastering Suite\HomeCinema" GUID="{F9951DC8-664E-4B07-81CF-61716236F00A}" LibName="Mastering Suite" LibId="12189699"/>
 					<Plugin Id="4259739631" Name="WAG_Music_EnemyThemeMeter" ObjectPath="\Effects\Default Work Unit\Meters\WAG_Music_EnemyThemeMeter" GUID="{C8B9B7B4-6579-439F-B692-F51E81E410C2}" LibName="Wwise Meter" LibId="8454147"/>
 				</ShareSets>
@@ -4075,13 +4119,7 @@
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
-				<AuxBus Id="918440440" Name="Dungeon_DLC_CoinRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_DLC_CoinRoom" GUID="{61BAF8B8-BA43-4216-8D84-6D5C224270E8}">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3868582268"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
+				<AuxBus Id="918440440" Name="Dungeon_DLC_CoinRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_DLC_CoinRoom" GUID="{61BAF8B8-BA43-4216-8D84-6D5C224270E8}"/>
 				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Entrance" GUID="{833F2F9A-1CB0-44AA-BC26-A185919E46A5}">
 					<PluginRefs>
 						<ShareSets>
@@ -4117,13 +4155,7 @@
 						</ShareSets>
 					</PluginRefs>
  MaxAttenuation="200"				</AuxBus>
-				<AuxBus Id="1850388778" Name="Desert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Desert\Desert" GUID="{68D88AD6-5260-4C49-86C7-0C92875ED0E6}">
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="1937843064"/>
-						</ShareSets>
-					</PluginRefs>
-				</AuxBus>
+				<AuxBus Id="1850388778" Name="Desert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Desert\Desert" GUID="{68D88AD6-5260-4C49-86C7-0C92875ED0E6}"/>
 				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_Library" GUID="{04259656-6FEB-4FD4-A58F-6D79FF1BC412}">
 					<PluginRefs>
 						<Custom>
@@ -4489,7 +4521,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{E043A5AA-B59F-5E14-9F1C-0E616C44CD4F}">
+		<SoundBank Id="1421251628" Type="User" GUID="{2319EC34-415E-4AD5-9651-B70E42A4BC7C}" Language="SFX" Hash="{CF1C6829-4DC0-1B96-33E5-8F2A3D9FADDB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -5009,7 +5041,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{49DBD2E2-8FE5-89E4-85A3-B6E36A000BCD}">
+		<SoundBank Id="1850388778" Type="User" GUID="{02864427-99E3-4E06-9022-8D50DA4B976E}" Language="SFX" Hash="{13E98291-1B5E-571A-E242-BBDA42B5D855}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -5087,10 +5119,6 @@
 				<File Id="292435902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_stone_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_stone_walk_06_8374BCAA.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="308005468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\DebrisDirt.wav</ShortName>
@@ -5292,11 +5320,6 @@
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="1309482125" Name="Same_As_PassthroughMix" ObjectPath="\Metadata\Default Work Unit\Same_As_PassthroughMix" GUID="{6CC605AA-130B-45F6-9D11-ACA966C7A6A0}" LibName="Wwise System Output Settings" LibId="58982409"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="2198414564" Name="Same_As_MainMix" ObjectPath="\Metadata\Default Work Unit\Same_As_MainMix" GUID="{01EEFED8-8B32-4997-BC1E-449098D24985}" LibName="Wwise System Output Settings" LibId="58982409"/>
 				</ShareSets>
 			</Plugins>
@@ -5379,30 +5402,60 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{276BEFE6-45F5-691E-2CE9-5EB8E5DA7859}">
+		<SoundBank Id="2201105581" Type="User" GUID="{A12DFBB5-7252-4A5A-B1B1-71298F6A9B2B}" Language="SFX" Hash="{71DC4971-8436-09ED-A7E0-2757B9E6FAC2}">
 			<ObjectPath>\SoundBanks\Default Work Unit\General\Credits</ObjectPath>
 			<ShortName>Credits</ShortName>
 			<Path>Credits.bnk</Path>
 			<Media>
-				<File Id="747629416" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Death.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Death_A8B0334E.wem</CachePath>
+				<File Id="81469052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>STINGER_1.wav</ShortName>
+					<CachePath>SFX/STINGER_1_62D8BCDE.wem</CachePath>
 				</File>
-				<File Id="793060160" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
+				<File Id="87826335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
-				<File Id="1031283392" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_GetItem.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_GetItem_A8B0334E.wem</CachePath>
+				<File Id="95260433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_StingerBass1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_StingerBass1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="437820597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="497773958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Trumpet1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Trumpet1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="518776608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Woodblock1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Woodblock1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="701983876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="816542250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
+				<File Id="946170355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="747629416"/>
-						<MediaRef Id="793060160"/>
-						<MediaRef Id="1031283392"/>
+						<MediaRef Id="81469052"/>
+						<MediaRef Id="87826335"/>
+						<MediaRef Id="95260433"/>
+						<MediaRef Id="437820597"/>
+						<MediaRef Id="497773958"/>
+						<MediaRef Id="518776608"/>
+						<MediaRef Id="701983876"/>
+						<MediaRef Id="816542250"/>
+						<MediaRef Id="946170355"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
@@ -6648,7 +6701,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{54BE2A9D-87DC-8CA9-3C4C-858DAC65269A}">
+		<SoundBank Id="2307651656" Type="User" GUID="{5CC7D4A8-58F1-4342-8916-7728E7863998}" Language="English(US)" Hash="{7FB712A5-24EC-1B39-83BF-008ECB93D8CD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_08</ObjectPath>
 			<ShortName>Quest_08</ShortName>
 			<Path>English(US)/Quest_08.bnk</Path>
@@ -7022,7 +7075,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{C6C8BC24-778F-9326-120A-066556790D36}">
+		<SoundBank Id="2451497209" Type="User" GUID="{B5ABEE2A-9BEE-4FF9-A47C-A2DF0C03FB46}" Language="English(US)" Hash="{A451B139-C2C0-3F70-6A6B-F83BE3EB3B0A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\All_In_One</ObjectPath>
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)/All_In_One.bnk</Path>
@@ -7185,6 +7238,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_06.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_Hurt_06_78F6CFC1.wem</CachePath>
 				</File>
+				<File Id="81469052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>STINGER_1.wav</ShortName>
+					<CachePath>SFX/STINGER_1_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="82713964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_RuneCharge_Loop.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_RuneCharge_Loop_4FC1B754.wem</CachePath>
@@ -7214,6 +7271,10 @@
 					<ShortName>Wwizard\BAS_Wizard_Poof_02.wav</ShortName>
 					<CachePath>SFX/Wwizard/BAS_Wizard_Poof_02_1BD0FE95.wem</CachePath>
 				</File>
+				<File Id="87826335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="88360415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\Impact_Bump.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/Impact_Bump_9E38C412.wem</CachePath>
@@ -7225,6 +7286,10 @@
 				<File Id="94640661" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_hitCrate_001.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_hitCrate_001_4F3DEF66.wem</CachePath>
+				</File>
+				<File Id="95260433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_StingerBass1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_StingerBass1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="95415607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_03.wav</ShortName>
@@ -7538,6 +7603,10 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_01_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_01_04_EF0BBFE9.wem</CachePath>
 				</File>
+				<File Id="259273707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Woodblock1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Woodblock1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="260687181" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q6_3.wav</ShortName>
 					<Path>Media/English(US)/260687181.wem</Path>
@@ -7563,6 +7632,10 @@
 				<File Id="269405603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Background\BAS_amb_shield_core_LP_02.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/BAS_amb_shield_core_LP_02_ADBE6C02.wem</CachePath>
+				</File>
+				<File Id="270533921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Drumset2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Drumset2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="270916331" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Pickups\BAS_Pickup_Key_01.wav</ShortName>
@@ -7622,13 +7695,13 @@
 					<ShortName>WwiseVillage_Cowbell2_120bpm4-4_L37M.wav</ShortName>
 					<CachePath>SFX/WwiseVillage_Cowbell2_120bpm4-4_L37M_62D8BCDE.wem</CachePath>
 				</File>
+				<File Id="295646904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Drumset1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Drumset1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="299395336" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Death_Vox_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Death_Vox_03_2892D04A.wem</CachePath>
-				</File>
-				<File Id="299482527" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Exteriors/AK Hamburg Volksdorfer Wald_6E4E60A8.wem</CachePath>
 				</File>
 				<File Id="301231688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
@@ -7789,6 +7862,10 @@
 					<ShortName>Ambient\Ambient_Background\amb_night_element_02_04.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Background/amb_night_element_02_04_CD942AE4.wem</CachePath>
 				</File>
+				<File Id="378169577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Congas1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Congas1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="387841042" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_grass_walk_02.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_grass_walk_02_8374BCAA.wem</CachePath>
@@ -7796,6 +7873,10 @@
 				<File Id="388469532" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_dirt_walk_06_8374BCAA.wem</CachePath>
+				</File>
+				<File Id="392367423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_MutedBass1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_MutedBass1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="395293424" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Dagger_SurfaceType_Barrel.wav</ShortName>
@@ -7860,6 +7941,10 @@
 					<ShortName>Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
 					<Path>Media/436811808.wem</Path>
 					<CachePath>SFX/Ambient/Ambient_Background/BAS_amb_village_day_background_loop_01_6D988D46.wem</CachePath>
+				</File>
+				<File Id="437820597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Congas2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Congas2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="438382540" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseVillage_Cowbell1_120bpm4-4_L37M.wav</ShortName>
@@ -7962,6 +8047,10 @@
 					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_QuestRoll_Close_C9E2345B.wem</CachePath>
 				</File>
+				<File Id="497773958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Trumpet1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Trumpet1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="499136652" Language="English(US)" Streaming="true" Location="Loose">
 					<ShortName>Wwizard_VoiceLine_Q6_1.wav</ShortName>
 					<Path>Media/English(US)/499136652.wem</Path>
@@ -8010,6 +8099,10 @@
 				<File Id="512076338" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops.wav</ShortName>
 					<CachePath>SFX/Ambient/Ambient_Emitters/BAS_WaterDrops_A1247F08.wem</CachePath>
+				</File>
+				<File Id="518776608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Woodblock1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Woodblock1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="519995291" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\Volcanic_Strings_Choir_2.wav</ShortName>
@@ -8220,10 +8313,6 @@
 					<ShortName>Objects\BAS_Crystals_Destroy.wav</ShortName>
 					<CachePath>SFX/Objects/BAS_Crystals_Destroy_F85E4111.wem</CachePath>
 				</File>
-				<File Id="609174261" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>AK_Factory_IR\Halls\AK Brasilien Halle.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/AK_Factory_IR/Halls/AK Brasilien Halle_B5110816.wem</CachePath>
-				</File>
 				<File Id="613876680" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseOutskirts_Drumset1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Drumset1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
@@ -8232,6 +8321,10 @@
 					<ShortName>Wwizard_VoiceLine_Q5b_2.wav</ShortName>
 					<Path>Media/English(US)/613971765.wem</Path>
 					<CachePath>Voices/English(US)/Wwizard_VoiceLine_Q5b_2_48039DF2.wem</CachePath>
+				</File>
+				<File Id="614053370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_GroupViolins1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_GroupViolins1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="616098569" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\BAS_Destroy_Wood_01.wav</ShortName>
@@ -8329,6 +8422,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_03.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_SpitPlant_HurtImpact_03_D17BF9BF.wem</CachePath>
 				</File>
+				<File Id="666607690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_StudioViolins1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_StudioViolins1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="667561842" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Ambient\Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
 					<Path>Media/667561842.wem</Path>
@@ -8410,6 +8507,10 @@
 					<ShortName>Character\Footsteps\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
 					<CachePath>SFX/Character/Footsteps/BAS_Player_Footstep_rubble_walk_03_8374BCAA.wem</CachePath>
 				</File>
+				<File Id="701983876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="702203941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WwiseOutskirts_Woodblock1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Woodblock1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
@@ -8447,6 +8548,10 @@
 					<CachePath>SFX/Music/MFYG/2_Staccato_Cello_A8B0334E.wem</CachePath>
 					<PrefetchSize>2335</PrefetchSize>
 				</File>
+				<File Id="733893330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestNight_Congas2_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestNight_Congas2_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="737856040" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Objects\Pickups\BAS_Pickup_Mushroom_01.wav</ShortName>
 					<CachePath>SFX/Objects/Pickups/BAS_Pickup_Mushroom_01_8374BCAA.wem</CachePath>
@@ -8464,10 +8569,6 @@
 				<File Id="745897563" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creatures\BAS_Evil_Head_Charge_02.wav</ShortName>
 					<CachePath>SFX/Creatures/BAS_Evil_Head_Charge_02_C3766A02.wem</CachePath>
-				</File>
-				<File Id="747629416" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Death.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Death_A8B0334E.wem</CachePath>
 				</File>
 				<File Id="748354478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Heartbeat_Dub.wav</ShortName>
@@ -8578,10 +8679,6 @@
 					<ShortName>WwiseOutskirts_Sparker1_120bpm4-4_L32M.wav</ShortName>
 					<CachePath>SFX/WwiseOutskirts_Sparker1_120bpm4-4_L32M_62D8BCDE.wem</CachePath>
 				</File>
-				<File Id="793060160" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_Victory_A8B0334E.wem</CachePath>
-				</File>
 				<File Id="796603137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Adventuress_exertion_04.wav</ShortName>
 					<CachePath>SFX/Character/Adventuress_exertion_04_7F559680.wem</CachePath>
@@ -8636,6 +8733,10 @@
 				<File Id="816089490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Weapons\BAS_imp_axe_grass.wav</ShortName>
 					<CachePath>SFX/Character/Weapons/BAS_imp_axe_grass_9986EDE0.wem</CachePath>
+				</File>
+				<File Id="816542250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_BrassEnsemble1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
 				</File>
 				<File Id="822235487" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music\MFYG\2_BlowThingy.wav</ShortName>
@@ -8857,6 +8958,10 @@
 					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
 					<CachePath>SFX/Interface/BAS_Quest_CompleteCollection_02_8BBF564D.wem</CachePath>
 				</File>
+				<File Id="946170355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WwiseForestDay_Drumset1_120bpm4-4_L31M.wav</ShortName>
+					<CachePath>SFX/WwiseForestDay_Drumset1_120bpm4-4_L31M_62D8BCDE.wem</CachePath>
+				</File>
 				<File Id="947204474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cinematic\BAS_CIN_Creature_Wind_Loop.wav</ShortName>
 					<CachePath>SFX/Cinematic/BAS_CIN_Creature_Wind_Loop_D8574A22.wem</CachePath>
@@ -9028,10 +9133,6 @@
 					<Path>Media/1030273903.wem</Path>
 					<CachePath>SFX/Music/Volcanic_Tubas_A8B0334E.wem</CachePath>
 					<PrefetchSize>4698</PrefetchSize>
-				</File>
-				<File Id="1031283392" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music\Stingers\QucickStinger_GetItem.wav</ShortName>
-					<CachePath>SFX/Music/Stingers/QucickStinger_GetItem_A8B0334E.wem</CachePath>
 				</File>
 				<File Id="1037987212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Character\Impact\BAS_Impact_Axe_SurfaceType_Crate.wav</ShortName>
@@ -9232,11 +9333,6 @@
 					<Plugin Id="1866712639" Name="High_Freq_Cut_5" ObjectPath="\Effects\Factory Effects\Wwise Parametric EQ\Shelving EQ\High Shelf\High_Freq_Cut_5" GUID="{604A4C00-7E8F-4859-BF24-F49D8C82555F}" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="1883259540" Name="WAG_PineForest_Hut" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_PineForest_Hut" GUID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="1904434771" Name="Medium_Room1" ObjectPath="\Effects\Factory Effects\Wwise Matrix Reverb\Medium_Room1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
-					<Plugin Id="1937843064" Name="WAG_Desert" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_Desert" GUID="{73217A8E-9777-4DDE-AC50-101FACDD4F06}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="299482527"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="1976939195" Name="Deep" ObjectPath="\Effects\Factory Effects\Wwise Flanger\Flanging\Deep" GUID="{76753DA8-3DCF-4812-A726-2745812F6C1B}" LibName="Wwise Flanger" LibId="8192003"/>
 					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2038996943" Name="Plate_Sizzle" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Plates\Plate_Sizzle" GUID="{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -9323,11 +9419,6 @@
 					<Plugin Id="3795831770" Name="WAG_Questing_PitchShift" ObjectPath="\Effects\Default Work Unit\Pitch Shift\WAG_Questing_PitchShift" GUID="{269E5ED2-6170-4983-839E-6C9E18789974}" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 					<Plugin Id="3796564934" Name="Hard_Knee_Minus_3dB_RMS" ObjectPath="\Effects\Factory Effects\Wwise Compressor\Hard_Knee_Minus_3dB_RMS" GUID="{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}" LibName="Wwise Compressor" LibId="7077891"/>
 					<Plugin Id="3851006675" Name="Secret_message_Distant" ObjectPath="\Effects\Factory Effects\Harmonizer\Secret_message_Distant" GUID="{54C3F2D2-6B8D-4873-A383-2F6F7189C076}" LibName="Wwise Harmonizer" LibId="9043971"/>
-					<Plugin Id="3868582268" Name="WAG_DLC_Room" ObjectPath="\Effects\Default Work Unit\Reverbs\WAG_DLC_Room" GUID="{78D73A9A-C8A9-446B-8DD5-302A4B7E34A0}" LibName="Wwise Convolution Reverb" LibId="8323075">
-						<MediaRefs>
-							<MediaRef Id="609174261"/>
-						</MediaRefs>
-					</Plugin>
 					<Plugin Id="3900114836" Name="Metal_Hangar" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Huge Spaces\Metal_Hangar" GUID="{C4A4605C-42EF-476A-B53C-E31C7A442C24}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3948262040" Name="Octave_Down" ObjectPath="\Effects\Factory Effects\Pitch Shifter\Harmonize\Octave_Down" GUID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 					<Plugin Id="4113267698" Name="Hall_Guns" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Halls\Hall_Guns" GUID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -10017,11 +10108,17 @@
 					</AuxBusRefs>
 				</Event>
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Stop" GUID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="747629416"/>
-						<MediaRef Id="793060160"/>
-						<MediaRef Id="1031283392"/>
+						<MediaRef Id="81469052"/>
+						<MediaRef Id="87826335"/>
+						<MediaRef Id="95260433"/>
+						<MediaRef Id="437820597"/>
+						<MediaRef Id="497773958"/>
+						<MediaRef Id="518776608"/>
+						<MediaRef Id="701983876"/>
+						<MediaRef Id="816542250"/>
+						<MediaRef Id="946170355"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
@@ -10061,9 +10158,7 @@
 				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="747629416"/>
-						<MediaRef Id="793060160"/>
-						<MediaRef Id="1031283392"/>
+						<MediaRef Id="81469052"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="2412664669" Name="Music_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\Music_Aux" GUID="{7863598C-65A0-461B-B50A-9F07B31BE267}"/>
@@ -10173,11 +10268,39 @@
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628" GUID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="1011622525" GUID="{80F53326-DAA4-4AF9-85BB-41B1BC0BC790}"/>
+									<MediaRefs>
+										<MediaRef Id="259273707"/>
+										<MediaRef Id="270533921"/>
+										<MediaRef Id="295646904"/>
+										<MediaRef Id="378169577"/>
+										<MediaRef Id="392367423"/>
+										<MediaRef Id="614053370"/>
+										<MediaRef Id="666607690"/>
+										<MediaRef Id="733893330"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628" GUID="{519EE96B-C4E1-4883-B6AC-F06A03262DF0}"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3219147252" Id="311764537" GUID="{302B83A9-5065-4408-A152-95F71785E112}"/>
+									<MediaRefs>
+										<MediaRef Id="87826335"/>
+										<MediaRef Id="95260433"/>
+										<MediaRef Id="437820597"/>
+										<MediaRef Id="497773958"/>
+										<MediaRef Id="518776608"/>
+										<MediaRef Id="701983876"/>
+										<MediaRef Id="816542250"/>
+										<MediaRef Id="946170355"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2106907484" Id="3945572659" GUID="{48C53A1C-150C-4743-BDD7-ECE5D136BA9B}"/>
@@ -12459,7 +12582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{DFD5199C-D64B-3B5F-AACB-189EDF627701}">
+		<SoundBank Id="3945572659" Type="User" GUID="{F7A8BF49-413F-4281-B69A-47D945DABB0E}" Language="SFX" Hash="{4D65FBB8-1070-79F5-A508-DA1CA3B71B22}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Region\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -13056,5 +13179,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2EBF60A8-D7B3-F2DC-8971-8B25E0AC65FC}</FileHash>
+	<FileHash>{E66B8262-2C54-BF7C-32E5-FD9D21893B5E}</FileHash>
 </SoundBanksInfo>
